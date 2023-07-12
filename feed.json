@@ -13,7 +13,7 @@
       "content_html": "<h2> Zaragoza, 19 de Mayo de 2022</h2>\n<div style=\"text-align:center\">\n<figure><img src=\"/img/migascon.svg\" alt=\"migascon\" width=\"232\" height=\"200\" tabindex=\"0\" loading=\"lazy\"><figcaption>migascon</figcaption></figure>\n</div>\n<p>Con motivo de nuestro 12º aniversario, estamos preparando: ¡el primer encuentro de la comunidad migasfree de la historia!</p>\n<!-- more -->\n<p>El objetivo principal es conocernos en persona e intercambiar experiencias, pero también solucionar dudas, realizar propuestas, conocer que nos depara la versión 5 de migasfree…</p>\n<p>Será un día de trabajo diferente. Mira nuestra agenda.</p>\n<ul>\n<li><em>09:30</em> <strong>Café de bienvenida y desvirtualización</strong><br>\nAprovecharemos que somos una comunidad pequeña, para conocernos tomando un café tan ricamente. Os pedimos que preparéis, una pequeña exposición informal de no más de 10 min. para presentaros y mostrar vuestro proyecto.<br>\nAviso a los ponentes: Está en juego una jarra de cerveza pirograbada, única en el mundo, creada para la ocasión por el artista aragonés Thoti. La conseguirá la presentación más original o divertida.</li>\n<li><em>11:00</em> <strong>Integración y Despliegue Continuo con migasfree</strong><br>\n<a href=\"https://twitter.com/eduromo\" target=\"_blank\" rel=\"noopener noreferrer\">Eduardo Romero</a>: Uso de gitlab + docker para realizar CI/CD.</li>\n<li><em>12:00</em> <strong>Pausa</strong></li>\n<li><em>12:30</em> <strong>migasfree 5</strong><br>\n<a href=\"http://twitter.com/albertogacias\" target=\"_blank\" rel=\"noopener noreferrer\">Alberto Gacías</a>: Presentación de la nueva versión 5. Nuevos retos. Habrá tiempo para dudas, realizar peticiones, aportar ideas, mejoras… es posible que de aquí salgan decisiones que nos pueden afectar a todos, así que aprovecha y ¡lleva el futuro de migasfree a tu terreno!</li>\n<li><em>14:00</em> <strong>Comida</strong><br>\nOs invitamos, por vuestra cara bonita, a un menú muy especial. ¿Se incluirá un primer plato de migas? ¿Sí o no?</li>\n<li><em>16:00</em> <strong>Usemos la API migasfree</strong><br>\n<a href=\"http://es.linkedin.com/in/jachavar/\" target=\"_blank\" rel=\"noopener noreferrer\">Jose Antonio Chavarría</a>: Diferentes ejemplos de uso de la API de migasfree.</li>\n<li><em>17:30</em> <strong>Clausura</strong><br>\nDaremos por terminado el encuentro de la comunidad migasfree.</li>\n</ul>\n<p>Por cierto, ¿usas migasfree y aún no te has puesto en contacto con nosotros? ¡No puede ser, hay que <a href=\"/team\">solucionarlo</a>!</p>\n",
       "image": "http://migasfree.org/img/migascon.svg =232x200",
       "date_published": "2023-07-12T06:33:11.000Z",
-      "date_modified": "2023-07-12T06:33:11.000Z",
+      "date_modified": "2023-07-12T07:48:35.000Z",
       "authors": [],
       "tags": []
     },
@@ -24,7 +24,7 @@
       "summary": "const videos = [ { id: 'x5o1Z00GIQM', text: 'Migasfree en la gestión de la configuración', date: '2012-01-12', link: 'https://speakerdeck.com/jact/migasfree-en-la-gestion-de-la-...",
       "content_html": "<div class=\"card center\" v-for=\"item in videos\">\n  </div>\n",
       "date_published": "2023-07-12T06:33:11.000Z",
-      "date_modified": "2023-07-12T06:33:11.000Z",
+      "date_modified": "2023-07-12T07:48:40.000Z",
       "authors": [],
       "tags": []
     },
@@ -35,7 +35,7 @@
       "summary": "const members = [ { avatar: '/avatar/alberto.jpg', name: 'Alberto Gacías', title: 'Creador y desarrollador', text: 'Comencé a desarrollar migasfree para ahorrarme horas de traba...",
       "content_html": "<p>En migasfree nos gusta compartir y ayudarnos mútuamente. Es por esto que, si estás usando migasfree, puedes integrarte en nuestra comunidad de usuarios en Slack. Solicítanos una invitación por email.</p>\n<div class=\"card\" v-for=\"item in members\">\n  <div class=\"card-heading\">\n    <p class=\"card-title\">{{item.name}}</p>\n    <p class=\"card-subtitle\">{{item.title}}</p>\n  </div>\n  <div class=\"card-body\">\n    <p></p>\n    <p class=\"quote\">«{{item.text}}»</p>\n  </div>\n  <p class=\"card-links\">\n    <template v-for=\"el in item.links\">\n      <a :href=\"el.link\"><fonticon :icon=\"el.icon\" color=\"#ff671a\" :size=\"30\"></fonticon></a>\n    </template>\n  </p>\n</div>\n",
       "date_published": "2023-07-12T06:33:11.000Z",
-      "date_modified": "2023-07-12T06:33:11.000Z",
+      "date_modified": "2023-07-12T07:48:44.000Z",
       "authors": [],
       "tags": []
     },
@@ -46,7 +46,7 @@
       "summary": "Podéis bajaros el appliance del servidor migasfree desde el área de descargas (http://migasfree.org/pub/).",
       "content_html": "<p>Podéis bajaros el <em>appliance</em> del servidor migasfree desde el <a href=\"http://migasfree.org/pub/\" target=\"_blank\" rel=\"noopener noreferrer\">área de descargas</a>.</p>\n",
       "date_published": "2010-08-18T23:23:00.000Z",
-      "date_modified": "2023-07-12T06:33:11.000Z",
+      "date_modified": "2023-07-12T07:47:59.000Z",
       "authors": [
         {
           "name": "agacias"
@@ -54,7 +54,7 @@
       ],
       "tags": [
         "Desarrollo",
-        "Noticias"
+        "Noticia"
       ]
     },
     {
@@ -64,7 +64,7 @@
       "summary": "Ya está disponible el código inicial en GitHub (http://github.com/agacias/migasfree).",
       "content_html": "<p>Ya está disponible el código inicial en <a href=\"http://github.com/agacias/migasfree\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub</a>.</p>\n",
       "date_published": "2010-08-18T15:09:00.000Z",
-      "date_modified": "2023-07-12T06:33:11.000Z",
+      "date_modified": "2023-07-12T07:48:04.000Z",
       "authors": [
         {
           "name": "agacias"
@@ -72,7 +72,7 @@
       ],
       "tags": [
         "Desarrollo",
-        "Noticias"
+        "Noticia"
       ]
     },
     {
@@ -694,7 +694,7 @@
       "summary": "Acaba el curso escolar, acaba esa gran serie que ha sido The Big Bang Theory, pero por fin se libera la versión 4.17.1 del servidor migasfree.",
       "content_html": "<p>Acaba el curso escolar, acaba esa gran serie que ha sido <a href=\"https://www.cbs.com/shows/big_bang_theory/\" target=\"_blank\" rel=\"noopener noreferrer\">The Big Bang Theory</a>, pero por fin se libera la <a href=\"https://github.com/migasfree/migasfree/releases/tag/4.17.1\" target=\"_blank\" rel=\"noopener noreferrer\">versión 4.17.1 del servidor migasfree</a>.</p>\n<!-- more -->\n<div style=\"text-align:center\">\n<figure><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Star_Trek_Spock.jpg/796px-Star_Trek_Spock.jpg\" alt=\"Oficial Spock\" tabindex=\"0\" loading=\"lazy\"><figcaption>Oficial Spock</figcaption></figure>\n</div>\n<p>Hemos pasado muchos meses puliendo y probando esta versión. Tan apenas tiene nuevas funcionalidades, sobre todo hay correcciones de errores, pero habrá cosas que os llamarán la atención cuando actualicéis desde versiones anteriores:</p>\n<ul>\n<li>Desaparece el apartado de estadísticas, que ha sido rediseñado y llevado a una zona de mayor protagonismo (como destino del enlace del nombre de la organización).</li>\n<li>Se ha mejorado la búsqueda rápida de la barra superior, incorporando más conceptos sobre los que buscar (despliegues, paquetes, aplicaciones y dispositivos).</li>\n<li>Se ha añadido el concepto de <a href=\"https://fun-with-migasfree.readthedocs.io/es/master/part03.html#serverexternalsource\" target=\"_blank\" rel=\"noopener noreferrer\">despliegues de origen externo</a> que, resumidamente, no es más que un caché del repositorio de paquetes al que apunta. Eso sí, significa un antes y un después en la incorporación de paquetes de repositorios externos al servidor migasfree. Para los detalles técnicos, consultad la documentación.</li>\n<li>Se incorpora el catalán como traducción del servidor y migasfree-play, gracias a Jordi Román y Carlos Gónzalez de <a href=\"https://opl.uab.cat/openuab/\" target=\"_blank\" rel=\"noopener noreferrer\">OpenUAB</a>.</li>\n<li>También se ha traducido al gallego migasfree-play, gracias a Rafael Gaioso del Concello de Santiago de Compostela.</li>\n</ul>\n<p>Feliz verano, larga vida y prosperidad.</p>\n",
       "date_published": "2019-06-15T12:17:00.000Z",
-      "date_modified": "2023-07-12T06:33:11.000Z",
+      "date_modified": "2023-07-12T07:48:09.000Z",
       "authors": [
         {
           "name": "jact"
@@ -702,7 +702,7 @@
       ],
       "tags": [
         "Desarrollo",
-        "Noticias"
+        "Noticia"
       ]
     },
     {
@@ -730,7 +730,7 @@
       "content_html": "<p>En la <a href=\"/migascon-2022\">migascon de mayo de 2022</a>, hicimos la presentación oficiosa de lo que será la suite de migasfree versión 5.</p>\n<!-- more -->\n<p>Entre las charlas, había una que hablaba de la <a href=\"https://speakerdeck.com/jact/migasfree-play-5\" target=\"_blank\" rel=\"noopener noreferrer\">remodelación de Migasfree Play</a>. Se cambiaban las tecnologías usadas para normalizarlo y poderlo extender más fácilmente, pero esa nueva versión sólo iba a funcionar con <a href=\"https://speakerdeck.com/jact/migasfree-client-5\" target=\"_blank\" rel=\"noopener noreferrer\">Migasfree Client versión 5</a>. Eso ha cambiado y es posible usar Migasfree Play 5 con clientes a partir de la versión 4.20. Esa misma versión del cliente que también es capaz de ser funcional comunicándose con el nuevo servidor de la versión 5.</p>\n<p>El siguiente gráfico resume cómo gestiona las comunicaciones el flamante Migasfree Play 5, que ya hemos liberado en <a href=\"https://github.com/migasfree/migasfree-play\" target=\"_blank\" rel=\"noopener noreferrer\">nuestro repositorio de código</a>:</p>\n<div style=\"text-align:center\">\n<figure><img src=\"/img/migasfree-play_comunicaciones.png\" alt=\"Comunicaciones de migasfree play\" tabindex=\"0\" loading=\"lazy\"><figcaption>Comunicaciones de migasfree play</figcaption></figure>\n</div>\n<p>La configuración de la aplicación se hace a través del fichero <code>/root/.migasfree-play/settings.json</code> y podéis ver los valores por defecto en <a href=\"https://github.com/migasfree/migasfree-play#settings\" target=\"_blank\" rel=\"noopener noreferrer\">README.md</a>.</p>\n<p>También es posible establecer algunas variables de entorno para evitar que haya colisión con otros puertos en el equipo o cambiar el usuario de migasfree que va a usar Migasfree Play. Los valores por defecto se pueden consultar en <a href=\"http://README.md\" target=\"_blank\" rel=\"noopener noreferrer\">README.md</a>.</p>\n<p>Migasfree Play sale de serie traducido al español, inglés, catalán, euskera y gallego, aunque podéis corregir los textos mediante el envío de <a href=\"https://github.com/migasfree/migasfree-play/tree/master/src/i18n\" target=\"_blank\" rel=\"noopener noreferrer\">ficheros .po</a>.</p>\n<p>Los requisitos imprescindibles en el equipo son que estén instalados el cliente de migasfree (&gt;= 4.20) y nodejs (&gt;= 12).</p>\n<p>Disfrutad de esta nueva versión renovada y, si hay errores, <a href=\"https://github.com/migasfree/migasfree-play/issues\" target=\"_blank\" rel=\"noopener noreferrer\">reportadlos en las incidencias</a>. La versión 1 de la aplicación pasa a estar en un <a href=\"https://github.com/migasfree/migasfree-play-nwjs\" target=\"_blank\" rel=\"noopener noreferrer\">repositorio de código de sólo lectura</a>.</p>\n",
       "image": "http://migasfree.org/img/migasfree-play_comunicaciones.png 'Comunicaciones de migasfree play'",
       "date_published": "2023-03-27T17:32:00.000Z",
-      "date_modified": "2023-07-12T06:33:11.000Z",
+      "date_modified": "2023-07-12T07:48:14.000Z",
       "authors": [
         {
           "name": "jact"
@@ -738,7 +738,7 @@
       ],
       "tags": [
         "Desarrollo",
-        "Noticias"
+        "Noticia"
       ]
     }
   ]

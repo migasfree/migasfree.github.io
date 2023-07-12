@@ -3,16 +3,15 @@
   <id>http://migasfree.org/</id>
   <title>Migasfree</title>
   <subtitle>Sistema de gestión de sistemas</subtitle>
-  <updated>2023-07-12T07:12:07.544Z</updated>
+  <updated>2023-07-12T07:50:36.711Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="http://migasfree.org/atom.xml"/>
   <link rel="alternate" href="http://migasfree.org/"/>
   <category term="Desarrollo"/>
-  <category term="Noticias"/>
+  <category term="Noticia"/>
   <category term="Tutorial"/>
   <category term="Teoría"/>
   <category term="Evento"/>
-  <category term="Noticia"/>
   <category term="Caso de éxito"/>
   <contributor>
     <name>agacias</name>
@@ -24,7 +23,7 @@
     <title type="text">migascon 2022</title>
     <id>http://migasfree.org/migascon-2022.html</id>
     <link href="http://migasfree.org/migascon-2022.html"/>
-    <updated>2023-07-12T06:33:11.000Z</updated>
+    <updated>2023-07-12T07:48:35.000Z</updated>
     <summary type="html"><![CDATA[<h2> Zaragoza, 19 de Mayo de 2022</h2>
 <div style="text-align:center">
 <figure><img src="/img/migascon.svg" alt="migascon" width="232" height="200" tabindex="0" loading="lazy"><figcaption>migascon</figcaption></figure>
@@ -63,7 +62,7 @@ Daremos por terminado el encuentro de la comunidad migasfree.</li>
     <title type="text">Presentaciones</title>
     <id>http://migasfree.org/presentaciones.html</id>
     <link href="http://migasfree.org/presentaciones.html"/>
-    <updated>2023-07-12T06:33:11.000Z</updated>
+    <updated>2023-07-12T07:48:40.000Z</updated>
     <summary type="html"><![CDATA[<div class="card center" v-for="item in videos">
   </div>
 ]]></summary>
@@ -76,7 +75,7 @@ Daremos por terminado el encuentro de la comunidad migasfree.</li>
     <title type="text">Quiénes somos</title>
     <id>http://migasfree.org/team.html</id>
     <link href="http://migasfree.org/team.html"/>
-    <updated>2023-07-12T06:33:11.000Z</updated>
+    <updated>2023-07-12T07:48:44.000Z</updated>
     <summary type="html"><![CDATA[<p>En migasfree nos gusta compartir y ayudarnos mútuamente. Es por esto que, si estás usando migasfree, puedes integrarte en nuestra comunidad de usuarios en Slack. Solicítanos una invitación por email.</p>
 <div class="card" v-for="item in members">
   <div class="card-heading">
@@ -116,7 +115,7 @@ Daremos por terminado el encuentro de la comunidad migasfree.</li>
     <title type="text">Appliance disponible desde migasfree.org</title>
     <id>http://migasfree.org/blog/2010/2010-08-18-appliance-disponible.html</id>
     <link href="http://migasfree.org/blog/2010/2010-08-18-appliance-disponible.html"/>
-    <updated>2023-07-12T06:33:11.000Z</updated>
+    <updated>2023-07-12T07:47:59.000Z</updated>
     <summary type="html"><![CDATA[<p>Podéis bajaros el <em>appliance</em> del servidor migasfree desde el <a href="http://migasfree.org/pub/" target="_blank" rel="noopener noreferrer">área de descargas</a>.</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>Podéis bajaros el <em>appliance</em> del servidor migasfree desde el <a href="http://migasfree.org/pub/" target="_blank" rel="noopener noreferrer">área de descargas</a>.</p>
@@ -125,7 +124,7 @@ Daremos por terminado el encuentro de la comunidad migasfree.</li>
       <name>agacias</name>
     </author>
     <category term="Desarrollo"/>
-    <category term="Noticias"/>
+    <category term="Noticia"/>
     <contributor>
       <name>agacias</name>
     </contributor>
@@ -136,7 +135,7 @@ Daremos por terminado el encuentro de la comunidad migasfree.</li>
     <title type="text">Código inicial disponible en GitHub</title>
     <id>http://migasfree.org/blog/2010/2010-08-18-codigo-inicial-disponible.html</id>
     <link href="http://migasfree.org/blog/2010/2010-08-18-codigo-inicial-disponible.html"/>
-    <updated>2023-07-12T06:33:11.000Z</updated>
+    <updated>2023-07-12T07:48:04.000Z</updated>
     <summary type="html"><![CDATA[<p>Ya está disponible el código inicial en <a href="http://github.com/agacias/migasfree" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>Ya está disponible el código inicial en <a href="http://github.com/agacias/migasfree" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
@@ -145,7 +144,7 @@ Daremos por terminado el encuentro de la comunidad migasfree.</li>
       <name>agacias</name>
     </author>
     <category term="Desarrollo"/>
-    <category term="Noticias"/>
+    <category term="Noticia"/>
     <contributor>
       <name>agacias</name>
     </contributor>
@@ -1301,7 +1300,7 @@ Migasfree recolecta mucha información automáticamente de los equipos cliente a
     <title type="text">La expansión Lagarto-Spock</title>
     <id>http://migasfree.org/blog/2019/2019-06-15-expansion-lagarto-spock.html</id>
     <link href="http://migasfree.org/blog/2019/2019-06-15-expansion-lagarto-spock.html"/>
-    <updated>2023-07-12T06:33:11.000Z</updated>
+    <updated>2023-07-12T07:48:09.000Z</updated>
     <summary type="html"><![CDATA[<p>Acaba el curso escolar, acaba esa gran serie que ha sido <a href="https://www.cbs.com/shows/big_bang_theory/" target="_blank" rel="noopener noreferrer">The Big Bang Theory</a>, pero por fin se libera la <a href="https://github.com/migasfree/migasfree/releases/tag/4.17.1" target="_blank" rel="noopener noreferrer">versión 4.17.1 del servidor migasfree</a>.</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>Acaba el curso escolar, acaba esa gran serie que ha sido <a href="https://www.cbs.com/shows/big_bang_theory/" target="_blank" rel="noopener noreferrer">The Big Bang Theory</a>, pero por fin se libera la <a href="https://github.com/migasfree/migasfree/releases/tag/4.17.1" target="_blank" rel="noopener noreferrer">versión 4.17.1 del servidor migasfree</a>.</p>
@@ -1323,7 +1322,7 @@ Migasfree recolecta mucha información automáticamente de los equipos cliente a
       <name>jact</name>
     </author>
     <category term="Desarrollo"/>
-    <category term="Noticias"/>
+    <category term="Noticia"/>
     <contributor>
       <name>jact</name>
     </contributor>
@@ -1379,7 +1378,7 @@ de ordenadores -aunque eso ya lo sé- e insistes: «Ya, pero ¿por qué no usas 
     <title type="text">El rompecabezas Vartabedian</title>
     <id>http://migasfree.org/blog/2023/2023-03-27-el-rompecabezas-vartabedian.html</id>
     <link href="http://migasfree.org/blog/2023/2023-03-27-el-rompecabezas-vartabedian.html"/>
-    <updated>2023-07-12T06:33:11.000Z</updated>
+    <updated>2023-07-12T07:48:14.000Z</updated>
     <summary type="html"><![CDATA[<p>En la <a href="/migascon-2022">migascon de mayo de 2022</a>, hicimos la presentación oficiosa de lo que será la suite de migasfree versión 5.</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>En la <a href="/migascon-2022">migascon de mayo de 2022</a>, hicimos la presentación oficiosa de lo que será la suite de migasfree versión 5.</p>
@@ -1399,7 +1398,7 @@ de ordenadores -aunque eso ya lo sé- e insistes: «Ya, pero ¿por qué no usas 
       <name>jact</name>
     </author>
     <category term="Desarrollo"/>
-    <category term="Noticias"/>
+    <category term="Noticia"/>
     <contributor>
       <name>jact</name>
     </contributor>
