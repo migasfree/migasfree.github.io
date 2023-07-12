@@ -5,7 +5,7 @@ author: jact
 comment: false
 category:
   - Desarrollo
-  - Noticias
+  - Noticia
 ---
 
 Acaba el curso escolar, acaba esa gran serie que ha sido [The Big Bang Theory](https://www.cbs.com/shows/big_bang_theory/), pero por fin se libera la [versión 4.17.1 del servidor migasfree](https://github.com/migasfree/migasfree/releases/tag/4.17.1).
