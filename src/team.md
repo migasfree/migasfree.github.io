@@ -78,4 +78,9 @@ En migasfree nos gusta compartir y ayudarnos mútuamente. Es por esto que, si es
 .card-body .quote {
   padding: 0 2em;
 }
+
+html[data-theme=dark] .card,
+html[data-theme=dark] .card-body img {
+  border: 1px solid rgba(255,255,255,.125);
+}
 </style>
