@@ -1,4 +1,5 @@
 import { defineUserConfig } from 'vuepress'
+import { searchPlugin } from '@vuepress/plugin-search'
 import theme from './theme.js'
 
 export default defineUserConfig({
@@ -42,6 +43,18 @@ export default defineUserConfig({
     ],
   ],
 
+  plugins: [
+    searchPlugin({
+      isSearchable: (page) => page.path !== '/',
+      maxSuggestions: 10,
+      getExtraFields: () => [],
+      locales: {
+        '/': {
+          placeholder: 'Buscar',
+        },
+      },
+    }),
+  ],
   // Enable it with pwa
   // shouldPrefetch: false,
 })
