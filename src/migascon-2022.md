@@ -1,6 +1,6 @@
 ---
 title: migascon 2022
-editLink: false
+timeline: false
 ---
 
 ## Zaragoza, 19 de Mayo de 2022
