@@ -1,6 +1,6 @@
 ---
 title: Presentaciones
-editLink: false
+timeline: false
 ---
 
 <script setup>
