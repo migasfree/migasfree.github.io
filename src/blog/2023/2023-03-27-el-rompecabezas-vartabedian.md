@@ -5,7 +5,7 @@ author: jact
 comment: false
 category:
   - Desarrollo
-  - Noticias
+  - Noticia
 ---
 
 En la [migascon de mayo de 2022](/migascon-2022), hicimos la presentación oficiosa de lo que será la suite de migasfree versión 5.
