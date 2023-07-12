@@ -5,7 +5,7 @@ author: agacias
 comment: false
 category:
   - Desarrollo
-  - Noticias
+  - Noticia
 ---
 
 Ya está disponible el código inicial en [GitHub](http://github.com/agacias/migasfree).
