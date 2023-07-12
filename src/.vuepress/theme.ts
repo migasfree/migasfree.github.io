@@ -108,6 +108,8 @@ export default hopeTheme({
     blog: {
       excerptLength: 0,
       article: '/blog/',
+      filter: ({ filePathRelative }) =>
+        filePathRelative ? filePathRelative.startsWith('blog/') : false,
       type: [
         {
           key: 'post',
