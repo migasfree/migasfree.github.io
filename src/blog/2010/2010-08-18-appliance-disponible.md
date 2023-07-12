@@ -5,7 +5,7 @@ author: agacias
 comment: false
 category:
   - Desarrollo
-  - Noticias
+  - Noticia
 ---
 
 Podéis bajaros el _appliance_ del servidor migasfree desde el [área de descargas](http://migasfree.org/pub/).
