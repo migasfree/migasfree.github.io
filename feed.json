@@ -35,7 +35,7 @@
       "summary": "const members = [ { avatar: '/avatar/alberto.jpg', name: 'Alberto Gacías', title: 'Creador y desarrollador', text: 'Comencé a desarrollar migasfree para ahorrarme horas de traba...",
       "content_html": "<p>En migasfree nos gusta compartir y ayudarnos mútuamente. Es por esto que, si estás usando migasfree, puedes integrarte en nuestra comunidad de usuarios en Slack. Solicítanos una invitación por email.</p>\n<div class=\"card\" v-for=\"item in members\">\n  <div class=\"card-heading\">\n    <p class=\"card-title\">{{item.name}}</p>\n    <p class=\"card-subtitle\">{{item.title}}</p>\n  </div>\n  <div class=\"card-body\">\n    <p></p>\n    <p class=\"quote\">«{{item.text}}»</p>\n  </div>\n  <p class=\"card-links\">\n    <template v-for=\"el in item.links\">\n      <a :href=\"el.link\"><fonticon :icon=\"el.icon\" color=\"#ff671a\" :size=\"30\"></fonticon></a>\n    </template>\n  </p>\n</div>\n",
       "date_published": "2023-07-12T06:33:11.000Z",
-      "date_modified": "2023-07-12T07:48:44.000Z",
+      "date_modified": "2023-07-12T10:40:58.000Z",
       "authors": [],
       "tags": []
     },
