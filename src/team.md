@@ -1,6 +1,6 @@
 ---
 title: Quiénes somos
-editLink: false
+timeline: false
 ---
 
 <script setup>
