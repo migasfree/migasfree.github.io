@@ -11,6 +11,8 @@ export default hopeTheme({
   },
 
   editLink: false,
+  lastUpdated: false,
+  contributors: false,
 
   iconAssets: 'fontawesome-with-brands',
 
