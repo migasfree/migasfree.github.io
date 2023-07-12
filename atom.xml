@@ -1,0 +1,1409 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="http://migasfree.org/atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es-ES">
+  <id>http://migasfree.org/</id>
+  <title>Migasfree</title>
+  <subtitle>Sistema de gestión de sistemas</subtitle>
+  <updated>2023-07-12T06:40:02.397Z</updated>
+  <generator>vuepress-plugin-feed2</generator>
+  <link rel="self" href="http://migasfree.org/atom.xml"/>
+  <link rel="alternate" href="http://migasfree.org/"/>
+  <category term="Desarrollo"/>
+  <category term="Noticias"/>
+  <category term="Tutorial"/>
+  <category term="Teoría"/>
+  <category term="Evento"/>
+  <category term="Noticia"/>
+  <category term="Caso de éxito"/>
+  <contributor>
+    <name>agacias</name>
+  </contributor>
+  <contributor>
+    <name>jact</name>
+  </contributor>
+  <entry>
+    <title type="text">migascon 2022</title>
+    <id>http://migasfree.org/migascon-2022.html</id>
+    <link href="http://migasfree.org/migascon-2022.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<h2> Zaragoza, 19 de Mayo de 2022</h2>
+<div style="text-align:center">
+<figure><img src="/img/migascon.svg" alt="migascon" width="232" height="200" tabindex="0" loading="lazy"><figcaption>migascon</figcaption></figure>
+</div>
+<p>Con motivo de nuestro 12º aniversario, estamos preparando: ¡el primer encuentro de la comunidad migasfree de la historia!</p>
+]]></summary>
+    <content type="html"><![CDATA[<h2> Zaragoza, 19 de Mayo de 2022</h2>
+<div style="text-align:center">
+<figure><img src="/img/migascon.svg" alt="migascon" width="232" height="200" tabindex="0" loading="lazy"><figcaption>migascon</figcaption></figure>
+</div>
+<p>Con motivo de nuestro 12º aniversario, estamos preparando: ¡el primer encuentro de la comunidad migasfree de la historia!</p>
+<!-- more -->
+<p>El objetivo principal es conocernos en persona e intercambiar experiencias, pero también solucionar dudas, realizar propuestas, conocer que nos depara la versión 5 de migasfree…</p>
+<p>Será un día de trabajo diferente. Mira nuestra agenda.</p>
+<ul>
+<li><em>09:30</em> <strong>Café de bienvenida y desvirtualización</strong><br>
+Aprovecharemos que somos una comunidad pequeña, para conocernos tomando un café tan ricamente. Os pedimos que preparéis, una pequeña exposición informal de no más de 10 min. para presentaros y mostrar vuestro proyecto.<br>
+Aviso a los ponentes: Está en juego una jarra de cerveza pirograbada, única en el mundo, creada para la ocasión por el artista aragonés Thoti. La conseguirá la presentación más original o divertida.</li>
+<li><em>11:00</em> <strong>Integración y Despliegue Continuo con migasfree</strong><br>
+<a href="https://twitter.com/eduromo" target="_blank" rel="noopener noreferrer">Eduardo Romero</a>: Uso de gitlab + docker para realizar CI/CD.</li>
+<li><em>12:00</em> <strong>Pausa</strong></li>
+<li><em>12:30</em> <strong>migasfree 5</strong><br>
+<a href="http://twitter.com/albertogacias" target="_blank" rel="noopener noreferrer">Alberto Gacías</a>: Presentación de la nueva versión 5. Nuevos retos. Habrá tiempo para dudas, realizar peticiones, aportar ideas, mejoras… es posible que de aquí salgan decisiones que nos pueden afectar a todos, así que aprovecha y ¡lleva el futuro de migasfree a tu terreno!</li>
+<li><em>14:00</em> <strong>Comida</strong><br>
+Os invitamos, por vuestra cara bonita, a un menú muy especial. ¿Se incluirá un primer plato de migas? ¿Sí o no?</li>
+<li><em>16:00</em> <strong>Usemos la API migasfree</strong><br>
+<a href="http://es.linkedin.com/in/jachavar/" target="_blank" rel="noopener noreferrer">Jose Antonio Chavarría</a>: Diferentes ejemplos de uso de la API de migasfree.</li>
+<li><em>17:30</em> <strong>Clausura</strong><br>
+Daremos por terminado el encuentro de la comunidad migasfree.</li>
+</ul>
+<p>Por cierto, ¿usas migasfree y aún no te has puesto en contacto con nosotros? ¡No puede ser, hay que <a href="/team">solucionarlo</a>!</p>
+]]></content>
+    <published>2023-07-12T06:33:11.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Presentaciones</title>
+    <id>http://migasfree.org/presentaciones.html</id>
+    <link href="http://migasfree.org/presentaciones.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<div class="card center" v-for="item in videos">
+  </div>
+]]></summary>
+    <content type="html"><![CDATA[<div class="card center" v-for="item in videos">
+  </div>
+]]></content>
+    <published>2023-07-12T06:33:11.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Quiénes somos</title>
+    <id>http://migasfree.org/team.html</id>
+    <link href="http://migasfree.org/team.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<p>En migasfree nos gusta compartir y ayudarnos mútuamente. Es por esto que, si estás usando migasfree, puedes integrarte en nuestra comunidad de usuarios en Slack. Solicítanos una invitación por email.</p>
+<div class="card" v-for="item in members">
+  <div class="card-heading">
+    <p class="card-title">{{item.name}}</p>
+    <p class="card-subtitle">{{item.title}}</p>
+  </div>
+  <div class="card-body">
+    <p></p>
+    <p class="quote">«{{item.text}}»</p>
+  </div>
+  <p class="card-links">
+    <template v-for="el in item.links">
+      <a :href="el.link"><fonticon :icon="el.icon" color="#ff671a" :size="30"></fonticon></a>
+    </template>
+  </p>
+</div>]]></summary>
+    <content type="html"><![CDATA[<p>En migasfree nos gusta compartir y ayudarnos mútuamente. Es por esto que, si estás usando migasfree, puedes integrarte en nuestra comunidad de usuarios en Slack. Solicítanos una invitación por email.</p>
+<div class="card" v-for="item in members">
+  <div class="card-heading">
+    <p class="card-title">{{item.name}}</p>
+    <p class="card-subtitle">{{item.title}}</p>
+  </div>
+  <div class="card-body">
+    <p></p>
+    <p class="quote">«{{item.text}}»</p>
+  </div>
+  <p class="card-links">
+    <template v-for="el in item.links">
+      <a :href="el.link"><fonticon :icon="el.icon" color="#ff671a" :size="30"></fonticon></a>
+    </template>
+  </p>
+</div>
+]]></content>
+    <published>2023-07-12T06:33:11.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Appliance disponible desde migasfree.org</title>
+    <id>http://migasfree.org/blog/2010/2010-08-18-appliance-disponible.html</id>
+    <link href="http://migasfree.org/blog/2010/2010-08-18-appliance-disponible.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<p>Podéis bajaros el <em>appliance</em> del servidor migasfree desde el <a href="http://migasfree.org/pub/" target="_blank" rel="noopener noreferrer">área de descargas</a>.</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>Podéis bajaros el <em>appliance</em> del servidor migasfree desde el <a href="http://migasfree.org/pub/" target="_blank" rel="noopener noreferrer">área de descargas</a>.</p>
+]]></content>
+    <author>
+      <name>agacias</name>
+    </author>
+    <category term="Desarrollo"/>
+    <category term="Noticias"/>
+    <contributor>
+      <name>agacias</name>
+    </contributor>
+    <published>2010-08-18T23:23:00.000Z</published>
+    <rights>Copyright by agacias</rights>
+  </entry>
+  <entry>
+    <title type="text">Código inicial disponible en GitHub</title>
+    <id>http://migasfree.org/blog/2010/2010-08-18-codigo-inicial-disponible.html</id>
+    <link href="http://migasfree.org/blog/2010/2010-08-18-codigo-inicial-disponible.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<p>Ya está disponible el código inicial en <a href="http://github.com/agacias/migasfree" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>Ya está disponible el código inicial en <a href="http://github.com/agacias/migasfree" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
+]]></content>
+    <author>
+      <name>agacias</name>
+    </author>
+    <category term="Desarrollo"/>
+    <category term="Noticias"/>
+    <contributor>
+      <name>agacias</name>
+    </contributor>
+    <published>2010-08-18T15:09:00.000Z</published>
+    <rights>Copyright by agacias</rights>
+  </entry>
+  <entry>
+    <title type="text">Inicio rápido de migasfree</title>
+    <id>http://migasfree.org/blog/2010/2010-08-22-inicio-rapido.html</id>
+    <link href="http://migasfree.org/blog/2010/2010-08-22-inicio-rapido.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<p>Se ha subido el documento <a href="http://migasfree.org/doc/es/quick_start.pdf" target="_blank" rel="noopener noreferrer">Inicio rápido de migasfree</a>.</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>Se ha subido el documento <a href="http://migasfree.org/doc/es/quick_start.pdf" target="_blank" rel="noopener noreferrer">Inicio rápido de migasfree</a>.</p>
+]]></content>
+    <author>
+      <name>agacias</name>
+    </author>
+    <category term="Tutorial"/>
+    <contributor>
+      <name>agacias</name>
+    </contributor>
+    <published>2010-08-22T19:31:00.000Z</published>
+    <rights>Copyright by agacias</rights>
+  </entry>
+  <entry>
+    <title type="text">Videotutorial sobre la instalación del appliance de migasfree</title>
+    <id>http://migasfree.org/blog/2010/2010-09-07-videotutorial-appliance.html</id>
+    <link href="http://migasfree.org/blog/2010/2010-09-07-videotutorial-appliance.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<p>He puesto a vuestra disposición un videotutorial de <a href="http://www.youtube.com/v/36hnyKDV_0c" target="_blank" rel="noopener noreferrer">cómo instalar el appliance de VirtualBox con el servidor de migasfree</a>.</p>
+<div style="text-align:center">
+</div>
+]]></summary>
+    <content type="html"><![CDATA[<p>He puesto a vuestra disposición un videotutorial de <a href="http://www.youtube.com/v/36hnyKDV_0c" target="_blank" rel="noopener noreferrer">cómo instalar el appliance de VirtualBox con el servidor de migasfree</a>.</p>
+<div style="text-align:center">
+</div>
+]]></content>
+    <author>
+      <name>agacias</name>
+    </author>
+    <category term="Tutorial"/>
+    <contributor>
+      <name>agacias</name>
+    </contributor>
+    <published>2010-09-07T22:29:00.000Z</published>
+    <rights>Copyright by agacias</rights>
+  </entry>
+  <entry>
+    <title type="text">Videotutorial sobre conceptos clave de migasfree</title>
+    <id>http://migasfree.org/blog/2010/2010-09-10-videtutorial-conceptos-clave.html</id>
+    <link href="http://migasfree.org/blog/2010/2010-09-10-videtutorial-conceptos-clave.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<p>Disponible un nuevo videotutorial sobre los <a href="http://www.youtube.com/v/yEEzNrsIJ3M" target="_blank" rel="noopener noreferrer">conceptos clave en los que se basa migasfree</a>.</p>
+<div style="text-align:center">
+</div>
+]]></summary>
+    <content type="html"><![CDATA[<p>Disponible un nuevo videotutorial sobre los <a href="http://www.youtube.com/v/yEEzNrsIJ3M" target="_blank" rel="noopener noreferrer">conceptos clave en los que se basa migasfree</a>.</p>
+<div style="text-align:center">
+</div>
+]]></content>
+    <author>
+      <name>agacias</name>
+    </author>
+    <category term="Tutorial"/>
+    <contributor>
+      <name>agacias</name>
+    </contributor>
+    <published>2010-09-10T21:46:00.000Z</published>
+    <rights>Copyright by agacias</rights>
+  </entry>
+  <entry>
+    <title type="text">Videotutorial sobre propiedades y atributos</title>
+    <id>http://migasfree.org/blog/2010/2010-09-11-videotutorial-propiedades-atributos.html</id>
+    <link href="http://migasfree.org/blog/2010/2010-09-11-videotutorial-propiedades-atributos.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<p>Acabo de subir el <a href="http://www.youtube.com/v/4_YXkjcZ74Q" target="_blank" rel="noopener noreferrer">videotutorial Propiedades y Atributos</a>. Esencial para el funcionamiento de migasfree.</p>
+<div style="text-align:center">
+</div>
+]]></summary>
+    <content type="html"><![CDATA[<p>Acabo de subir el <a href="http://www.youtube.com/v/4_YXkjcZ74Q" target="_blank" rel="noopener noreferrer">videotutorial Propiedades y Atributos</a>. Esencial para el funcionamiento de migasfree.</p>
+<div style="text-align:center">
+</div>
+]]></content>
+    <author>
+      <name>agacias</name>
+    </author>
+    <category term="Tutorial"/>
+    <contributor>
+      <name>agacias</name>
+    </contributor>
+    <published>2010-09-11T19:39:00.000Z</published>
+    <rights>Copyright by agacias</rights>
+  </entry>
+  <entry>
+    <title type="text">Tutorial del proceso del cambio de la configuración software</title>
+    <id>http://migasfree.org/blog/2010/2010-09-12-tutorial-proceso-cambio.html</id>
+    <link href="http://migasfree.org/blog/2010/2010-09-12-tutorial-proceso-cambio.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<p>Se llama <a href="http://www.youtube.com/v/FNAOaUa8ysI" target="_blank" rel="noopener noreferrer">modificando software</a>. Espero que os guste.</p>
+<div style="text-align:center">
+</div>
+]]></summary>
+    <content type="html"><![CDATA[<p>Se llama <a href="http://www.youtube.com/v/FNAOaUa8ysI" target="_blank" rel="noopener noreferrer">modificando software</a>. Espero que os guste.</p>
+<div style="text-align:center">
+</div>
+]]></content>
+    <author>
+      <name>agacias</name>
+    </author>
+    <category term="Tutorial"/>
+    <contributor>
+      <name>agacias</name>
+    </contributor>
+    <published>2010-09-12T16:43:00.000Z</published>
+    <rights>Copyright by agacias</rights>
+  </entry>
+  <entry>
+    <title type="text">Tutorial «Subiendo paquetes»</title>
+    <id>http://migasfree.org/blog/2010/2010-09-13-tutorial-subiendo-paquetes.html</id>
+    <link href="http://migasfree.org/blog/2010/2010-09-13-tutorial-subiendo-paquetes.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<p>Sin los paquetes, nada se podría hacer en migasfree. Para iniciar el proceso de distribución, hay que empezar <a href="http://www.youtube.com/v/XGzNE1FkK2o" target="_blank" rel="noopener noreferrer">subiendo paquetes al servidor de migasfree</a>.</p>
+<div style="text-align:center">
+</div>
+]]></summary>
+    <content type="html"><![CDATA[<p>Sin los paquetes, nada se podría hacer en migasfree. Para iniciar el proceso de distribución, hay que empezar <a href="http://www.youtube.com/v/XGzNE1FkK2o" target="_blank" rel="noopener noreferrer">subiendo paquetes al servidor de migasfree</a>.</p>
+<div style="text-align:center">
+</div>
+]]></content>
+    <author>
+      <name>agacias</name>
+    </author>
+    <category term="Tutorial"/>
+    <contributor>
+      <name>agacias</name>
+    </contributor>
+    <published>2010-09-13T19:20:00.000Z</published>
+    <rights>Copyright by agacias</rights>
+  </entry>
+  <entry>
+    <title type="text">Los departamentos TIC y Linux</title>
+    <id>http://migasfree.org/blog/2010/2010-09-15-departamentos-tic-linux.html</id>
+    <link href="http://migasfree.org/blog/2010/2010-09-15-departamentos-tic-linux.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<p>Un <a href="https://web.archive.org/web/20210419155027/http://blackshell.usebox.net/archive/los-departamentos-tic-y-linux.html" target="_blank" rel="noopener noreferrer">interesante artículo en blackshell, la bitácora de Juan J. Martinez</a>.</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>Un <a href="https://web.archive.org/web/20210419155027/http://blackshell.usebox.net/archive/los-departamentos-tic-y-linux.html" target="_blank" rel="noopener noreferrer">interesante artículo en blackshell, la bitácora de Juan J. Martinez</a>.</p>
+]]></content>
+    <author>
+      <name>agacias</name>
+    </author>
+    <category term="Teoría"/>
+    <contributor>
+      <name>agacias</name>
+    </contributor>
+    <published>2010-09-15T18:10:00.000Z</published>
+    <rights>Copyright by agacias</rights>
+  </entry>
+  <entry>
+    <title type="text">Videotutorial sobre los repositorios de migasfree</title>
+    <id>http://migasfree.org/blog/2010/2010-09-15-videotutorial-repositorios.html</id>
+    <link href="http://migasfree.org/blog/2010/2010-09-15-videotutorial-repositorios.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<p>¿Qué es migasfree? Básicamente, es un gestor de repositorios, que permite la asignación de estos a los equipos clientes en función de unos atributos de los equipos.</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>¿Qué es migasfree? Básicamente, es un gestor de repositorios, que permite la asignación de estos a los equipos clientes en función de unos atributos de los equipos.</p>
+<!-- more -->
+<p>Más información en el <a href="http://www.youtube.com/v/Vd0lllupqRg" target="_blank" rel="noopener noreferrer">videotutorial</a>.</p>
+<div style="text-align:center">
+</div>
+]]></content>
+    <author>
+      <name>agacias</name>
+    </author>
+    <category term="Tutorial"/>
+    <contributor>
+      <name>agacias</name>
+    </contributor>
+    <published>2010-09-15T22:48:00.000Z</published>
+    <rights>Copyright by agacias</rights>
+  </entry>
+  <entry>
+    <title type="text">Tutorial sobre la gestión de errores en migasfree</title>
+    <id>http://migasfree.org/blog/2010/2010-09-22-tutorial-gestion-errores.html</id>
+    <link href="http://migasfree.org/blog/2010/2010-09-22-tutorial-gestion-errores.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<p>La herramienta de gestión no serviría de nada si no se pudieran monitorizar los errores en la distribución del software en los clientes. Podéis verlo con más detalle en el <a href="http://www.youtube.com/v/flz_DwPE7Wo" target="_blank" rel="noopener noreferrer">videotutorial sobre errores en migasfree</a>.</p>]]></summary>
+    <content type="html"><![CDATA[<p>La herramienta de gestión no serviría de nada si no se pudieran monitorizar los errores en la distribución del software en los clientes. Podéis verlo con más detalle en el <a href="http://www.youtube.com/v/flz_DwPE7Wo" target="_blank" rel="noopener noreferrer">videotutorial sobre errores en migasfree</a>.</p>
+<div style="text-align:center">
+</div>
+]]></content>
+    <author>
+      <name>agacias</name>
+    </author>
+    <category term="Tutorial"/>
+    <contributor>
+      <name>agacias</name>
+    </contributor>
+    <published>2010-09-22T18:47:00.000Z</published>
+    <rights>Copyright by agacias</rights>
+  </entry>
+  <entry>
+    <title type="text">migasfree en Málaga</title>
+    <id>http://migasfree.org/blog/2010/2010-10-23-migasfree-en-malaga.html</id>
+    <link href="http://migasfree.org/blog/2010/2010-10-23-migasfree-en-malaga.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<p>Estaremos en Málaga en la OSWC2010 hablando de nuestro proyecto. Hablaremos de migasfree en el <a href="http://web.cenatic.es/web/phocadownload/foro_claapp_def.pdf" target="_blank" rel="noopener noreferrer">Foro de Conocimiento Libre y Administraciones Públicas</a> que se celebra en Málaga el 27 y 28 de octubre de 2010, dentro del Workshop del Foro de Administraciones Públicas de CENATIC.</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>Estaremos en Málaga en la OSWC2010 hablando de nuestro proyecto. Hablaremos de migasfree en el <a href="http://web.cenatic.es/web/phocadownload/foro_claapp_def.pdf" target="_blank" rel="noopener noreferrer">Foro de Conocimiento Libre y Administraciones Públicas</a> que se celebra en Málaga el 27 y 28 de octubre de 2010, dentro del Workshop del Foro de Administraciones Públicas de CENATIC.</p>
+<!-- more -->
+<p>También estaremos el dia 27 de octubre de 2010 en Málaga en la <a href="http://www.libresoftwareworldconference.org/" target="_blank" rel="noopener noreferrer">Libre Software World Conference</a> hablando de <strong>AZLinux</strong> y migasfree en la mesa de <strong>Migraciones a Software Libre</strong>.</p>
+]]></content>
+    <author>
+      <name>agacias</name>
+    </author>
+    <category term="Evento"/>
+    <contributor>
+      <name>agacias</name>
+    </contributor>
+    <published>2010-10-23T08:00:00.000Z</published>
+    <rights>Copyright by agacias</rights>
+  </entry>
+  <entry>
+    <title type="text">Screencast: presentación de migasfree</title>
+    <id>http://migasfree.org/blog/2010/2010-10-25-screencast-presentacion-migasfree.html</id>
+    <link href="http://migasfree.org/blog/2010/2010-10-25-screencast-presentacion-migasfree.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<p>Para hacer el estreno en Málaga, he preparado una presentación menos técnica para explicar los <a href="http://www.youtube.com/v/ZKvO-xRebxQ" target="_blank" rel="noopener noreferrer">fundamentos de migasfree</a>.</p>
+<div style="text-align:center">
+</div>
+]]></summary>
+    <content type="html"><![CDATA[<p>Para hacer el estreno en Málaga, he preparado una presentación menos técnica para explicar los <a href="http://www.youtube.com/v/ZKvO-xRebxQ" target="_blank" rel="noopener noreferrer">fundamentos de migasfree</a>.</p>
+<div style="text-align:center">
+</div>
+]]></content>
+    <author>
+      <name>agacias</name>
+    </author>
+    <category term="Evento"/>
+    <contributor>
+      <name>agacias</name>
+    </contributor>
+    <published>2010-10-25T22:00:00.000Z</published>
+    <rights>Copyright by agacias</rights>
+  </entry>
+  <entry>
+    <title type="text">Nuevas mejoras implantadas en migasfree</title>
+    <id>http://migasfree.org/blog/2011/2011-02-27-nuevas-mejoras-implantadas.html</id>
+    <link href="http://migasfree.org/blog/2011/2011-02-27-nuevas-mejoras-implantadas.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<p>Gráficas incluidas:</p>
+<ul>
+<li>Equipos actualizados por hora/día/mes</li>
+<li>Equipos previsto por demora de calendario</li>
+<li>Equipos por versión (de distribución)</li>
+<li>Se han añadido menús para las consultas y las gráficas.</li>
+</ul>
+<p>Si te has bajado el <a href="http://migasfree.org/pub/" target="_blank" rel="noopener noreferrer">appliance de VirtualBox</a> podrás actualizarte estos cambios ejecutando desde el servidor (ojo, se regenera la base de datos):</p>]]></summary>
+    <content type="html"><![CDATA[<p>Gráficas incluidas:</p>
+<ul>
+<li>Equipos actualizados por hora/día/mes</li>
+<li>Equipos previsto por demora de calendario</li>
+<li>Equipos por versión (de distribución)</li>
+<li>Se han añadido menús para las consultas y las gráficas.</li>
+</ul>
+<p>Si te has bajado el <a href="http://migasfree.org/pub/" target="_blank" rel="noopener noreferrer">appliance de VirtualBox</a> podrás actualizarte estos cambios ejecutando desde el servidor (ojo, se regenera la base de datos):</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div>]]></content>
+    <author>
+      <name>agacias</name>
+    </author>
+    <category term="Desarrollo"/>
+    <contributor>
+      <name>agacias</name>
+    </contributor>
+    <published>2011-02-27T20:34:00.000Z</published>
+    <rights>Copyright by agacias</rights>
+  </entry>
+  <entry>
+    <title type="text">Inventario hardware de los clientes de migasfree</title>
+    <id>http://migasfree.org/blog/2011/2011-03-17-inventario-hardware-clientes.html</id>
+    <link href="http://migasfree.org/blog/2011/2011-03-17-inventario-hardware-clientes.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<p>Implementada la funcionalidad de inventario de hardware.</p>
+<p>Gracias a la nueva versión de <a href="http://ezix.org/project/wiki/HardwareLiSter" target="_blank" rel="noopener noreferrer">lshw</a> (la B.02.15), que permite la salida de la información hardware en formato <a href="http://es.wikipedia.org/wiki/JSON" target="_blank" rel="noopener noreferrer">JSON</a>, migasfree ahora es capaz de almacenar el hardware de los equipos en su base de datos. Hemos creado para ello las siguientes tablas:</p>]]></summary>
+    <content type="html"><![CDATA[<p>Implementada la funcionalidad de inventario de hardware.</p>
+<p>Gracias a la nueva versión de <a href="http://ezix.org/project/wiki/HardwareLiSter" target="_blank" rel="noopener noreferrer">lshw</a> (la B.02.15), que permite la salida de la información hardware en formato <a href="http://es.wikipedia.org/wiki/JSON" target="_blank" rel="noopener noreferrer">JSON</a>, migasfree ahora es capaz de almacenar el hardware de los equipos en su base de datos. Hemos creado para ello las siguientes tablas:</p>
+<ul>
+<li>HW_Node</li>
+<li>HW_Capability</li>
+<li>HW_Configuration</li>
+<li>HW_LogicalName</li>
+</ul>
+<p>Así que ahora podremos crearnos consultas de hardware que nos permitirían saber, por ejemplo:</p>
+<ul>
+<li>Los equipos que tienen menos de 512 MB de RAM</li>
+<li>La cantidad de equipos por CPU</li>
+<li>Los equipos que tienen una determinada tarjeta de sonido</li>
+<li>…</li>
+</ul>
+<p>También se han creado unas vistas que nos muestran gráficamente el hardware de un determinado equipo (sería el equivalante a la utilidad lshw-gui).</p>
+<p>Si te bajaste el <a href="http://migasfree.org/pub/" target="_blank" rel="noopener noreferrer">appliance de VirtualBox</a>, puedes probarlo ejecutando:</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div>]]></content>
+    <author>
+      <name>agacias</name>
+    </author>
+    <category term="Desarrollo"/>
+    <contributor>
+      <name>agacias</name>
+    </contributor>
+    <published>2011-03-17T19:18:00.000Z</published>
+    <rights>Copyright by agacias</rights>
+  </entry>
+  <entry>
+    <title type="text">Charla sobre Administración de Sistemas GNU/Linux con migasfree</title>
+    <id>http://migasfree.org/blog/2011/2011-06-13-charla-administracion-sistemas.html</id>
+    <link href="http://migasfree.org/blog/2011/2011-06-13-charla-administracion-sistemas.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<p>El miércoles, 15 de junio 2011, a las 19 h., en Zaragoza y gracias al colectivo <a href="http://softwareybarralibre.org/" target="_blank" rel="noopener noreferrer">Software &amp; Barra Libre</a>, hablaremos sobre administración de sistemas GNU/Linux con migasfree.</p>
+<p>Enlaces del evento:</p>
+<ul>
+<li><a href="http://www.softwareybarralibre.org/?q=node/52" target="_blank" rel="noopener noreferrer">Charla de migasfree en el Digital Water Pavilion</a></li>
+<li><a href="http://www.facebook.com/event.php?eid=136136616464810" target="_blank" rel="noopener noreferrer">Evento en Facebook: Software y Barra Libre: GNU/Linux con migasfree</a></li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[<p>El miércoles, 15 de junio 2011, a las 19 h., en Zaragoza y gracias al colectivo <a href="http://softwareybarralibre.org/" target="_blank" rel="noopener noreferrer">Software &amp; Barra Libre</a>, hablaremos sobre administración de sistemas GNU/Linux con migasfree.</p>
+<p>Enlaces del evento:</p>
+<ul>
+<li><a href="http://www.softwareybarralibre.org/?q=node/52" target="_blank" rel="noopener noreferrer">Charla de migasfree en el Digital Water Pavilion</a></li>
+<li><a href="http://www.facebook.com/event.php?eid=136136616464810" target="_blank" rel="noopener noreferrer">Evento en Facebook: Software y Barra Libre: GNU/Linux con migasfree</a></li>
+</ul>
+<h2> Actualización: 2011-06-18</h2>
+<p><a href="http://zaragozaciudad.net/azlinux/2011/061701-charla-de-migasfree-en-software-y-barra-libre.php" target="_blank" rel="noopener noreferrer">Crónica de la charla</a>.</p>
+]]></content>
+    <author>
+      <name>agacias</name>
+    </author>
+    <category term="Evento"/>
+    <contributor>
+      <name>agacias</name>
+    </contributor>
+    <published>2011-06-13T19:20:00.000Z</published>
+    <rights>Copyright by agacias</rights>
+  </entry>
+  <entry>
+    <title type="text">¿En qué estamos trabajando?</title>
+    <id>http://migasfree.org/blog/2011/2011-09-07-en-que-estamos-trabajando.html</id>
+    <link href="http://migasfree.org/blog/2011/2011-09-07-en-que-estamos-trabajando.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<p>Os avanzamos lo que tenemos previsto tener desarrollado este mes de septiembre:</p>
+<ul>
+<li>Implementar seguridad asimétrica.</li>
+<li>Nueva API (json).</li>
+<li>Nuevo cliente en python (por <a href="https://twitter.com/#!/jact_abcweb" target="_blank" rel="noopener noreferrer">@jact_abcweb</a>).</li>
+<li>Posibilidad de programar en bash/python/perl fallas y propiedades.</li>
+<li>Ejecución de fallas en función de los atributos de los equipos clientes.</li>
+<li>Mejoras en instalación de impresoras.</li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[<p>Os avanzamos lo que tenemos previsto tener desarrollado este mes de septiembre:</p>
+<ul>
+<li>Implementar seguridad asimétrica.</li>
+<li>Nueva API (json).</li>
+<li>Nuevo cliente en python (por <a href="https://twitter.com/#!/jact_abcweb" target="_blank" rel="noopener noreferrer">@jact_abcweb</a>).</li>
+<li>Posibilidad de programar en bash/python/perl fallas y propiedades.</li>
+<li>Ejecución de fallas en función de los atributos de los equipos clientes.</li>
+<li>Mejoras en instalación de impresoras.</li>
+</ul>
+]]></content>
+    <author>
+      <name>agacias</name>
+    </author>
+    <category term="Desarrollo"/>
+    <contributor>
+      <name>agacias</name>
+    </contributor>
+    <published>2011-09-07T21:37:00.000Z</published>
+    <rights>Copyright by agacias</rights>
+  </entry>
+  <entry>
+    <title type="text">Migasfree en la LSWC 2011</title>
+    <id>http://migasfree.org/blog/2011/2011-10-14-migasfree-en-la-lwsc-2011.html</id>
+    <link href="http://migasfree.org/blog/2011/2011-10-14-migasfree-en-la-lwsc-2011.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<p>Jose Antonio Chavarría y Alberto Gacías, desarrolladores de migasfree, hablarán de migasfree en la <a href="https://www.20minutos.es/noticia/1214638/0/" target="_blank" rel="noopener noreferrer">Libre Software World Conference 2011</a> que este año se celebra en Zaragoza los días 9 y 10 de noviembre:</p>]]></summary>
+    <content type="html"><![CDATA[<p>Jose Antonio Chavarría y Alberto Gacías, desarrolladores de migasfree, hablarán de migasfree en la <a href="https://www.20minutos.es/noticia/1214638/0/" target="_blank" rel="noopener noreferrer">Libre Software World Conference 2011</a> que este año se celebra en Zaragoza los días 9 y 10 de noviembre:</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=x5o1Z00GIQM" target="_blank" rel="noopener noreferrer">Migasfree en la Gestión de la Configuración</a></li>
+<li><a href="https://speakerdeck.com/jact/demostracion-de-empaquetado-en-rpm-y-distribucion-de-software-con-migasfree" target="_blank" rel="noopener noreferrer">Demostración de paquetización en RPM y distribución de software con migasfree</a></li>
+</ul>
+]]></content>
+    <author>
+      <name>agacias</name>
+    </author>
+    <category term="Evento"/>
+    <contributor>
+      <name>agacias</name>
+    </contributor>
+    <published>2011-10-14T18:56:00.000Z</published>
+    <rights>Copyright by agacias</rights>
+  </entry>
+  <entry>
+    <title type="text">Charlas de la Libre Software World Conference 2011</title>
+    <id>http://migasfree.org/blog/2011/2011-11-20-charlas-lswc-2011.html</id>
+    <link href="http://migasfree.org/blog/2011/2011-11-20-charlas-lswc-2011.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<p>Como os comentamos, hace pocas fechas estuvimos en la Libre Software World Conference hablando de migasfree.</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>Como os comentamos, hace pocas fechas estuvimos en la Libre Software World Conference hablando de migasfree.</p>
+<!-- more -->
+<p>Fue un placer compartir con los asistentes nuestra experiencia relativa a la administración de escritorios GNU/Linux.</p>
+<p>Además, tuvimos la suerte de conocer, o de reencontrar, personas con las que compartimos un interés común: <strong>el conocimiento libre</strong>.</p>
+<p>Os dejamos las charlas que dimos:</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=x5o1Z00GIQM" target="_blank" rel="noopener noreferrer">Migasfree en la Gestión de la Configuración</a>, por <a href="https://twitter.com/#!/albertogacias" target="_blank" rel="noopener noreferrer">Alberto Gacías</a>.
+<ul>
+<li><a href="http://www.zaragoza.es/contenidos/azlinux/GCS_migasfree.pdf" target="_blank" rel="noopener noreferrer">Charla en formato PDF</a>.</li>
+<li><a href="http://www.zaragoza.es/contenidos/azlinux/GCS_migasfree.odp" target="_blank" rel="noopener noreferrer">Diapositivas de la presentación</a>.</li>
+</ul>
+</li>
+<li><a href="https://speakerdeck.com/jact/demostracion-de-empaquetado-en-rpm-y-distribucion-de-software-con-migasfree" target="_blank" rel="noopener noreferrer">Demostración de paquetización en RPM y distribución de software con migasfree</a>, por <a href="https://twitter.com/#!/jact_abcweb" target="_blank" rel="noopener noreferrer">Jose Antonio Chavarría</a>.
+<ul>
+<li><a href="http://www.zaragoza.es/contenidos/azlinux/rpm_migasfree_lswc_public.tar.gz" target="_blank" rel="noopener noreferrer">Diapositivas y comentarios de la charla</a>.</li>
+</ul>
+</li>
+</ul>
+]]></content>
+    <author>
+      <name>jact</name>
+    </author>
+    <category term="Evento"/>
+    <contributor>
+      <name>jact</name>
+    </contributor>
+    <published>2011-11-20T12:32:00.000Z</published>
+    <rights>Copyright by jact</rights>
+  </entry>
+  <entry>
+    <title type="text">¿Qué hay detrás de la idea de migasfree?</title>
+    <id>http://migasfree.org/blog/2013/2013-05-29-que-hay-detras-idea-migasfree.html</id>
+    <link href="http://migasfree.org/blog/2013/2013-05-29-que-hay-detras-idea-migasfree.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<div class="hint-container tip">
+<p class="hint-container-title">Regla de Oro</p>
+<p>Cualquier cambio en la configuración del software debe ser paquetizado y distribuido de forma centralizada.</p>
+</div>
+<p>Todo lo que no sea instalar programas mediante el gestor de paquetes o el backend, rompe la integridad frente a los cambios de tu sistema.</p>
+]]></summary>
+    <content type="html"><![CDATA[<div class="hint-container tip">
+<p class="hint-container-title">Regla de Oro</p>
+<p>Cualquier cambio en la configuración del software debe ser paquetizado y distribuido de forma centralizada.</p>
+</div>
+<p>Todo lo que no sea instalar programas mediante el gestor de paquetes o el backend, rompe la integridad frente a los cambios de tu sistema.</p>
+<!-- more -->
+<p>El gran aporte del software libre a la industria ha sido precisamente la invención del sistema de paquetería (paquete, repositorio, gestor de paquetes). Y no es para menos, ya que este sistema nos proporciona los dos requisitos necesarios que veíamos anteriormente y que garantizarán la integridad frente a los cambios, es decir:</p>
+<ol>
+<li>El control de dependencias, mediante el gestor de paquetes.</li>
+<li>La auditoría, mediante las consultas a la base de datos a través del backend.</li>
+</ol>
+<p>Migasfree permite planificar la distribución de los cambios.</p>
+<p><strong>Un repositorio de migasfree es simplemente un repositorio estándar más la capacidad de poder especificar cuándo y quién puede acceder a ese repositorio.</strong></p>
+]]></content>
+    <author>
+      <name>jact</name>
+    </author>
+    <category term="Teoría"/>
+    <contributor>
+      <name>jact</name>
+    </contributor>
+    <published>2013-05-29T17:54:00.000Z</published>
+    <rights>Copyright by jact</rights>
+  </entry>
+  <entry>
+    <title type="text">Liberado «Fun with migasfree»</title>
+    <id>http://migasfree.org/blog/2013/2013-06-09-liberado-fun-with-migasfree.html</id>
+    <link href="http://migasfree.org/blog/2013/2013-06-09-liberado-fun-with-migasfree.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<p>Tengo el placer de anunciaros que he liberado lo que llevo escrito de «Fun with migasfree», la documentación de migasfree.</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>Tengo el placer de anunciaros que he liberado lo que llevo escrito de «Fun with migasfree», la documentación de migasfree.</p>
+<!-- more -->
+<p>Podéis verlo en:</p>
+<ul>
+<li><a href="https://fun-with-migasfree.readthedocs.io/_/downloads/es/master/pdf/" target="_blank" rel="noopener noreferrer">Versión PDF</a></li>
+<li><a href="http://fun-with-migasfree.readthedocs.org/" target="_blank" rel="noopener noreferrer">Versión HTML</a></li>
+<li><a href="http://github.com/agacias/fun-with-migasfree" target="_blank" rel="noopener noreferrer">Código fuente</a></li>
+</ul>
+<p>Conforme vaya completando el libro, iré actualizando estos ficheros.</p>
+]]></content>
+    <author>
+      <name>agacias</name>
+    </author>
+    <category term="Tutorial"/>
+    <contributor>
+      <name>agacias</name>
+    </contributor>
+    <published>2013-06-09T09:56:00.000Z</published>
+    <rights>Copyright by agacias</rights>
+  </entry>
+  <entry>
+    <title type="text">¿Las migas con uva pasan mejor?</title>
+    <id>http://migasfree.org/blog/2014/2014-02-19-las-migas-con-uva-pasan-mejor.html</id>
+    <link href="http://migasfree.org/blog/2014/2014-02-19-las-migas-con-uva-pasan-mejor.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<p>A mí personalmente no me gustan con uva, pero… creo que esta es la mejor versión del proyecto (hasta el momento, jejeje). Y aunque los programadores siempre digamos lo mismo una y otra vez, en cada ocasión que logramos publicar una versión de un producto (para justificar así nuestro arduo trabajo 😉), veamos las razones para decirlo esta vez.</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>A mí personalmente no me gustan con uva, pero… creo que esta es la mejor versión del proyecto (hasta el momento, jejeje). Y aunque los programadores siempre digamos lo mismo una y otra vez, en cada ocasión que logramos publicar una versión de un producto (para justificar así nuestro arduo trabajo 😉), veamos las razones para decirlo esta vez.</p>
+<!-- more -->
+<p>Cambios respecto a <strong>migasfree chocolate edition</strong>:</p>
+<ul>
+<li>Open Flash Chart ha sido sustituido por <a href="http://www.flotcharts.org/" target="_blank" rel="noopener noreferrer">Flot</a> (javascript plotting for jQuery)</li>
+<li>Uso de Bootstrap para el diseño de la aplicación:
+<ul>
+<li>adaptación a dispositivos móviles</li>
+<li>look más zen y minimalista</li>
+<li>más espacio disponible para los datos importantes (una única columna central)</li>
+<li>menús desplegables</li>
+<li>mejoras visuales en la información sobre el calendario de los repositorios</li>
+</ul>
+</li>
+<li>Es necesario Django 1.6 para ejecutar migasfree (actualización de <a href="https://github.com/migasfree/django-ajax-selects" target="_blank" rel="noopener noreferrer">django-ajax-selects</a>)</li>
+<li>Selector de versión disponible en todas las páginas</li>
+<li>Alertas visibles (actualizadas con Ajax) en todo momento y mejor clasificadas</li>
+<li>Mejoras en la navegación entre datos relacionados entre sí</li>
+<li>Sólo se almacena el último login en cada ordenador (mejoras en los resultados de las búsquedas)</li>
+<li>Los datos recolectados por los clientes son de sólo lectura</li>
+<li>Se han separado los archivos estáticos (imágenes, hojas de estilo, javascript) de los repositorios y paquetes</li>
+<li>Es posible asignar resultados de fallas a usuarios (y que no aparezcan para todos)</li>
+<li>Se pueden añadir todos los protocolos que se quieran para acceder a los ordenadores remotamente (<code>MIGASFREE_REMOTE_ADMIN_LINK</code>)</li>
+<li>Configuración y administración centralizada de dispositivos (por ahora sólo impresoras)</li>
+</ul>
+<p>Se ha hecho un gran cambio de aspecto a la aplicación (y ya es el segundo de estas características, pero este es el bueno de verdad 😉), con la idea de tener un entorno multidispositivo (PC, tablet, smartphone). Ha sido posible incorporando <a href="http://getbootstrap.com/" target="_blank" rel="noopener noreferrer">Bootstrap</a> al proyecto. Ha quedado una aplicación mucho más usable y resultona (agradable a la vista). Queda pendiente el tema de los submenús desplegables, que en <a href="https://github.com/twbs/bootstrap/pull/6342" target="_blank" rel="noopener noreferrer">móviles no quedan muy usables</a>, pero eso se tratará en una próxima versión.</p>
+<p>Otro gran cambio, aunque no tan visible, es el que hemos hecho respecto a los <em>settings</em> de migasfree en Django. Los hemos <a href="https://code.djangoproject.com/wiki/SplitSettings" target="_blank" rel="noopener noreferrer">separado y clasificado</a> para que sea más sencillo involucrarse en el desarrollo del proyecto.</p>
+<p>También queda pendiente el tema de la gestión de dispositivos (impresoras), aunque se ha dado un nuevo giro al tema. Por ahora sólo está disponible en el servidor de migasfree, por lo que aunque se configure la gestión, los clientes todavía no saben qué hacer con esa información. Tal vez muy pronto se realice la parte que falta. Todavía es un asunto en fase de experimentación, ya que es un cambio en la filosofía de migasfree. Hasta el momento, todos los datos de los ordenadores los proveían los clientes de migasfree, pero los dispositivos se tienen que dar de alta manualmente.</p>
+<p>El próximo reto de <em>migasfree-server</em> es el rendimiento y en ello nos enfocaremos en la próxima versión. Versión que bautizaremos muy pronto en la ya tradicional degustación de migas para celebrar la publicación de la presente <em>release</em>.</p>
+<p>En los próximos días se actualizará la <a href="http://fun-with-migasfree.readthedocs.org/" target="_blank" rel="noopener noreferrer">documentación del proyecto</a> para que recoja todos los cambios hechos en esta versión. Informaremos del progreso en este aspecto.</p>
+<p>Por el momento, no queda otra que ir descubriendo empíricamente todos ellos. ¡Que disfrutéis de <a href="https://github.com/migasfree/migasfree/archive/refs/tags/4.0.zip" target="_blank" rel="noopener noreferrer">migasfree grape edition</a>!</p>
+]]></content>
+    <author>
+      <name>jact</name>
+    </author>
+    <category term="Desarrollo"/>
+    <contributor>
+      <name>jact</name>
+    </contributor>
+    <published>2014-02-19T20:12:00.000Z</published>
+    <rights>Copyright by jact</rights>
+  </entry>
+  <entry>
+    <title type="text">Vendimia 4.1</title>
+    <id>http://migasfree.org/blog/2014/2014-03-04-vendimia-4.1.html</id>
+    <link href="http://migasfree.org/blog/2014/2014-03-04-vendimia-4.1.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<p>Casi 2 semanas después de <a href="/blog/2014/2014-02-19-las-migas-con-uva-pasan-mejor.html" target="blank">liberar la versión 4.0</a>, publicamos <a href="https://github.com/migasfree/migasfree/archive/migasfree-server-4.1.zip" target="_blank" rel="noopener noreferrer">la 4.1</a>.</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>Casi 2 semanas después de <a href="/blog/2014/2014-02-19-las-migas-con-uva-pasan-mejor.html" target="blank">liberar la versión 4.0</a>, publicamos <a href="https://github.com/migasfree/migasfree/archive/migasfree-server-4.1.zip" target="_blank" rel="noopener noreferrer">la 4.1</a>.</p>
+<!-- more -->
+<p>Entre la multitud de incidencias resueltas en este período de tiempo, destacamos las siguientes:</p>
+<ul>
+<li>Se ha solventado el problema de los submenús en dispositivos táctiles, quitándolos y reorganizando las opciones en nuevos menús de primer nivel.</li>
+<li>También se han hecho mejoras de rendimiento, sobre todo en las estadísticas. Ahora se hacen menos consultas a la base de datos para recuperar los datos.</li>
+<li>Otra mejora importante ha sido la incorporación de enlaces relacionados en algunos elementos clave como ordenadores, atributos y versiones.</li>
+<li>Parece que por fin hemos dado con el quid del <strong>UUID</strong> de los ordenadores para no duplicar equipos.</li>
+<li>Se ha actualizado la documentación en el <a href="http://fun-with-migasfree.readthedocs.org/" target="_blank" rel="noopener noreferrer">magnífico libro Fun with Migasfree</a>.</li>
+</ul>
+]]></content>
+    <author>
+      <name>jact</name>
+    </author>
+    <category term="Desarrollo"/>
+    <contributor>
+      <name>jact</name>
+    </contributor>
+    <published>2014-03-04T22:11:00.000Z</published>
+    <rights>Copyright by jact</rights>
+  </entry>
+  <entry>
+    <title type="text">Echando la vista atrás</title>
+    <id>http://migasfree.org/blog/2014/2014-09-09-echando-la-vista-atras.html</id>
+    <link href="http://migasfree.org/blog/2014/2014-09-09-echando-la-vista-atras.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<p>Ya han pasado más de 4 años desde que <a href="http://twitter.com/albertogacias" target="_blank" rel="noopener noreferrer">Alberto Gacías</a> iniciara la andadura de <a href="https://github.com/migasfree" target="_blank" rel="noopener noreferrer">este proyecto en abierto</a>. El embrión que era por aquel entonces ha sufrido muchos y enormes cambios (aunque mantiene la esencia intacta) y ha evolucionado para convertirse en una potente herramienta administrativa para controlar la configuración software de los equipos de las organizaciones.</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>Ya han pasado más de 4 años desde que <a href="http://twitter.com/albertogacias" target="_blank" rel="noopener noreferrer">Alberto Gacías</a> iniciara la andadura de <a href="https://github.com/migasfree" target="_blank" rel="noopener noreferrer">este proyecto en abierto</a>. El embrión que era por aquel entonces ha sufrido muchos y enormes cambios (aunque mantiene la esencia intacta) y ha evolucionado para convertirse en una potente herramienta administrativa para controlar la configuración software de los equipos de las organizaciones.</p>
+<!-- more -->
+<p>En un <a href="https://web.archive.org/web/20210419155027/http://blackshell.usebox.net/archive/los-departamentos-tic-y-linux.html" target="_blank" rel="noopener noreferrer">artículo de agosto de 2010</a>, se mencionaban una serie de características necesarias e imprescindibles para la gestión de grandes parques de ordenadores. En aquel año, el autor hablaba de aplicaciones como <a href="http://www.canonical.com/enterprise-services/landscape" target="_blank" rel="noopener noreferrer">Landscape</a> o <a href="http://spacewalk.redhat.com/" target="_blank" rel="noopener noreferrer">Spacewalk</a>. Repasemos aquella lista para comprobar si migasfree puede competir con Canonical y Red Hat:</p>
+<ul>
+<li>
+<p><strong>Inventariar las máquinas, tanto a nivel de software como hardware, con estadísticas de uso de las aplicaciones.</strong><br>
+Migasfree echa mano de la base de datos del sistema de paquetería para inventariar el software y mantener un histórico de los cambios que se han producido en los equipos.</p>
+<p>Para el hardware, usa <a href="http://ezix.org/project/wiki/HardwareLiSter" target="_blank" rel="noopener noreferrer">lshw</a> para recolectar los modelos de las piezas físicas. Además, convierte estos resultados en propiedades que luego pueden servir para asignar un determinado software a equipos que tengan un componente específico (como un controlador mejorado para un modelo especial de tarjeta gráfica).</p>
+<p>Sobre las estadísticas de uso de las aplicaciones todavía no se ha hecho nada.</p>
+</li>
+<li>
+<p><strong>Actualización de aplicaciones, parches de corrección de errores y seguridad, pudiendo planificar las acciones (temporalmente, por grupos, etc), y además automatizarlas.</strong><br>
+Este es uno de los aspectos esenciales de migasfree. Al basarse en el sistema de paquetería de las distribuciones Linux, es muy fácil actualizar aplicaciones en los equipos. Esto unido al <a href="https://fun-with-migasfree.readthedocs.io/es/master/part03.html#calendarios" target="_blank" rel="noopener noreferrer">sistema de distribución fundamentado en demoras de tiempo</a>, cumple con creces este apartado.</p>
+</li>
+<li>
+<p><strong>Gestión de configuración remota y centralizada, a nivel de sistema y de aplicaciones principales.</strong><br>
+Aunque migasfree no es directamente la herramienta encargada de realizar estas acciones, sí que es la que se utiliza para distribuir los cambios.</p>
+<p>La filosofía en la que se apoya migasfree es: zapatero a tus zapatos. Es decir, que cada cual se dedique a lo que mejor sabe hacer. Si ya existe un sistema de paquetería que mantiene la integridad de los equipos Linux, que sea este sistema quien se encargue de hacer los cambios en la configuración software. Todo cambio, ya sea a nivel del sistema operativo o de una aplicación específica, es necesario empaquetarlo para que el sistema pueda conservar su integridad. Es después, con migasfree, cuando se distribuye a los equipos y se puede obtener un <em>feedback</em> si la operación se ha completado o no correctamente.</p>
+</li>
+<li>
+<p><strong>Aprovisionamiento de estaciones nuevas.</strong><br>
+Todo lo que necesita el servidor migasfree para agregar una nueva estación de trabajo en su sistema es que el cliente migasfree se conecte al servidor. Esto se consigue instalando el paquete del cliente y configurando cuando se quiere ejecutar periódicamente (lo cual se puede hacer con otro paquete).</p>
+<p>Y ya está. Migasfree también se basa en el concepto de <strong>configuración cero</strong> y es capaz de recolectar muchos datos de los equipos automáticamente.</p>
+</li>
+<li>
+<p><strong>Despliegue de aplicaciones.</strong><br>
+Otro aspecto muy relevante en la gestión automatizada de equipos es poder ordenar la instalación o desinstalación de aplicaciones. En <a href="https://fun-with-migasfree.readthedocs.io/es/master/part03.html#serverdeployment" target="_blank" rel="noopener noreferrer">cada repositorio que se crea en migasfree</a>, se pueden especificar qué paquetes es obligatorio instalar o desinstalar de los equipos. Es decir, además de poner como disponible cierto software se pueden transmitir órdenes al sistema de paquetería para que agrege o elimine paquetes.</p>
+</li>
+<li>
+<p><strong>Soporte al usuario, vía mensajería instantánea y escritorio remoto.</strong><br>
+Si hemos quedado en que todo cambio en la configuración software se hace a través de paquetes, cumplir este requisito es tan sencillo como hacer los paquetes necesarios para configurar estas herramientas (u otras como conexiones por SSH) y distribuirlas en los equipos con migasfree. Además, con este sistema, se podrían cambiar puertos de conexión o contraseñas para los servicios muy fácilmente y de manera automatizada.</p>
+</li>
+<li>
+<p><strong>La posibilidad de realizar todas las acciones individualmente o por grupos.</strong><br>
+Migasfree recolecta mucha información automáticamente de los equipos cliente a través de las <a href="https://fun-with-migasfree.readthedocs.io/es/master/part03.html#formulas" target="_blank" rel="noopener noreferrer">propiedades</a>, que tienen la virtud añadida de ser programables.</p>
+<p>Por si esto fuera poco, también existen las <a href="https://fun-with-migasfree.readthedocs.io/es/master/part03.html#etiquetas" target="_blank" rel="noopener noreferrer">etiquetas</a> para asignar atributos manualmente a ciertos equipos (por ejemplo, que estén en una determinada ubicación o que requieran una determinada funcionalidad).</p>
+<p>Con todo este conjunto de datos, se puede realizar la asignación de software sobre grupos muy concretos de ordenadores.</p>
+</li>
+</ul>
+]]></content>
+    <author>
+      <name>jact</name>
+    </author>
+    <category term="Teoría"/>
+    <contributor>
+      <name>jact</name>
+    </contributor>
+    <published>2014-09-09T12:07:00.000Z</published>
+    <rights>Copyright by jact</rights>
+  </entry>
+  <entry>
+    <title type="text">migasfree en la librecon 2014</title>
+    <id>http://migasfree.org/blog/2014/2014-11-07-migasfree-en-la-librecon-2014.html</id>
+    <link href="http://migasfree.org/blog/2014/2014-11-07-migasfree-en-la-librecon-2014.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<p>La <a href="https://web.archive.org/web/20141102083103/http://www.librecon.io/" target="_blank" rel="noopener noreferrer">librecon 2014</a> son dos jornadas de conferencias, casos de éxito, keynotes, charlas y talleres, con las últimas tendencias del sector de las tecnologías abiertas.</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>La <a href="https://web.archive.org/web/20141102083103/http://www.librecon.io/" target="_blank" rel="noopener noreferrer">librecon 2014</a> son dos jornadas de conferencias, casos de éxito, keynotes, charlas y talleres, con las últimas tendencias del sector de las tecnologías abiertas.</p>
+<!-- more -->
+<p>Se celebrará en Bilbao los días 11 y 12 de noviembre.</p>
+<p><a href="https://twitter.com/jact_abcweb" target="_blank" rel="noopener noreferrer">Jose Antonio Chavarría</a>, desarrollador de migasfree, dará una <a href="https://speakerdeck.com/jact/administrando-tu-parque-de-ordenadores-linux-con-migasfree" target="_blank" rel="noopener noreferrer">charla sobre las características que debe reunir un sistema de gestión de sistemas y cómo migasfree afronta cada una de ellas</a>. Además, nos dará consejos para implantar migasfree en una organización.</p>
+<p>Si vas a la librecon 2014, y te interesan estos temas, no dejes pasar la oportunidad de oír a Jose Antonio.</p>
+<h2> Actualización (2014-11-21)</h2>
+<p>Aquí tenéis la presentación:</p>
+<div style="text-align:center">
+</div>
+]]></content>
+    <author>
+      <name>agacias</name>
+    </author>
+    <category term="Evento"/>
+    <contributor>
+      <name>agacias</name>
+    </contributor>
+    <published>2014-11-07T21:49:00.000Z</published>
+    <rights>Copyright by agacias</rights>
+  </entry>
+  <entry>
+    <title type="text">Lavado de cara</title>
+    <id>http://migasfree.org/blog/2014/2014-11-23-lavado-de-cara.html</id>
+    <link href="http://migasfree.org/blog/2014/2014-11-23-lavado-de-cara.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<p>Esta vez le tocaba a este <em>blog</em> que estás leyendo. Después de 3 años con el mismo aspecto, era hora de cambiar y de aplicar algunas lecciones aprendidas.</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>Esta vez le tocaba a este <em>blog</em> que estás leyendo. Después de 3 años con el mismo aspecto, era hora de cambiar y de aplicar algunas lecciones aprendidas.</p>
+<!-- more -->
+<p>Necesitábamos un nuevo <em>look</em>, más acorde con los tiempos que corren y adaptable a los nuevos dispositivos que tan comunes se han vuelto estos últimos años.</p>
+<p>Para el cambio hemos usado:</p>
+<ul>
+<li>Una plantilla para <a href="http://wordpress.org/" target="_blank" rel="noopener noreferrer">WordPress</a> basada en <a href="http://getbootstrap.com/" target="_blank" rel="noopener noreferrer">Bootstrap</a>. La elegida ha sido <a href="http://320press.com/wpbs/" target="_blank" rel="noopener noreferrer">WP-Bootstrap</a>.</li>
+<li>Un tema libre para Bootstrap. Y la elección ha sido <a href="http://bootswatch.com/united/" target="_blank" rel="noopener noreferrer">United</a>.</li>
+</ul>
+<p>Aprovechando el uso de Bootstrap, hemos adaptado el contenido de las páginas estáticas para darles un aspecto más atractivo. Como muestra, puedes ver la página <a href="/team">About</a>.</p>
+<p>Para comprobar el resultado final en distintas resoluciones de pantalla, hemos hecho pruebas con la herramienta <em>online</em> <a href="http://my.weblogtemplates.net/responsive/check.php?link=migasfree.org" target="_blank" rel="noopener noreferrer">Responsive Web Design Testing</a>.</p>
+<p>Además, también estamos de estreno en la <a href="http://en.wikipedia.org/wiki/Migasfree" target="_blank" rel="noopener noreferrer">Wikipedia</a>.</p>
+]]></content>
+    <author>
+      <name>jact</name>
+    </author>
+    <category term="Noticia"/>
+    <contributor>
+      <name>jact</name>
+    </contributor>
+    <published>2014-11-23T12:25:00.000Z</published>
+    <rights>Copyright by jact</rights>
+  </entry>
+  <entry>
+    <title type="text">El meollo de la cuestión</title>
+    <id>http://migasfree.org/blog/2014/2014-11-26-meollo-cuestion.html</id>
+    <link href="http://migasfree.org/blog/2014/2014-11-26-meollo-cuestion.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<div style="text-align:center">
+<figure><img src="/img/scm_process.png" alt="Ciclo petición, cambio, liberación" tabindex="0" loading="lazy"><figcaption>Ciclo petición, cambio, liberación</figcaption></figure>
+</div>
+<p>Este es el resumen del proceso  en tu organización con migasfree:</p>
+<ol>
+<li>Un usuario hace un petición de cambio.</li>
+<li>Un desarrollador programa el cambio de la configuración software dentro de un paquete y lo sube a un servidor migasfree.</li>
+<li>La liberación es realizada por el servidor migasfree a los ordenadores requeridos.</li>
+</ol>]]></summary>
+    <content type="html"><![CDATA[<div style="text-align:center">
+<figure><img src="/img/scm_process.png" alt="Ciclo petición, cambio, liberación" tabindex="0" loading="lazy"><figcaption>Ciclo petición, cambio, liberación</figcaption></figure>
+</div>
+<p>Este es el resumen del proceso  en tu organización con migasfree:</p>
+<ol>
+<li>Un usuario hace un petición de cambio.</li>
+<li>Un desarrollador programa el cambio de la configuración software dentro de un paquete y lo sube a un servidor migasfree.</li>
+<li>La liberación es realizada por el servidor migasfree a los ordenadores requeridos.</li>
+</ol>
+<p>Y, como se puede ver en el gráfico, migasfree tan sólo aparece al final del proceso, en la fase de liberación.</p>
+]]></content>
+    <author>
+      <name>jact</name>
+    </author>
+    <category term="Teoría"/>
+    <contributor>
+      <name>jact</name>
+    </contributor>
+    <published>2014-11-26T20:36:00.000Z</published>
+    <rights>Copyright by jact</rights>
+  </entry>
+  <entry>
+    <title type="text">Nullius in verba</title>
+    <id>http://migasfree.org/blog/2015/2015-04-10-nullius-in-verba.html</id>
+    <link href="http://migasfree.org/blog/2015/2015-04-10-nullius-in-verba.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<p>Que significa <a href="https://royalsociety.org/about-us/history/" target="_blank" rel="noopener noreferrer">cuestiónalo todo</a>. Cuestiona lo que tienes alrededor pero, sobre todo, cuestiónate a ti mismo, lo que haces y cómo lo haces. Es reinventarse a sí mismo, mejorando cada día con lo que aprendes por la experiencia adquirida y por la experencia que proporcionan los conocimientos de otras personas.</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>Que significa <a href="https://royalsociety.org/about-us/history/" target="_blank" rel="noopener noreferrer">cuestiónalo todo</a>. Cuestiona lo que tienes alrededor pero, sobre todo, cuestiónate a ti mismo, lo que haces y cómo lo haces. Es reinventarse a sí mismo, mejorando cada día con lo que aprendes por la experiencia adquirida y por la experencia que proporcionan los conocimientos de otras personas.</p>
+<!-- more -->
+<p>Con esa intención, desde hace unos meses, estamos construyendo un nuevo migasfree. Que se apoya en conceptos que funcionan en lo que ya está hecho, pero que le da unas cuantas vueltas de tuerca a otros que, a pesar de ser funcionales, no dan la suficiente versatilidad a un proyecto de esta envergadura.</p>
+<p>Esta idea de reinvención germinó en Bilbao, el pasado noviembre, mientras asistía a la <a href="http://www.librecon.io/" target="_blank" rel="noopener noreferrer">LibreCon</a>. Allí me di cuenta de dos cosas. La primera, que el concepto de migasfree, aun siendo bueno, no terminaba de calar entre el público por su aparente complejidad. Y la segunda y más importante, que encontré la pista para que fuera más atrayente. Esta pista se basa en algo muy sencillo: deja que otros jueguen con tu aplicación para que la puedan extender y adaptar.</p>
+<p>Y para que otros puedan jugar con migasfree, había que facilitar las reglas de juego. Esta idea me llegó durante la charla de <a href="http://kaleidos.net/" target="_blank" rel="noopener noreferrer">Kaleidos</a> sobre <a href="https://taiga.io/" target="_blank" rel="noopener noreferrer">Taiga</a>. Habían construido su proyecto dividiéndolo en capas, en otros proyectos independientes pero que se comunicaban con el principal a través de una REST API. Esto posibilita a cualquiera que conozca esta API, interactuar y explotar los datos de la forma en que más le convenga, posibilitando que la comunidad se sienta más atraida porque pueden construir otras piezas a partir de un núcleo sólido. El concepto no es revolucionario, pero de repente, comprendí que eso mismo era lo que le faltaba a migasfree.</p>
+<p>Durante 5 años, migasfree se ha ido construyendo con parches sobre parches alrededor de una idea inicial y hay algunas cosas que ya no se aguantan sobre esos inestables andamios. Además, para construir un núcleo sólido había que clarificar y repensar algunos conceptos clave. Los tres más importantes tienen que ver con la semántica y la importancia de escoger nombres adecuados.</p>
+<ul>
+<li>
+<p><strong>Repositorio</strong> evoluciona a <strong>liberación</strong>. La denominación de repositorio resultaba confusa porque se podía confundir con los repositorios estáticos de cualquier distribución Linux. Sin embargo, en migasfree se le está dando otra vertiente mucho más dinámica tanto en el eje temporal como en funcionalidades. Por esto se cambia a liberación: se distribuyen cambios de software (instalación/actualización/desinstalación) a equipos según unos atributos y un calendario.</p>
+</li>
+<li>
+<p>El concepto de <strong>versión</strong> ha sido cambiado por el de <strong>proyecto</strong>. Versión daba una idea de evolución y de posibilidad de intercambio de los equipos entre otras versiones, pero la idea de proyecto es algo más estanco y deja claro que cada ordenador pertenece a un solo proyecto y no a otro. Por proyecto se entiende una distribución base (como Fedora 21 o Ubuntu 14.04) más una capa de personalización para una organización concreta.</p>
+</li>
+<li>
+<p><strong>Actualización</strong> pasa a ser <strong>sincronización</strong>. La idea de actualización es demasiado genérica ya que cambios en los equipos puede haber muchos. La idea de sincronización es mucho más concreta ya que refleja el conjunto de operaciones que realizan cliente y servidor para dejar en condiciones adecuadas el puesto de trabajo.</p>
+</li>
+</ul>
+<p>Pero hay muchos más cambios. El más relevante se refiere precisamente a la API que pondrá el núcleo (llamado a partir de ahora <a href="https://github.com/migasfree/migasfree-backend" target="_blank" rel="noopener noreferrer">migasfree-backend</a>) a disposición de quien la quiera usar. Una API mucho más amplia y basada en <a href="http://es.wikipedia.org/wiki/Representational_State_Transfer" target="_blank" rel="noopener noreferrer">REST</a>. Otro cambio, también significativo, es la nueva escalabilidad que se va a conseguir al usar un conjunto de tecnologías: <a href="http://www.celeryproject.org/" target="_blank" rel="noopener noreferrer">Celery</a>, <a href="https://redis.io/" target="_blank" rel="noopener noreferrer">Redis</a>, <a href="http://circus.readthedocs.org/" target="_blank" rel="noopener noreferrer">Circus</a>, <a href="https://chaussette.readthedocs.org/" target="_blank" rel="noopener noreferrer">Chaussette</a>, <a href="http://wiki.nginx.org/" target="_blank" rel="noopener noreferrer">Nginx</a>, <a href="http://www.haproxy.org/" target="_blank" rel="noopener noreferrer">HAProxy</a>…</p>
+<div style="text-align:center">
+<figure><img src="/img/scaling_migasfree.png" alt="Escalabilidad de migasfree" tabindex="0" loading="lazy"><figcaption>Escalabilidad de migasfree</figcaption></figure>
+</div>
+<p>El trabajo dista mucho de estar acabado, pero tenemos claro que esta es la dirección sobre la que tenemos que seguir avanzando. Tampoco sabemos qué pasará cuando tengamos una versión funcional y se quiera implantar sobre un migasfree actual. Será algo que nos plantearemos en su momento. El protocolo entre cliente y servidor ha cambiado sustancialmente y, aunque es trivial cambiar los clientes, habrá que pensar muy bien cómo actualizar el servidor.</p>
+<p>Cuando hayamos encauzado todos estos cambios, migasfree habrá ascendido de categoría y estará en condiciones de ser usado en organizaciones muy grandes (con más de 10 mil equipos). Además, dará la libertad de programar clientes para cualquier plataforma imaginable y frontends en cualquier tecnología que se quiera. Tan solo tendrán que seguir la API proporcionada por <strong>migasfree-backend</strong> y añadir algún nuevo  si fuera necesario.</p>
+]]></content>
+    <author>
+      <name>jact</name>
+    </author>
+    <category term="Desarrollo"/>
+    <category term="Teoría"/>
+    <contributor>
+      <name>jact</name>
+    </contributor>
+    <published>2015-04-10T19:44:00.000Z</published>
+    <rights>Copyright by jact</rights>
+  </entry>
+  <entry>
+    <title type="text">Cómo conseguir acceso remoto a los ordenadores desde la aplicación web de migasfree</title>
+    <id>http://migasfree.org/blog/2016/2016-03-16-acceso-remoto-ordenadores.html</id>
+    <link href="http://migasfree.org/blog/2016/2016-03-16-acceso-remoto-ordenadores.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<p>En la documentación del proyecto, se menciona de pasada el parámetro <code>MIGASFREE_REMOTE_ADMIN_LINK</code>, describiendo brevemente cómo configurar el acceso por  y  a los equipos, pero sin explicar cómo conseguir que esos protocolos sean accesibles directamente desde nuestro navegador web.</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>En la documentación del proyecto, se menciona de pasada el parámetro <code>MIGASFREE_REMOTE_ADMIN_LINK</code>, describiendo brevemente cómo configurar el acceso por  y  a los equipos, pero sin explicar cómo conseguir que esos protocolos sean accesibles directamente desde nuestro navegador web.</p>
+<!-- more -->
+<p>En el siguiente artículo vamos a sacarle más funcionalidades a este parámetro de configuración y a narrar cómo configurar nuestro entorno (se entenderá que es una máquina con Linux) para obtener un acceso directo a los protocolos desde el navegador (Firefox, Chrome/Chromium).</p>
+<h2> En el servidor migasfree</h2>
+<p>Para comenzar, tendremos que configurar adecuadamente el parámetro en el archivo <code>/etc/migasfree-server/settings.py</code> de nuestro servidor migasfree. Un ejemplo, podría ser el siguiente:</p>
+<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>Para que los protocolos sean «personalizados» y no causen conflictos con otros que pueden tener otra configuración en los sistemas, he preferido anteponerles la letra «m» (de migasfree 😉).</p>
+<p>Tras realizar los cambios, deberemos hacer que el servidor web relea la configuración para que se apliquen dichos cambios.</p>
+<p>Como se comenta en el libro, después de activar este parámetro, cada vez que se represente un ordenador en la aplicación web de migasfree, tendremos disponibles nuevas acciones que vendrán indicadas por los nombres de los protocolos. Siguiendo el ejemplo serían: <code>mvnc</code>, <code>mping</code>, <code>mssh</code> y <code>mupdate</code>. Eso sí, por mucho que pulsemos sobre ellos en el interfaz, no van a realizar todavía ninguna acción, ya que todavía falta por configurar la parte cliente (nuestra estación de trabajo que se conecta al servidor), para obtener las funcionalidades perseguidas.</p>
+<h2> En nuestro ordenador cliente</h2>
+<p>Creamos en primer lugar el fichero <code>/usr/bin/migasfree-protocols</code>, con el siguiente contenido:</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>En este fichero, que deberá tener permisos de ejecución, se describe qué hacer con cada uno de los protocolos. En este ejemplo son necesarias las utilidades <code>ssh</code> y <code>vncviewer</code>, pero se podrían cambiar por otras (al igual que <code>gnome-terminal</code>), dependiendo de nuestra distribución Linux.</p>
+<p>Ahora sólo falta decirle al navegador qué debe hacer cuando se encuentre con los protocolos. El proceso va a diferir según el navegador web que usemos.</p>
+<h3> Chrome/Chromium</h3>
+<p>Tenemos que configurar la asociación de protocolos a nivel de entorno gráfico. Para ello, crearemos el fichero <code>/usr/share/applications/migasfree-protocols.desktop</code>:</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Como este lanzador sólo tiene fines de asociación de <a href="https://help.ubuntu.com/community/AddingMimeTypes" target="_blank" rel="noopener noreferrer">MimeTypes</a>, no se mostrará en el menú de aplicaciones (<code>NoDisplay=true</code>), por lo que no es necesario que tenga asociado un icono o las categorías definidas.</p>
+<p>Después, sólo queda actualizar la base de datos de lanzadores y <em>mimetypes</em> mediante los comandos (con un usuario con privilegios de root):</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><h3> Firefox</h3>
+<p>Para este navegador, además del paso anterior, tendremos que crear el fichero <code>/usr/lib/firefox/defaults/pref/migasfree.js</code> con este contenido:</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Y una vez que volvamos a iniciar el navegador ya tendremos disponible el comportamiento esperado.</p>
+<h2> Corolario</h2>
+<p>Como puede verse, las posibilidades son amplias y van a depender de nuestro entorno particular para adecuarlo a unas necesidades determinadas. Es por ello que desde el proyecto migasfree no se ha creado un paquete genérico para cubrir esta funcionalidad.</p>
+<p>Se deja como ejercicio práctico para cada organización el crear un paquete a medida con los protocolos que allí se consideren prácticos y realizar la configuración adecuada para sus entornos de explotación (navegadores) de la aplicación web de migasfree.</p>
+<h2> Actualización (2018-03-02)</h2>
+<p>A partir de la versión <code>4.14</code> del servidor migasfree, el parámetro <code>MIGASFREE_REMOTE_ADMIN_LINK</code> se convierte en lista:</p>
+<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content>
+    <author>
+      <name>jact</name>
+    </author>
+    <category term="Tutorial"/>
+    <contributor>
+      <name>jact</name>
+    </contributor>
+    <published>2016-03-16T19:38:00.000Z</published>
+    <rights>Copyright by jact</rights>
+  </entry>
+  <entry>
+    <title type="text">El plan maestro</title>
+    <id>http://migasfree.org/blog/2016/2016-05-25-el-plan-maestro.html</id>
+    <link href="http://migasfree.org/blog/2016/2016-05-25-el-plan-maestro.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<div style="text-align:center">
+<figure><img src="/img/patinete.jpg" alt="migasfree actual" tabindex="0" loading="lazy"><figcaption>migasfree actual</figcaption></figure>
+</div>
+<p>A principios del año 2015, comencé el <a href="/blog/2015/2015-04-10-nullius-in-verba">proyecto migasfree-backend</a> con la idea de redefinir el servidor migasfree. Enforcarlo hacia una solución escalable (con alta disponibilidad) y fácilmente explotable a través de una <a href="http://www.restapitutorial.com/" target="_blank" rel="noopener noreferrer">API REST</a>.</p>]]></summary>
+    <content type="html"><![CDATA[<div style="text-align:center">
+<figure><img src="/img/patinete.jpg" alt="migasfree actual" tabindex="0" loading="lazy"><figcaption>migasfree actual</figcaption></figure>
+</div>
+<p>A principios del año 2015, comencé el <a href="/blog/2015/2015-04-10-nullius-in-verba">proyecto migasfree-backend</a> con la idea de redefinir el servidor migasfree. Enforcarlo hacia una solución escalable (con alta disponibilidad) y fácilmente explotable a través de una <a href="http://www.restapitutorial.com/" target="_blank" rel="noopener noreferrer">API REST</a>.</p>
+<p>Después de unos meses de trabajo, teníamos un prototipo bastante prometedor para empezar a depurar y perfilar. Venía con un nuevo protocolo de comunicación entre cliente y servidor que era a la vez cifrado y autenticado gracias a la tecnología <a href="https://jwt.io/" target="_blank" rel="noopener noreferrer"></a>, con un servicio de tareas en segundo plano gracias a <a href="http://www.celeryproject.org/" target="_blank" rel="noopener noreferrer">Celery</a> y <a href="http://redis.io/" target="_blank" rel="noopener noreferrer">Redis</a> y con muchos cambios en el modelo de datos de la aplicación.</p>
+<p>Era demasiado revolucionario y rompedor con la versión del servidor que teníamos en producción. Por eso se nos planteaba el reto de cómo hacer la transición entre uno y otro. Dos eran los escollos más importantes para dar el salto:</p>
+<ol>
+<li>Qué hacer con los clientes antiguos que accederían al nuevo servidor.</li>
+<li>Realizar una aplicación de  (<strong>migasfree-frontend</strong>) para explotar los datos del nuevo servidor a través de la API REST.</li>
+</ol>
+<p>Tras darle multitud de vueltas, hemos llegado a la conclusión de que la mejor forma de ir afrontando estos cambios tan radicales, es ir haciéndolos de manera progresiva. Para ello, en breve empezaremos a desarrollar la edición <em>mushrooms</em> del servidor de migasfree. Será la versión 5 y empezará a cambiar el modelo de datos para ir encaminándolo hacia el que tiene <a href="https://github.com/migasfree/migasfree-backend" target="_blank" rel="noopener noreferrer">migasfree-backend</a>.</p>
+<p>Vendrá también con dos protocolos de comunicación para los clientes: el actual y el nuevo basado en . De esta forma, esta versión 5 se convierte en una versión de transición entre lo que hay actualmente en producción y lo que queremos que se convierta la <em>suite migasfree</em>.</p>
+<p>Tenemos previsto que en la versión 6 (denominada extraoficialmente como <em>liver</em>), se elimine todo el código de compatibilidad que mantendremos en la versión 5 (tanto de protocolo de comunicación como de interfaz de explotación de datos). Para cuando llegue a las pantallas la versión 6, tendrá que estar listo el proyecto <strong>migasfree-frontend</strong> para consumir la API REST.</p>
+<p>Seguramente, el proyecto <strong>migasfree-backend</strong> jamás verá la luz como un producto en producción. Sin embargo, nos ha venido que ni pintado para reflexionar sobre ideas nuevas sin tener que arrastrar lastres del pasado.</p>
+<div style="text-align:center">
+<figure><img src="/img/race_car.jpg" alt="el migasfree que viene" tabindex="0" loading="lazy"><figcaption>el migasfree que viene</figcaption></figure>
+</div>
+<p>Nuestro deseo, con los próximos cambios que se avecinan, es convertir nuestro patinete (la versión actual) en un auténtico coche de carreras 😉.</p>
+]]></content>
+    <author>
+      <name>jact</name>
+    </author>
+    <category term="Desarrollo"/>
+    <category term="Noticia"/>
+    <category term="Teoría"/>
+    <contributor>
+      <name>jact</name>
+    </contributor>
+    <published>2016-05-25T17:24:00.000Z</published>
+    <rights>Copyright by jact</rights>
+  </entry>
+  <entry>
+    <title type="text">Vuelta al cole</title>
+    <id>http://migasfree.org/blog/2016/2016-10-14-vuelta-al-cole.html</id>
+    <link href="http://migasfree.org/blog/2016/2016-10-14-vuelta-al-cole.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<p>Los buenos estudiantes, aprovechan el verano para repasar los conceptos aprendidos e iniciar con ansias renovadas y la mente preparada el próximo curso académico.</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>Los buenos estudiantes, aprovechan el verano para repasar los conceptos aprendidos e iniciar con ansias renovadas y la mente preparada el próximo curso académico.</p>
+<!-- more -->
+<p>Así, migasfree, no ha descansado este verano y tenemos preparada una nueva versión que viene con importantes mejoras de rendimiento y nuevas características.</p>
+<p>Una de las carencias que tenía hasta ahora el proyecto, era la explotación efectiva de los datos que recoge de los clientes. Las estadísticas han sido siempre demasiado básicas y han tenido problemas de rendimiento. Hemos logrado disminuir 5 veces el tiempo que costaba mostrar la gráfica de ordenadores actualizados por mes. Además, hemos incluido datos tabulares en las estadísticas temporales para que sean exportables a otras herramientas.</p>
+<p>Pero la revolución en cuanto a representación de la información se refiere, viene de la mano de la nueva página de sucesos de un ordenador. Sobre un calendario, desde la fecha de entrada del equipo en el servidor, se pintan las actualizaciones, errores, fallas, migraciones y registros de estado. De un vistazo, sobre todo con las actualizaciones, se puede ver si la máquina en cuestión se utiliza de acuerdo al uso estimado por la organización o hay grandes lagunas sin conexiones al servidor.</p>
+<div style="text-align:center">
+<figure><img src="/img/sucesos.png" alt="Sucesos de un equipo" tabindex="0" loading="lazy"><figcaption>Sucesos de un equipo</figcaption></figure>
+</div>
+<p>En esta versión de migasfree también <a href="https://github.com/migasfree/migasfree/milestone/6?closed=1" target="_blank" rel="noopener noreferrer">se han corregido algunos bugs y se han hecho mejoras al apartado de instalación de dispositivos</a>.</p>
+<p>Un verano de trabajo intenso que tendrá su recompensa al empezar con buen pie este curso académico.</p>
+]]></content>
+    <author>
+      <name>jact</name>
+    </author>
+    <category term="Desarrollo"/>
+    <category term="Noticia"/>
+    <contributor>
+      <name>jact</name>
+    </contributor>
+    <published>2016-10-14T08:24:00.000Z</published>
+    <rights>Copyright by jact</rights>
+  </entry>
+  <entry>
+    <title type="text">La simulación de la sincronización</title>
+    <id>http://migasfree.org/blog/2017/2017-03-10-simulacion-sincronizacion.html</id>
+    <link href="http://migasfree.org/blog/2017/2017-03-10-simulacion-sincronizacion.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<p>Más bien parece el <a href="https://es.wikipedia.org/wiki/Anexo:Episodios_de_The_Big_Bang_Theory" target="_blank" rel="noopener noreferrer">título de otro capítulo de The Big Bang Theory</a>, pero en realidad es una nueva funcionalidad de la <a href="https://github.com/migasfree/migasfree/releases/tag/4.13" target="_blank" rel="noopener noreferrer">versión 4.13 del servidor migasfree</a>.</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>Más bien parece el <a href="https://es.wikipedia.org/wiki/Anexo:Episodios_de_The_Big_Bang_Theory" target="_blank" rel="noopener noreferrer">título de otro capítulo de The Big Bang Theory</a>, pero en realidad es una nueva funcionalidad de la <a href="https://github.com/migasfree/migasfree/releases/tag/4.13" target="_blank" rel="noopener noreferrer">versión 4.13 del servidor migasfree</a>.</p>
+<!-- more -->
+<div style="text-align:center">
+<figure><img src="/img/migasfree_homepage.png" alt="Página de inicio de la versión 4.13" tabindex="0" loading="lazy"><figcaption>Página de inicio de la versión 4.13</figcaption></figure>
+</div>
+<p>En total, <a href="https://github.com/migasfree/migasfree/milestone/8?closed=1" target="_blank" rel="noopener noreferrer">5 meses de trabajo y 23 incidencias resueltas</a>, comprenden esta nueva versión del servidor. Versión que se caracteriza por traer más características inéditas que correcciones de bugs. Entre ellas, destacaría:</p>
+<ul>
+<li>
+<p><strong>Página de inicio de la aplicación</strong>, explicando qué se puede esperar de esta solución y con enlaces relacionados a este <em>blog</em>, a la <a href="http://fun-with-migasfree.readthedocs.io/" target="_blank" rel="noopener noreferrer">documentación del proyecto</a>, al <a href="https://github.com/migasfree/migasfree/" target="_blank" rel="noopener noreferrer">código fuente</a> y a la <a href="http://www.gnu.org/licenses/gpl.html" target="_blank" rel="noopener noreferrer">licencia usada</a>.</p>
+</li>
+<li>
+<p><strong>Simulación de la sincronización de un equipo</strong>. Además de servir de introducción a este artículo, consiste en, dados los datos que tiene en ese momento el servidor migasfree del equipo, se pueden ver qué paquetes se instalarían o desinstalarían, que repositorios serían visibles para ese ordenador, qué fallas ejecutaría, que dispositivos se le asignarían y si se tendrían que obtener información acerca del hardware.</p>
+</li>
+<li>
+<p><strong>Información de la situación actual en la ficha de ordenador</strong>. Esta información agrupa datos del estado del equipo, último <em>login</em> (fecha y usuario), última actualización (y cuánto duró) y si hay errores y fallas por comprobar.</p>
+</li>
+<li>
+<p>Se ha añadido <strong>más información relacionada en los elementos clave de migasfree</strong>: ordenadores, repositorios, versiones… con la idea de navegar más rápidamente entre los datos. Así, además, se han eliminado varias consultas, ya que ahora han quedado resueltas con estos nuevos enlaces.</p>
+</li>
+<li>
+<p>Ahora es posible <strong>asignar dispositivos mediante atributos</strong>, en lugar de ordenadores directamente. Pensamos que, de esta forma, se mejora la gestión de los mismos.</p>
+</li>
+</ul>
+<p><a href="/blog/2015/2015-04-10-nullius-in-verba">Se avecinan nuevos y grandes cambios en el proyecto migasfree</a>… por el momento, vamos puliendo la rama <em>Grape Edition</em> con esta versión que ahora liberamos.</p>
+]]></content>
+    <author>
+      <name>jact</name>
+    </author>
+    <category term="Desarrollo"/>
+    <category term="Noticia"/>
+    <contributor>
+      <name>jact</name>
+    </contributor>
+    <published>2017-03-10T19:00:00.000Z</published>
+    <rights>Copyright by jact</rights>
+  </entry>
+  <entry>
+    <title type="text">¿Un servidor migasfree en internet en menos de 2 minutos?</title>
+    <id>http://migasfree.org/blog/2017/2017-03-23-servidor-en-2-minutos.html</id>
+    <link href="http://migasfree.org/blog/2017/2017-03-23-servidor-en-2-minutos.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<div style="text-align:center">
+<figure><img src="/img/play_with_docker.png" alt="Play with Docker" tabindex="0" loading="lazy"><figcaption>Play with Docker</figcaption></figure>
+</div>
+<p>Gracias a <a href="http://play-with-docker.com/" target="_blank" rel="noopener noreferrer">play-with-docker.com</a> puedes instalar un servidor migasfree en Internet y «jugar» durante 4 horas con él. Es una buena manera de empezar con migasfree. ¿A qué esperas?</p>
+]]></summary>
+    <content type="html"><![CDATA[<div style="text-align:center">
+<figure><img src="/img/play_with_docker.png" alt="Play with Docker" tabindex="0" loading="lazy"><figcaption>Play with Docker</figcaption></figure>
+</div>
+<p>Gracias a <a href="http://play-with-docker.com/" target="_blank" rel="noopener noreferrer">play-with-docker.com</a> puedes instalar un servidor migasfree en Internet y «jugar» durante 4 horas con él. Es una buena manera de empezar con migasfree. ¿A qué esperas?</p>
+<!-- more -->
+<ul>
+<li>
+<p>Accede a <a href="http://play-with-docker.com/" target="_blank" rel="noopener noreferrer">play-with-docker.com</a></p>
+</li>
+<li>
+<p>Añade una nueva instancia</p>
+</li>
+<li>
+<p>Copia el acceso ssh en una terminal de tu equipo y ejecútalo.</p>
+</li>
+<li>
+<p>Copia y pega estos comandos:</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>
+<p>Espera a que arranque el servidor migasfree</p>
+</li>
+<li>
+<p>Vuelve a la pagina web de play-with-docker y a la derecha de la IP te aparecerán los puertos abiertos. Pulsa sobre el puerto <strong>80</strong> con el botón derecho del ratón, copia el enlace y pégalo en un navegador web.</p>
+</li>
+<li>
+<p>Haz login con usuario admin y contraseña admin.</p>
+</li>
+<li>
+<p>Instala un cliente migasfree en un equipo de pruebas (o mejor en una máquina virtual):</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></li>
+<li>
+<p>Modifica el fichero <code>/etc/migasfree.conf</code> para que el cliente apunte al servidor:</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></li>
+<li>
+<p>Ejecuta el cliente:</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></li>
+<li>
+<p><a href="http://fun-with-migasfree.readthedocs.io/" target="_blank" rel="noopener noreferrer">Aprende más</a></p>
+</li>
+</ul>
+]]></content>
+    <author>
+      <name>agacias</name>
+    </author>
+    <category term="Tutorial"/>
+    <contributor>
+      <name>agacias</name>
+    </contributor>
+    <published>2017-03-23T19:27:00.000Z</published>
+    <rights>Copyright by agacias</rights>
+  </entry>
+  <entry>
+    <title type="text">A la busca y captura de bases de datos Microsoft Access</title>
+    <id>http://migasfree.org/blog/2018/2018-03-01-busca-captura-access.html</id>
+    <link href="http://migasfree.org/blog/2018/2018-03-01-busca-captura-access.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<p>Uno de los obstáculos importantes en una migración a un sistema operativo libre es el uso y abuso que hacen los usuarios de Microsoft Access.</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>Uno de los obstáculos importantes en una migración a un sistema operativo libre es el uso y abuso que hacen los usuarios de Microsoft Access.</p>
+<!-- more -->
+<blockquote>
+<p><a href="https://www.winehq.org/" target="_blank" rel="noopener noreferrer">WINE</a> es la primera opción para su emulación y es intensamente utilizado para que las aplicaciones Microsoft Access sigan funcionando. Como última opción para aquellas aplicaciones que no son emulables con WINE se plantea el uso de máquinas virtuales VMWare ejecutadas localmente.»</p>
+<p>— Eduardo Romero, <a href="http://www.zaragoza.es/contenidos/azlinux/migracionescritoriosl.pdf" target="_blank" rel="noopener noreferrer">Migración Escritorio Software Libre</a></p>
+</blockquote>
+<p><strong>Catalogar</strong> las distintas bases de datos Microsoft Access, que han ido creando los usuarios de nuestra organización, para determinar <strong>quién y desde qué ordenador</strong> accede a un fichero de Microsoft Access, es crucial a la hora de decidir si un ordenador de puesto de trabajo es migrable o no.</p>
+<p>Esta información podríamos obtenerla a través de los logs de nuestro servicio de archivos de red pero, ¿y qué hay de las BBDD locales?</p>
+<p>Una solución simple y efectiva, haciendo uso de migasfree, podría ser:</p>
+<ol>
+<li>Busca: Ejecutar un programa en cada ordenador que periódicamente mire, los archivos abiertos en el sistema y almacene su nombre en un fichero si el nombre del archivo abierto acaba en <code>.mdb</code> o <code>.mde</code>. Pasados unos días tendríamos almacenados localmente en un fichero las rutas de las BBDD a las que accede cada ordenador.</li>
+<li>Captura: Crear una fórmula, de tipo lista, que «recolecte» estas rutas como atributos del ordenador.</li>
+</ol>
+<p>¡Venga, manos a la obra!</p>
+<h2> Busca</h2>
+<p>Programa python a ejecutar en los clientes:</p>
+<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> Captura</h2>
+<p>Fórmula migasfree de tipo Lista y lenguaje python:</p>
+<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Ya sólo nos quedaría empaquetar esta solución y desplegarla con migasfree.</p>
+<h2> Resultado</h2>
+<p>Una vez capturadas las BBDD como <code>atributos</code> de los ordenadores en el servidor migasfree, ya sólo nos queda analizar la información.</p>
+<ol>
+<li>Conocer que BBDD se utilizan en un ordenador concreto es ahora tan sencillo como acceder al ordenador y mirar sus atributos.</li>
+<li>Obtener la lista de ordenadores que hacen uso de una BD concreta tambien es posible desplegando su atributo.</li>
+<li>Ver todo el catálogo de BBDD, tan simple como ir a los atributos y filtrar por ACCESS.</li>
+</ol>
+<div style="text-align:center">
+<figure><img src="/img/access.png" alt="Resultado" tabindex="0" loading="lazy"><figcaption>Resultado</figcaption></figure>
+</div>
+]]></content>
+    <author>
+      <name>agacias</name>
+    </author>
+    <category term="Tutorial"/>
+    <contributor>
+      <name>agacias</name>
+    </contributor>
+    <published>2018-03-01T22:37:00.000Z</published>
+    <rights>Copyright by agacias</rights>
+  </entry>
+  <entry>
+    <title type="text">La conjetura de la redefinición</title>
+    <id>http://migasfree.org/blog/2018/2018-03-09-conjetura-redefinicion.html</id>
+    <link href="http://migasfree.org/blog/2018/2018-03-09-conjetura-redefinicion.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<p>Seguimos hacia la convergencia que nos llevará (más pronto o más tarde) hacia la <a href="/blog/2016/2016-05-25-el-plan-maestro">esperada versión 5 de la suite migasfree</a>.</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>Seguimos hacia la convergencia que nos llevará (más pronto o más tarde) hacia la <a href="/blog/2016/2016-05-25-el-plan-maestro">esperada versión 5 de la suite migasfree</a>.</p>
+<!-- more -->
+<p>Anunciamos en la presente entrada 2 nuevas versiones de migasfree: la <a href="https://github.com/migasfree/migasfree/releases/tag/4.14" target="_blank" rel="noopener noreferrer">4.14</a> y la <a href="https://github.com/migasfree/migasfree/releases/tag/4.15" target="_blank" rel="noopener noreferrer">4.15</a>.</p>
+<h2> Cambios de la versión 4.14</h2>
+<p>La versión 4.14 introduce un cambio importante a la hora de instalar el servidor. Ya no distribuimos más paquetes, sino que ahora es un <a href="https://github.com/migasfree/migasfree-docker" target="_blank" rel="noopener noreferrer">contenedor docker</a>. Con <em>docker</em> hemos conseguido colocar el servidor y sus dependencias en un contenedor virtual (un debian) que puede ejecutarse en cualquier servidor GNU/Linux. Esto nos ha proporcionado una flexibilidad y portabilidad para ejecutar el servidor de una forma muy simple tanto en un equipo físico <a href="/blog/2017/2017-03-23-servidor-en-2-minutos">como en la nube</a>.</p>
+<p>Esta versión también contiene cambios de denominación de conceptos, <a href="/blog/2015/2015-04-10-nullius-in-verba">tal y como adelantábamos hace un tiempo</a>.</p>
+<ul>
+<li><strong>Actualización</strong> pasa a ser <strong>sincronización</strong>. La idea de sincronización es mucho más concreta ya que refleja el conjunto de operaciones que realizan cliente y servidor para dejar en condiciones adecuadas el puesto de trabajo.</li>
+<li><strong>Versión</strong> pasa a denominarse <strong>proyecto</strong>. Por proyecto se entiende una distribución base (como Fedora 21 o Ubuntu 16.04) más una capa de personalización para una organización concreta.</li>
+<li><strong>Repositorio</strong> se convierte en <strong>despliegue</strong>. Se despliegan cambios de software a equipos según unos atributos y un calendario. Es algo más que un repositorio clásico de software.</li>
+</ul>
+<p>Además, agregamos una nueva funcionalidad: el cuadro de mando. De esta manera se tiene un punto de resumen o de partida a la hora de consultar bastantes datos importantes que va recogiendo el servidor de los clientes.</p>
+<div style="text-align:center">
+<figure><img src="/img/dashboard.png" alt="Cuadro de mando de migasfree" tabindex="0" loading="lazy"><figcaption>Cuadro de mando de migasfree</figcaption></figure>
+</div>
+<h2> Cambios de la versión 4.15</h2>
+<p>Esta versión incorpora cambios menores respecto a la anterior, pero igualmente interesantes:</p>
+<ul>
+<li>Se añaden nuevas comprobaciones, en forma de alertas, para gestionar de manera más eficiente los despliegues. De esta forma, tendremos una comprobación que nos informará de los despliegues que tienen un calendario activo, y otra que nos avisará de los que ya han finalizado el calendario de distribución.</li>
+<li>Gracias a <a href="https://twitter.com/rrgaioso" target="_blank" rel="noopener noreferrer">Rafael Rodríguez Gayoso</a>, se incorpora la traducción al gallego en el servidor.</li>
+<li>Se han rediseñado varias páginas para conseguir una mejor experiencia de usuario:
+<ul>
+<li>Página de detalle de ordenador.</li>
+<li>Detalle del hardware de un ordenador.</li>
+<li>Página de detalle de despliegue.</li>
+</ul>
+</li>
+</ul>
+<div style="text-align:center">
+<figure><img src="/img/computer_detail.png" alt="Página de detalle de ordenador" tabindex="0" loading="lazy"><figcaption>Página de detalle de ordenador</figcaption></figure>
+</div>
+<p>Seguid atentos al <a href="https://github.com/migasfree/" target="_blank" rel="noopener noreferrer">desarrollo de migasfree</a>, porque los cambios van a ser constantes.</p>
+]]></content>
+    <author>
+      <name>jact</name>
+    </author>
+    <category term="Desarrollo"/>
+    <category term="Noticia"/>
+    <contributor>
+      <name>jact</name>
+    </contributor>
+    <published>2018-03-09T13:13:00.000Z</published>
+    <rights>Copyright by jact</rights>
+  </entry>
+  <entry>
+    <title type="text">La triangulación de la separación</title>
+    <id>http://migasfree.org/blog/2018/2018-11-20-triangulacion-separacion.html</id>
+    <link href="http://migasfree.org/blog/2018/2018-11-20-triangulacion-separacion.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<p>O dicho de otra manera más clásica: divide y vencerás. Para el <a href="https://github.com/migasfree/migasfree/releases/tag/4.16" target="_blank" rel="noopener noreferrer">anuncio de la liberación de la versión 4.16 del servidor migasfree</a>, hemos elegido este título porque la característica más importante a destacar, es la adición de <a href="https://fun-with-migasfree.readthedocs.io/es/master/part03.html#dominios" target="_blank" rel="noopener noreferrer">dominios y ámbitos</a> en la aplicación. Esto permite un nivel de detalle en horizontal de los datos, segmentándolos por cualquier combinación de <a href="https://fun-with-migasfree.readthedocs.io/es/master/part03.html#atributos" target="_blank" rel="noopener noreferrer">atributos</a>. Sirve, por ejemplo, para tener administradores parciales de la aplicación (por dominios) o realizar consultas rápidas de los datos, simplemente escogiendo filtros (dominio, ámbito, filtros parciales de un concepto). Las posibilidades que se abren son enormes.</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>O dicho de otra manera más clásica: divide y vencerás. Para el <a href="https://github.com/migasfree/migasfree/releases/tag/4.16" target="_blank" rel="noopener noreferrer">anuncio de la liberación de la versión 4.16 del servidor migasfree</a>, hemos elegido este título porque la característica más importante a destacar, es la adición de <a href="https://fun-with-migasfree.readthedocs.io/es/master/part03.html#dominios" target="_blank" rel="noopener noreferrer">dominios y ámbitos</a> en la aplicación. Esto permite un nivel de detalle en horizontal de los datos, segmentándolos por cualquier combinación de <a href="https://fun-with-migasfree.readthedocs.io/es/master/part03.html#atributos" target="_blank" rel="noopener noreferrer">atributos</a>. Sirve, por ejemplo, para tener administradores parciales de la aplicación (por dominios) o realizar consultas rápidas de los datos, simplemente escogiendo filtros (dominio, ámbito, filtros parciales de un concepto). Las posibilidades que se abren son enormes.</p>
+<!-- more -->
+<p>Otro gran cambio realizado en esta versión, es el que tiene que ver con el ajuste del servidor <a href="https://fun-with-migasfree.readthedocs.io/es/master/part05.html#migasfree-external-actions" target="_blank" rel="noopener noreferrer">MIGASFREE_EXTERNAL_ACTIONS</a>. Sustituye y amplía en funcionalidades a <a href="/blog/2016/2016-03-16-acceso-remoto-ordenadores">MIGASFREE_REMOTE_ADMIN</a> y permite extender la aplicación web con código externo (al navegador) para ejecutar, por ejemplo, herramientas de diagnóstico y control de ordenadores. Al igual que con la característica anterior, sólo la imaginación pone límites a lo que se puede llegar a conseguir con esta nueva funcionalidad.</p>
+<p>Una gran cuenta pendiente que teníamos desde siempre con este proyecto, era facilitar la explotación de los datos que se recogen en el servidor. Hasta el momento, para la mayor parte de los conceptos de migasfree, sólo existían largas tablas con datos sin que, a primera vista, esos datos mostraran tendencias o guiaran a los usuarios hacia las muestras importantes. Un primer paso fue la inclusión del cuadro de mando, incluido desde la <a href="/blog/2018/2018-03-09-conjetura-redefinicion">versión 4.14</a>, pero quedaba mucho por hacer. Un nuevo pasito en esta dirección, lo hemos dado en esta nueva release, al incluir más gráficas (y reorganizar algunas de las ya existentes), homogeneizando también su <em>look &amp; feel</em>.</p>
+<div style="text-align:center">
+<figure><img src="/img/errors.png" alt="Explotación de datos (errores)" tabindex="0" loading="lazy"><figcaption>Explotación de datos (errores)</figcaption></figure>
+</div>
+<p>No podíamos terminar este anuncio, sin mencionar a la nueva adquisición del universo migasfree: <a href="https://fun-with-migasfree.readthedocs.io/es/master/part03.html#migasfree-play" target="_blank" rel="noopener noreferrer">migasfree play</a>. Nace como sustituto del <a href="https://github.com/migasfree/migasfree-launcher" target="_blank" rel="noopener noreferrer">proyecto migasfree-launcher</a> e incluye nuevas características. La más importante de ellas es la posibilidad de buscar/instalar/desinstalar ciertas <a href="https://fun-with-migasfree.readthedocs.io/es/master/part03.html#aplicaciones" target="_blank" rel="noopener noreferrer">aplicaciones</a>, que forman un catálogo seleccionado para tu organización, en el servidor migasfree. Un aspecto muy importante de este proyecto a la hora de realizarlo, han sido las tecnologías elegidas, pensando en que fuera multiplataforma y pudiera adaptarse fácilmente a otros sistemas operativos.</p>
+<div style="text-align:center">
+<figure><img src="/img/migasfree-play-apps.png" alt="Selección de aplicaciones en migasfree play" tabindex="0" loading="lazy"><figcaption>Selección de aplicaciones en migasfree play</figcaption></figure>
+</div>
+]]></content>
+    <author>
+      <name>jact</name>
+    </author>
+    <category term="Desarrollo"/>
+    <category term="Noticia"/>
+    <contributor>
+      <name>jact</name>
+    </contributor>
+    <published>2018-11-20T14:20:00.000Z</published>
+    <rights>Copyright by jact</rights>
+  </entry>
+  <entry>
+    <title type="text">¡Zorionak, Pasaia!</title>
+    <id>http://migasfree.org/blog/2019/2019-03-11-zorionak-pasaia.html</id>
+    <link href="http://migasfree.org/blog/2019/2019-03-11-zorionak-pasaia.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<p>¡Qué alegría recibir emails con buenas noticias!</p>
+<p>En este caso nos llegan del Ayuntamiento de <a href="http://pasaia.eus/" target="_blank" rel="noopener noreferrer">Pasaia</a>, informándonos que <a href="/files/Pasaia_caso_de_exito.pdf">han completado con éxito su migración a GNU/Linux</a>.</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>¡Qué alegría recibir emails con buenas noticias!</p>
+<p>En este caso nos llegan del Ayuntamiento de <a href="http://pasaia.eus/" target="_blank" rel="noopener noreferrer">Pasaia</a>, informándonos que <a href="/files/Pasaia_caso_de_exito.pdf">han completado con éxito su migración a GNU/Linux</a>.</p>
+<!-- more -->
+<p>Desde nuestro punto de vista no sólo han estado haciendo un gran trabajo, sino que es un <strong>buen ejemplo de migración</strong> a seguir para otras organizaciones.</p>
+<p>Además, están contribuyendo a la comunidad liberando desarrollos propios que ya están siendo utilizados en otros ayuntamientos de Gipuzkoa y Vizcaya:</p>
+<ul>
+<li><a href="https://github.com/PasaiakoUdala/zerbikat" target="_blank" rel="noopener noreferrer">Zerbikat</a>: Gestión del catálogo de servicios del Ayto.</li>
+<li><a href="https://github.com/PasaiakoUdala/ZergaOrdenantzak" target="_blank" rel="noopener noreferrer">ZergaOrdenantzak</a>: Gestión de ordenanzas fiscales.</li>
+</ul>
+<p>Así es como entendemos que deben trabajar los técnicos en las AAPP:</p>
+<ul>
+<li>Cumpliendo las normas establecidas por ley,</li>
+<li>adaptándose a la complejidad técnica y humana de trabajar en las TIC,</li>
+<li>emitiendo informes técnicos a instancias superiores proponiendo soluciones viables y acertadas,</li>
+<li>y compartiendo el conocimiento que se va adquiriendo.</li>
+</ul>
+<p>Es un placer para nosotros que hayan elegido <a href="https://github.com/migasfree/" target="_blank" rel="noopener noreferrer">migasfree</a> como herramienta para gestionar el software, y es por eso y con su permiso que les arrebatamos una pizca de su éxito, haciéndolo también nuestro.</p>
+<p>¡Enhorabuena, Iker! ¡Enhorabuena, Gorka! ¡Enhorabuena, Rafel! Habéis surcado otro mar y atracado en puerto seguro. Habéis llegado a casa, ¡celebrémoslo!</p>
+<div style="text-align:center">
+</div>
+<p><strong>¡Zorionak, Pasaia!</strong></p>
+<p>Descárgate el <a href="/files/Pasaia_caso_de_exito.pdf">caso de éxito de Pasaia</a> para saber más.</p>
+<div style="text-align:center">
+</div>
+]]></content>
+    <author>
+      <name>agacias</name>
+    </author>
+    <category term="Caso de éxito"/>
+    <category term="Noticia"/>
+    <contributor>
+      <name>agacias</name>
+    </contributor>
+    <published>2019-03-11T19:37:00.000Z</published>
+    <rights>Copyright by agacias</rights>
+  </entry>
+  <entry>
+    <title type="text">La expansión Lagarto-Spock</title>
+    <id>http://migasfree.org/blog/2019/2019-06-15-expansion-lagarto-spock.html</id>
+    <link href="http://migasfree.org/blog/2019/2019-06-15-expansion-lagarto-spock.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<p>Acaba el curso escolar, acaba esa gran serie que ha sido <a href="https://www.cbs.com/shows/big_bang_theory/" target="_blank" rel="noopener noreferrer">The Big Bang Theory</a>, pero por fin se libera la <a href="https://github.com/migasfree/migasfree/releases/tag/4.17.1" target="_blank" rel="noopener noreferrer">versión 4.17.1 del servidor migasfree</a>.</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>Acaba el curso escolar, acaba esa gran serie que ha sido <a href="https://www.cbs.com/shows/big_bang_theory/" target="_blank" rel="noopener noreferrer">The Big Bang Theory</a>, pero por fin se libera la <a href="https://github.com/migasfree/migasfree/releases/tag/4.17.1" target="_blank" rel="noopener noreferrer">versión 4.17.1 del servidor migasfree</a>.</p>
+<!-- more -->
+<div style="text-align:center">
+<figure><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Star_Trek_Spock.jpg/796px-Star_Trek_Spock.jpg" alt="Oficial Spock" tabindex="0" loading="lazy"><figcaption>Oficial Spock</figcaption></figure>
+</div>
+<p>Hemos pasado muchos meses puliendo y probando esta versión. Tan apenas tiene nuevas funcionalidades, sobre todo hay correcciones de errores, pero habrá cosas que os llamarán la atención cuando actualicéis desde versiones anteriores:</p>
+<ul>
+<li>Desaparece el apartado de estadísticas, que ha sido rediseñado y llevado a una zona de mayor protagonismo (como destino del enlace del nombre de la organización).</li>
+<li>Se ha mejorado la búsqueda rápida de la barra superior, incorporando más conceptos sobre los que buscar (despliegues, paquetes, aplicaciones y dispositivos).</li>
+<li>Se ha añadido el concepto de <a href="https://fun-with-migasfree.readthedocs.io/es/master/part03.html#serverexternalsource" target="_blank" rel="noopener noreferrer">despliegues de origen externo</a> que, resumidamente, no es más que un caché del repositorio de paquetes al que apunta. Eso sí, significa un antes y un después en la incorporación de paquetes de repositorios externos al servidor migasfree. Para los detalles técnicos, consultad la documentación.</li>
+<li>Se incorpora el catalán como traducción del servidor y migasfree-play, gracias a Jordi Román y Carlos Gónzalez de <a href="https://opl.uab.cat/openuab/" target="_blank" rel="noopener noreferrer">OpenUAB</a>.</li>
+<li>También se ha traducido al gallego migasfree-play, gracias a Rafael Gaioso del Concello de Santiago de Compostela.</li>
+</ul>
+<p>Feliz verano, larga vida y prosperidad.</p>
+]]></content>
+    <author>
+      <name>jact</name>
+    </author>
+    <category term="Desarrollo"/>
+    <category term="Noticias"/>
+    <contributor>
+      <name>jact</name>
+    </contributor>
+    <published>2019-06-15T12:17:00.000Z</published>
+    <rights>Copyright by jact</rights>
+  </entry>
+  <entry>
+    <title type="text">¿Por qué no usáis Puppet?</title>
+    <id>http://migasfree.org/blog/2022/2022-05-21-por-que-no-puppet.html</id>
+    <link href="http://migasfree.org/blog/2022/2022-05-21-por-que-no-puppet.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<div style="text-align:center">
+<figure><img src="https://mundet3elmar.files.wordpress.com/2010/03/estibadores-archivo-hist.jpg" alt="Estibadores en el puerto de Barcelona" tabindex="0" loading="lazy"><figcaption>Estibadores en el puerto de Barcelona</figcaption></figure>
+</div>
+<p>Es la pregunta recurrente que me suelen hacer cuando alguien se acerca a migasfree por primera, segunda, o tercera vez. Lo entiendo, pero después de 12 años intentando explicarlo de distintas maneras veo que apenas lo consigo, y cada vez me ilusiona menos responderla.</p>
+]]></summary>
+    <content type="html"><![CDATA[<div style="text-align:center">
+<figure><img src="https://mundet3elmar.files.wordpress.com/2010/03/estibadores-archivo-hist.jpg" alt="Estibadores en el puerto de Barcelona" tabindex="0" loading="lazy"><figcaption>Estibadores en el puerto de Barcelona</figcaption></figure>
+</div>
+<p>Es la pregunta recurrente que me suelen hacer cuando alguien se acerca a migasfree por primera, segunda, o tercera vez. Lo entiendo, pero después de 12 años intentando explicarlo de distintas maneras veo que apenas lo consigo, y cada vez me ilusiona menos responderla.</p>
+<!-- more -->
+<p>Es primer fin de semana después de la «migascon 2022» y quiero reintentar explicarlo basándome en algo que dije allí, escribiéndolo aquí de manera ordenada y pausada porque la improvisación no es mi fuerte. Sin duda creo que me saldrá algo mejor. Si estuviste en la migascon sabrás a lo que me refiero 😉</p>
+<p>De Ángel Lafuente, un alumno en prácticas que conocí hace 8 años, aprendí la revolución que supuso el uso del <a href="https://www.elmundo.es/economia/2016/05/06/5720fa2be2704e157f8b457d.html" target="_blank" rel="noopener noreferrer">contenedor normalizado</a> en el transporte de mercancías.</p>
+<p>Como un crío pequeño, me quedé fascinado con su explicación (su pasión por la logística a la hora de explicármelo algo contribuiría, sin duda).</p>
+<p>Comprendí la sencillez de esa nueva idea, era tan tan tan evidente…</p>
+<p>El simple hecho de meter las mercancias en una gran «caja» normalizada transformó todo. Desde el trabajo de los estibadores hasta el diseño de los camiones, barcos, almacenes y grúas de los puertos marítimos. ¡Qué importante puede llegar a ser una simple medida!.</p>
+<p>Si tienes que llevar miles de televisores desde Qingdao (China) a Valladolid (España), no hay discusión, la manera óptima de hacerlo es meterlos en contenedores. No hay discusión. Estoy convencido que aparecerán <em>nuevas ideas disruptivas</em>, sí, pero no me vengas con que tu cuñado tiene una empresa internacional de repartidores «autónomos» con furgonetas eléctricas que lo haría mucho mejor, más rápido, más ecológico, a menor coste y todo ello sin usar contenedores.</p>
+<p>Ahora imagina que las mercancías son ficheros, el contenedor el paquete deb, los almacenes del puerto los repositorios, apt los barcos y camiones, dpkg el repartidor que llega hasta tu casa.</p>
+<p>¿Aún sigues por aquí?</p>
+<p>El Modelo OSI de ISO, la misma revolución. Separar en capas, empaquetar y desempaquetar la<br>
+información en cada capa. Tambien sin discusión. Lo usas todos los días a todas horas sin reparar siquiera en ello, ¿lo ves? ha hecho su magia otra vez para que puedas leer este post.</p>
+<p>El Sistema de Gestión de Paquetería de las Distros GNU/Linux (apt, yum, zypper, dnf, pacman… ). Más de lo mismo, lo transformó todo. Una simple medida, meterlo todo en una simple «caja normalizada»: <strong>el paquete</strong>.</p>
+<p>Tampoco discutiré contigo esto, pero para mí (y también para las distribuciones GNU/Linux), la mejor manera de copiar todos los ficheros que componen el navegador Firefox hasta el ordenador de tu casa es hacer uso del Sistema de Gestión de Paquetes que incorpora tu S.O. ya que te va a propocionar <strong>integridad</strong>, es decir, control y auditoría de los cambios.</p>
+<p>¿Hola, me sigues escuchando?</p>
+<p>Tú me dices que usas Puppet, que es muy fácil modificar un fichero de configuración en miles<br>
+de ordenadores -aunque eso ya lo sé- e insistes: «Ya, pero ¿por qué no usas Puppet? Si es muy fácil.»</p>
+<p>Otra vez la misma pregunta. Ya no sé qué más responderte. Me evado imaginando estibadores descargando manualmente sacos y cajas en el puerto de mi Cartagena natal a comienzos del siglo XX; pensando en mi <a href="https://www.youtube.com/watch?v=DyHyMFORUE4" target="_blank" rel="noopener noreferrer">mar menor</a> y en los cangrejos que pescaba de pequeño a los que llamábamos «crancas pelúas», en mi abuelo materno que solo conozco por fotos e historias que me han contado mi madre y mis tías, él era patrón de un barco de pesca. Sigo imaginando los barcos gigantes que estarán surcando ahora mismo aguas de azules intensos para que tú puedas disfrutar de los bienes que se fabrican a miles de kilómetros, como el smartphone en el que probablemente me estarás leyendo, en grúas amarillas, camiones, mercancías, en Ángel Lafuente… y de repente se me cruza por la mente una idea y al fin te respondo:</p>
+<p>¡¡¡¡¡ DPKG -S !!!!!</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>¡Mira, el fichero de configuración <code>/etc/pam.conf</code> de tu máquina te ha llegado gracias al paquete libpam-runtime! ¿No ves que Canonical te está configurando los módulos PAM en tu equipo mediante ese fichero y no usa Puppet para ello? Usa el Sistema de Gestión de Paquetes para configurar millones de ordenadores <em>around the world</em>: ¡El invento del siglo!</p>
+<p>Ya, pero… ¿Por qué no usas Puppet?</p>
+]]></content>
+    <author>
+      <name>agacias</name>
+    </author>
+    <category term="Teoría"/>
+    <contributor>
+      <name>agacias</name>
+    </contributor>
+    <published>2022-05-21T13:51:00.000Z</published>
+    <rights>Copyright by agacias</rights>
+  </entry>
+  <entry>
+    <title type="text">El rompecabezas Vartabedian</title>
+    <id>http://migasfree.org/blog/2023/2023-03-27-el-rompecabezas-vartabedian.html</id>
+    <link href="http://migasfree.org/blog/2023/2023-03-27-el-rompecabezas-vartabedian.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<p>En la <a href="/migascon-2022">migascon de mayo de 2022</a>, hicimos la presentación oficiosa de lo que será la suite de migasfree versión 5.</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>En la <a href="/migascon-2022">migascon de mayo de 2022</a>, hicimos la presentación oficiosa de lo que será la suite de migasfree versión 5.</p>
+<!-- more -->
+<p>Entre las charlas, había una que hablaba de la <a href="https://speakerdeck.com/jact/migasfree-play-5" target="_blank" rel="noopener noreferrer">remodelación de Migasfree Play</a>. Se cambiaban las tecnologías usadas para normalizarlo y poderlo extender más fácilmente, pero esa nueva versión sólo iba a funcionar con <a href="https://speakerdeck.com/jact/migasfree-client-5" target="_blank" rel="noopener noreferrer">Migasfree Client versión 5</a>. Eso ha cambiado y es posible usar Migasfree Play 5 con clientes a partir de la versión 4.20. Esa misma versión del cliente que también es capaz de ser funcional comunicándose con el nuevo servidor de la versión 5.</p>
+<p>El siguiente gráfico resume cómo gestiona las comunicaciones el flamante Migasfree Play 5, que ya hemos liberado en <a href="https://github.com/migasfree/migasfree-play" target="_blank" rel="noopener noreferrer">nuestro repositorio de código</a>:</p>
+<div style="text-align:center">
+<figure><img src="/img/migasfree-play_comunicaciones.png" alt="Comunicaciones de migasfree play" tabindex="0" loading="lazy"><figcaption>Comunicaciones de migasfree play</figcaption></figure>
+</div>
+<p>La configuración de la aplicación se hace a través del fichero <code>/root/.migasfree-play/settings.json</code> y podéis ver los valores por defecto en <a href="https://github.com/migasfree/migasfree-play#settings" target="_blank" rel="noopener noreferrer">README.md</a>.</p>
+<p>También es posible establecer algunas variables de entorno para evitar que haya colisión con otros puertos en el equipo o cambiar el usuario de migasfree que va a usar Migasfree Play. Los valores por defecto se pueden consultar en <a href="http://README.md" target="_blank" rel="noopener noreferrer">README.md</a>.</p>
+<p>Migasfree Play sale de serie traducido al español, inglés, catalán, euskera y gallego, aunque podéis corregir los textos mediante el envío de <a href="https://github.com/migasfree/migasfree-play/tree/master/src/i18n" target="_blank" rel="noopener noreferrer">ficheros .po</a>.</p>
+<p>Los requisitos imprescindibles en el equipo son que estén instalados el cliente de migasfree (&gt;= 4.20) y nodejs (&gt;= 12).</p>
+<p>Disfrutad de esta nueva versión renovada y, si hay errores, <a href="https://github.com/migasfree/migasfree-play/issues" target="_blank" rel="noopener noreferrer">reportadlos en las incidencias</a>. La versión 1 de la aplicación pasa a estar en un <a href="https://github.com/migasfree/migasfree-play-nwjs" target="_blank" rel="noopener noreferrer">repositorio de código de sólo lectura</a>.</p>
+]]></content>
+    <author>
+      <name>jact</name>
+    </author>
+    <category term="Desarrollo"/>
+    <category term="Noticias"/>
+    <contributor>
+      <name>jact</name>
+    </contributor>
+    <published>2023-03-27T17:32:00.000Z</published>
+    <rights>Copyright by jact</rights>
+  </entry>
+</feed>
