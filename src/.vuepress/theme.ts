@@ -116,7 +116,12 @@ export default hopeTheme({
 
             if (!filePathRelative.includes('/blog/')) return false
 
-            if (frontmatter.home || frontmatter.layout) return false
+            if (
+              frontmatter.home ||
+              frontmatter.layout ||
+              frontmatter.timeline === false
+            )
+              return false
 
             return true
           },
