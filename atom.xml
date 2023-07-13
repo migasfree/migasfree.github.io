@@ -3,7 +3,7 @@
   <id>http://migasfree.org/</id>
   <title>Migasfree</title>
   <subtitle>Sistema de gestión de sistemas</subtitle>
-  <updated>2023-07-12T10:42:46.652Z</updated>
+  <updated>2023-07-13T12:41:23.865Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="http://migasfree.org/atom.xml"/>
   <link rel="alternate" href="http://migasfree.org/"/>
@@ -584,16 +584,16 @@ Daremos por terminado el encuentro de la comunidad migasfree.</li>
     <title type="text">¿Qué hay detrás de la idea de migasfree?</title>
     <id>http://migasfree.org/blog/2013/2013-05-29-que-hay-detras-idea-migasfree.html</id>
     <link href="http://migasfree.org/blog/2013/2013-05-29-que-hay-detras-idea-migasfree.html"/>
-    <updated>2023-07-12T06:33:11.000Z</updated>
+    <updated>2023-07-13T12:39:32.000Z</updated>
     <summary type="html"><![CDATA[<div class="hint-container tip">
 <p class="hint-container-title">Regla de Oro</p>
-<p>Cualquier cambio en la configuración del software debe ser paquetizado y distribuido de forma centralizada.</p>
+<p>Cualquier cambio en la configuración del software debe ser empaquetado y distribuido de forma centralizada.</p>
 </div>
 <p>Todo lo que no sea instalar programas mediante el gestor de paquetes o el backend, rompe la integridad frente a los cambios de tu sistema.</p>
 ]]></summary>
     <content type="html"><![CDATA[<div class="hint-container tip">
 <p class="hint-container-title">Regla de Oro</p>
-<p>Cualquier cambio en la configuración del software debe ser paquetizado y distribuido de forma centralizada.</p>
+<p>Cualquier cambio en la configuración del software debe ser empaquetado y distribuido de forma centralizada.</p>
 </div>
 <p>Todo lo que no sea instalar programas mediante el gestor de paquetes o el backend, rompe la integridad frente a los cambios de tu sistema.</p>
 <!-- more -->
