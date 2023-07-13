@@ -8,7 +8,7 @@ category:
 ---
 
 ::: tip Regla de Oro
-Cualquier cambio en la configuración del software debe ser paquetizado y distribuido de forma centralizada.
+Cualquier cambio en la configuración del software debe ser empaquetado y distribuido de forma centralizada.
 :::
 
 Todo lo que no sea instalar programas mediante el gestor de paquetes o el backend, rompe la integridad frente a los cambios de tu sistema.
