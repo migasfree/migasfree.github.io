@@ -471,11 +471,11 @@
       "title": "El meollo de la cuestión",
       "url": "http://migasfree.org/blog/2014/2014-11-26-meollo-cuestion.html",
       "id": "http://migasfree.org/blog/2014/2014-11-26-meollo-cuestion.html",
-      "summary": "Ciclo petición, cambio, liberación Este es el resumen del proceso GCS en tu organización con migasfree: 1. Un usuario hace un petición de cambio. 2. Un desarrollador programa el...",
-      "content_html": "<div style=\"text-align:center\">\n<figure><img src=\"/img/scm_process.png\" alt=\"Ciclo petición, cambio, liberación\" tabindex=\"0\" loading=\"lazy\"><figcaption>Ciclo petición, cambio, liberación</figcaption></figure>\n</div>\n<p>Este es el resumen del proceso  en tu organización con migasfree:</p>\n<ol>\n<li>Un usuario hace un petición de cambio.</li>\n<li>Un desarrollador programa el cambio de la configuración software dentro de un paquete y lo sube a un servidor migasfree.</li>\n<li>La liberación es realizada por el servidor migasfree a los ordenadores requeridos.</li>\n</ol>\n<p>Y, como se puede ver en el gráfico, migasfree tan sólo aparece al final del proceso, en la fase de liberación.</p>\n",
+      "summary": "Ciclo petición, cambio, liberación Este es el resumen del proceso en tu organización con migasfree:",
+      "content_html": "<div style=\"text-align:center\">\n<figure><img src=\"/img/scm_process.png\" alt=\"Ciclo petición, cambio, liberación\" tabindex=\"0\" loading=\"lazy\"><figcaption>Ciclo petición, cambio, liberación</figcaption></figure>\n</div>\n<p>Este es el resumen del proceso  en tu organización con migasfree:</p>\n<!-- more -->\n<ol>\n<li>Un usuario hace un petición de cambio.</li>\n<li>Un desarrollador programa el cambio de la configuración software dentro de un paquete y lo sube a un servidor migasfree.</li>\n<li>La liberación es realizada por el servidor migasfree a los ordenadores requeridos.</li>\n</ol>\n<p>Y, como se puede ver en el gráfico, migasfree tan sólo aparece al final del proceso, en la fase de liberación.</p>\n",
       "image": "http://migasfree.org/img/scm_process.png 'Ciclo petición, cambio, liberación'",
       "date_published": "2014-11-26T20:36:00.000Z",
-      "date_modified": "2023-07-14T10:50:41.000Z",
+      "date_modified": "2023-07-14T11:09:46.000Z",
       "authors": [
         {
           "name": "jact"

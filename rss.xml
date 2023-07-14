@@ -6,8 +6,8 @@
     <link>http://migasfree.org/</link>
     <description>Sistema de gestión de sistemas</description>
     <language>es-ES</language>
-    <pubDate>Fri, 14 Jul 2023 10:52:46 GMT</pubDate>
-    <lastBuildDate>Fri, 14 Jul 2023 10:52:46 GMT</lastBuildDate>
+    <pubDate>Fri, 14 Jul 2023 11:11:43 GMT</pubDate>
+    <lastBuildDate>Fri, 14 Jul 2023 11:11:43 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Noticia</category>
@@ -522,13 +522,14 @@ Migasfree recolecta mucha información automáticamente de los equipos cliente a
       <link>http://migasfree.org/blog/2014/2014-11-26-meollo-cuestion.html</link>
       <guid>http://migasfree.org/blog/2014/2014-11-26-meollo-cuestion.html</guid>
       <source url="http://migasfree.org/rss.xml">El meollo de la cuestión</source>
-      <description>Ciclo petición, cambio, liberación Este es el resumen del proceso GCS en tu organización con migasfree: 1. Un usuario hace un petición de cambio. 2. Un desarrollador programa el...</description>
+      <description>Ciclo petición, cambio, liberación Este es el resumen del proceso en tu organización con migasfree:</description>
       <category>Teoría</category>
       <pubDate>Wed, 26 Nov 2014 20:36:00 GMT</pubDate>
       <content:encoded><![CDATA[<div style="text-align:center">
 <figure><img src="/img/scm_process.png" alt="Ciclo petición, cambio, liberación" tabindex="0" loading="lazy"><figcaption>Ciclo petición, cambio, liberación</figcaption></figure>
 </div>
 <p>Este es el resumen del proceso  en tu organización con migasfree:</p>
+<!-- more -->
 <ol>
 <li>Un usuario hace un petición de cambio.</li>
 <li>Un desarrollador programa el cambio de la configuración software dentro de un paquete y lo sube a un servidor migasfree.</li>
