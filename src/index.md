@@ -6,6 +6,7 @@ icon: home
 heroText: 'Migasfree'
 tagline: 'Es un software libre que gestiona despliegues de software, manteniendo y asegurando la integridad de los sistemas informáticos.'
 comment: false
+feed: false
 ---
 
 <YouTube id="dp6CQ6TV8Q0" />
