@@ -3,7 +3,7 @@
   <id>http://migasfree.org/</id>
   <title>Migasfree</title>
   <subtitle>Sistema de gestión de sistemas</subtitle>
-  <updated>2023-07-14T10:45:57.333Z</updated>
+  <updated>2023-07-14T10:52:46.319Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="http://migasfree.org/atom.xml"/>
   <link rel="alternate" href="http://migasfree.org/"/>
@@ -518,7 +518,7 @@
     <title type="text">¿Qué hay detrás de la idea de migasfree?</title>
     <id>http://migasfree.org/blog/2013/2013-05-29-que-hay-detras-idea-migasfree.html</id>
     <link href="http://migasfree.org/blog/2013/2013-05-29-que-hay-detras-idea-migasfree.html"/>
-    <updated>2023-07-13T12:39:32.000Z</updated>
+    <updated>2023-07-14T10:50:41.000Z</updated>
     <summary type="html"><![CDATA[<div class="hint-container tip">
 <p class="hint-container-title">Regla de Oro</p>
 <p>Cualquier cambio en la configuración del software debe ser empaquetado y distribuido de forma centralizada.</p>
@@ -657,7 +657,7 @@
     <title type="text">Echando la vista atrás</title>
     <id>http://migasfree.org/blog/2014/2014-09-09-echando-la-vista-atras.html</id>
     <link href="http://migasfree.org/blog/2014/2014-09-09-echando-la-vista-atras.html"/>
-    <updated>2023-07-12T06:33:11.000Z</updated>
+    <updated>2023-07-14T10:50:41.000Z</updated>
     <summary type="html"><![CDATA[<p>Ya han pasado más de 4 años desde que <a href="http://twitter.com/albertogacias" target="_blank" rel="noopener noreferrer">Alberto Gacías</a> iniciara la andadura de <a href="https://github.com/migasfree" target="_blank" rel="noopener noreferrer">este proyecto en abierto</a>. El embrión que era por aquel entonces ha sufrido muchos y enormes cambios (aunque mantiene la esencia intacta) y ha evolucionado para convertirse en una potente herramienta administrativa para controlar la configuración software de los equipos de las organizaciones.</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>Ya han pasado más de 4 años desde que <a href="http://twitter.com/albertogacias" target="_blank" rel="noopener noreferrer">Alberto Gacías</a> iniciara la andadura de <a href="https://github.com/migasfree" target="_blank" rel="noopener noreferrer">este proyecto en abierto</a>. El embrión que era por aquel entonces ha sufrido muchos y enormes cambios (aunque mantiene la esencia intacta) y ha evolucionado para convertirse en una potente herramienta administrativa para controlar la configuración software de los equipos de las organizaciones.</p>
@@ -714,7 +714,7 @@ Migasfree recolecta mucha información automáticamente de los equipos cliente a
     <title type="text">migasfree en la librecon 2014</title>
     <id>http://migasfree.org/blog/2014/2014-11-07-migasfree-en-la-librecon-2014.html</id>
     <link href="http://migasfree.org/blog/2014/2014-11-07-migasfree-en-la-librecon-2014.html"/>
-    <updated>2023-07-12T06:33:11.000Z</updated>
+    <updated>2023-07-14T10:50:41.000Z</updated>
     <summary type="html"><![CDATA[<p>La <a href="https://web.archive.org/web/20141102083103/http://www.librecon.io/" target="_blank" rel="noopener noreferrer">librecon 2014</a> son dos jornadas de conferencias, casos de éxito, keynotes, charlas y talleres, con las últimas tendencias del sector de las tecnologías abiertas.</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>La <a href="https://web.archive.org/web/20141102083103/http://www.librecon.io/" target="_blank" rel="noopener noreferrer">librecon 2014</a> son dos jornadas de conferencias, casos de éxito, keynotes, charlas y talleres, con las últimas tendencias del sector de las tecnologías abiertas.</p>
@@ -770,7 +770,7 @@ Migasfree recolecta mucha información automáticamente de los equipos cliente a
     <title type="text">El meollo de la cuestión</title>
     <id>http://migasfree.org/blog/2014/2014-11-26-meollo-cuestion.html</id>
     <link href="http://migasfree.org/blog/2014/2014-11-26-meollo-cuestion.html"/>
-    <updated>2023-07-12T06:33:11.000Z</updated>
+    <updated>2023-07-14T10:50:41.000Z</updated>
     <summary type="html"><![CDATA[<div style="text-align:center">
 <figure><img src="/img/scm_process.png" alt="Ciclo petición, cambio, liberación" tabindex="0" loading="lazy"><figcaption>Ciclo petición, cambio, liberación</figcaption></figure>
 </div>
@@ -805,7 +805,7 @@ Migasfree recolecta mucha información automáticamente de los equipos cliente a
     <title type="text">Nullius in verba</title>
     <id>http://migasfree.org/blog/2015/2015-04-10-nullius-in-verba.html</id>
     <link href="http://migasfree.org/blog/2015/2015-04-10-nullius-in-verba.html"/>
-    <updated>2023-07-12T06:33:11.000Z</updated>
+    <updated>2023-07-14T10:50:41.000Z</updated>
     <summary type="html"><![CDATA[<p>Que significa <a href="https://royalsociety.org/about-us/history/" target="_blank" rel="noopener noreferrer">cuestiónalo todo</a>. Cuestiona lo que tienes alrededor pero, sobre todo, cuestiónate a ti mismo, lo que haces y cómo lo haces. Es reinventarse a sí mismo, mejorando cada día con lo que aprendes por la experiencia adquirida y por la experencia que proporcionan los conocimientos de otras personas.</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>Que significa <a href="https://royalsociety.org/about-us/history/" target="_blank" rel="noopener noreferrer">cuestiónalo todo</a>. Cuestiona lo que tienes alrededor pero, sobre todo, cuestiónate a ti mismo, lo que haces y cómo lo haces. Es reinventarse a sí mismo, mejorando cada día con lo que aprendes por la experiencia adquirida y por la experencia que proporcionan los conocimientos de otras personas.</p>
@@ -889,7 +889,7 @@ Migasfree recolecta mucha información automáticamente de los equipos cliente a
     <title type="text">El plan maestro</title>
     <id>http://migasfree.org/blog/2016/2016-05-25-el-plan-maestro.html</id>
     <link href="http://migasfree.org/blog/2016/2016-05-25-el-plan-maestro.html"/>
-    <updated>2023-07-12T06:33:11.000Z</updated>
+    <updated>2023-07-14T10:50:41.000Z</updated>
     <summary type="html"><![CDATA[<div style="text-align:center">
 <figure><img src="/img/patinete.jpg" alt="migasfree actual" tabindex="0" loading="lazy"><figcaption>migasfree actual</figcaption></figure>
 </div>
@@ -1190,7 +1190,7 @@ Migasfree recolecta mucha información automáticamente de los equipos cliente a
     <title type="text">¡Zorionak, Pasaia!</title>
     <id>http://migasfree.org/blog/2019/2019-03-11-zorionak-pasaia.html</id>
     <link href="http://migasfree.org/blog/2019/2019-03-11-zorionak-pasaia.html"/>
-    <updated>2023-07-12T06:33:11.000Z</updated>
+    <updated>2023-07-14T10:50:41.000Z</updated>
     <summary type="html"><![CDATA[<p>¡Qué alegría recibir emails con buenas noticias!</p>
 <p>En este caso nos llegan del Ayuntamiento de <a href="http://pasaia.eus/" target="_blank" rel="noopener noreferrer">Pasaia</a>, informándonos que <a href="/files/Pasaia_caso_de_exito.pdf">han completado con éxito su migración a GNU/Linux</a>.</p>
 ]]></summary>
@@ -1267,7 +1267,7 @@ Migasfree recolecta mucha información automáticamente de los equipos cliente a
     <title type="text">¿Por qué no usáis Puppet?</title>
     <id>http://migasfree.org/blog/2022/2022-05-21-por-que-no-puppet.html</id>
     <link href="http://migasfree.org/blog/2022/2022-05-21-por-que-no-puppet.html"/>
-    <updated>2023-07-12T06:33:11.000Z</updated>
+    <updated>2023-07-14T10:50:41.000Z</updated>
     <summary type="html"><![CDATA[<div style="text-align:center">
 <figure><img src="https://mundet3elmar.files.wordpress.com/2010/03/estibadores-archivo-hist.jpg" alt="Estibadores en el puerto de Barcelona" tabindex="0" loading="lazy"><figcaption>Estibadores en el puerto de Barcelona</figcaption></figure>
 </div>
