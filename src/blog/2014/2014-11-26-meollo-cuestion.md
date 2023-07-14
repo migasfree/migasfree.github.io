@@ -14,6 +14,8 @@ category:
 
 Este es el resumen del proceso <acronym title="Gestión de la Configuración Software">GCS</acronym> en tu organización con migasfree:
 
+<!-- more -->
+
 1. Un usuario hace un petición de cambio.
 2. Un desarrollador programa el cambio de la configuración software dentro de un paquete y lo sube a un servidor migasfree.
 3. La liberación es realizada por el servidor migasfree a los ordenadores requeridos.
