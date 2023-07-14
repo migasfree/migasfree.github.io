@@ -1,5 +1,19 @@
 import { sidebar } from 'vuepress-theme-hope'
 
+const blogRoll = {
+  text: 'Blogroll',
+  children: [
+    {
+      link: 'http://zaragozaciudad.net/azlinux/',
+      text: 'AZLinux',
+    },
+    {
+      link: 'http://wiki.vitalinux.educa.aragon.es/',
+      text: 'Vitalinux Edu DGA',
+    },
+  ],
+}
+
 export default sidebar({
   '/': [
     {
@@ -22,19 +36,7 @@ export default sidebar({
       text: 'Quiénes somos',
       icon: 'people-group',
     },
-    {
-      text: 'Blogroll',
-      children: [
-        {
-          link: 'http://zaragozaciudad.net/azlinux/',
-          text: 'AZLinux',
-        },
-        {
-          link: 'http://wiki.vitalinux.educa.aragon.es/',
-          text: 'Vitalinux Edu DGA',
-        },
-      ],
-    },
+    blogRoll,
   ],
   '/blog/': [
     {
@@ -43,5 +45,6 @@ export default sidebar({
       icon: 'blog',
       children: 'structure',
     },
+    blogRoll,
   ],
 })
