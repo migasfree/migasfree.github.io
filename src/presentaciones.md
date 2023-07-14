@@ -1,6 +1,7 @@
 ---
 title: Presentaciones
 timeline: false
+feed: false
 ---
 
 <script setup>
