@@ -28,9 +28,13 @@ Será un día de trabajo diferente. Mira nuestra agenda.
   [Alberto Gacías](http://twitter.com/albertogacias): Presentación de la nueva versión 5. Nuevos retos. Habrá tiempo para dudas, realizar peticiones, aportar ideas, mejoras… es posible que de aquí salgan decisiones que nos pueden afectar a todos, así que aprovecha y ¡lleva el futuro de migasfree a tu terreno!
 - _14:00_ **Comida**
   Os invitamos, por vuestra cara bonita, a un menú muy especial. ¿Se incluirá un primer plato de migas? ¿Sí o no?
-- _16:00_ **Usemos la API migasfree**
-  [Jose Antonio Chavarría](http://es.linkedin.com/in/jachavar/): Diferentes ejemplos de uso de la API de migasfree.
+- _16:00_ **Migasfree Frontend**
+  [Jose Antonio Chavarría](http://es.linkedin.com/in/jachavar/): Presentación en sociedad del nuevo interfaz de administración del servidor versión 5.
+- _16:30_ **Migasfree Client 5**
+  Jose Antonio Chavarría: Características del nuevo cliente versión 5.
+- _17:00_ **Migasfree Play 5**
+  Jose Antonio Chavarría: Rediseño de la aplicación [Migasfree Play](https://github.com/migasfree/migasfree-play) para la versión 5 de la _suite_.
 - _17:30_ **Clausura**
   Daremos por terminado el encuentro de la comunidad migasfree.
 
-Por cierto, ¿usas migasfree y aún no te has puesto en contacto con nosotros? ¡No puede ser, hay que [solucionarlo](/team)!
+Por cierto, ¿usas migasfree y aún no te has puesto en contacto con nosotros? ¡No puede ser! ¡Hay que [solucionarlo](/team)!
