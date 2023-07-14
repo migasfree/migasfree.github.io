@@ -3,22 +3,48 @@
   <id>http://migasfree.org/</id>
   <title>Migasfree</title>
   <subtitle>Sistema de gestión de sistemas</subtitle>
-  <updated>2023-07-13T12:41:23.865Z</updated>
+  <updated>2023-07-14T07:31:57.522Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="http://migasfree.org/atom.xml"/>
   <link rel="alternate" href="http://migasfree.org/"/>
-  <category term="Desarrollo"/>
   <category term="Noticia"/>
+  <category term="Desarrollo"/>
   <category term="Tutorial"/>
   <category term="Teoría"/>
   <category term="Evento"/>
   <category term="Caso de éxito"/>
   <contributor>
-    <name>agacias</name>
-  </contributor>
-  <contributor>
     <name>jact</name>
   </contributor>
+  <contributor>
+    <name>agacias</name>
+  </contributor>
+  <entry>
+    <title type="text">La hipótesis de la recombinación</title>
+    <id>http://migasfree.org/blog/2023/2023-07-14-la-hipotesis-de-la-recombinacion.html</id>
+    <link href="http://migasfree.org/blog/2023/2023-07-14-la-hipotesis-de-la-recombinacion.html"/>
+    <updated>2023-07-14T07:29:50.000Z</updated>
+    <summary type="html"><![CDATA[<p>Durante la existencia de este <em>blog</em>, hemos sufrido algunos ataques que han dejado fuera de combate la comunicación por este canal.</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>Durante la existencia de este <em>blog</em>, hemos sufrido algunos ataques que han dejado fuera de combate la comunicación por este canal.</p>
+<!-- more -->
+<p>Pensamos que es por utilizar <a href="https://wordpress.org/" target="_blank" rel="noopener noreferrer">Wordpress</a> y por ello hemos cambiado, a partir de hoy, el formato y generación de nuestro sitio web.</p>
+<p>Ahora generamos las páginas estáticas gracias a <a href="https://v2.vuepress.vuejs.org/" target="_blank" rel="noopener noreferrer">VuePress</a> y la personalización del tema <a href="https://theme-hope.vuejs.press/" target="_blank" rel="noopener noreferrer">VuePress Theme Hope</a>. Además, hemos creado el proyecto <a href="https://github.com/migasfree/migasfree.github.io/" target="_blank" rel="noopener noreferrer">migasfree.github.io</a> y utlizamos la generación automática del sitio web estático que nos proporciona <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>. Esto nos permite generar automáticamente, con cada <em>commit</em>, el sitio web <a href="https://migasfree.github.io/" target="_blank" rel="noopener noreferrer">https://migasfree.github.io</a>.</p>
+<p>Esperamos no tener tantos problemas de caída de servicio con esta serie de cambios. También hemos aprovechado para cambiar la fachada del <em>blog</em> y renovar nuestra imagen corporativa.</p>
+<div style="text-align:center">
+<figure><img src="/migasfree.svg" alt="Nuevo logotipo de migasfree" tabindex="0" loading="lazy"><figcaption>Nuevo logotipo de migasfree</figcaption></figure>
+</div>
+]]></content>
+    <author>
+      <name>jact</name>
+    </author>
+    <category term="Noticia"/>
+    <contributor>
+      <name>jact</name>
+    </contributor>
+    <published>2023-07-14T09:04:00.000Z</published>
+    <rights>Copyright by jact</rights>
+  </entry>
   <entry>
     <title type="text">migascon 2022</title>
     <id>http://migasfree.org/migascon-2022.html</id>
