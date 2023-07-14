@@ -1,6 +1,7 @@
 ---
 title: Quiénes somos
 timeline: false
+feed: false
 ---
 
 <script setup>
