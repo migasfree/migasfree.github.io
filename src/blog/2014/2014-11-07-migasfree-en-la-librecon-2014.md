@@ -3,6 +3,7 @@ title: migasfree en la librecon 2014
 date: 2014-11-07 21:49:00
 author: agacias
 comment: false
+star: 3
 category:
   - Evento
 ---

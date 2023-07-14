@@ -3,6 +3,7 @@ title: El plan maestro
 date: 2016-05-25 17:24:00
 author: jact
 comment: false
+star: 4
 category:
   - Desarrollo
   - Noticia

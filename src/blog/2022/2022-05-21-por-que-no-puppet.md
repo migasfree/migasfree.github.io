@@ -3,6 +3,7 @@ title: ¿Por qué no usáis Puppet?
 date: 2022-05-21 13:51:00
 author: agacias
 comment: false
+star: 5
 category:
   - Teoría
 ---

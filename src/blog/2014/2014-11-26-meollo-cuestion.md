@@ -3,6 +3,7 @@ title: El meollo de la cuestión
 date: 2014-11-26 20:36:00
 author: jact
 comment: false
+star: 5
 category:
   - Teoría
 ---

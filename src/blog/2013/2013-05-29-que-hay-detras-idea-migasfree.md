@@ -3,6 +3,7 @@ title: ¿Qué hay detrás de la idea de migasfree?
 date: 2013-05-29 17:54:00
 author: jact
 comment: false
+star: 4
 category:
   - Teoría
 ---

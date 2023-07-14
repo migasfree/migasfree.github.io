@@ -3,6 +3,7 @@ title: ¡Zorionak, Pasaia!
 date: 2019-03-11 19:37:00
 author: agacias
 comment: false
+star: 4
 category:
   - Caso de éxito
   - Noticia

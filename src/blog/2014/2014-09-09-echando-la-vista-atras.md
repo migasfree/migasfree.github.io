@@ -3,6 +3,7 @@ title: Echando la vista atrás
 date: 2014-09-09 12:07:00
 author: jact
 comment: false
+star: 5
 category:
   - Teoría
 ---
