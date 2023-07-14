@@ -3,7 +3,7 @@
   <id>http://migasfree.org/</id>
   <title>Migasfree</title>
   <subtitle>Sistema de gestión de sistemas</subtitle>
-  <updated>2023-07-14T07:31:57.522Z</updated>
+  <updated>2023-07-14T10:38:51.588Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="http://migasfree.org/atom.xml"/>
   <link rel="alternate" href="http://migasfree.org/"/>
@@ -44,98 +44,6 @@
     </contributor>
     <published>2023-07-14T09:04:00.000Z</published>
     <rights>Copyright by jact</rights>
-  </entry>
-  <entry>
-    <title type="text">migascon 2022</title>
-    <id>http://migasfree.org/migascon-2022.html</id>
-    <link href="http://migasfree.org/migascon-2022.html"/>
-    <updated>2023-07-12T07:48:35.000Z</updated>
-    <summary type="html"><![CDATA[<h2> Zaragoza, 19 de Mayo de 2022</h2>
-<div style="text-align:center">
-<figure><img src="/img/migascon.svg" alt="migascon" width="232" height="200" tabindex="0" loading="lazy"><figcaption>migascon</figcaption></figure>
-</div>
-<p>Con motivo de nuestro 12º aniversario, estamos preparando: ¡el primer encuentro de la comunidad migasfree de la historia!</p>
-]]></summary>
-    <content type="html"><![CDATA[<h2> Zaragoza, 19 de Mayo de 2022</h2>
-<div style="text-align:center">
-<figure><img src="/img/migascon.svg" alt="migascon" width="232" height="200" tabindex="0" loading="lazy"><figcaption>migascon</figcaption></figure>
-</div>
-<p>Con motivo de nuestro 12º aniversario, estamos preparando: ¡el primer encuentro de la comunidad migasfree de la historia!</p>
-<!-- more -->
-<p>El objetivo principal es conocernos en persona e intercambiar experiencias, pero también solucionar dudas, realizar propuestas, conocer que nos depara la versión 5 de migasfree…</p>
-<p>Será un día de trabajo diferente. Mira nuestra agenda.</p>
-<ul>
-<li><em>09:30</em> <strong>Café de bienvenida y desvirtualización</strong><br>
-Aprovecharemos que somos una comunidad pequeña, para conocernos tomando un café tan ricamente. Os pedimos que preparéis, una pequeña exposición informal de no más de 10 min. para presentaros y mostrar vuestro proyecto.<br>
-Aviso a los ponentes: Está en juego una jarra de cerveza pirograbada, única en el mundo, creada para la ocasión por el artista aragonés Thoti. La conseguirá la presentación más original o divertida.</li>
-<li><em>11:00</em> <strong>Integración y Despliegue Continuo con migasfree</strong><br>
-<a href="https://twitter.com/eduromo" target="_blank" rel="noopener noreferrer">Eduardo Romero</a>: Uso de gitlab + docker para realizar CI/CD.</li>
-<li><em>12:00</em> <strong>Pausa</strong></li>
-<li><em>12:30</em> <strong>migasfree 5</strong><br>
-<a href="http://twitter.com/albertogacias" target="_blank" rel="noopener noreferrer">Alberto Gacías</a>: Presentación de la nueva versión 5. Nuevos retos. Habrá tiempo para dudas, realizar peticiones, aportar ideas, mejoras… es posible que de aquí salgan decisiones que nos pueden afectar a todos, así que aprovecha y ¡lleva el futuro de migasfree a tu terreno!</li>
-<li><em>14:00</em> <strong>Comida</strong><br>
-Os invitamos, por vuestra cara bonita, a un menú muy especial. ¿Se incluirá un primer plato de migas? ¿Sí o no?</li>
-<li><em>16:00</em> <strong>Usemos la API migasfree</strong><br>
-<a href="http://es.linkedin.com/in/jachavar/" target="_blank" rel="noopener noreferrer">Jose Antonio Chavarría</a>: Diferentes ejemplos de uso de la API de migasfree.</li>
-<li><em>17:30</em> <strong>Clausura</strong><br>
-Daremos por terminado el encuentro de la comunidad migasfree.</li>
-</ul>
-<p>Por cierto, ¿usas migasfree y aún no te has puesto en contacto con nosotros? ¡No puede ser, hay que <a href="/team">solucionarlo</a>!</p>
-]]></content>
-    <published>2023-07-12T06:33:11.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">Presentaciones</title>
-    <id>http://migasfree.org/presentaciones.html</id>
-    <link href="http://migasfree.org/presentaciones.html"/>
-    <updated>2023-07-12T07:48:40.000Z</updated>
-    <summary type="html"><![CDATA[<div class="card center" v-for="item in videos">
-  </div>
-]]></summary>
-    <content type="html"><![CDATA[<div class="card center" v-for="item in videos">
-  </div>
-]]></content>
-    <published>2023-07-12T06:33:11.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">Quiénes somos</title>
-    <id>http://migasfree.org/team.html</id>
-    <link href="http://migasfree.org/team.html"/>
-    <updated>2023-07-12T10:40:58.000Z</updated>
-    <summary type="html"><![CDATA[<p>En migasfree nos gusta compartir y ayudarnos mútuamente. Es por esto que, si estás usando migasfree, puedes integrarte en nuestra comunidad de usuarios en Slack. Solicítanos una invitación por email.</p>
-<div class="card" v-for="item in members">
-  <div class="card-heading">
-    <p class="card-title">{{item.name}}</p>
-    <p class="card-subtitle">{{item.title}}</p>
-  </div>
-  <div class="card-body">
-    <p></p>
-    <p class="quote">«{{item.text}}»</p>
-  </div>
-  <p class="card-links">
-    <template v-for="el in item.links">
-      <a :href="el.link"><fonticon :icon="el.icon" color="#ff671a" :size="30"></fonticon></a>
-    </template>
-  </p>
-</div>]]></summary>
-    <content type="html"><![CDATA[<p>En migasfree nos gusta compartir y ayudarnos mútuamente. Es por esto que, si estás usando migasfree, puedes integrarte en nuestra comunidad de usuarios en Slack. Solicítanos una invitación por email.</p>
-<div class="card" v-for="item in members">
-  <div class="card-heading">
-    <p class="card-title">{{item.name}}</p>
-    <p class="card-subtitle">{{item.title}}</p>
-  </div>
-  <div class="card-body">
-    <p></p>
-    <p class="quote">«{{item.text}}»</p>
-  </div>
-  <p class="card-links">
-    <template v-for="el in item.links">
-      <a :href="el.link"><fonticon :icon="el.icon" color="#ff671a" :size="30"></fonticon></a>
-    </template>
-  </p>
-</div>
-]]></content>
-    <published>2023-07-12T06:33:11.000Z</published>
   </entry>
   <entry>
     <title type="text">Appliance disponible desde migasfree.org</title>

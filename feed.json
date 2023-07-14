@@ -24,40 +24,6 @@
       ]
     },
     {
-      "title": "migascon 2022",
-      "url": "http://migasfree.org/migascon-2022.html",
-      "id": "http://migasfree.org/migascon-2022.html",
-      "summary": "Zaragoza, 19 de Mayo de 2022 migascon Con motivo de nuestro 12º aniversario, estamos preparando: ¡el primer encuentro de la comunidad migasfree de la historia!",
-      "content_html": "<h2> Zaragoza, 19 de Mayo de 2022</h2>\n<div style=\"text-align:center\">\n<figure><img src=\"/img/migascon.svg\" alt=\"migascon\" width=\"232\" height=\"200\" tabindex=\"0\" loading=\"lazy\"><figcaption>migascon</figcaption></figure>\n</div>\n<p>Con motivo de nuestro 12º aniversario, estamos preparando: ¡el primer encuentro de la comunidad migasfree de la historia!</p>\n<!-- more -->\n<p>El objetivo principal es conocernos en persona e intercambiar experiencias, pero también solucionar dudas, realizar propuestas, conocer que nos depara la versión 5 de migasfree…</p>\n<p>Será un día de trabajo diferente. Mira nuestra agenda.</p>\n<ul>\n<li><em>09:30</em> <strong>Café de bienvenida y desvirtualización</strong><br>\nAprovecharemos que somos una comunidad pequeña, para conocernos tomando un café tan ricamente. Os pedimos que preparéis, una pequeña exposición informal de no más de 10 min. para presentaros y mostrar vuestro proyecto.<br>\nAviso a los ponentes: Está en juego una jarra de cerveza pirograbada, única en el mundo, creada para la ocasión por el artista aragonés Thoti. La conseguirá la presentación más original o divertida.</li>\n<li><em>11:00</em> <strong>Integración y Despliegue Continuo con migasfree</strong><br>\n<a href=\"https://twitter.com/eduromo\" target=\"_blank\" rel=\"noopener noreferrer\">Eduardo Romero</a>: Uso de gitlab + docker para realizar CI/CD.</li>\n<li><em>12:00</em> <strong>Pausa</strong></li>\n<li><em>12:30</em> <strong>migasfree 5</strong><br>\n<a href=\"http://twitter.com/albertogacias\" target=\"_blank\" rel=\"noopener noreferrer\">Alberto Gacías</a>: Presentación de la nueva versión 5. Nuevos retos. Habrá tiempo para dudas, realizar peticiones, aportar ideas, mejoras… es posible que de aquí salgan decisiones que nos pueden afectar a todos, así que aprovecha y ¡lleva el futuro de migasfree a tu terreno!</li>\n<li><em>14:00</em> <strong>Comida</strong><br>\nOs invitamos, por vuestra cara bonita, a un menú muy especial. ¿Se incluirá un primer plato de migas? ¿Sí o no?</li>\n<li><em>16:00</em> <strong>Usemos la API migasfree</strong><br>\n<a href=\"http://es.linkedin.com/in/jachavar/\" target=\"_blank\" rel=\"noopener noreferrer\">Jose Antonio Chavarría</a>: Diferentes ejemplos de uso de la API de migasfree.</li>\n<li><em>17:30</em> <strong>Clausura</strong><br>\nDaremos por terminado el encuentro de la comunidad migasfree.</li>\n</ul>\n<p>Por cierto, ¿usas migasfree y aún no te has puesto en contacto con nosotros? ¡No puede ser, hay que <a href=\"/team\">solucionarlo</a>!</p>\n",
-      "image": "http://migasfree.org/img/migascon.svg =232x200",
-      "date_published": "2023-07-12T06:33:11.000Z",
-      "date_modified": "2023-07-12T07:48:35.000Z",
-      "authors": [],
-      "tags": []
-    },
-    {
-      "title": "Presentaciones",
-      "url": "http://migasfree.org/presentaciones.html",
-      "id": "http://migasfree.org/presentaciones.html",
-      "summary": "const videos = [ { id: 'x5o1Z00GIQM', text: 'Migasfree en la gestión de la configuración', date: '2012-01-12', link: 'https://speakerdeck.com/jact/migasfree-en-la-gestion-de-la-...",
-      "content_html": "<div class=\"card center\" v-for=\"item in videos\">\n  </div>\n",
-      "date_published": "2023-07-12T06:33:11.000Z",
-      "date_modified": "2023-07-12T07:48:40.000Z",
-      "authors": [],
-      "tags": []
-    },
-    {
-      "title": "Quiénes somos",
-      "url": "http://migasfree.org/team.html",
-      "id": "http://migasfree.org/team.html",
-      "summary": "const members = [ { avatar: '/avatar/alberto.jpg', name: 'Alberto Gacías', title: 'Creador y desarrollador', text: 'Comencé a desarrollar migasfree para ahorrarme horas de traba...",
-      "content_html": "<p>En migasfree nos gusta compartir y ayudarnos mútuamente. Es por esto que, si estás usando migasfree, puedes integrarte en nuestra comunidad de usuarios en Slack. Solicítanos una invitación por email.</p>\n<div class=\"card\" v-for=\"item in members\">\n  <div class=\"card-heading\">\n    <p class=\"card-title\">{{item.name}}</p>\n    <p class=\"card-subtitle\">{{item.title}}</p>\n  </div>\n  <div class=\"card-body\">\n    <p></p>\n    <p class=\"quote\">«{{item.text}}»</p>\n  </div>\n  <p class=\"card-links\">\n    <template v-for=\"el in item.links\">\n      <a :href=\"el.link\"><fonticon :icon=\"el.icon\" color=\"#ff671a\" :size=\"30\"></fonticon></a>\n    </template>\n  </p>\n</div>\n",
-      "date_published": "2023-07-12T06:33:11.000Z",
-      "date_modified": "2023-07-12T10:40:58.000Z",
-      "authors": [],
-      "tags": []
-    },
-    {
       "title": "Appliance disponible desde migasfree.org",
       "url": "http://migasfree.org/blog/2010/2010-08-18-appliance-disponible.html",
       "id": "http://migasfree.org/blog/2010/2010-08-18-appliance-disponible.html",
