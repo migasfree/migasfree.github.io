@@ -11,28 +11,32 @@ feed: false
 
 <YouTube id="dp6CQ6TV8Q0" />
 
-# Descubre qué puede hacer migasfree por tu organización
+# [Descubre qué puede hacer migasfree por tu organización](migasfree-en-tu-organizacion.md)
 
 ::: card
 
 ```card
 title: Inventariar tus sistemas (hardware y software)
 logo: /img/inventario.png
+link: migasfree-en-tu-organizacion.md#inventariar-tus-sistemas-hardware-y-software
 ```
 
 ```card
 title: Automatizar el despliegue de software en el momento indicado y a los ordenadores necesarios
 logo: /img/automation.png
+link: migasfree-en-tu-organizacion.md#automatizar-el-despliegue-de-software-en-el-momento-indicado-y-a-los-ordenadores-necesarios
 ```
 
 ```card
 title: Detección de fallas y errores centralizados
 logo: /img/error.png
+link: migasfree-en-tu-organizacion.md#deteccion-de-fallas-y-errores-centralizados
 ```
 
 ```card
 title: Configuración 0
 logo: /img/config.png
+link: migasfree-en-tu-organizacion.md#configuracion-0
 ```
 
 :::
