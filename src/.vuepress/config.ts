@@ -41,12 +41,6 @@ export default defineUserConfig({
         rel: 'stylesheet',
       },
     ],
-    [
-      'script',
-      {
-        src: '/files/chatbot.js',
-      },
-    ],
   ],
 
   plugins: [
