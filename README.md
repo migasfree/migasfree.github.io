@@ -7,17 +7,17 @@ Tiene integración con [GitHub Pages](https://pages.github.com/).
 ## Instalación de dependencias
 
 ```bash
-yarn
+pnpm install
 ```
 
 ## Iniciar el proyecto en modo desarrollo
 
 ```bash
-yarn docs:dev
+pnpm docs:dev
 ```
 
 ## Construcción del sitio web estático
 
 ```bash
-yarn docs:build
+pnpm docs:build
 ```
