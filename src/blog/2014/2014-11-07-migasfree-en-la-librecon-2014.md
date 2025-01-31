@@ -23,5 +23,5 @@ Si vas a la librecon 2014, y te interesan estos temas, no dejes pasar la oportun
 Aquí tenéis la presentación:
 
 ::: center
-<YouTube id="PCHQypVGHxY" />
+<VidStack src="youtube/PCHQypVGHxY" poster="https://i.ytimg.com/vi_webp/PCHQypVGHxY/maxresdefault.webp" />
 :::
