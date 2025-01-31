@@ -14,8 +14,6 @@ export default hopeTheme({
   lastUpdated: false,
   contributors: false,
 
-  iconAssets: 'fontawesome-with-brands',
-
   logo: '/migasfree.svg',
 
   repo: 'migasfree/',
@@ -58,6 +56,46 @@ export default hopeTheme({
     //sidebarDisplay: 'always',
   },
 
+  // All features are enabled for demo, only preserve features you need here
+  markdown: {
+    align: true,
+    attrs: true,
+    // chartjs: true,
+    codeTabs: true,
+    demo: true,
+    // echarts: true,
+    figure: true,
+    // flowchart: true,
+    gfm: true,
+    imgLazyload: true,
+    imgSize: true,
+    include: true,
+    mark: true,
+    // mermaid: true,
+    playground: {
+      presets: ['ts', 'vue'],
+    },
+    revealjs: true,
+    stylize: [
+      {
+        matcher: 'Recommended',
+        replacer: ({ tag }) => {
+          if (tag === 'em')
+            return {
+              tag: 'Badge',
+              attrs: { type: 'tip' },
+              content: 'Recommended',
+            }
+        },
+      },
+    ],
+    sub: true,
+    sup: true,
+    tabs: true,
+    vPre: true,
+    vuePlayground: true,
+  },
+
   plugins: {
     // You should generate and use your own comment service
     /*comment: {
@@ -68,46 +106,19 @@ export default hopeTheme({
       categoryId: "DIC_kwDOG_Pt2M4COD69",
     },*/
 
-    // All features are enabled for demo, only preserve features you need here
-    mdEnhance: {
-      align: true,
-      attrs: true,
-      card: true,
-      chart: true,
-      codetabs: true,
-      demo: true,
-      echarts: true,
-      figure: true,
-      flowchart: true,
-      gfm: true,
-      imgLazyload: true,
-      imgSize: true,
-      include: true,
-      katex: true,
-      mark: true,
-      mermaid: true,
-      playground: {
-        presets: ['ts', 'vue'],
-      },
-      presentation: ['highlight', 'math', 'search', 'notes', 'zoom'],
-      stylize: [
-        {
-          matcher: 'Recommended',
-          replacer: ({ tag }) => {
-            if (tag === 'em')
-              return {
-                tag: 'Badge',
-                attrs: { type: 'tip' },
-                content: 'Recommended',
-              }
-          },
+    search: {
+      isSearchable: (page) => page.path !== '/',
+      maxSuggestions: 10,
+      getExtraFields: () => [],
+      locales: {
+        '/': {
+          placeholder: 'Buscar',
         },
-      ],
-      sub: true,
-      sup: true,
-      tabs: true,
-      vPre: true,
-      vuePlayground: true,
+      },
+    },
+
+    icon: {
+      assets: 'fontawesome-with-brands',
     },
 
     blog: {
@@ -138,15 +149,12 @@ export default hopeTheme({
 
     components: {
       components: [
-        'ArtPlayer',
-        'AudioPlayer',
         'Badge',
         'BiliBili',
-        'FontIcon',
         'PDF',
         'SiteInfo',
-        'VideoPlayer',
-        'YouTube',
+        'VidStack',
+        'VPCard',
       ],
     },
 
