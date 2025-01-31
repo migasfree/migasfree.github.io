@@ -10,5 +10,5 @@ category:
 Se llama [modificando software](http://www.youtube.com/v/FNAOaUa8ysI). Espero que os guste.
 
 ::: center
-<YouTube id="FNAOaUa8ysI" />
+<VidStack src="youtube/FNAOaUa8ysI" />
 :::
