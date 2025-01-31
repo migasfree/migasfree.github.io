@@ -7,7 +7,12 @@ category:
   - Tutorial
 ---
 
-En la documentación del proyecto, se menciona de pasada el parámetro `MIGASFREE_REMOTE_ADMIN_LINK`, describiendo brevemente cómo configurar el acceso por <acronym title="Virtual Network Computing">VNC</acronym> y <acronym title="Secure Shell">SSH</acronym> a los equipos, pero sin explicar cómo conseguir que esos protocolos sean accesibles directamente desde nuestro navegador web.
+<!-- prettier-ignore-start -->
+*[VNC]: Virtual Network Computing
+*[SSH]: Secure Shell
+<!-- prettier-ignore-end -->
+
+En la documentación del proyecto, se menciona de pasada el parámetro `MIGASFREE_REMOTE_ADMIN_LINK`, describiendo brevemente cómo configurar el acceso por VNC y SSH a los equipos, pero sin explicar cómo conseguir que esos protocolos sean accesibles directamente desde nuestro navegador web.
 
 <!-- more -->
 
