@@ -10,5 +10,5 @@ category:
 La herramienta de gestión no serviría de nada si no se pudieran monitorizar los errores en la distribución del software en los clientes. Podéis verlo con más detalle en el [videotutorial sobre errores en migasfree](http://www.youtube.com/v/flz_DwPE7Wo).
 
 ::: center
-<YouTube id="flz_DwPE7Wo" />
+<VidStack src="youtube/flz_DwPE7Wo" />
 :::
