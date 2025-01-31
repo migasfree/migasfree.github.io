@@ -9,7 +9,11 @@ comment: false
 feed: false
 ---
 
-<YouTube id="dp6CQ6TV8Q0" />
+<VidStack
+  src="youtube/dp6CQ6TV8Q0"
+  title="Claves de Migasfree"
+  poster="https://i.ytimg.com/vi_webp/dp6CQ6TV8Q0/maxresdefault.webp"
+/>
 
 # ¿Qué es migasfree?
 
@@ -17,33 +21,32 @@ Migasfree es una herramienta de gestión de sistemas de código abierto que se d
 
 ## [Descubre qué puede hacer migasfree por tu organización](migasfree-en-tu-organizacion.md)
 
-::: card
+<div class="vp-card-container">
+  <VPCard
+    title="Inventariar tus sistemas (hardware y software)"
+    logo="/img/inventario.png"
+    link="migasfree-en-tu-organizacion.md#inventariar-tus-sistemas-hardware-y-software"
+  />
 
-```card
-title: Inventariar tus sistemas (hardware y software)
-logo: /img/inventario.png
-link: migasfree-en-tu-organizacion.md#inventariar-tus-sistemas-hardware-y-software
-```
+<VPCard
+    title="Automatizar el despliegue de software en el momento indicado y a los ordenadores necesarios"
+    logo="/img/automation.png"
+    link="migasfree-en-tu-organizacion.md#automatizar-el-despliegue-de-software-en-el-momento-indicado-y-a-los-ordenadores-necesarios"
+  />
 
-```card
-title: Automatizar el despliegue de software en el momento indicado y a los ordenadores necesarios
-logo: /img/automation.png
-link: migasfree-en-tu-organizacion.md#automatizar-el-despliegue-de-software-en-el-momento-indicado-y-a-los-ordenadores-necesarios
-```
+<VPCard
+    title="Detección de fallas y errores centralizados"
+    logo="/img/error.png"
+    link="migasfree-en-tu-organizacion.md#deteccion-de-fallas-y-errores-centralizados"
+  />
 
-```card
-title: Detección de fallas y errores centralizados
-logo: /img/error.png
-link: migasfree-en-tu-organizacion.md#deteccion-de-fallas-y-errores-centralizados
-```
+<VPCard
+    title="Configuración 0"
+    logo="/img/config.png"
+    link="migasfree-en-tu-organizacion.md#configuracion-0"
+  />
 
-```card
-title: Configuración 0
-logo: /img/config.png
-link: migasfree-en-tu-organizacion.md#configuracion-0
-```
-
-:::
+</div>
 
 ## ¿Cómo gestiona migasfree la personalización de software dentro de una organización?
 
