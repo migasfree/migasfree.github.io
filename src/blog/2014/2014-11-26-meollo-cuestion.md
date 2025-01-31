@@ -12,7 +12,11 @@ category:
 ![Ciclo petición, cambio, liberación](/img/scm_process.png 'Ciclo petición, cambio, liberación')
 :::
 
-Este es el resumen del proceso <acronym title="Gestión de la Configuración Software">GCS</acronym> en tu organización con migasfree:
+<!-- prettier-ignore-start -->
+*[GCS]: Gestión de la Configuración Software
+<!-- prettier-ignore-end -->
+
+Este es el resumen del proceso GCS en tu organización con migasfree:
 
 <!-- more -->
 
