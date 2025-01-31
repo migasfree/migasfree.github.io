@@ -14,5 +14,5 @@ category:
 Más información en el [videotutorial](http://www.youtube.com/v/Vd0lllupqRg).
 
 ::: center
-<YouTube id="Vd0lllupqRg" />
+<VidStack src="youtube/Vd0lllupqRg" />
 :::
