@@ -66,7 +66,11 @@ feed: false
 </script>
 
 <div class="card center" v-for="item in videos">
-  <YouTube :id='item.id' />
+  <VidStack
+    :src="`youtube/${item.id}`"
+    :poster="`https://i.ytimg.com/vi_webp/${item.id}/maxresdefault.webp`"
+    :title="item.text"
+  />
   <p class="card-caption">{{item.text}} ({{item.date}})</p>
   <p class="card-body">{{item.abstract}}</p>
   <p class="card-action"><a :href="item.link">Descargar</a></p>
