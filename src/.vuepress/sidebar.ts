@@ -27,7 +27,7 @@ export default sidebar({
       icon: 'fab fa-slideshare',
     },
     {
-      link: '/blog',
+      link: '/blog/',
       text: 'Blog',
       icon: 'blog',
     },
@@ -40,7 +40,7 @@ export default sidebar({
   ],
   '/blog/': [
     {
-      link: '/blog',
+      link: '/blog/',
       text: 'Blog',
       icon: 'blog',
       children: 'structure',
