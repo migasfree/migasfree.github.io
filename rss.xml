@@ -6,9 +6,9 @@
     <link>http://migasfree.org/</link>
     <description>Sistema de gestión de sistemas</description>
     <language>es-ES</language>
-    <pubDate>Wed, 18 Sep 2024 15:51:42 GMT</pubDate>
-    <lastBuildDate>Wed, 18 Sep 2024 15:51:42 GMT</lastBuildDate>
-    <generator>vuepress-plugin-feed2</generator>
+    <pubDate>Fri, 31 Jan 2025 10:49:02 GMT</pubDate>
+    <lastBuildDate>Fri, 31 Jan 2025 10:49:02 GMT</lastBuildDate>
+    <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Noticia</category>
     <category>Desarrollo</category>
@@ -40,7 +40,7 @@
       <link>http://migasfree.org/blog/2010/2010-08-18-appliance-disponible.html</link>
       <guid>http://migasfree.org/blog/2010/2010-08-18-appliance-disponible.html</guid>
       <source url="http://migasfree.org/rss.xml">Appliance disponible desde migasfree.org</source>
-      <description>Podéis bajaros el appliance del servidor migasfree desde el área de descargas (http://migasfree.org/pub/).</description>
+      <description>Podéis bajaros el appliance del servidor migasfree desde el área de descargas.</description>
       <category>Desarrollo</category>
       <category>Noticia</category>
       <pubDate>Wed, 18 Aug 2010 23:23:00 GMT</pubDate>
@@ -52,7 +52,7 @@
       <link>http://migasfree.org/blog/2010/2010-08-18-codigo-inicial-disponible.html</link>
       <guid>http://migasfree.org/blog/2010/2010-08-18-codigo-inicial-disponible.html</guid>
       <source url="http://migasfree.org/rss.xml">Código inicial disponible en GitHub</source>
-      <description>Ya está disponible el código inicial en GitHub (http://github.com/agacias/migasfree).</description>
+      <description>Ya está disponible el código inicial en GitHub.</description>
       <category>Desarrollo</category>
       <category>Noticia</category>
       <pubDate>Wed, 18 Aug 2010 15:09:00 GMT</pubDate>
@@ -64,7 +64,7 @@
       <link>http://migasfree.org/blog/2010/2010-08-22-inicio-rapido.html</link>
       <guid>http://migasfree.org/blog/2010/2010-08-22-inicio-rapido.html</guid>
       <source url="http://migasfree.org/rss.xml">Inicio rápido de migasfree</source>
-      <description>Se ha subido el documento Inicio rápido de migasfree (http://migasfree.org/doc/es/quick_start.pdf).</description>
+      <description>Se ha subido el documento Inicio rápido de migasfree.</description>
       <category>Tutorial</category>
       <pubDate>Sun, 22 Aug 2010 19:31:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>Se ha subido el documento <a href="http://migasfree.org/doc/es/quick_start.pdf" target="_blank" rel="noopener noreferrer">Inicio rápido de migasfree</a>.</p>
@@ -75,7 +75,7 @@
       <link>http://migasfree.org/blog/2010/2010-09-07-videotutorial-appliance.html</link>
       <guid>http://migasfree.org/blog/2010/2010-09-07-videotutorial-appliance.html</guid>
       <source url="http://migasfree.org/rss.xml">Videotutorial sobre la instalación del appliance de migasfree</source>
-      <description>He puesto a vuestra disposición un videotutorial de cómo instalar el appliance de VirtualBox con el servidor de migasfree (http://www.youtube.com/v/36hnyKDV_0c). ::: center :::</description>
+      <description>He puesto a vuestra disposición un videotutorial de cómo instalar el appliance de VirtualBox con el servidor de migasfree.</description>
       <category>Tutorial</category>
       <pubDate>Tue, 07 Sep 2010 22:29:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>He puesto a vuestra disposición un videotutorial de <a href="http://www.youtube.com/v/36hnyKDV_0c" target="_blank" rel="noopener noreferrer">cómo instalar el appliance de VirtualBox con el servidor de migasfree</a>.</p>
@@ -88,7 +88,7 @@
       <link>http://migasfree.org/blog/2010/2010-09-10-videtutorial-conceptos-clave.html</link>
       <guid>http://migasfree.org/blog/2010/2010-09-10-videtutorial-conceptos-clave.html</guid>
       <source url="http://migasfree.org/rss.xml">Videotutorial sobre conceptos clave de migasfree</source>
-      <description>Disponible un nuevo videotutorial sobre los conceptos clave en los que se basa migasfree (http://www.youtube.com/v/yEEzNrsIJ3M). ::: center :::</description>
+      <description>Disponible un nuevo videotutorial sobre los conceptos clave en los que se basa migasfree.</description>
       <category>Tutorial</category>
       <pubDate>Fri, 10 Sep 2010 21:46:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>Disponible un nuevo videotutorial sobre los <a href="http://www.youtube.com/v/yEEzNrsIJ3M" target="_blank" rel="noopener noreferrer">conceptos clave en los que se basa migasfree</a>.</p>
@@ -101,7 +101,7 @@
       <link>http://migasfree.org/blog/2010/2010-09-11-videotutorial-propiedades-atributos.html</link>
       <guid>http://migasfree.org/blog/2010/2010-09-11-videotutorial-propiedades-atributos.html</guid>
       <source url="http://migasfree.org/rss.xml">Videotutorial sobre propiedades y atributos</source>
-      <description>Acabo de subir el videotutorial Propiedades y Atributos (http://www.youtube.com/v/4_YXkjcZ74Q). Esencial para el funcionamiento de migasfree. ::: center :::</description>
+      <description>Acabo de subir el videotutorial Propiedades y Atributos. Esencial para el funcionamiento de migasfree.</description>
       <category>Tutorial</category>
       <pubDate>Sat, 11 Sep 2010 19:39:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>Acabo de subir el <a href="http://www.youtube.com/v/4_YXkjcZ74Q" target="_blank" rel="noopener noreferrer">videotutorial Propiedades y Atributos</a>. Esencial para el funcionamiento de migasfree.</p>
@@ -114,7 +114,7 @@
       <link>http://migasfree.org/blog/2010/2010-09-12-tutorial-proceso-cambio.html</link>
       <guid>http://migasfree.org/blog/2010/2010-09-12-tutorial-proceso-cambio.html</guid>
       <source url="http://migasfree.org/rss.xml">Tutorial del proceso del cambio de la configuración software</source>
-      <description>Se llama modificando software (http://www.youtube.com/v/FNAOaUa8ysI). Espero que os guste. ::: center :::</description>
+      <description>Se llama modificando software. Espero que os guste.</description>
       <category>Tutorial</category>
       <pubDate>Sun, 12 Sep 2010 16:43:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>Se llama <a href="http://www.youtube.com/v/FNAOaUa8ysI" target="_blank" rel="noopener noreferrer">modificando software</a>. Espero que os guste.</p>
@@ -127,7 +127,7 @@
       <link>http://migasfree.org/blog/2010/2010-09-13-tutorial-subiendo-paquetes.html</link>
       <guid>http://migasfree.org/blog/2010/2010-09-13-tutorial-subiendo-paquetes.html</guid>
       <source url="http://migasfree.org/rss.xml">Tutorial «Subiendo paquetes»</source>
-      <description>Sin los paquetes, nada se podría hacer en migasfree. Para iniciar el proceso de distribución, hay que empezar subiendo paquetes al servidor de migasfree (http://www.youtube.com/...</description>
+      <description>Sin los paquetes, nada se podría hacer en migasfree. Para iniciar el proceso de distribución, hay que empezar subiendo paquetes al servidor de migasfree.</description>
       <category>Tutorial</category>
       <pubDate>Mon, 13 Sep 2010 19:20:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>Sin los paquetes, nada se podría hacer en migasfree. Para iniciar el proceso de distribución, hay que empezar <a href="http://www.youtube.com/v/XGzNE1FkK2o" target="_blank" rel="noopener noreferrer">subiendo paquetes al servidor de migasfree</a>.</p>
@@ -140,7 +140,7 @@
       <link>http://migasfree.org/blog/2010/2010-09-15-departamentos-tic-linux.html</link>
       <guid>http://migasfree.org/blog/2010/2010-09-15-departamentos-tic-linux.html</guid>
       <source url="http://migasfree.org/rss.xml">Los departamentos TIC y Linux</source>
-      <description>Un interesante artículo en blackshell, la bitácora de Juan J. Martinez (https://web.archive.org/web/20210419155027/http://blackshell.usebox.net/archive/los-departamentos-tic-y-l...</description>
+      <description>Un interesante artículo en blackshell, la bitácora de Juan J. Martinez.</description>
       <category>Teoría</category>
       <pubDate>Wed, 15 Sep 2010 18:10:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>Un <a href="https://web.archive.org/web/20210419155027/http://blackshell.usebox.net/archive/los-departamentos-tic-y-linux.html" target="_blank" rel="noopener noreferrer">interesante artículo en blackshell, la bitácora de Juan J. Martinez</a>.</p>
@@ -179,7 +179,7 @@
       <link>http://migasfree.org/blog/2010/2010-10-23-migasfree-en-malaga.html</link>
       <guid>http://migasfree.org/blog/2010/2010-10-23-migasfree-en-malaga.html</guid>
       <source url="http://migasfree.org/rss.xml">migasfree en Málaga</source>
-      <description>Estaremos en Málaga en la OSWC2010 hablando de nuestro proyecto. Hablaremos de migasfree en el Foro de Conocimiento Libre y Administraciones Públicas que se celebra en Málaga el 27 y 28 de octubre de 2010, dentro del Workshop del Foro de Administraciones Públicas de CENATIC.</description>
+      <description>Estaremos en Málaga en la OSWC2010 hablando de nuestro proyecto. Hablaremos de migasfree en el Foro de Conocimiento Libre y Administraciones Públicas que se celebra en Málaga el...</description>
       <category>Evento</category>
       <pubDate>Sat, 23 Oct 2010 08:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>Estaremos en Málaga en la OSWC2010 hablando de nuestro proyecto. Hablaremos de migasfree en el <a href="http://web.cenatic.es/web/phocadownload/foro_claapp_def.pdf" target="_blank" rel="noopener noreferrer">Foro de Conocimiento Libre y Administraciones Públicas</a> que se celebra en Málaga el 27 y 28 de octubre de 2010, dentro del Workshop del Foro de Administraciones Públicas de CENATIC.</p>
@@ -192,7 +192,7 @@
       <link>http://migasfree.org/blog/2010/2010-10-25-screencast-presentacion-migasfree.html</link>
       <guid>http://migasfree.org/blog/2010/2010-10-25-screencast-presentacion-migasfree.html</guid>
       <source url="http://migasfree.org/rss.xml">Screencast: presentación de migasfree</source>
-      <description>Para hacer el estreno en Málaga, he preparado una presentación menos técnica para explicar los fundamentos de migasfree (http://www.youtube.com/v/ZKvO-xRebxQ). ::: center :::</description>
+      <description>Para hacer el estreno en Málaga, he preparado una presentación menos técnica para explicar los fundamentos de migasfree.</description>
       <category>Evento</category>
       <pubDate>Mon, 25 Oct 2010 22:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>Para hacer el estreno en Málaga, he preparado una presentación menos técnica para explicar los <a href="http://www.youtube.com/v/ZKvO-xRebxQ" target="_blank" rel="noopener noreferrer">fundamentos de migasfree</a>.</p>
@@ -201,11 +201,53 @@
 ]]></content:encoded>
     </item>
     <item>
+      <title>¿Qué hay detrás de la idea de migasfree?</title>
+      <link>http://migasfree.org/blog/2013/2013-05-29-que-hay-detras-idea-migasfree.html</link>
+      <guid>http://migasfree.org/blog/2013/2013-05-29-que-hay-detras-idea-migasfree.html</guid>
+      <source url="http://migasfree.org/rss.xml">¿Qué hay detrás de la idea de migasfree?</source>
+      <description>Regla de Oro Cualquier cambio en la configuración del software debe ser empaquetado y distribuido de forma centralizada. Todo lo que no sea instalar programas mediante el gestor...</description>
+      <category>Teoría</category>
+      <pubDate>Wed, 29 May 2013 17:54:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div class="hint-container tip">
+<p class="hint-container-title">Regla de Oro</p>
+<p>Cualquier cambio en la configuración del software debe ser empaquetado y distribuido de forma centralizada.</p>
+</div>
+<p>Todo lo que no sea instalar programas mediante el gestor de paquetes o el backend, rompe la integridad frente a los cambios de tu sistema.</p>
+<!-- more -->
+<p>El gran aporte del software libre a la industria ha sido precisamente la invención del sistema de paquetería (paquete, repositorio, gestor de paquetes). Y no es para menos, ya que este sistema nos proporciona los dos requisitos necesarios que veíamos anteriormente y que garantizarán la integridad frente a los cambios, es decir:</p>
+<ol>
+<li>El control de dependencias, mediante el gestor de paquetes.</li>
+<li>La auditoría, mediante las consultas a la base de datos a través del backend.</li>
+</ol>
+<p>Migasfree permite planificar la distribución de los cambios.</p>
+<p><strong>Un repositorio de migasfree es simplemente un repositorio estándar más la capacidad de poder especificar cuándo y quién puede acceder a ese repositorio.</strong></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Liberado «Fun with migasfree»</title>
+      <link>http://migasfree.org/blog/2013/2013-06-09-liberado-fun-with-migasfree.html</link>
+      <guid>http://migasfree.org/blog/2013/2013-06-09-liberado-fun-with-migasfree.html</guid>
+      <source url="http://migasfree.org/rss.xml">Liberado «Fun with migasfree»</source>
+      <description>Tengo el placer de anunciaros que he liberado lo que llevo escrito de «Fun with migasfree», la documentación de migasfree.</description>
+      <category>Tutorial</category>
+      <pubDate>Sun, 09 Jun 2013 09:56:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>Tengo el placer de anunciaros que he liberado lo que llevo escrito de «Fun with migasfree», la documentación de migasfree.</p>
+<!-- more -->
+<p>Podéis verlo en:</p>
+<ul>
+<li><a href="https://fun-with-migasfree.readthedocs.io/_/downloads/es/master/pdf/" target="_blank" rel="noopener noreferrer">Versión PDF</a></li>
+<li><a href="http://fun-with-migasfree.readthedocs.org/" target="_blank" rel="noopener noreferrer">Versión HTML</a></li>
+<li><a href="http://github.com/agacias/fun-with-migasfree" target="_blank" rel="noopener noreferrer">Código fuente</a></li>
+</ul>
+<p>Conforme vaya completando el libro, iré actualizando estos ficheros.</p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>Nuevas mejoras implantadas en migasfree</title>
       <link>http://migasfree.org/blog/2011/2011-02-27-nuevas-mejoras-implantadas.html</link>
       <guid>http://migasfree.org/blog/2011/2011-02-27-nuevas-mejoras-implantadas.html</guid>
       <source url="http://migasfree.org/rss.xml">Nuevas mejoras implantadas en migasfree</source>
-      <description>Gráficas incluidas: Equipos actualizados por hora/día/mes; Equipos previsto por demora de calendario; Equipos por versión (de distribución); Se han añadido menús para las consul...</description>
+      <description>Gráficas incluidas: Equipos actualizados por hora/día/mes Equipos previsto por demora de calendario Equipos por versión (de distribución) Se han añadido menús para las consultas...</description>
       <category>Desarrollo</category>
       <pubDate>Sun, 27 Feb 2011 20:34:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>Gráficas incluidas:</p>
@@ -216,14 +258,15 @@
 <li>Se han añadido menús para las consultas y las gráficas.</li>
 </ul>
 <p>Si te has bajado el <a href="http://migasfree.org/pub/" target="_blank" rel="noopener noreferrer">appliance de VirtualBox</a> podrás actualizarte estos cambios ejecutando desde el servidor (ojo, se regenera la base de datos):</p>
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div>]]></content:encoded>
+<div class="language-sh line-numbers-mode" data-highlighter="shiki" data-ext="sh" data-title="sh" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># clone-migasfree</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div>]]></content:encoded>
     </item>
     <item>
       <title>Inventario hardware de los clientes de migasfree</title>
       <link>http://migasfree.org/blog/2011/2011-03-17-inventario-hardware-clientes.html</link>
       <guid>http://migasfree.org/blog/2011/2011-03-17-inventario-hardware-clientes.html</guid>
       <source url="http://migasfree.org/rss.xml">Inventario hardware de los clientes de migasfree</source>
-      <description>Implementada la funcionalidad de inventario de hardware. Gracias a la nueva versión de lshw (http://ezix.org/project/wiki/HardwareLiSter) (la B.02.15), que permite la salida de ...</description>
+      <description>Implementada la funcionalidad de inventario de hardware. Gracias a la nueva versión de lshw (la B.02.15), que permite la salida de la información hardware en formato JSON, migas...</description>
       <category>Desarrollo</category>
       <pubDate>Thu, 17 Mar 2011 19:18:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>Implementada la funcionalidad de inventario de hardware.</p>
@@ -243,14 +286,15 @@
 </ul>
 <p>También se han creado unas vistas que nos muestran gráficamente el hardware de un determinado equipo (sería el equivalante a la utilidad lshw-gui).</p>
 <p>Si te bajaste el <a href="http://migasfree.org/pub/" target="_blank" rel="noopener noreferrer">appliance de VirtualBox</a>, puedes probarlo ejecutando:</p>
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div>]]></content:encoded>
+<div class="language-sh line-numbers-mode" data-highlighter="shiki" data-ext="sh" data-title="sh" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">clone-migasfree</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div>]]></content:encoded>
     </item>
     <item>
       <title>Charla sobre Administración de Sistemas GNU/Linux con migasfree</title>
       <link>http://migasfree.org/blog/2011/2011-06-13-charla-administracion-sistemas.html</link>
       <guid>http://migasfree.org/blog/2011/2011-06-13-charla-administracion-sistemas.html</guid>
       <source url="http://migasfree.org/rss.xml">Charla sobre Administración de Sistemas GNU/Linux con migasfree</source>
-      <description>El miércoles, 15 de junio 2011, a las 19 h., en Zaragoza y gracias al colectivo Software &amp; Barra Libre (http://softwareybarralibre.org/), hablaremos sobre administración de sist...</description>
+      <description>El miércoles, 15 de junio 2011, a las 19 h., en Zaragoza y gracias al colectivo Software &amp; Barra Libre, hablaremos sobre administración de sistemas GNU/Linux con migasfree. Enla...</description>
       <category>Evento</category>
       <pubDate>Mon, 13 Jun 2011 19:20:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>El miércoles, 15 de junio 2011, a las 19 h., en Zaragoza y gracias al colectivo <a href="http://softwareybarralibre.org/" target="_blank" rel="noopener noreferrer">Software &amp; Barra Libre</a>, hablaremos sobre administración de sistemas GNU/Linux con migasfree.</p>
@@ -259,7 +303,7 @@
 <li><a href="http://www.softwareybarralibre.org/?q=node/52" target="_blank" rel="noopener noreferrer">Charla de migasfree en el Digital Water Pavilion</a></li>
 <li><a href="http://www.facebook.com/event.php?eid=136136616464810" target="_blank" rel="noopener noreferrer">Evento en Facebook: Software y Barra Libre: GNU/Linux con migasfree</a></li>
 </ul>
-<h2> Actualización: 2011-06-18</h2>
+<h2>Actualización: 2011-06-18</h2>
 <p><a href="http://zaragozaciudad.net/azlinux/2011/061701-charla-de-migasfree-en-software-y-barra-libre.php" target="_blank" rel="noopener noreferrer">Crónica de la charla</a>.</p>
 ]]></content:encoded>
     </item>
@@ -268,7 +312,7 @@
       <link>http://migasfree.org/blog/2011/2011-09-07-en-que-estamos-trabajando.html</link>
       <guid>http://migasfree.org/blog/2011/2011-09-07-en-que-estamos-trabajando.html</guid>
       <source url="http://migasfree.org/rss.xml">¿En qué estamos trabajando?</source>
-      <description>Os avanzamos lo que tenemos previsto tener desarrollado este mes de septiembre: Implementar seguridad asimétrica.; Nueva API (json).; Nuevo cliente en python (por @jactabcweb (h...</description>
+      <description>Os avanzamos lo que tenemos previsto tener desarrollado este mes de septiembre: Implementar seguridad asimétrica. Nueva API (json). Nuevo cliente en python (por @jact_abcweb). P...</description>
       <category>Desarrollo</category>
       <pubDate>Wed, 07 Sep 2011 21:37:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>Os avanzamos lo que tenemos previsto tener desarrollado este mes de septiembre:</p>
@@ -287,7 +331,7 @@
       <link>http://migasfree.org/blog/2011/2011-10-14-migasfree-en-la-lwsc-2011.html</link>
       <guid>http://migasfree.org/blog/2011/2011-10-14-migasfree-en-la-lwsc-2011.html</guid>
       <source url="http://migasfree.org/rss.xml">Migasfree en la LSWC 2011</source>
-      <description>Jose Antonio Chavarría y Alberto Gacías, desarrolladores de migasfree, hablarán de migasfree en la Libre Software World Conference 2011 (https://www.20minutos.es/noticia/1214638...</description>
+      <description>Jose Antonio Chavarría y Alberto Gacías, desarrolladores de migasfree, hablarán de migasfree en la Libre Software World Conference 2011 que este año se celebra en Zaragoza los d...</description>
       <category>Evento</category>
       <pubDate>Fri, 14 Oct 2011 18:56:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>Jose Antonio Chavarría y Alberto Gacías, desarrolladores de migasfree, hablarán de migasfree en la <a href="https://www.20minutos.es/noticia/1214638/0/" target="_blank" rel="noopener noreferrer">Libre Software World Conference 2011</a> que este año se celebra en Zaragoza los días 9 y 10 de noviembre:</p>
@@ -326,53 +370,11 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>¿Qué hay detrás de la idea de migasfree?</title>
-      <link>http://migasfree.org/blog/2013/2013-05-29-que-hay-detras-idea-migasfree.html</link>
-      <guid>http://migasfree.org/blog/2013/2013-05-29-que-hay-detras-idea-migasfree.html</guid>
-      <source url="http://migasfree.org/rss.xml">¿Qué hay detrás de la idea de migasfree?</source>
-      <description>Regla de Oro Cualquier cambio en la configuración del software debe ser empaquetado y distribuido de forma centralizada. Todo lo que no sea instalar programas mediante el gestor de paquetes o el backend, rompe la integridad frente a los cambios de tu sistema.</description>
-      <category>Teoría</category>
-      <pubDate>Wed, 29 May 2013 17:54:00 GMT</pubDate>
-      <content:encoded><![CDATA[<div class="hint-container tip">
-<p class="hint-container-title">Regla de Oro</p>
-<p>Cualquier cambio en la configuración del software debe ser empaquetado y distribuido de forma centralizada.</p>
-</div>
-<p>Todo lo que no sea instalar programas mediante el gestor de paquetes o el backend, rompe la integridad frente a los cambios de tu sistema.</p>
-<!-- more -->
-<p>El gran aporte del software libre a la industria ha sido precisamente la invención del sistema de paquetería (paquete, repositorio, gestor de paquetes). Y no es para menos, ya que este sistema nos proporciona los dos requisitos necesarios que veíamos anteriormente y que garantizarán la integridad frente a los cambios, es decir:</p>
-<ol>
-<li>El control de dependencias, mediante el gestor de paquetes.</li>
-<li>La auditoría, mediante las consultas a la base de datos a través del backend.</li>
-</ol>
-<p>Migasfree permite planificar la distribución de los cambios.</p>
-<p><strong>Un repositorio de migasfree es simplemente un repositorio estándar más la capacidad de poder especificar cuándo y quién puede acceder a ese repositorio.</strong></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Liberado «Fun with migasfree»</title>
-      <link>http://migasfree.org/blog/2013/2013-06-09-liberado-fun-with-migasfree.html</link>
-      <guid>http://migasfree.org/blog/2013/2013-06-09-liberado-fun-with-migasfree.html</guid>
-      <source url="http://migasfree.org/rss.xml">Liberado «Fun with migasfree»</source>
-      <description>Tengo el placer de anunciaros que he liberado lo que llevo escrito de «Fun with migasfree», la documentación de migasfree.</description>
-      <category>Tutorial</category>
-      <pubDate>Sun, 09 Jun 2013 09:56:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>Tengo el placer de anunciaros que he liberado lo que llevo escrito de «Fun with migasfree», la documentación de migasfree.</p>
-<!-- more -->
-<p>Podéis verlo en:</p>
-<ul>
-<li><a href="https://fun-with-migasfree.readthedocs.io/_/downloads/es/master/pdf/" target="_blank" rel="noopener noreferrer">Versión PDF</a></li>
-<li><a href="http://fun-with-migasfree.readthedocs.org/" target="_blank" rel="noopener noreferrer">Versión HTML</a></li>
-<li><a href="http://github.com/agacias/fun-with-migasfree" target="_blank" rel="noopener noreferrer">Código fuente</a></li>
-</ul>
-<p>Conforme vaya completando el libro, iré actualizando estos ficheros.</p>
-]]></content:encoded>
-    </item>
-    <item>
       <title>¿Las migas con uva pasan mejor?</title>
       <link>http://migasfree.org/blog/2014/2014-02-19-las-migas-con-uva-pasan-mejor.html</link>
       <guid>http://migasfree.org/blog/2014/2014-02-19-las-migas-con-uva-pasan-mejor.html</guid>
       <source url="http://migasfree.org/rss.xml">¿Las migas con uva pasan mejor?</source>
-      <description>A mí personalmente no me gustan con uva, pero… creo que esta es la mejor versión del proyecto (hasta el momento, jejeje). Y aunque los programadores siempre digamos lo mismo una y otra vez, en cada ocasión que logramos publicar una versión de un producto (para justificar así nuestro arduo trabajo 😉), veamos las razones para decirlo esta vez.</description>
+      <description>A mí personalmente no me gustan con uva, pero… creo que esta es la mejor versión del proyecto (hasta el momento, jejeje). Y aunque los programadores siempre digamos lo mismo una...</description>
       <category>Desarrollo</category>
       <pubDate>Wed, 19 Feb 2014 20:12:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>A mí personalmente no me gustan con uva, pero… creo que esta es la mejor versión del proyecto (hasta el momento, jejeje). Y aunque los programadores siempre digamos lo mismo una y otra vez, en cada ocasión que logramos publicar una versión de un producto (para justificar así nuestro arduo trabajo 😉), veamos las razones para decirlo esta vez.</p>
@@ -416,7 +418,7 @@
       <description>Casi 2 semanas después de liberar la versión 4.0, publicamos la 4.1.</description>
       <category>Desarrollo</category>
       <pubDate>Tue, 04 Mar 2014 22:11:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>Casi 2 semanas después de <a href="/blog/2014/2014-02-19-las-migas-con-uva-pasan-mejor.html" target="blank">liberar la versión 4.0</a>, publicamos <a href="https://github.com/migasfree/migasfree/archive/migasfree-server-4.1.zip" target="_blank" rel="noopener noreferrer">la 4.1</a>.</p>
+      <content:encoded><![CDATA[<p>Casi 2 semanas después de <a href="/blog/2014/2014-02-19-las-migas-con-uva-pasan-mejor.html" target="_blank">liberar la versión 4.0</a>, publicamos <a href="https://github.com/migasfree/migasfree/archive/migasfree-server-4.1.zip" target="_blank" rel="noopener noreferrer">la 4.1</a>.</p>
 <!-- more -->
 <p>Entre la multitud de incidencias resueltas en este período de tiempo, destacamos las siguientes:</p>
 <ul>
@@ -433,7 +435,7 @@
       <link>http://migasfree.org/blog/2014/2014-09-09-echando-la-vista-atras.html</link>
       <guid>http://migasfree.org/blog/2014/2014-09-09-echando-la-vista-atras.html</guid>
       <source url="http://migasfree.org/rss.xml">Echando la vista atrás</source>
-      <description>Ya han pasado más de 4 años desde que Alberto Gacías iniciara la andadura de este proyecto en abierto. El embrión que era por aquel entonces ha sufrido muchos y enormes cambios (aunque mantiene la esencia intacta) y ha evolucionado para convertirse en una potente herramienta administrativa para controlar la configuración software de los equipos de las organizaciones.</description>
+      <description>Ya han pasado más de 4 años desde que Alberto Gacías iniciara la andadura de este proyecto en abierto. El embrión que era por aquel entonces ha sufrido muchos y enormes cambios ...</description>
       <category>Teoría</category>
       <pubDate>Tue, 09 Sep 2014 12:07:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>Ya han pasado más de 4 años desde que <a href="http://twitter.com/albertogacias" target="_blank" rel="noopener noreferrer">Alberto Gacías</a> iniciara la andadura de <a href="https://github.com/migasfree" target="_blank" rel="noopener noreferrer">este proyecto en abierto</a>. El embrión que era por aquel entonces ha sufrido muchos y enormes cambios (aunque mantiene la esencia intacta) y ha evolucionado para convertirse en una potente herramienta administrativa para controlar la configuración software de los equipos de las organizaciones.</p>
@@ -490,7 +492,7 @@ Migasfree recolecta mucha información automáticamente de los equipos cliente a
 <p>Se celebrará en Bilbao los días 11 y 12 de noviembre.</p>
 <p><a href="https://twitter.com/jact_abcweb" target="_blank" rel="noopener noreferrer">Jose Antonio Chavarría</a>, desarrollador de migasfree, dará una <a href="https://speakerdeck.com/jact/administrando-tu-parque-de-ordenadores-linux-con-migasfree" target="_blank" rel="noopener noreferrer">charla sobre las características que debe reunir un sistema de gestión de sistemas y cómo migasfree afronta cada una de ellas</a>. Además, nos dará consejos para implantar migasfree en una organización.</p>
 <p>Si vas a la librecon 2014, y te interesan estos temas, no dejes pasar la oportunidad de oír a Jose Antonio.</p>
-<h2> Actualización (2014-11-21)</h2>
+<h2>Actualización (2014-11-21)</h2>
 <p>Aquí tenéis la presentación:</p>
 <div style="text-align:center">
 </div>
@@ -522,13 +524,15 @@ Migasfree recolecta mucha información automáticamente de los equipos cliente a
       <link>http://migasfree.org/blog/2014/2014-11-26-meollo-cuestion.html</link>
       <guid>http://migasfree.org/blog/2014/2014-11-26-meollo-cuestion.html</guid>
       <source url="http://migasfree.org/rss.xml">El meollo de la cuestión</source>
-      <description>Ciclo petición, cambio, liberación Este es el resumen del proceso en tu organización con migasfree:</description>
+      <description>Ciclo petición, cambio, liberaciónCiclo petición, cambio, liberación Este es el resumen del proceso GCS en tu organización con migasfree:</description>
       <category>Teoría</category>
       <pubDate>Wed, 26 Nov 2014 20:36:00 GMT</pubDate>
       <content:encoded><![CDATA[<div style="text-align:center">
 <figure><img src="/img/scm_process.png" alt="Ciclo petición, cambio, liberación" tabindex="0" loading="lazy"><figcaption>Ciclo petición, cambio, liberación</figcaption></figure>
 </div>
-<p>Este es el resumen del proceso  en tu organización con migasfree:</p>
+<!-- prettier-ignore-start -->
+<!-- prettier-ignore-end -->
+<p>Este es el resumen del proceso <abbr title="Gestión de la Configuración Software">GCS</abbr> en tu organización con migasfree:</p>
 <!-- more -->
 <ol>
 <li>Un usuario hace un petición de cambio.</li>
@@ -544,11 +548,13 @@ Migasfree recolecta mucha información automáticamente de los equipos cliente a
       <link>http://migasfree.org/blog/2015/2015-04-10-nullius-in-verba.html</link>
       <guid>http://migasfree.org/blog/2015/2015-04-10-nullius-in-verba.html</guid>
       <source url="http://migasfree.org/rss.xml">Nullius in verba</source>
-      <description>Que significa cuestiónalo todo. Cuestiona lo que tienes alrededor pero, sobre todo, cuestiónate a ti mismo, lo que haces y cómo lo haces. Es reinventarse a sí mismo, mejorando cada día con lo que aprendes por la experiencia adquirida y por la experencia que proporcionan los conocimientos de otras personas.</description>
+      <description>Que significa cuestiónalo todo. Cuestiona lo que tienes alrededor pero, sobre todo, cuestiónate a ti mismo, lo que haces y cómo lo haces. Es reinventarse a sí mismo, mejorando c...</description>
       <category>Desarrollo</category>
       <category>Teoría</category>
       <pubDate>Fri, 10 Apr 2015 19:44:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>Que significa <a href="https://royalsociety.org/about-us/history/" target="_blank" rel="noopener noreferrer">cuestiónalo todo</a>. Cuestiona lo que tienes alrededor pero, sobre todo, cuestiónate a ti mismo, lo que haces y cómo lo haces. Es reinventarse a sí mismo, mejorando cada día con lo que aprendes por la experiencia adquirida y por la experencia que proporcionan los conocimientos de otras personas.</p>
+      <content:encoded><![CDATA[<!-- prettier-ignore-start -->
+<!-- prettier-ignore-end -->
+<p>Que significa <a href="https://royalsociety.org/about-us/history/" target="_blank" rel="noopener noreferrer">cuestiónalo todo</a>. Cuestiona lo que tienes alrededor pero, sobre todo, cuestiónate a ti mismo, lo que haces y cómo lo haces. Es reinventarse a sí mismo, mejorando cada día con lo que aprendes por la experiencia adquirida y por la experencia que proporcionan los conocimientos de otras personas.</p>
 <!-- more -->
 <p>Con esa intención, desde hace unos meses, estamos construyendo un nuevo migasfree. Que se apoya en conceptos que funcionan en lo que ya está hecho, pero que le da unas cuantas vueltas de tuerca a otros que, a pesar de ser funcionales, no dan la suficiente versatilidad a un proyecto de esta envergadura.</p>
 <p>Esta idea de reinvención germinó en Bilbao, el pasado noviembre, mientras asistía a la <a href="http://www.librecon.io/" target="_blank" rel="noopener noreferrer">LibreCon</a>. Allí me di cuenta de dos cosas. La primera, que el concepto de migasfree, aun siendo bueno, no terminaba de calar entre el público por su aparente complejidad. Y la segunda y más importante, que encontré la pista para que fuera más atrayente. Esta pista se basa en algo muy sencillo: deja que otros jueguen con tu aplicación para que la puedan extender y adaptar.</p>
@@ -570,7 +576,7 @@ Migasfree recolecta mucha información automáticamente de los equipos cliente a
 <figure><img src="/img/scaling_migasfree.png" alt="Escalabilidad de migasfree" tabindex="0" loading="lazy"><figcaption>Escalabilidad de migasfree</figcaption></figure>
 </div>
 <p>El trabajo dista mucho de estar acabado, pero tenemos claro que esta es la dirección sobre la que tenemos que seguir avanzando. Tampoco sabemos qué pasará cuando tengamos una versión funcional y se quiera implantar sobre un migasfree actual. Será algo que nos plantearemos en su momento. El protocolo entre cliente y servidor ha cambiado sustancialmente y, aunque es trivial cambiar los clientes, habrá que pensar muy bien cómo actualizar el servidor.</p>
-<p>Cuando hayamos encauzado todos estos cambios, migasfree habrá ascendido de categoría y estará en condiciones de ser usado en organizaciones muy grandes (con más de 10 mil equipos). Además, dará la libertad de programar clientes para cualquier plataforma imaginable y frontends en cualquier tecnología que se quiera. Tan solo tendrán que seguir la API proporcionada por <strong>migasfree-backend</strong> y añadir algún nuevo  si fuera necesario.</p>
+<p>Cuando hayamos encauzado todos estos cambios, migasfree habrá ascendido de categoría y estará en condiciones de ser usado en organizaciones muy grandes (con más de 10 mil equipos). Además, dará la libertad de programar clientes para cualquier plataforma imaginable y frontends en cualquier tecnología que se quiera. Tan solo tendrán que seguir la API proporcionada por <strong>migasfree-backend</strong> y añadir algún nuevo <abbr title="Package Management System">PMS</abbr> si fuera necesario.</p>
 ]]></content:encoded>
       <enclosure url="http://migasfree.org/img/scaling_migasfree.png &apos;Escalabilidad de migasfree&apos;" type="image/"/>
     </item>
@@ -579,57 +585,120 @@ Migasfree recolecta mucha información automáticamente de los equipos cliente a
       <link>http://migasfree.org/blog/2016/2016-03-16-acceso-remoto-ordenadores.html</link>
       <guid>http://migasfree.org/blog/2016/2016-03-16-acceso-remoto-ordenadores.html</guid>
       <source url="http://migasfree.org/rss.xml">Cómo conseguir acceso remoto a los ordenadores desde la aplicación web de migasfree</source>
-      <description>En la documentación del proyecto, se menciona de pasada el parámetro MIGASFREE_REMOTE_ADMIN_LINK, describiendo brevemente cómo configurar el acceso por y a los equipos, pero sin explicar cómo conseguir que esos protocolos sean accesibles directamente desde nuestro navegador web.</description>
+      <description>En la documentación del proyecto, se menciona de pasada el parámetro MIGASFREE_REMOTE_ADMIN_LINK, describiendo brevemente cómo configurar el acceso por VNC y SSH a los equipos, ...</description>
       <category>Tutorial</category>
       <pubDate>Wed, 16 Mar 2016 19:38:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>En la documentación del proyecto, se menciona de pasada el parámetro <code>MIGASFREE_REMOTE_ADMIN_LINK</code>, describiendo brevemente cómo configurar el acceso por  y  a los equipos, pero sin explicar cómo conseguir que esos protocolos sean accesibles directamente desde nuestro navegador web.</p>
+      <content:encoded><![CDATA[<!-- prettier-ignore-start -->
+<!-- prettier-ignore-end -->
+<p>En la documentación del proyecto, se menciona de pasada el parámetro <code>MIGASFREE_REMOTE_ADMIN_LINK</code>, describiendo brevemente cómo configurar el acceso por <abbr title="Virtual Network Computing">VNC</abbr> y <abbr title="Secure Shell">SSH</abbr> a los equipos, pero sin explicar cómo conseguir que esos protocolos sean accesibles directamente desde nuestro navegador web.</p>
 <!-- more -->
 <p>En el siguiente artículo vamos a sacarle más funcionalidades a este parámetro de configuración y a narrar cómo configurar nuestro entorno (se entenderá que es una máquina con Linux) para obtener un acceso directo a los protocolos desde el navegador (Firefox, Chrome/Chromium).</p>
-<h2> En el servidor migasfree</h2>
+<h2>En el servidor migasfree</h2>
 <p>Para comenzar, tendremos que configurar adecuadamente el parámetro en el archivo <code>/etc/migasfree-server/settings.py</code> de nuestro servidor migasfree. Un ejemplo, podría ser el siguiente:</p>
-<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>Para que los protocolos sean «personalizados» y no causen conflictos con otros que pueden tener otra configuración en los sistemas, he preferido anteponerles la letra «m» (de migasfree 😉).</p>
+<div class="language-py line-numbers-mode" data-highlighter="shiki" data-ext="py" data-title="py" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#D19A66">MIGASFREE_REMOTE_ADMIN_LINK</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "mvnc://{{computer.ip}} mping://{{computer.ip}} mssh://root@{{computer.ip}} mupdate://root@{{computer.ip}}"</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>Para que los protocolos sean «personalizados» y no causen conflictos con otros que pueden tener otra configuración en los sistemas, he preferido anteponerles la letra «m» (de migasfree 😉).</p>
 <p>Tras realizar los cambios, deberemos hacer que el servidor web relea la configuración para que se apliquen dichos cambios.</p>
 <p>Como se comenta en el libro, después de activar este parámetro, cada vez que se represente un ordenador en la aplicación web de migasfree, tendremos disponibles nuevas acciones que vendrán indicadas por los nombres de los protocolos. Siguiendo el ejemplo serían: <code>mvnc</code>, <code>mping</code>, <code>mssh</code> y <code>mupdate</code>. Eso sí, por mucho que pulsemos sobre ellos en el interfaz, no van a realizar todavía ninguna acción, ya que todavía falta por configurar la parte cliente (nuestra estación de trabajo que se conecta al servidor), para obtener las funcionalidades perseguidas.</p>
-<h2> En nuestro ordenador cliente</h2>
+<h2>En nuestro ordenador cliente</h2>
 <p>Creamos en primer lugar el fichero <code>/usr/bin/migasfree-protocols</code>, con el siguiente contenido:</p>
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>En este fichero, que deberá tener permisos de ejecución, se describe qué hacer con cada uno de los protocolos. En este ejemplo son necesarias las utilidades <code>ssh</code> y <code>vncviewer</code>, pero se podrían cambiar por otras (al igual que <code>gnome-terminal</code>), dependiendo de nuestra distribución Linux.</p>
+<div class="language-sh line-numbers-mode" data-highlighter="shiki" data-ext="sh" data-title="sh" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">#!/bin/bash</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">_PROTOCOL</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">$(</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">echo</span><span style="--shiki-light:#383A42;--shiki-light-font-style:inherit;--shiki-dark:#E06C75;--shiki-dark-font-style:italic"> $1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> | </span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">awk</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> 'BEGIN {FS = "://"}; {print $1}'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">_URL</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">$(</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">echo</span><span style="--shiki-light:#383A42;--shiki-light-font-style:inherit;--shiki-dark:#E06C75;--shiki-dark-font-style:italic"> $1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> | </span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">awk</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> 'BEGIN {FS = "://"}; {print $2}'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">case</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">$_PROTOCOL</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD"> in</span></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">    "mssh"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">        gnome-terminal</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> --command</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "ssh </span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">$_URL</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        ;;</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">    "mvnc"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">        vncviewer</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75"> $_URL</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        ;;</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">    "mping"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">        gnome-terminal</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> --command</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "ping </span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">$_URL</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        ;;</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">    "mupdate"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">        gnome-terminal</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> --command</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "ssh </span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">$_URL</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> migasfree --update; echo; echo TERMINADO; read"</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        ;;</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">esac</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>En este fichero, que deberá tener permisos de ejecución, se describe qué hacer con cada uno de los protocolos. En este ejemplo son necesarias las utilidades <code>ssh</code> y <code>vncviewer</code>, pero se podrían cambiar por otras (al igual que <code>gnome-terminal</code>), dependiendo de nuestra distribución Linux.</p>
 <p>Ahora sólo falta decirle al navegador qué debe hacer cuando se encuentre con los protocolos. El proceso va a diferir según el navegador web que usemos.</p>
-<h3> Chrome/Chromium</h3>
+<h3>Chrome/Chromium</h3>
 <p>Tenemos que configurar la asociación de protocolos a nivel de entorno gráfico. Para ello, crearemos el fichero <code>/usr/share/applications/migasfree-protocols.desktop</code>:</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Como este lanzador sólo tiene fines de asociación de <a href="https://help.ubuntu.com/community/AddingMimeTypes" target="_blank" rel="noopener noreferrer">MimeTypes</a>, no se mostrará en el menú de aplicaciones (<code>NoDisplay=true</code>), por lo que no es necesario que tenga asociado un icono o las categorías definidas.</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>[Desktop Entry]</span></span>
+<span class="line"><span>Encoding=UTF-8</span></span>
+<span class="line"><span>Type=Application</span></span>
+<span class="line"><span>Name=migasfree protocols</span></span>
+<span class="line"><span>Exec=/usr/bin/migasfree-protocols %U</span></span>
+<span class="line"><span>Terminal=false</span></span>
+<span class="line"><span>MimeType=x-scheme-handler/mssh;x-scheme-handler/mvnc;x-scheme-handler/mping;x-scheme-handler/mupdate;</span></span>
+<span class="line"><span>NoDisplay=true</span></span>
+<span class="line"><span>StartupNotify=true</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Como este lanzador sólo tiene fines de asociación de <a href="https://help.ubuntu.com/community/AddingMimeTypes" target="_blank" rel="noopener noreferrer">MimeTypes</a>, no se mostrará en el menú de aplicaciones (<code>NoDisplay=true</code>), por lo que no es necesario que tenga asociado un icono o las categorías definidas.</p>
 <p>Después, sólo queda actualizar la base de datos de lanzadores y <em>mimetypes</em> mediante los comandos (con un usuario con privilegios de root):</p>
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><h3> Firefox</h3>
+<div class="language-sh line-numbers-mode" data-highlighter="shiki" data-ext="sh" data-title="sh" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">update-desktop-database</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">update-mime-database</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> /usr/share/mime</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><h3>Firefox</h3>
 <p>Para este navegador, además del paso anterior, tendremos que crear el fichero <code>/usr/lib/firefox/defaults/pref/migasfree.js</code> con este contenido:</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Y una vez que volvamos a iniciar el navegador ya tendremos disponible el comportamiento esperado.</p>
-<h2> Corolario</h2>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>pref("network.protocol-handler.expose.mssh", false);</span></span>
+<span class="line"><span>pref("network.protocol-handler.expose.mvnc", false);</span></span>
+<span class="line"><span>pref("network.protocol-handler.expose.mping", false);</span></span>
+<span class="line"><span>pref("network.protocol-handler.expose.mupdate", false);</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>pref("network.protocol-handler.app.mssh", "/usr/bin/migasfree-protocols");</span></span>
+<span class="line"><span>pref("network.protocol-handler.app.mvnc", "/usr/bin/migasfree-protocols");</span></span>
+<span class="line"><span>pref("network.protocol-handler.app.mping", "/usr/bin/migasfree-protocols");</span></span>
+<span class="line"><span>pref("network.protocol-handler.app.mupdate", "/usr/bin/migasfree-protocols");</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>pref("network.protocol-handler.warn-external.mssh", false);</span></span>
+<span class="line"><span>pref("network.protocol-handler.warn-external.mvnc", false);</span></span>
+<span class="line"><span>pref("network.protocol-handler.warn-external.mping", false);</span></span>
+<span class="line"><span>pref("network.protocol-handler.warn-external.mupdate", false);</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>pref("network.protocol-handler.external.mssh", true);</span></span>
+<span class="line"><span>pref("network.protocol-handler.external.mvnc", true);</span></span>
+<span class="line"><span>pref("network.protocol-handler.external.mping", true);</span></span>
+<span class="line"><span>pref("network.protocol-handler.external.mupdate", true);</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Y una vez que volvamos a iniciar el navegador ya tendremos disponible el comportamiento esperado.</p>
+<h2>Corolario</h2>
 <p>Como puede verse, las posibilidades son amplias y van a depender de nuestro entorno particular para adecuarlo a unas necesidades determinadas. Es por ello que desde el proyecto migasfree no se ha creado un paquete genérico para cubrir esta funcionalidad.</p>
 <p>Se deja como ejercicio práctico para cada organización el crear un paquete a medida con los protocolos que allí se consideren prácticos y realizar la configuración adecuada para sus entornos de explotación (navegadores) de la aplicación web de migasfree.</p>
-<h2> Actualización (2018-03-02)</h2>
+<h2>Actualización (2018-03-02)</h2>
 <p>A partir de la versión <code>4.14</code> del servidor migasfree, el parámetro <code>MIGASFREE_REMOTE_ADMIN_LINK</code> se convierte en lista:</p>
-<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
+<div class="language-py line-numbers-mode" data-highlighter="shiki" data-ext="py" data-title="py" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#D19A66">MIGASFREE_REMOTE_ADMIN_LINK</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> [</span></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">    "mvnc://{{computer.ip}}"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">    "mping://{{computer.ip}}"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">    "mssh://root@{{computer.ip}}"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">    "mupdate://root@{{computer.ip}}"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">]</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
     </item>
     <item>
       <title>El plan maestro</title>
       <link>http://migasfree.org/blog/2016/2016-05-25-el-plan-maestro.html</link>
       <guid>http://migasfree.org/blog/2016/2016-05-25-el-plan-maestro.html</guid>
       <source url="http://migasfree.org/rss.xml">El plan maestro</source>
-      <description>migasfree actual A principios del año 2015, comencé el proyecto migasfree-backend (/blog/2015/2015-04-10-nullius-in-verba) con la idea de redefinir el servidor migasfree. Enforc...</description>
+      <description>migasfree actualmigasfree actual A principios del año 2015, comencé el proyecto migasfree-backend con la idea de redefinir el servidor migasfree. Enforcarlo hacia una solución e...</description>
       <category>Desarrollo</category>
       <category>Noticia</category>
       <category>Teoría</category>
       <pubDate>Wed, 25 May 2016 17:24:00 GMT</pubDate>
-      <content:encoded><![CDATA[<div style="text-align:center">
+      <content:encoded><![CDATA[<!-- prettier-ignore-start -->
+<!-- prettier-ignore-end -->
+<div style="text-align:center">
 <figure><img src="/img/patinete.jpg" alt="migasfree actual" tabindex="0" loading="lazy"><figcaption>migasfree actual</figcaption></figure>
 </div>
 <p>A principios del año 2015, comencé el <a href="/blog/2015/2015-04-10-nullius-in-verba">proyecto migasfree-backend</a> con la idea de redefinir el servidor migasfree. Enforcarlo hacia una solución escalable (con alta disponibilidad) y fácilmente explotable a través de una <a href="http://www.restapitutorial.com/" target="_blank" rel="noopener noreferrer">API REST</a>.</p>
-<p>Después de unos meses de trabajo, teníamos un prototipo bastante prometedor para empezar a depurar y perfilar. Venía con un nuevo protocolo de comunicación entre cliente y servidor que era a la vez cifrado y autenticado gracias a la tecnología <a href="https://jwt.io/" target="_blank" rel="noopener noreferrer"></a>, con un servicio de tareas en segundo plano gracias a <a href="http://www.celeryproject.org/" target="_blank" rel="noopener noreferrer">Celery</a> y <a href="http://redis.io/" target="_blank" rel="noopener noreferrer">Redis</a> y con muchos cambios en el modelo de datos de la aplicación.</p>
+<p>Después de unos meses de trabajo, teníamos un prototipo bastante prometedor para empezar a depurar y perfilar. Venía con un nuevo protocolo de comunicación entre cliente y servidor que era a la vez cifrado y autenticado gracias a la tecnología <a href="https://jwt.io/" target="_blank" rel="noopener noreferrer"><abbr title="JSON Web Tokens">JWT</abbr></a>, con un servicio de tareas en segundo plano gracias a <a href="http://www.celeryproject.org/" target="_blank" rel="noopener noreferrer">Celery</a> y <a href="http://redis.io/" target="_blank" rel="noopener noreferrer">Redis</a> y con muchos cambios en el modelo de datos de la aplicación.</p>
 <p>Era demasiado revolucionario y rompedor con la versión del servidor que teníamos en producción. Por eso se nos planteaba el reto de cómo hacer la transición entre uno y otro. Dos eran los escollos más importantes para dar el salto:</p>
 <ol>
 <li>Qué hacer con los clientes antiguos que accederían al nuevo servidor.</li>
-<li>Realizar una aplicación de  (<strong>migasfree-frontend</strong>) para explotar los datos del nuevo servidor a través de la API REST.</li>
+<li>Realizar una aplicación de <abbr title="Interfaz de Usuario">IU</abbr> (<strong>migasfree-frontend</strong>) para explotar los datos del nuevo servidor a través de la API REST.</li>
 </ol>
 <p>Tras darle multitud de vueltas, hemos llegado a la conclusión de que la mejor forma de ir afrontando estos cambios tan radicales, es ir haciéndolos de manera progresiva. Para ello, en breve empezaremos a desarrollar la edición <em>mushrooms</em> del servidor de migasfree. Será la versión 5 y empezará a cambiar el modelo de datos para ir encaminándolo hacia el que tiene <a href="https://github.com/migasfree/migasfree-backend" target="_blank" rel="noopener noreferrer">migasfree-backend</a>.</p>
-<p>Vendrá también con dos protocolos de comunicación para los clientes: el actual y el nuevo basado en . De esta forma, esta versión 5 se convierte en una versión de transición entre lo que hay actualmente en producción y lo que queremos que se convierta la <em>suite migasfree</em>.</p>
+<p>Vendrá también con dos protocolos de comunicación para los clientes: el actual y el nuevo basado en <abbr title="JSON Web Tokens">JWT</abbr>. De esta forma, esta versión 5 se convierte en una versión de transición entre lo que hay actualmente en producción y lo que queremos que se convierta la <em>suite migasfree</em>.</p>
 <p>Tenemos previsto que en la versión 6 (denominada extraoficialmente como <em>liver</em>), se elimine todo el código de compatibilidad que mantendremos en la versión 5 (tanto de protocolo de comunicación como de interfaz de explotación de datos). Para cuando llegue a las pantallas la versión 6, tendrá que estar listo el proyecto <strong>migasfree-frontend</strong> para consumir la API REST.</p>
 <p>Seguramente, el proyecto <strong>migasfree-backend</strong> jamás verá la luz como un producto en producción. Sin embargo, nos ha venido que ni pintado para reflexionar sobre ideas nuevas sin tener que arrastrar lastres del pasado.</p>
 <div style="text-align:center">
@@ -702,7 +771,7 @@ Migasfree recolecta mucha información automáticamente de los equipos cliente a
       <link>http://migasfree.org/blog/2017/2017-03-23-servidor-en-2-minutos.html</link>
       <guid>http://migasfree.org/blog/2017/2017-03-23-servidor-en-2-minutos.html</guid>
       <source url="http://migasfree.org/rss.xml">¿Un servidor migasfree en internet en menos de 2 minutos?</source>
-      <description>Play with Docker Gracias a play-with-docker.com puedes instalar un servidor migasfree en Internet y «jugar» durante 4 horas con él. Es una buena manera de empezar con migasfree. ¿A qué esperas?</description>
+      <description>Play with DockerPlay with Docker Gracias a play-with-docker.com puedes instalar un servidor migasfree en Internet y «jugar» durante 4 horas con él. Es una buena manera de empeza...</description>
       <category>Tutorial</category>
       <pubDate>Thu, 23 Mar 2017 19:27:00 GMT</pubDate>
       <content:encoded><![CDATA[<div style="text-align:center">
@@ -722,7 +791,12 @@ Migasfree recolecta mucha información automáticamente de los equipos cliente a
 </li>
 <li>
 <p>Copia y pega estos comandos:</p>
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<div class="language-sh line-numbers-mode" data-highlighter="shiki" data-ext="sh" data-title="sh" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">git</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> clone</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> https://github.com/migasfree/migasfree-docker.git</span></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">cd</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> migasfree-docker/mf</span></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">.</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> variables</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">docker-compose</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> up</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -d</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">docker</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> logs</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -f</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75"> $FQDN</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">-server</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
 <li>
 <p>Espera a que arranque el servidor migasfree</p>
 </li>
@@ -734,13 +808,16 @@ Migasfree recolecta mucha información automáticamente de los equipos cliente a
 </li>
 <li>
 <p>Instala un cliente migasfree en un equipo de pruebas (o mejor en una máquina virtual):</p>
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></li>
+<div class="language-sh line-numbers-mode" data-highlighter="shiki" data-ext="sh" data-title="sh" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">wget</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -O</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> -</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> http://migasfree.org/pub/install-client</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> | </span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">bash</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div></li>
 <li>
 <p>Modifica el fichero <code>/etc/migasfree.conf</code> para que el cliente apunte al servidor:</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></li>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>Server = pwd-ip-80.host2.labs.play-with-docker.com</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div></li>
 <li>
 <p>Ejecuta el cliente:</p>
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></li>
+<div class="language-sh line-numbers-mode" data-highlighter="shiki" data-ext="sh" data-title="sh" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">migasfree</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -u</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div></li>
 <li>
 <p><a href="http://fun-with-migasfree.readthedocs.io/" target="_blank" rel="noopener noreferrer">Aprende más</a></p>
 </li>
@@ -770,12 +847,107 @@ Migasfree recolecta mucha información automáticamente de los equipos cliente a
 <li>Captura: Crear una fórmula, de tipo lista, que «recolecte» estas rutas como atributos del ordenador.</li>
 </ol>
 <p>¡Venga, manos a la obra!</p>
-<h2> Busca</h2>
+<h2>Busca</h2>
 <p>Programa python a ejecutar en los clientes:</p>
-<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> Captura</h2>
+<div class="language-py line-numbers-mode" data-highlighter="shiki" data-ext="py" data-title="py" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">#!/usr/bin/env python</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">import</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> psutil</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">import</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> time</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">import</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> json</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">import</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> os</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">import</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> platform</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">from</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> datetime </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">import</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> datetime</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">_format_time </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> '%Y-%m-</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">%d</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> %H:%M:%S'</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">_extensions </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> (</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'.mdb'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'.mde'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'.accdb'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'.accde'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">_capture_time </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 300</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">def</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> get_filename</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">():</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">    if</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> platform.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">system</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">() </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">==</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "Windows"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">        if</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> platform.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">uname</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">()[</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">2</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">] </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">==</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "XP"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">            return</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "c:/windows/temp/access.json"</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">        else</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">            return</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "c:/users/public/temp/access.json"</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">    else</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">        return</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "/var/tmp/access.json"</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">def</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> read_json</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#D19A66;--shiki-dark-font-style:italic">_filename</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">):</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">    if</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> os.path.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">exists</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(_filename):</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">        with</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> open</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(_filename) </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">as</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> json_data:</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">            data </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> json.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">load</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(json_data)</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">    else</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        data </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> {}</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">    return</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> data</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">def</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> save_json</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#D19A66;--shiki-dark-font-style:italic">_filename</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#D19A66;--shiki-dark-font-style:italic"> data</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">):</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    obj </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> open</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(_filename, </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'wb'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    json.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">dump</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(data, obj)</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    obj.close</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">def</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> main</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">():</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    _filename </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF"> get_filename</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">()</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    data </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF"> read_json</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(_filename)</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">    while</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> True</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        changed </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> False</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">        for</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> proc </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">in</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> psutil.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">process_iter</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">():</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">            try</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">                for</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> f </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">in</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> proc.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">open_files</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">():</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">                    if</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> f.path.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">lower</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">().</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">endswith</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(_extensions):</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">                        if</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> platform.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">system</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">() </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">==</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "Windows"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">                            archive </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> f.path.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">replace</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\\</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"/"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">).</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">replace</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">":"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">""</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">).</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">lower</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">()</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">                        else</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">                            archive </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> f.path.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">replace</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"/red/"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">""</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">).</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">lower</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">()</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">                        if</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD"> not</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> archive </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">in</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> data:</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">                            data[archive] </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> datetime.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">now</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">().</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">strftime</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(_format_time)</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">                            changed </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> True</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">            except</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">                pass</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">        if</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> changed:</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">            save_json</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(_filename,data)</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        time.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">sleep</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(_capture_time)</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">if</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75"> __name__</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> ==</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "__main__"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">    main</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">()</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2>Captura</h2>
 <p>Fórmula migasfree de tipo Lista y lenguaje python:</p>
-<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Ya sólo nos quedaría empaquetar esta solución y desplegarla con migasfree.</p>
-<h2> Resultado</h2>
+<div class="language-py line-numbers-mode" data-highlighter="shiki" data-ext="py" data-title="py" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">import</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> os</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">import</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> json</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">def</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> get_filename</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">():</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">    if</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> platform.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">system</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">() </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">==</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "Windows"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">        if</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> platform.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">uname</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">()[</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">2</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">] </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">==</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "XP"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">            return</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "c:/windows/temp/access.json"</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">        else</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">            return</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "c:/users/public/temp/access.json"</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">    else</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">        return</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "/var/tmp/access.json"</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">def</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> read_json</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#D19A66;--shiki-dark-font-style:italic">_filename</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">):</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">    if</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> os.path.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">exists</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(_filename):</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">        with</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> open</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(_filename) </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">as</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> json_data:</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">            data </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> json.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">load</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(json_data)</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">    else</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        data </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> {}</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">    return</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> data</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">_filename </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF"> get_filename</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">()</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">_ret </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ""</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">if</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> os.path.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">exists</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(_filename):</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    data </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF"> read_json</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(_filename)</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">    for</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> key, value </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">in</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> data.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">iteritems</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">():</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        _ret </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">+=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> key </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">+</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ","</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">if</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> _ret:</span></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">    print</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75"> unicode</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(_ret[:</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">-</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">]).</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">encode</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'utf-8'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">else</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">    print</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "none"</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Ya sólo nos quedaría empaquetar esta solución y desplegarla con migasfree.</p>
+<h2>Resultado</h2>
 <p>Una vez capturadas las BBDD como <code>atributos</code> de los ordenadores en el servidor migasfree, ya sólo nos queda analizar la información.</p>
 <ol>
 <li>Conocer que BBDD se utilizan en un ordenador concreto es ahora tan sencillo como acceder al ordenador y mirar sus atributos.</li>
@@ -800,7 +972,7 @@ Migasfree recolecta mucha información automáticamente de los equipos cliente a
       <content:encoded><![CDATA[<p>Seguimos hacia la convergencia que nos llevará (más pronto o más tarde) hacia la <a href="/blog/2016/2016-05-25-el-plan-maestro">esperada versión 5 de la suite migasfree</a>.</p>
 <!-- more -->
 <p>Anunciamos en la presente entrada 2 nuevas versiones de migasfree: la <a href="https://github.com/migasfree/migasfree/releases/tag/4.14" target="_blank" rel="noopener noreferrer">4.14</a> y la <a href="https://github.com/migasfree/migasfree/releases/tag/4.15" target="_blank" rel="noopener noreferrer">4.15</a>.</p>
-<h2> Cambios de la versión 4.14</h2>
+<h2>Cambios de la versión 4.14</h2>
 <p>La versión 4.14 introduce un cambio importante a la hora de instalar el servidor. Ya no distribuimos más paquetes, sino que ahora es un <a href="https://github.com/migasfree/migasfree-docker" target="_blank" rel="noopener noreferrer">contenedor docker</a>. Con <em>docker</em> hemos conseguido colocar el servidor y sus dependencias en un contenedor virtual (un debian) que puede ejecutarse en cualquier servidor GNU/Linux. Esto nos ha proporcionado una flexibilidad y portabilidad para ejecutar el servidor de una forma muy simple tanto en un equipo físico <a href="/blog/2017/2017-03-23-servidor-en-2-minutos">como en la nube</a>.</p>
 <p>Esta versión también contiene cambios de denominación de conceptos, <a href="/blog/2015/2015-04-10-nullius-in-verba">tal y como adelantábamos hace un tiempo</a>.</p>
 <ul>
@@ -812,7 +984,7 @@ Migasfree recolecta mucha información automáticamente de los equipos cliente a
 <div style="text-align:center">
 <figure><img src="/img/dashboard.png" alt="Cuadro de mando de migasfree" tabindex="0" loading="lazy"><figcaption>Cuadro de mando de migasfree</figcaption></figure>
 </div>
-<h2> Cambios de la versión 4.15</h2>
+<h2>Cambios de la versión 4.15</h2>
 <p>Esta versión incorpora cambios menores respecto a la anterior, pero igualmente interesantes:</p>
 <ul>
 <li>Se añaden nuevas comprobaciones, en forma de alertas, para gestionar de manera más eficiente los despliegues. De esta forma, tendremos una comprobación que nos informará de los despliegues que tienen un calendario activo, y otra que nos avisará de los que ya han finalizado el calendario de distribución.</li>
@@ -837,7 +1009,7 @@ Migasfree recolecta mucha información automáticamente de los equipos cliente a
       <link>http://migasfree.org/blog/2018/2018-11-20-triangulacion-separacion.html</link>
       <guid>http://migasfree.org/blog/2018/2018-11-20-triangulacion-separacion.html</guid>
       <source url="http://migasfree.org/rss.xml">La triangulación de la separación</source>
-      <description>O dicho de otra manera más clásica: divide y vencerás. Para el anuncio de la liberación de la versión 4.16 del servidor migasfree, hemos elegido este título porque la característica más importante a destacar, es la adición de dominios y ámbitos en la aplicación. Esto permite un nivel de detalle en horizontal de los datos, segmentándolos por cualquier combinación de atributos. Sirve, por ejemplo, para tener administradores parciales de la aplicación (por dominios) o realizar consultas rápidas de los datos, simplemente escogiendo filtros (dominio, ámbito, filtros parciales de un concepto). Las posibilidades que se abren son enormes.</description>
+      <description>O dicho de otra manera más clásica: divide y vencerás. Para el anuncio de la liberación de la versión 4.16 del servidor migasfree, hemos elegido este título porque la caracterís...</description>
       <category>Desarrollo</category>
       <category>Noticia</category>
       <pubDate>Tue, 20 Nov 2018 14:20:00 GMT</pubDate>
@@ -914,13 +1086,14 @@ Migasfree recolecta mucha información automáticamente de los equipos cliente a
 </ul>
 <p>Feliz verano, larga vida y prosperidad.</p>
 ]]></content:encoded>
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Star_Trek_Spock.jpg/796px-Star_Trek_Spock.jpg &apos;Oficial Spock&apos;" type="image/"/>
     </item>
     <item>
       <title>¿Por qué no usáis Puppet?</title>
       <link>http://migasfree.org/blog/2022/2022-05-21-por-que-no-puppet.html</link>
       <guid>http://migasfree.org/blog/2022/2022-05-21-por-que-no-puppet.html</guid>
       <source url="http://migasfree.org/rss.xml">¿Por qué no usáis Puppet?</source>
-      <description>Estibadores en el puerto de Barcelona Es la pregunta recurrente que me suelen hacer cuando alguien se acerca a migasfree por primera, segunda, o tercera vez. Lo entiendo, pero después de 12 años intentando explicarlo de distintas maneras veo que apenas lo consigo, y cada vez me ilusiona menos responderla.</description>
+      <description>Estibadores en el puerto de BarcelonaEstibadores en el puerto de Barcelona Es la pregunta recurrente que me suelen hacer cuando alguien se acerca a migasfree por primera, segund...</description>
       <category>Teoría</category>
       <pubDate>Sat, 21 May 2022 13:51:00 GMT</pubDate>
       <content:encoded><![CDATA[<div style="text-align:center">
@@ -945,9 +1118,12 @@ información en cada capa. Tambien sin discusión. Lo usas todos los días a tod
 de ordenadores -aunque eso ya lo sé- e insistes: «Ya, pero ¿por qué no usas Puppet? Si es muy fácil.»</p>
 <p>Otra vez la misma pregunta. Ya no sé qué más responderte. Me evado imaginando estibadores descargando manualmente sacos y cajas en el puerto de mi Cartagena natal a comienzos del siglo XX; pensando en mi <a href="https://www.youtube.com/watch?v=DyHyMFORUE4" target="_blank" rel="noopener noreferrer">mar menor</a> y en los cangrejos que pescaba de pequeño a los que llamábamos «crancas pelúas», en mi abuelo materno que solo conozco por fotos e historias que me han contado mi madre y mis tías, él era patrón de un barco de pesca. Sigo imaginando los barcos gigantes que estarán surcando ahora mismo aguas de azules intensos para que tú puedas disfrutar de los bienes que se fabrican a miles de kilómetros, como el smartphone en el que probablemente me estarás leyendo, en grúas amarillas, camiones, mercancías, en Ángel Lafuente… y de repente se me cruza por la mente una idea y al fin te respondo:</p>
 <p>¡¡¡¡¡ DPKG -S !!!!!</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>¡Mira, el fichero de configuración <code>/etc/pam.conf</code> de tu máquina te ha llegado gracias al paquete libpam-runtime! ¿No ves que Canonical te está configurando los módulos PAM en tu equipo mediante ese fichero y no usa Puppet para ello? Usa el Sistema de Gestión de Paquetes para configurar millones de ordenadores <em>around the world</em>: ¡El invento del siglo!</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>dpkg -S /etc/pam.conf</span></span>
+<span class="line"><span>libpam-runtime: /etc/pam.conf</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><p>¡Mira, el fichero de configuración <code>/etc/pam.conf</code> de tu máquina te ha llegado gracias al paquete libpam-runtime! ¿No ves que Canonical te está configurando los módulos PAM en tu equipo mediante ese fichero y no usa Puppet para ello? Usa el Sistema de Gestión de Paquetes para configurar millones de ordenadores <em>around the world</em>: ¡El invento del siglo!</p>
 <p>Ya, pero… ¿Por qué no usas Puppet?</p>
 ]]></content:encoded>
+      <enclosure url="https://mundet3elmar.files.wordpress.com/2010/03/estibadores-archivo-hist.jpg &apos;Estibadores en el puerto de Barcelona&apos;" type="image/"/>
     </item>
     <item>
       <title>El rompecabezas Vartabedian</title>
