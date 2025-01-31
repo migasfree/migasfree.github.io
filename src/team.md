@@ -45,7 +45,7 @@ En migasfree nos gusta compartir y ayudarnos mútuamente. Es por esto que, si es
   </div>
   <p class="card-links">
     <template v-for="el in item.links">
-      <a :href="el.link"><FontIcon :icon="el.icon" color="#ff671a" :size="30" /></a>
+      <a :href="el.link"><VPIcon :icon="el.icon" color="#ff671a" size="30px" /></a>
     </template>
   </p>
 </div>
