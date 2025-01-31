@@ -1,5 +1,6 @@
 import { defineUserConfig } from 'vuepress'
-import { searchPlugin } from '@vuepress/plugin-search'
+import { viteBundler } from '@vuepress/bundler-vite'
+import { abbr } from '@mdit/plugin-abbr'
 import theme from './theme.js'
 
 export default defineUserConfig({
@@ -43,18 +44,15 @@ export default defineUserConfig({
     ],
   ],
 
-  plugins: [
-    searchPlugin({
-      isSearchable: (page) => page.path !== '/',
-      maxSuggestions: 10,
-      getExtraFields: () => [],
-      locales: {
-        '/': {
-          placeholder: 'Buscar',
-        },
-      },
-    }),
-  ],
+  extendsMarkdown: (md) => {
+    md.use(abbr)
+  },
+
   // Enable it with pwa
   // shouldPrefetch: false,
+
+  bundler: viteBundler({
+    viteOptions: {},
+    vuePluginOptions: {},
+  }),
 })
