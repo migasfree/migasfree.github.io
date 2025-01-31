@@ -34,7 +34,7 @@ Es un placer para nosotros que hayan elegido [migasfree](https://github.com/miga
 ¡Enhorabuena, Iker! ¡Enhorabuena, Gorka! ¡Enhorabuena, Rafel! Habéis surcado otro mar y atracado en puerto seguro. Habéis llegado a casa, ¡celebrémoslo!
 
 ::: center
-<YouTube id="zpgP-Y5b3_o" />
+<VidStack src="youtube/zpgP-Y5b3_o" poster="https://i.ytimg.com/vi_webp/zpgP-Y5b3_o/sddefault.webp" />
 :::
 
 **¡Zorionak, Pasaia!**
