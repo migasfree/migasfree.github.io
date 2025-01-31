@@ -4,9 +4,9 @@ import { h } from 'vue'
 const TwitterLink: FunctionalComponent = () =>
   h(
     'div',
-    { class: 'nav-item vp-repo' },
+    { class: 'vp-nav-item vp-action' },
     h('a', {
-      class: 'vp-repo-link',
+      class: 'vp-action-link',
       href: 'https://twitter.com/migasfree',
       target: '_blank',
       rel: 'noopener noreferrer',
