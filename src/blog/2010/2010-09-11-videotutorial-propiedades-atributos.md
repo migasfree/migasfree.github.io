@@ -10,5 +10,5 @@ category:
 Acabo de subir el [videotutorial Propiedades y Atributos](http://www.youtube.com/v/4_YXkjcZ74Q). Esencial para el funcionamiento de migasfree.
 
 ::: center
-<YouTube id="4_YXkjcZ74Q" />
+<VidStack src="youtube/4_YXkjcZ74Q" />
 :::
