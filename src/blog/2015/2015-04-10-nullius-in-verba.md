@@ -9,6 +9,10 @@ category:
   - Teoría
 ---
 
+<!-- prettier-ignore-start -->
+*[PMS]: Package Management System
+<!-- prettier-ignore-end -->
+
 Que significa [cuestiónalo todo](https://royalsociety.org/about-us/history/). Cuestiona lo que tienes alrededor pero, sobre todo, cuestiónate a ti mismo, lo que haces y cómo lo haces. Es reinventarse a sí mismo, mejorando cada día con lo que aprendes por la experiencia adquirida y por la experencia que proporcionan los conocimientos de otras personas.
 
 <!-- more -->
@@ -35,4 +39,4 @@ Pero hay muchos más cambios. El más relevante se refiere precisamente a la API
 
 El trabajo dista mucho de estar acabado, pero tenemos claro que esta es la dirección sobre la que tenemos que seguir avanzando. Tampoco sabemos qué pasará cuando tengamos una versión funcional y se quiera implantar sobre un migasfree actual. Será algo que nos plantearemos en su momento. El protocolo entre cliente y servidor ha cambiado sustancialmente y, aunque es trivial cambiar los clientes, habrá que pensar muy bien cómo actualizar el servidor.
 
-Cuando hayamos encauzado todos estos cambios, migasfree habrá ascendido de categoría y estará en condiciones de ser usado en organizaciones muy grandes (con más de 10 mil equipos). Además, dará la libertad de programar clientes para cualquier plataforma imaginable y frontends en cualquier tecnología que se quiera. Tan solo tendrán que seguir la API proporcionada por **migasfree-backend** y añadir algún nuevo <acronym title="Package Management System">PMS</acronym> si fuera necesario.
+Cuando hayamos encauzado todos estos cambios, migasfree habrá ascendido de categoría y estará en condiciones de ser usado en organizaciones muy grandes (con más de 10 mil equipos). Además, dará la libertad de programar clientes para cualquier plataforma imaginable y frontends en cualquier tecnología que se quiera. Tan solo tendrán que seguir la API proporcionada por **migasfree-backend** y añadir algún nuevo PMS si fuera necesario.
