@@ -10,5 +10,5 @@ category:
 Para hacer el estreno en Málaga, he preparado una presentación menos técnica para explicar los [fundamentos de migasfree](http://www.youtube.com/v/ZKvO-xRebxQ).
 
 ::: center
-<VidStack src="youtube/ZKvO-xRebxQ" />
+<LiteYoutubeEmbed id="ZKvO-xRebxQ" title="Fundamentos de migasfree" />
 :::

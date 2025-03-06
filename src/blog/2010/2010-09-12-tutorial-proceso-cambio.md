@@ -10,5 +10,5 @@ category:
 Se llama [modificando software](http://www.youtube.com/v/FNAOaUa8ysI). Espero que os guste.
 
 ::: center
-<VidStack src="youtube/FNAOaUa8ysI" />
+<LiteYoutubeEmbed id="FNAOaUa8ysI" title="Modificando software en migasfree" />
 :::

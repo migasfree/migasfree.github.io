@@ -10,5 +10,5 @@ category:
 He puesto a vuestra disposición un videotutorial de [cómo instalar el appliance de VirtualBox con el servidor de migasfree](http://www.youtube.com/v/36hnyKDV_0c).
 
 ::: center
-<VidStack src="youtube/36hnyKDV_0c" />
+<LiteYoutubeEmbed id="36hnyKDV_0c" title="Cómo instalar el appliance de VirtualBox con el servidor migasfree" />
 :::

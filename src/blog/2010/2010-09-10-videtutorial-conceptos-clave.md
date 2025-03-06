@@ -10,5 +10,5 @@ category:
 Disponible un nuevo videotutorial sobre los [conceptos clave en los que se basa migasfree](http://www.youtube.com/v/yEEzNrsIJ3M).
 
 ::: center
-<VidStack src="youtube/yEEzNrsIJ3M" />
+<LiteYoutubeEmbed id="yEEzNrsIJ3M" title="Conceptos clave de migasfree" />
 :::

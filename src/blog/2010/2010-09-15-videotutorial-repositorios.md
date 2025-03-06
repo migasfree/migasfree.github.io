@@ -14,5 +14,5 @@ category:
 Más información en el [videotutorial](http://www.youtube.com/v/Vd0lllupqRg).
 
 ::: center
-<VidStack src="youtube/Vd0lllupqRg" />
+<LiteYoutubeEmbed id="Vd0lllupqRg" title="¿Qué es migasfree?" />
 :::
