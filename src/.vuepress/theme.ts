@@ -153,7 +153,6 @@ export default hopeTheme({
         'BiliBili',
         'PDF',
         'SiteInfo',
-        'VidStack',
         'VPCard',
       ],
     },
