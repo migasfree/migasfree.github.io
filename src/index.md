@@ -9,11 +9,7 @@ comment: false
 feed: false
 ---
 
-<VidStack
-  src="youtube/dp6CQ6TV8Q0"
-  title="Claves de Migasfree"
-  poster="https://i.ytimg.com/vi_webp/dp6CQ6TV8Q0/maxresdefault.webp"
-/>
+<LiteYoutubeEmbed id="dp6CQ6TV8Q0" title="Claves de Migasfree" />
 
 # ¿Qué es migasfree?
 
