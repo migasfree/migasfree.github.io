@@ -164,6 +164,12 @@ export default hopeTheme({
       rss: true,
     },
 
+    redirect: {
+      config: {
+        '/vitalinux': '/blog/2025/vitalinux.html',
+      },
+    },
+
     // uncomment these if you want a pwa
     // pwa: {
     //   favicon: "/favicon.ico",
