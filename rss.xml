@@ -6,14 +6,14 @@
     <link>http://migasfree.org/</link>
     <description>Sistema de gestión de sistemas</description>
     <language>es-ES</language>
-    <pubDate>Thu, 06 Mar 2025 17:43:53 GMT</pubDate>
-    <lastBuildDate>Thu, 06 Mar 2025 17:43:53 GMT</lastBuildDate>
+    <pubDate>Tue, 01 Apr 2025 19:03:55 GMT</pubDate>
+    <lastBuildDate>Tue, 01 Apr 2025 19:03:55 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Noticia</category>
-    <category>Teoría</category>
-    <category>Tutorial</category>
     <category>Desarrollo</category>
+    <category>Tutorial</category>
+    <category>Teoría</category>
     <category>Evento</category>
     <category>Caso de éxito</category>
     <item>
@@ -34,6 +34,171 @@
 </div>
 ]]></content:encoded>
       <enclosure url="http://migasfree.org/migasfree.svg &apos;Nuevo logotipo de migasfree&apos;" type="image/"/>
+    </item>
+    <item>
+      <title>Appliance disponible desde migasfree.org</title>
+      <link>http://migasfree.org/blog/2010/2010-08-18-appliance-disponible.html</link>
+      <guid>http://migasfree.org/blog/2010/2010-08-18-appliance-disponible.html</guid>
+      <source url="http://migasfree.org/rss.xml">Appliance disponible desde migasfree.org</source>
+      <description>Podéis bajaros el appliance del servidor migasfree desde el área de descargas.</description>
+      <category>Desarrollo</category>
+      <category>Noticia</category>
+      <pubDate>Wed, 18 Aug 2010 23:23:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>Podéis bajaros el <em>appliance</em> del servidor migasfree desde el <a href="http://migasfree.org/pub/" target="_blank" rel="noopener noreferrer">área de descargas</a>.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Código inicial disponible en GitHub</title>
+      <link>http://migasfree.org/blog/2010/2010-08-18-codigo-inicial-disponible.html</link>
+      <guid>http://migasfree.org/blog/2010/2010-08-18-codigo-inicial-disponible.html</guid>
+      <source url="http://migasfree.org/rss.xml">Código inicial disponible en GitHub</source>
+      <description>Ya está disponible el código inicial en GitHub.</description>
+      <category>Desarrollo</category>
+      <category>Noticia</category>
+      <pubDate>Wed, 18 Aug 2010 15:09:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>Ya está disponible el código inicial en <a href="http://github.com/agacias/migasfree" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Inicio rápido de migasfree</title>
+      <link>http://migasfree.org/blog/2010/2010-08-22-inicio-rapido.html</link>
+      <guid>http://migasfree.org/blog/2010/2010-08-22-inicio-rapido.html</guid>
+      <source url="http://migasfree.org/rss.xml">Inicio rápido de migasfree</source>
+      <description>Se ha subido el documento Inicio rápido de migasfree.</description>
+      <category>Tutorial</category>
+      <pubDate>Sun, 22 Aug 2010 19:31:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>Se ha subido el documento <a href="http://migasfree.org/doc/es/quick_start.pdf" target="_blank" rel="noopener noreferrer">Inicio rápido de migasfree</a>.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Videotutorial sobre la instalación del appliance de migasfree</title>
+      <link>http://migasfree.org/blog/2010/2010-09-07-videotutorial-appliance.html</link>
+      <guid>http://migasfree.org/blog/2010/2010-09-07-videotutorial-appliance.html</guid>
+      <source url="http://migasfree.org/rss.xml">Videotutorial sobre la instalación del appliance de migasfree</source>
+      <description>He puesto a vuestra disposición un videotutorial de cómo instalar el appliance de VirtualBox con el servidor de migasfree.</description>
+      <category>Tutorial</category>
+      <pubDate>Tue, 07 Sep 2010 22:29:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>He puesto a vuestra disposición un videotutorial de <a href="http://www.youtube.com/v/36hnyKDV_0c" target="_blank" rel="noopener noreferrer">cómo instalar el appliance de VirtualBox con el servidor de migasfree</a>.</p>
+<div style="text-align:center">
+</div>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Videotutorial sobre conceptos clave de migasfree</title>
+      <link>http://migasfree.org/blog/2010/2010-09-10-videtutorial-conceptos-clave.html</link>
+      <guid>http://migasfree.org/blog/2010/2010-09-10-videtutorial-conceptos-clave.html</guid>
+      <source url="http://migasfree.org/rss.xml">Videotutorial sobre conceptos clave de migasfree</source>
+      <description>Disponible un nuevo videotutorial sobre los conceptos clave en los que se basa migasfree.</description>
+      <category>Tutorial</category>
+      <pubDate>Fri, 10 Sep 2010 21:46:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>Disponible un nuevo videotutorial sobre los <a href="http://www.youtube.com/v/yEEzNrsIJ3M" target="_blank" rel="noopener noreferrer">conceptos clave en los que se basa migasfree</a>.</p>
+<div style="text-align:center">
+</div>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Videotutorial sobre propiedades y atributos</title>
+      <link>http://migasfree.org/blog/2010/2010-09-11-videotutorial-propiedades-atributos.html</link>
+      <guid>http://migasfree.org/blog/2010/2010-09-11-videotutorial-propiedades-atributos.html</guid>
+      <source url="http://migasfree.org/rss.xml">Videotutorial sobre propiedades y atributos</source>
+      <description>Acabo de subir el videotutorial Propiedades y Atributos. Esencial para el funcionamiento de migasfree.</description>
+      <category>Tutorial</category>
+      <pubDate>Sat, 11 Sep 2010 19:39:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>Acabo de subir el <a href="http://www.youtube.com/v/4_YXkjcZ74Q" target="_blank" rel="noopener noreferrer">videotutorial Propiedades y Atributos</a>. Esencial para el funcionamiento de migasfree.</p>
+<div style="text-align:center">
+</div>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Tutorial del proceso del cambio de la configuración software</title>
+      <link>http://migasfree.org/blog/2010/2010-09-12-tutorial-proceso-cambio.html</link>
+      <guid>http://migasfree.org/blog/2010/2010-09-12-tutorial-proceso-cambio.html</guid>
+      <source url="http://migasfree.org/rss.xml">Tutorial del proceso del cambio de la configuración software</source>
+      <description>Se llama modificando software. Espero que os guste.</description>
+      <category>Tutorial</category>
+      <pubDate>Sun, 12 Sep 2010 16:43:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>Se llama <a href="http://www.youtube.com/v/FNAOaUa8ysI" target="_blank" rel="noopener noreferrer">modificando software</a>. Espero que os guste.</p>
+<div style="text-align:center">
+</div>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Tutorial «Subiendo paquetes»</title>
+      <link>http://migasfree.org/blog/2010/2010-09-13-tutorial-subiendo-paquetes.html</link>
+      <guid>http://migasfree.org/blog/2010/2010-09-13-tutorial-subiendo-paquetes.html</guid>
+      <source url="http://migasfree.org/rss.xml">Tutorial «Subiendo paquetes»</source>
+      <description>Sin los paquetes, nada se podría hacer en migasfree. Para iniciar el proceso de distribución, hay que empezar subiendo paquetes al servidor de migasfree.</description>
+      <category>Tutorial</category>
+      <pubDate>Mon, 13 Sep 2010 19:20:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>Sin los paquetes, nada se podría hacer en migasfree. Para iniciar el proceso de distribución, hay que empezar <a href="http://www.youtube.com/v/XGzNE1FkK2o" target="_blank" rel="noopener noreferrer">subiendo paquetes al servidor de migasfree</a>.</p>
+<div style="text-align:center">
+</div>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Los departamentos TIC y Linux</title>
+      <link>http://migasfree.org/blog/2010/2010-09-15-departamentos-tic-linux.html</link>
+      <guid>http://migasfree.org/blog/2010/2010-09-15-departamentos-tic-linux.html</guid>
+      <source url="http://migasfree.org/rss.xml">Los departamentos TIC y Linux</source>
+      <description>Un interesante artículo en blackshell, la bitácora de Juan J. Martinez.</description>
+      <category>Teoría</category>
+      <pubDate>Wed, 15 Sep 2010 18:10:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>Un <a href="https://web.archive.org/web/20210419155027/http://blackshell.usebox.net/archive/los-departamentos-tic-y-linux.html" target="_blank" rel="noopener noreferrer">interesante artículo en blackshell, la bitácora de Juan J. Martinez</a>.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Videotutorial sobre los repositorios de migasfree</title>
+      <link>http://migasfree.org/blog/2010/2010-09-15-videotutorial-repositorios.html</link>
+      <guid>http://migasfree.org/blog/2010/2010-09-15-videotutorial-repositorios.html</guid>
+      <source url="http://migasfree.org/rss.xml">Videotutorial sobre los repositorios de migasfree</source>
+      <description>¿Qué es migasfree? Básicamente, es un gestor de repositorios, que permite la asignación de estos a los equipos clientes en función de unos atributos de los equipos.</description>
+      <category>Tutorial</category>
+      <pubDate>Wed, 15 Sep 2010 22:48:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>¿Qué es migasfree? Básicamente, es un gestor de repositorios, que permite la asignación de estos a los equipos clientes en función de unos atributos de los equipos.</p>
+<!-- more -->
+<p>Más información en el <a href="http://www.youtube.com/v/Vd0lllupqRg" target="_blank" rel="noopener noreferrer">videotutorial</a>.</p>
+<div style="text-align:center">
+</div>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Tutorial sobre la gestión de errores en migasfree</title>
+      <link>http://migasfree.org/blog/2010/2010-09-22-tutorial-gestion-errores.html</link>
+      <guid>http://migasfree.org/blog/2010/2010-09-22-tutorial-gestion-errores.html</guid>
+      <source url="http://migasfree.org/rss.xml">Tutorial sobre la gestión de errores en migasfree</source>
+      <description>La herramienta de gestión no serviría de nada si no se pudieran monitorizar los errores en la distribución del software en los clientes. Podéis verlo con más detalle en el video...</description>
+      <category>Tutorial</category>
+      <pubDate>Wed, 22 Sep 2010 18:47:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>La herramienta de gestión no serviría de nada si no se pudieran monitorizar los errores en la distribución del software en los clientes. Podéis verlo con más detalle en el <a href="http://www.youtube.com/v/flz_DwPE7Wo" target="_blank" rel="noopener noreferrer">videotutorial sobre errores en migasfree</a>.</p>
+<div style="text-align:center">
+</div>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>migasfree en Málaga</title>
+      <link>http://migasfree.org/blog/2010/2010-10-23-migasfree-en-malaga.html</link>
+      <guid>http://migasfree.org/blog/2010/2010-10-23-migasfree-en-malaga.html</guid>
+      <source url="http://migasfree.org/rss.xml">migasfree en Málaga</source>
+      <description>Estaremos en Málaga en la OSWC2010 hablando de nuestro proyecto. Hablaremos de migasfree en el Foro de Conocimiento Libre y Administraciones Públicas que se celebra en Málaga el...</description>
+      <category>Evento</category>
+      <pubDate>Sat, 23 Oct 2010 08:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>Estaremos en Málaga en la OSWC2010 hablando de nuestro proyecto. Hablaremos de migasfree en el <a href="http://web.cenatic.es/web/phocadownload/foro_claapp_def.pdf" target="_blank" rel="noopener noreferrer">Foro de Conocimiento Libre y Administraciones Públicas</a> que se celebra en Málaga el 27 y 28 de octubre de 2010, dentro del Workshop del Foro de Administraciones Públicas de CENATIC.</p>
+<!-- more -->
+<p>También estaremos el dia 27 de octubre de 2010 en Málaga en la <a href="http://www.libresoftwareworldconference.org/" target="_blank" rel="noopener noreferrer">Libre Software World Conference</a> hablando de <strong>AZLinux</strong> y migasfree en la mesa de <strong>Migraciones a Software Libre</strong>.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Screencast: presentación de migasfree</title>
+      <link>http://migasfree.org/blog/2010/2010-10-25-screencast-presentacion-migasfree.html</link>
+      <guid>http://migasfree.org/blog/2010/2010-10-25-screencast-presentacion-migasfree.html</guid>
+      <source url="http://migasfree.org/rss.xml">Screencast: presentación de migasfree</source>
+      <description>Para hacer el estreno en Málaga, he preparado una presentación menos técnica para explicar los fundamentos de migasfree.</description>
+      <category>Evento</category>
+      <pubDate>Mon, 25 Oct 2010 22:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>Para hacer el estreno en Málaga, he preparado una presentación menos técnica para explicar los <a href="http://www.youtube.com/v/ZKvO-xRebxQ" target="_blank" rel="noopener noreferrer">fundamentos de migasfree</a>.</p>
+<div style="text-align:center">
+</div>
+]]></content:encoded>
     </item>
     <item>
       <title>¿Qué hay detrás de la idea de migasfree?</title>
@@ -202,171 +367,6 @@
 </ul>
 </li>
 </ul>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Appliance disponible desde migasfree.org</title>
-      <link>http://migasfree.org/blog/2010/2010-08-18-appliance-disponible.html</link>
-      <guid>http://migasfree.org/blog/2010/2010-08-18-appliance-disponible.html</guid>
-      <source url="http://migasfree.org/rss.xml">Appliance disponible desde migasfree.org</source>
-      <description>Podéis bajaros el appliance del servidor migasfree desde el área de descargas.</description>
-      <category>Desarrollo</category>
-      <category>Noticia</category>
-      <pubDate>Wed, 18 Aug 2010 23:23:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>Podéis bajaros el <em>appliance</em> del servidor migasfree desde el <a href="http://migasfree.org/pub/" target="_blank" rel="noopener noreferrer">área de descargas</a>.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Código inicial disponible en GitHub</title>
-      <link>http://migasfree.org/blog/2010/2010-08-18-codigo-inicial-disponible.html</link>
-      <guid>http://migasfree.org/blog/2010/2010-08-18-codigo-inicial-disponible.html</guid>
-      <source url="http://migasfree.org/rss.xml">Código inicial disponible en GitHub</source>
-      <description>Ya está disponible el código inicial en GitHub.</description>
-      <category>Desarrollo</category>
-      <category>Noticia</category>
-      <pubDate>Wed, 18 Aug 2010 15:09:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>Ya está disponible el código inicial en <a href="http://github.com/agacias/migasfree" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Inicio rápido de migasfree</title>
-      <link>http://migasfree.org/blog/2010/2010-08-22-inicio-rapido.html</link>
-      <guid>http://migasfree.org/blog/2010/2010-08-22-inicio-rapido.html</guid>
-      <source url="http://migasfree.org/rss.xml">Inicio rápido de migasfree</source>
-      <description>Se ha subido el documento Inicio rápido de migasfree.</description>
-      <category>Tutorial</category>
-      <pubDate>Sun, 22 Aug 2010 19:31:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>Se ha subido el documento <a href="http://migasfree.org/doc/es/quick_start.pdf" target="_blank" rel="noopener noreferrer">Inicio rápido de migasfree</a>.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Videotutorial sobre la instalación del appliance de migasfree</title>
-      <link>http://migasfree.org/blog/2010/2010-09-07-videotutorial-appliance.html</link>
-      <guid>http://migasfree.org/blog/2010/2010-09-07-videotutorial-appliance.html</guid>
-      <source url="http://migasfree.org/rss.xml">Videotutorial sobre la instalación del appliance de migasfree</source>
-      <description>He puesto a vuestra disposición un videotutorial de cómo instalar el appliance de VirtualBox con el servidor de migasfree.</description>
-      <category>Tutorial</category>
-      <pubDate>Tue, 07 Sep 2010 22:29:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>He puesto a vuestra disposición un videotutorial de <a href="http://www.youtube.com/v/36hnyKDV_0c" target="_blank" rel="noopener noreferrer">cómo instalar el appliance de VirtualBox con el servidor de migasfree</a>.</p>
-<div style="text-align:center">
-</div>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Videotutorial sobre conceptos clave de migasfree</title>
-      <link>http://migasfree.org/blog/2010/2010-09-10-videtutorial-conceptos-clave.html</link>
-      <guid>http://migasfree.org/blog/2010/2010-09-10-videtutorial-conceptos-clave.html</guid>
-      <source url="http://migasfree.org/rss.xml">Videotutorial sobre conceptos clave de migasfree</source>
-      <description>Disponible un nuevo videotutorial sobre los conceptos clave en los que se basa migasfree.</description>
-      <category>Tutorial</category>
-      <pubDate>Fri, 10 Sep 2010 21:46:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>Disponible un nuevo videotutorial sobre los <a href="http://www.youtube.com/v/yEEzNrsIJ3M" target="_blank" rel="noopener noreferrer">conceptos clave en los que se basa migasfree</a>.</p>
-<div style="text-align:center">
-</div>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Videotutorial sobre propiedades y atributos</title>
-      <link>http://migasfree.org/blog/2010/2010-09-11-videotutorial-propiedades-atributos.html</link>
-      <guid>http://migasfree.org/blog/2010/2010-09-11-videotutorial-propiedades-atributos.html</guid>
-      <source url="http://migasfree.org/rss.xml">Videotutorial sobre propiedades y atributos</source>
-      <description>Acabo de subir el videotutorial Propiedades y Atributos. Esencial para el funcionamiento de migasfree.</description>
-      <category>Tutorial</category>
-      <pubDate>Sat, 11 Sep 2010 19:39:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>Acabo de subir el <a href="http://www.youtube.com/v/4_YXkjcZ74Q" target="_blank" rel="noopener noreferrer">videotutorial Propiedades y Atributos</a>. Esencial para el funcionamiento de migasfree.</p>
-<div style="text-align:center">
-</div>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Tutorial del proceso del cambio de la configuración software</title>
-      <link>http://migasfree.org/blog/2010/2010-09-12-tutorial-proceso-cambio.html</link>
-      <guid>http://migasfree.org/blog/2010/2010-09-12-tutorial-proceso-cambio.html</guid>
-      <source url="http://migasfree.org/rss.xml">Tutorial del proceso del cambio de la configuración software</source>
-      <description>Se llama modificando software. Espero que os guste.</description>
-      <category>Tutorial</category>
-      <pubDate>Sun, 12 Sep 2010 16:43:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>Se llama <a href="http://www.youtube.com/v/FNAOaUa8ysI" target="_blank" rel="noopener noreferrer">modificando software</a>. Espero que os guste.</p>
-<div style="text-align:center">
-</div>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Tutorial «Subiendo paquetes»</title>
-      <link>http://migasfree.org/blog/2010/2010-09-13-tutorial-subiendo-paquetes.html</link>
-      <guid>http://migasfree.org/blog/2010/2010-09-13-tutorial-subiendo-paquetes.html</guid>
-      <source url="http://migasfree.org/rss.xml">Tutorial «Subiendo paquetes»</source>
-      <description>Sin los paquetes, nada se podría hacer en migasfree. Para iniciar el proceso de distribución, hay que empezar subiendo paquetes al servidor de migasfree.</description>
-      <category>Tutorial</category>
-      <pubDate>Mon, 13 Sep 2010 19:20:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>Sin los paquetes, nada se podría hacer en migasfree. Para iniciar el proceso de distribución, hay que empezar <a href="http://www.youtube.com/v/XGzNE1FkK2o" target="_blank" rel="noopener noreferrer">subiendo paquetes al servidor de migasfree</a>.</p>
-<div style="text-align:center">
-</div>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Los departamentos TIC y Linux</title>
-      <link>http://migasfree.org/blog/2010/2010-09-15-departamentos-tic-linux.html</link>
-      <guid>http://migasfree.org/blog/2010/2010-09-15-departamentos-tic-linux.html</guid>
-      <source url="http://migasfree.org/rss.xml">Los departamentos TIC y Linux</source>
-      <description>Un interesante artículo en blackshell, la bitácora de Juan J. Martinez.</description>
-      <category>Teoría</category>
-      <pubDate>Wed, 15 Sep 2010 18:10:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>Un <a href="https://web.archive.org/web/20210419155027/http://blackshell.usebox.net/archive/los-departamentos-tic-y-linux.html" target="_blank" rel="noopener noreferrer">interesante artículo en blackshell, la bitácora de Juan J. Martinez</a>.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Videotutorial sobre los repositorios de migasfree</title>
-      <link>http://migasfree.org/blog/2010/2010-09-15-videotutorial-repositorios.html</link>
-      <guid>http://migasfree.org/blog/2010/2010-09-15-videotutorial-repositorios.html</guid>
-      <source url="http://migasfree.org/rss.xml">Videotutorial sobre los repositorios de migasfree</source>
-      <description>¿Qué es migasfree? Básicamente, es un gestor de repositorios, que permite la asignación de estos a los equipos clientes en función de unos atributos de los equipos.</description>
-      <category>Tutorial</category>
-      <pubDate>Wed, 15 Sep 2010 22:48:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>¿Qué es migasfree? Básicamente, es un gestor de repositorios, que permite la asignación de estos a los equipos clientes en función de unos atributos de los equipos.</p>
-<!-- more -->
-<p>Más información en el <a href="http://www.youtube.com/v/Vd0lllupqRg" target="_blank" rel="noopener noreferrer">videotutorial</a>.</p>
-<div style="text-align:center">
-</div>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Tutorial sobre la gestión de errores en migasfree</title>
-      <link>http://migasfree.org/blog/2010/2010-09-22-tutorial-gestion-errores.html</link>
-      <guid>http://migasfree.org/blog/2010/2010-09-22-tutorial-gestion-errores.html</guid>
-      <source url="http://migasfree.org/rss.xml">Tutorial sobre la gestión de errores en migasfree</source>
-      <description>La herramienta de gestión no serviría de nada si no se pudieran monitorizar los errores en la distribución del software en los clientes. Podéis verlo con más detalle en el video...</description>
-      <category>Tutorial</category>
-      <pubDate>Wed, 22 Sep 2010 18:47:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>La herramienta de gestión no serviría de nada si no se pudieran monitorizar los errores en la distribución del software en los clientes. Podéis verlo con más detalle en el <a href="http://www.youtube.com/v/flz_DwPE7Wo" target="_blank" rel="noopener noreferrer">videotutorial sobre errores en migasfree</a>.</p>
-<div style="text-align:center">
-</div>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>migasfree en Málaga</title>
-      <link>http://migasfree.org/blog/2010/2010-10-23-migasfree-en-malaga.html</link>
-      <guid>http://migasfree.org/blog/2010/2010-10-23-migasfree-en-malaga.html</guid>
-      <source url="http://migasfree.org/rss.xml">migasfree en Málaga</source>
-      <description>Estaremos en Málaga en la OSWC2010 hablando de nuestro proyecto. Hablaremos de migasfree en el Foro de Conocimiento Libre y Administraciones Públicas que se celebra en Málaga el...</description>
-      <category>Evento</category>
-      <pubDate>Sat, 23 Oct 2010 08:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>Estaremos en Málaga en la OSWC2010 hablando de nuestro proyecto. Hablaremos de migasfree en el <a href="http://web.cenatic.es/web/phocadownload/foro_claapp_def.pdf" target="_blank" rel="noopener noreferrer">Foro de Conocimiento Libre y Administraciones Públicas</a> que se celebra en Málaga el 27 y 28 de octubre de 2010, dentro del Workshop del Foro de Administraciones Públicas de CENATIC.</p>
-<!-- more -->
-<p>También estaremos el dia 27 de octubre de 2010 en Málaga en la <a href="http://www.libresoftwareworldconference.org/" target="_blank" rel="noopener noreferrer">Libre Software World Conference</a> hablando de <strong>AZLinux</strong> y migasfree en la mesa de <strong>Migraciones a Software Libre</strong>.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Screencast: presentación de migasfree</title>
-      <link>http://migasfree.org/blog/2010/2010-10-25-screencast-presentacion-migasfree.html</link>
-      <guid>http://migasfree.org/blog/2010/2010-10-25-screencast-presentacion-migasfree.html</guid>
-      <source url="http://migasfree.org/rss.xml">Screencast: presentación de migasfree</source>
-      <description>Para hacer el estreno en Málaga, he preparado una presentación menos técnica para explicar los fundamentos de migasfree.</description>
-      <category>Evento</category>
-      <pubDate>Mon, 25 Oct 2010 22:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>Para hacer el estreno en Málaga, he preparado una presentación menos técnica para explicar los <a href="http://www.youtube.com/v/ZKvO-xRebxQ" target="_blank" rel="noopener noreferrer">fundamentos de migasfree</a>.</p>
-<div style="text-align:center">
-</div>
 ]]></content:encoded>
     </item>
     <item>
