@@ -167,6 +167,7 @@ export default hopeTheme({
     redirect: {
       config: {
         '/vitalinux': '/blog/2025/vitalinux.html',
+        '/vitalinux/': '/blog/2025/vitalinux.html',
       },
     },
 
