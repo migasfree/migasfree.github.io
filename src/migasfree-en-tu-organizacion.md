@@ -21,5 +21,5 @@ En **migasfree**, las fallas y errores se centralizan mediante el envío de info
 La configuración cero en **migasfree** se refiere al proceso de registro de un ordenador en el servidor sin necesidad de dar de alta previamente el equipo. Sólo es necesario instalar el cliente y ejecutarlo para que el equipo quede registrado en el servidor. Esto simplifica el proceso de aprovisionamiento de estaciones nuevas.
 
 ::: tip
-Continúa tu viaje de descubrimiento [visitando las presentaciones](presentaciones.md).
+Continúa tu viaje de descubrimiento [visitando las presentaciones](presentaciones/index.md).
 :::
