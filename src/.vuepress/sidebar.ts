@@ -22,7 +22,7 @@ export default sidebar({
       icon: 'home',
     },
     {
-      link: '/presentaciones',
+      link: '/presentaciones/',
       text: 'Presentaciones',
       icon: 'fab fa-slideshare',
     },
@@ -38,12 +38,38 @@ export default sidebar({
     },
     blogRoll,
   ],
+
   '/blog/': [
     {
       link: '/blog/',
       text: 'Blog',
       icon: 'blog',
       children: 'structure',
+    },
+    blogRoll,
+  ],
+
+  '/presentaciones/': [
+    {
+      link: '/',
+      text: 'Inicio',
+      icon: 'home',
+    },
+    {
+      link: '/presentaciones/',
+      text: 'Presentaciones',
+      icon: 'fab fa-slideshare',
+      children: 'structure',
+    },
+    {
+      link: '/blog/',
+      text: 'Blog',
+      icon: 'blog',
+    },
+    {
+      link: '/team',
+      text: 'Quiénes somos',
+      icon: 'people-group',
     },
     blogRoll,
   ],
