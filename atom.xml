@@ -3,22 +3,1099 @@
   <id>http://migasfree.org/</id>
   <title>Migasfree</title>
   <subtitle>Sistema de gestión de sistemas</subtitle>
-  <updated>2025-06-16T09:41:40.070Z</updated>
+  <updated>2025-07-03T12:05:25.273Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="http://migasfree.org/atom.xml"/>
   <link rel="alternate" href="http://migasfree.org/"/>
   <category term="Noticia"/>
   <category term="Desarrollo"/>
+  <category term="Evento"/>
   <category term="Tutorial"/>
   <category term="Teoría"/>
-  <category term="Evento"/>
   <category term="Caso de éxito"/>
-  <contributor>
-    <name>agacias</name>
-  </contributor>
   <contributor>
     <name>jact</name>
   </contributor>
+  <contributor>
+    <name>jact, alberto</name>
+  </contributor>
+  <contributor>
+    <name>agacias</name>
+  </contributor>
+  <entry>
+    <title type="text">Administrando tu parque de ordenadores con migasfree</title>
+    <id>http://migasfree.org/presentaciones/administrando-parque.html</id>
+    <link href="http://migasfree.org/presentaciones/administrando-parque.html"/>
+    <updated>2025-07-03T12:04:05.000Z</updated>
+    <summary type="html"><![CDATA[<h2>Presentación</h2>
+<p>Charla realizada durante la LibreCon del año 2014, celebrada en Bilbao.</p>
+<h2>El día a día del administrador de sistemas</h2>
+<p>En ocasiones, la administración de ordenadores puede llegar a ser un tanto... caótica.</p>
+<h2>Trabajo de un administrador de sistemas</h2>
+<p>Este es el caos al que cada día se enfrenta un administrador de sistemas.</p>]]></summary>
+    <content type="html"><![CDATA[<h2>Presentación</h2>
+<p>Charla realizada durante la LibreCon del año 2014, celebrada en Bilbao.</p>
+<h2>El día a día del administrador de sistemas</h2>
+<p>En ocasiones, la administración de ordenadores puede llegar a ser un tanto... caótica.</p>
+<h2>Trabajo de un administrador de sistemas</h2>
+<p>Este es el caos al que cada día se enfrenta un administrador de sistemas.</p>
+<p>Los usuarios tienen unos problemas y necesidades concretos, las máquinas tienen que estar siempre a punto y la organización dicta unas directrices que todos deben cumplir.</p>
+<p>Necesidades diferentes, pero que se repiten en muchas ocasiones..., ¿cómo agruparlas y aplicarlas de forma controlada y replicable?</p>
+<p>Ejemplo: una persona reporta que el departamento de marketing no puede entrar en Facebook porque el navegador es demasiado antiguo (y sólo es de hace 2 meses...), pero con una nueva versión, la aplicación web de contabilidad (cuya empresa de origen ya no existe) no se vería muy bien. Para solventar la situación, se nos plantean varias alternativas:</p>
+<ul>
+<li>
+<p>¿Tenemos que ir por cada ordenador de marketing instalando una versión diferente del navegador?</p>
+</li>
+<li>
+<p>Si hiciéramos una distribución masiva, ¿cómo excluimos a los de contabilidad?</p>
+</li>
+<li>
+<p>O, si queremos que todos tengan la misma versión, ¿cómo aplicamos una CSS de usuario que arregle los problemas de visualización al departamento de contabilidad?</p>
+</li>
+</ul>
+<h2>¿Qué es migasfree?</h2>
+<h3>Conceptos de migasfree</h3>
+<p>Migasfree es un software libre que se encarga de gestionar repositorios dinámicos de software basados en atributos y calendarios.</p>
+<p>Los atributos sirven para agrupar equipos y así distribuir diferente software. Como hemos visto antes, la organización es un sistema complejo y heterogéneo.</p>
+<p>Los calendarios (basados en atributos) sirven para no saturar la red de la organización y para dar tiempo de reacción frente a posibles problemas en la distribución del software.</p>
+<h3>Funcionamiento básico de migasfree</h3>
+<p>El cliente instalado en la máquina a administrar se conecta al servidor y le transmite su lista de atributos. Estos están relacionados con la persona que está conectada y con el ordenador:</p>
+<ul>
+<li>Qué usuario está conectado en ese momento.</li>
+<li>A qué grupos de la organización pertenece ese usuario.</li>
+<li>Qué modelo de tarjeta gráfica tiene el equipo.</li>
+<li>Qué dirección IP tiene asignada.</li>
+<li>Y cualquier otra cosa que nos pueda ser útil, ya que pueden ser programables.</li>
+</ul>
+<p>El servidor, basándose en esos parámetros, le manda al cliente una lista de repositorios disponibles para actualizar el software y, adicionalmente, una lista de software a instalar o desinstalar del equipo.</p>
+<h3>Lo importante es el concepto</h3>
+<p>Migasfree se fundamenta sobre un concepto sencillo: <strong>mantener y asegurar la integridad</strong> de un sistema informático.</p>
+<p>Un sistema se considera íntegro si:</p>
+<ul>
+<li>
+<p>Es capaz de mantener las relaciones entre los distintos cambios que se le realizan (por ejemplo, control de dependencias).</p>
+</li>
+<li>
+<p>Permite la auditoría de cambios (estado del sistema).</p>
+</li>
+</ul>
+<p>En los sistemas Linux, esta integridad del sistema se mantiene con los sistemas de paquetería. Por eso, migasfree, sólo se limita a distribuir paquetes. La paquetería se encarga del resto. En ella reside la verdadera magia.</p>
+<h2>Características de un Sistema Gestor de Sistemas</h2>
+<h3>Aprovisionamiento de estaciones nuevas</h3>
+<p>Para registrar un ordenador en el servidor migasfree, tan sólo es necesario instalar el cliente y ejecutarlo. No hay que dar de alta el equipo previamente. Es lo que llamamos configuración cero.</p>
+<h3>Inventario de máquinas</h3>
+<p>El control del software instalado en cada máquina se realiza guardando el volcado de paquetes instalados.</p>
+<p>El hardware se inventaría guardando la salida del comando <code>lshw</code>.</p>
+<p>Toda esta información de cada equipo se guarda en el servidor de migasfree.</p>
+<h3>Actualización y despliegue de aplicaciones</h3>
+<p>La novedad que aporta migasfree a la administración de equipos, es la actualización planificada a través de repositorios dinámicos gestionados con un calendario de demoras.</p>
+<p>Estos calendarios pueden dilatarse más o menos en el tiempo. Una actualización crítica puede desplegarse en un sólo día, pero otra menos urgente y más voluminosa puede efectuarse durante varios meses.</p>
+<p>Además, a estos repositorios se les han añadido algunas mejoras que ayudan al despliegue controlado de aplicaciones. En cada repositorio se pueden indicar una serie de paquetes de software que el cliente se encargará de instalar o desinstalar cada vez que se conecte con el servidor. Así nos aseguramos que la lista de software crítico para un área de negocio está siempre disponible en los equipos adecuados.</p>
+<h3>Gestión de configuración remota y centralizada</h3>
+<p>Hemos visto que migasfree se apoya en los sistemas de paquetería para mantener la integridad de los sistemas.</p>
+<p>Eso significa que cada <strong>elemento de configuración software</strong> (ECS) debe empaquetarse para que se distribuya y asegurar así la integridad.</p>
+<p>Migasfree también se encarga de verificar si los cambios se han realizado y avisa de los errores producidos durante el proceso.</p>
+<h3>Realizar acciones individualmente o por grupos</h3>
+<p>¿Cómo es posible crear grupos de ordenadores para realizar diferentes conjuntos de actualizaciones?</p>
+<p>En migasfree existen 2 formas de crear estos grupos:</p>
+<ul>
+<li>
+<p>Automáticamente: programando propiedades.</p>
+</li>
+<li>
+<p>Manualmente: definiendo etiquetas.</p>
+</li>
+</ul>
+<p>Una vez creados estos grupos, podemos asignarles repositorios dinámicos y realizar los cambios en la configuración software.</p>
+<h3>Soporte al usuario</h3>
+<p>Otro aspecto muy importante en la gestión de un parque de ordenadores es el soporte al usuario. Este se puede realizar muy fácilmente con herramientas de control remoto.</p>
+<p>Para que esto funcione dentro de la solución migasfree, primero deberemos configurar los servicios remotos (SSH, VNC) a través de paquetes de configuración software y, posteriormente, conectarnos a los equipos a través de la aplicación web del servidor migasfree.</p>
+<p>El soporte al usuario debe servir para descubrir problemas que, posteriormente, solucionaremos empaquetando elementos de configuración software (ECS) para replicar el remedio en tantos equipos como haga falta.</p>
+<h2>Consejos básicos para implantar migasfree en tu organización</h2>
+<h3>Servidor privado de migasfree: uno o varios</h3>
+<p>Para optimizar el tráfico de red al actualizar los equipos, lo mejor es tener un servidor de migasfree dentro de la red de la organización.</p>
+<p>Pero, ¿cuántos son necesarios? Un sólo servidor es capaz de gestionar varias versiones con diferente sistema de paquetería. En el Ayuntamiento de Zaragoza tenemos 1100 equipos Linux (con 2 sistemas diferentes de paquetería) controlados con un único servidor.</p>
+<p>Pero si tenemos varias redes internas separadas, puede ser buena idea tener varios servidores (por ejemplo, para una red con puntos de información públicos).</p>
+<h3>Congelamiento de repositorios</h3>
+<p>Para una organización es crucial controlar el software que hay en los equipos. Una buena forma de hacerlo es <strong>congelando</strong> los repositorios.</p>
+<p>Se pueden bajar las versiones concretas de programas y tenerlas disponibles en el servidor migasfree privado.</p>
+<p>De esta forma podemos evitar sorpresas al actualizar a versiones no probadas o que dejen fuera de juego algún equipo (al instalar un nuevo kernel en hardware no muy nuevo) o una aplicación de la organización (como una nueva versión del navegador web).</p>
+<h3>Cómo subir software al servidor de migasfree</h3>
+<p>¿Cómo se consiguen esos repositorios congelados?</p>
+<p>Se pueden bajar paquetes de los sitios oficiales de las distribuciones Linux o de repositorios privados.</p>
+<p>Después se suben al servidor migasfree mediante la utilidad de línea de comando <code>migasfree-upload</code>. Está diseñado para subir grandes cantidades de paquetes al servidor y usarlo en <em>scripts</em>.</p>
+<p>Finalmente, se distribuyen los cambios. Primero se testea en un banco de pruebas, luego en un grupo de usuarios test y después al resto, con demoras, para no saturar la red.</p>
+<h3>Distribución de software a los equipos</h3>
+<p>La configuración software empaquetada ofrece un nivel de personalización enorme, pero si no sabes hacer paquetes, puedes empezar a usar migasfree asignando paquetes de software ya hechos a diferentes equipos del parque (no todos tienen por qué tener lo mismo).</p>
+<h3>Uso de etiquetas y propiedades para agrupar ordenadores</h3>
+<p>El servidor migasfree permite programar propiedades para recolectar atributos automáticamente de los equipos.</p>
+<p>Sin embargo, hay ciertos atributos que sólo se pueden matizar a través de las etiquetas. Estas sirven para determinar:</p>
+<ul>
+<li>que un determinado equipo lo va a usar una persona con una funcionalidad muy específica</li>
+<li>que un grupo de ordenadores forman un aula o están en una planta de un edificio</li>
+<li>que un ordenador va a tener una funcionalidad determinada (juegos, diseño gráfico, desarrollo, ...)</li>
+</ul>
+<h3>Usos y desusos de las fallas en migasfree</h3>
+<p>Una falla es un mecanismo de detección de un comportamiento no deseado. En migasfree, son totalmente programables.</p>
+<p>Hay otros sistemas gestores de sistemas que se basan en enviar comandos a los equipos para cambiar la configuración software.</p>
+<p>Aunque en las fallas de migasfree también se puede acometer esa tarea, siempre es preferible que sirvan para detectar anomalías y que el problema se solucione empaquetando y distribuyendo (la importancia de la integridad del sistema).</p>
+<h3>Paquetes prêt-à-porter para la organización</h3>
+<p>Cuando te hayas habituado al sistema migasfree, llega el momento de adentrarse en la confección de paquetes a medida para solventar necesidades específicas de la organización:</p>
+<ul>
+<li>Configuración personalizada de aplicaciones y servicios (mi NTP, mi LDAP, ...).</li>
+<li>Distribución de aplicaciones propias.</li>
+<li>Resolución de incidencias.</li>
+</ul>
+<h2>Epílogo</h2>
+<h3>Todo está en el libro</h3>
+<p>Estas han sido sólo unas pinceladas de qué es y cómo usar migasfree.</p>
+<p>Para adentraros más en el universo migasfree, podéis consultar el libro que ha escrito (y que sigue escribiendo) Alberto Gacías, creador de esta solución.</p>
+<p>Al igual que la aplicación migasfree, el libro también es código abierto y está disponible para todo el mundo.</p>
+<h3>Lo que podría ser (si usas migasfree)</h3>
+<p>Porque la vida de un administrador puede ser más relajada. Incluso más a menudo de lo que pensáis.</p>
+<p>Migasfree nace con ese objetivo. Facilitarnos tareas de gestión para que podamos dedicar más tiempo a cosas realmente importantes.</p>
+<h3>Enlaces de interés</h3>
+<ul>
+<li><a href="https://migasfree.org" target="_blank" rel="noopener noreferrer">migasfree.org</a></li>
+<li><a href="https://github.com/migasfree/" target="_blank" rel="noopener noreferrer">github.com/migasfree</a></li>
+<li>@migasfree, #migasfree</li>
+<li><a href="mailto:fun.with@migasfree.org" target="_blank" rel="noopener noreferrer">fun.with@migasfree.org</a></li>
+</ul>
+<p>¡Muchas gracias por vuestra atención!</p>
+]]></content>
+    <author>
+      <name>jact</name>
+    </author>
+    <contributor>
+      <name>jact</name>
+    </contributor>
+    <published>2014-11-12T10:00:00.000Z</published>
+    <rights>Copyright by jact</rights>
+  </entry>
+  <entry>
+    <title type="text">¿Es migasfree para mí?</title>
+    <id>http://migasfree.org/presentaciones/es-migasfree-para-mi.html</id>
+    <link href="http://migasfree.org/presentaciones/es-migasfree-para-mi.html"/>
+    <updated>2025-07-03T12:04:05.000Z</updated>
+    <summary type="html"><![CDATA[<h2>Presentación</h2>
+<p>La siguiente presentación muestra en qué consiste la herramienta migasfree, para que cada entorno informatizado decida si es adecuada para su infraestructura.</p>
+<h2>Qué es migasfree</h2>
+<p>¿Alguien ha oído hablar de migasfree?</p>
+<p>¿Y sabe decir lo que es?</p>
+<p>¿Qué es migasfree? Una herramienta de administración de ordenadores.</p>]]></summary>
+    <content type="html"><![CDATA[<h2>Presentación</h2>
+<p>La siguiente presentación muestra en qué consiste la herramienta migasfree, para que cada entorno informatizado decida si es adecuada para su infraestructura.</p>
+<h2>Qué es migasfree</h2>
+<p>¿Alguien ha oído hablar de migasfree?</p>
+<p>¿Y sabe decir lo que es?</p>
+<p>¿Qué es migasfree? Una herramienta de administración de ordenadores.</p>
+<p>¿Cómo hace esta administración? Gestionando repositorios dinámicos de software. Distribuye este software a los equipos, dependiendo de características del ordenador (atributos) y del instante temporal (calendario).</p>
+<p>Los clientes son todos aquellos sistemas que tengan un PMS (Sistema de Gestión de Paquetes) que asegure la integridad del sistema:</p>
+<ul>
+<li>PCs de escritorio</li>
+<li>servidores</li>
+<li>smartphones</li>
+<li>tablets</li>
+</ul>
+<h2>Por qué usar migasfree</h2>
+<p>El 80% del tiempo del personal TIC se emplea en mantenimiento. Este consiste en actualizaciones de programas, parches de seguridad, auditorías (software y hardware) y cambios de configuración.</p>
+<p>¿Por qué no usar otras herramientas de administración? Porque ninguna se basa directamente en la paquetería. Y la paquetería está demostrado que funciona porque diariamente se actualizan millones de equipos de esta forma (muchas de las distribuciones de Linux lo hacen así).</p>
+<p>Además, migasfree proporciona una distribución controlada y personalizada para cada cliente (no todos tienen por qué tener lo mismo, pero necesito tenerlos todos controlados).</p>
+<h2>Evolución en la administración</h2>
+<p>Distro actualizable (generalista):</p>
+<ul>
+<li>Administrada por el usuario.</li>
+<li>Configurada manualmente y por paquetes.</li>
+<li>Actualizada mediante repositorios públicos (oficiales y particulares).</li>
+</ul>
+<p>Distro administrada (organización):</p>
+<ul>
+<li>Administrada remotamente por personal cualificado.</li>
+<li>Configurada por paquetes (permiten el seguimiento y el control de los cambios).</li>
+<li>Actualizada mediante un gestor de sistemas (como migasfree) con repositorios privados y controlados.</li>
+</ul>
+<h2>Proceso Gestión de Configuración Software con migasfree</h2>
+<p>El ciclo petición/cambio/liberación: proceso GCS (Gestión de Configuración Software).</p>
+<p>Como todo ciclo, nunca tiene fin... pero tiene como regla que cualquier cambio de configuración se empaqueta para su distribución (al igual que hacen las distros de Linux con los programas).</p>
+<p>Alguien informa de una <strong>petición</strong> (error/mejora/característica), otra persona elabora el <strong>cambio</strong> empaquetado y, finalmente, migasfree <strong>libera</strong> (distribuye) el paquete a los equipos que lo necesiten.</p>
+<h2>Ámbitos de aplicación</h2>
+<p>¿Dónde se puede aplicar migasfree? Parece claro que donde haya muchos equipos que administrar ya que facilita las tareas de mantenimiento.</p>
+<p>Empresa privada. Ya sea micro, PYME o una gran empresa.</p>
+<p>Administración pública: áreas de negocio diferentes, grandes redes privadas, cada vez menos personal TIC... y el número de equipos aumenta.</p>
+<p>Educación: el tema del mantenimiento tal vez no sea tan crítico como en los escenarios anteriores, pero la versatilidad que ofrece (instalación desatendida de aplicaciones, alertas sobre equipos), merece que tengamos en cuenta esta herramienta.</p>
+<h2>Migasfree en el Ayuntamiento de Zaragoza</h2>
+<p>Veamos como migasfree se adapta a una determinada organización: el Ayuntamiento de Zaragoza.</p>
+<p>A lo largo del tiempo han ido conviviendo diferentes proyectos y todos ellos (mientras haya un PMS que asegure la integridad) se han controlado con migasfree.</p>
+<p>La personalización de un proyecto puede ser tan sencilla como añadir o quitar software que ya está disponible en la <em>distro</em> base, y se puede complicar tanto como queramos creando paquetes propios que den solución específica a necesidades concretas.</p>
+<p>Para cada uno de los proyectos hemos hecho una media de 75 paquetes diferentes personalizados (a esto hay que añadir las versiones de cada uno de ellos), para adaptar como un guante la plataforma de trabajo a las necesidades concretas de nuestros usuarios.</p>
+<h2>Evolución de AZLinux</h2>
+<p>El proyecto de migración a Linux dentro del Ayuntamiento siempre ha ido sumando equipos, aunque ha habido épocas donde el crecimiento ha sido muy leve.</p>
+<p>Sin embargo, eso nos ha dado tiempo para ir mejorando la plataforma base e ir cambiando de distribución.</p>
+<p>Sin migasfree no habría sido posible tener tantos proyectos diferentes sin poderlos administrar con una única herramienta.</p>
+<h2>Planes presentes y de futuro</h2>
+<p>Con la idea de abarcar gran cantidad de clientes (+ 10K por servidor), estamos replanteado la arquitectura de la solución migasfree.</p>
+<p>Vamos a separar el servidor en componentes que puedan escalar horizontalmente (agregando más nodos) según la demanda de cada organización.</p>
+<p>Para facilitar la comunicación y posibilitar el crecimiento de aplicaciones auxiliares (clientes para otras plataformas, interfaces de explotación de datos, integración con aplicaciones como sistemas de incidencias, ...), se está construyendo una API REST en el componente <em>backend</em> de migasfree.</p>
+<h2>Quién está usando migasfree</h2>
+<p>Y si todo esto tiene tan buena pinta... ¿por qué no hay millones de personas usando ya migasfree?</p>
+<ul>
+<li>¿Porque no tenemos ni idea de hacer marketing?</li>
+<li>¿Porque no estamos interesados en ganar dinero con esto (no nos da de comer)?</li>
+<li>¿Porque hace falta leerse el manual para hacerlo funcionar?</li>
+</ul>
+<p>En realidad es porque (creemos) lo de hacer paquetes... se ve mucho más complicado de lo que es (se cree que sólo es cosa de gurús y gente rara que vive en sótanos oscuros que se alimenta de coca-cola y pizza).</p>
+<p>La verdadera complicación reside en conocer el funcionamiento del sistema. Lo de hacer paquetes es un proceso muy mecánico.</p>
+<p>También porque otros sistemas (como Chef, Puppet) vienen con recetas predefinidas, mientras que migasfree es un folio en blanco. Aunque nosotros pensamos que esto es más una ventaja que un inconveniente, ya que deja control total a la organización sobre cómo quiere hacer las cosas.</p>
+<h2>Qué diría Richard Stallman</h2>
+<p>Migasfree es software libre con licencia GPL, pero... ¿qué diría Richard Stallman, guardián y abanderado de la libertad del software, sobre una herramienta como esta?</p>
+<h2>El gran dictador</h2>
+<p>Que somos demasiado controladores coartando la libertad y privacidad de las personas de la organización.</p>
+<p>Pero... a veces... en un entorno que tiene que estar controlado... es mejor tener una  herramienta que facilite esta tarea 😉</p>
+<h2>Conclusión</h2>
+<p>Y ahora, ¿alguien sabe decir lo que es migasfree?</p>
+<div class="language-txt line-numbers-mode" data-highlighter="shiki" data-ext="txt" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>Integridad + automatización = mejor mantenimiento</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>La integridad la pone el sistema de paquetería de nuestro sistema operativo.</p>
+<p>La automatización la proporciona migasfree al facilitar y controlar la distribución de los cambios.</p>
+<p>Así obtenemos una mejora sustancial en las tareas de mantenimiento en los equipos de nuestra organización.</p>
+<h2>¿Es migasfree para ti?</h2>
+<p>Después de todo lo que has visto, te toca a ti decidir si migasfree se adapta a tu ámbito.</p>
+<p>En nuestro caso, migasfree se ha ido ajustando a los cambios que ha habido en nuestra organización. Si hay más gente que se anima a usarlo, seguro que se van añadiendo nuevas funcionalidades para que esta herramienta sea cada día más completa.</p>
+<p>Necesitamos tu opinión para mejorar, sea la que sea.</p>
+]]></content>
+    <author>
+      <name>jact</name>
+    </author>
+    <contributor>
+      <name>jact</name>
+    </contributor>
+    <published>2015-05-05T10:00:00.000Z</published>
+    <rights>Copyright by jact</rights>
+  </entry>
+  <entry>
+    <title type="text">Jugando con la API de migasfree</title>
+    <id>http://migasfree.org/presentaciones/jugando-api.html</id>
+    <link href="http://migasfree.org/presentaciones/jugando-api.html"/>
+    <updated>2025-07-03T12:04:05.000Z</updated>
+    <summary type="html"><![CDATA[<h2>Introducción</h2>
+<p>Extendiendo la aplicación a través del uso de la API.</p>
+<p>Presentación para la MigasCon de abril de 2020. Lamentablemente, no se pudo celebrar por el confinamiento general que hubo en esas fechas.</p>
+<h2>Conceptos previos</h2>
+<h3>Definición de API</h3>
+<p>Contrato, con documentación, que representa un acuerdo entre las partes: si una de las partes envía una solicitud remota con cierta estructura en particular, esa misma estructura determinará cómo responderá el software de la otra parte.</p>]]></summary>
+    <content type="html"><![CDATA[<h2>Introducción</h2>
+<p>Extendiendo la aplicación a través del uso de la API.</p>
+<p>Presentación para la MigasCon de abril de 2020. Lamentablemente, no se pudo celebrar por el confinamiento general que hubo en esas fechas.</p>
+<h2>Conceptos previos</h2>
+<h3>Definición de API</h3>
+<p>Contrato, con documentación, que representa un acuerdo entre las partes: si una de las partes envía una solicitud remota con cierta estructura en particular, esa misma estructura determinará cómo responderá el software de la otra parte.</p>
+<h3>Ventajas</h3>
+<p>Facilita la integración: interfaz de operaciones que proporciona la aplicación (caja negra).</p>
+<p>Ahorra tiempo y costes: aprovecha código y funcionalidades ya hechos y probados.</p>
+<p>Favorece la innovación: posibilidad de crear productos nuevos alrededor de otros ya existentes.</p>
+<p>Rentabiliza datos: pago por número de llamadas a la API, etc.</p>
+<h3>Inconvenientes</h3>
+<p>Falta de documentación: no todas las APIs suelen estar bien documentadas.</p>
+<p>Una página web suele tener múltiples llamadas a la API Rest para conseguir datos relacionados.</p>
+<p>Las llamadas a una API pueden cambiar según la versión de la misma y puede no quedar claro qué llamada corresponde a tal versión.</p>
+<p>Si hay múltiples llamadas a una API en cada página y ese sitio web empieza a ser muy solicitado, puede colapsar el servidor muy fácilmente.</p>
+<p>Cuidado con exponer información sensible a través de una API sin tener en cuenta la seguridad.</p>
+<h2>Historia de migasfree y las APIs</h2>
+<h3>La edad de la inocencia</h3>
+<p>En los principios del proyecto, nos inventamos una especie de API para la comunicación del  cliente (aplicación de escritorio) con el servidor. Todas las llamadas iban a parar a una misma URL. El formato de los argumentos tenía un formato inusual y para darle algo de seguridad se hacía un CRC con una clave que enviaba el servidor. Sin embargo, los datos estaban en texto claro.</p>
+<p>También había una API pública con algunos puntos de entrada, pero que no seguían ningún estándar de API Rest.</p>
+<h3>El hombre en busca de sentido</h3>
+<p>Pero en el año 2016, se inició una API REST experimental para proporcionar acceso público y privado (con token) sobre los datos de la interfaz del servidor.</p>
+<p>Esto abrió un abanico de nuevas posibilidades y de ahí nacieron proyectos como <code>migasfree-play</code> o PUA (Project Upgrade Assistant), así como integraciones con programas de terceros, que podían hacer uso de la API fácilmente a través de <code>migasfree-sdk</code>.</p>
+<h3>Encuentros en la 3ª fase</h3>
+<p>Pero todavía quedaba pendiente la comunicación entre los clientes y el servidor. Por eso, se ha desarrollado, para la versión 5 de la suite, un nuevo protocolo basado en JWT (JSON Web Token). De esta forma los mensajes van, al mismo tiempo, firmados y cifrados. Así, incrementamos la seguridad y la privacidad aunque el protocolo de comunicación sea HTTP.</p>
+<p>También se ha aprovechado para segmentar los mensajes y facilitar el uso de las operaciones.</p>
+<p>En la versión 5 de la suite migasfree, estamos empezando a jugar con GraphQL (experimentalmente) para mejorar el rendimiento con la idea de hacer menos peticiones para recabar más datos del servidor. Por el momento no se está usando en <code>migasfree-frontend</code>.</p>
+<h2>Explotación</h2>
+<h3>Comparativa operaciones</h3>
+<p>Relación entre las operaciones de un CRUD y sus equivalencias con los verbos de una API REST.</p>
+<ul>
+<li>Create -&gt; POST</li>
+<li>Retrieve -&gt; GET</li>
+<li>Update -&gt; PUT, PATCH</li>
+<li>Delete -&gt; DELETE</li>
+</ul>
+<h3>Swagger</h3>
+<p>Swagger es un conjunto de herramientas de software de código abierto para diseñar, construir, documentar, y utilizar servicios web RESTful.</p>
+<p>Usamos Swagger en Django para autodocumentar la API REST del servidor (tanto la pública como la privada).</p>
+<p>Se encuentra disponible en <code>/docs/</code>.</p>
+<h3>Django Rest Framework</h3>
+<p>Como usamos Django Rest Framework en nuestro código, también tenemos autodocumentada la API REST en la ruta <code>/api-docs/</code>.</p>
+<h3>cURL</h3>
+<p>Ejemplo de uso de la API REST con cURL.</p>
+<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">_SERVER</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">http://localhost</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">_TOKEN</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">$(</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">curl</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -X</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> POST</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> \</span></span>
+<span class="line"><span style="--shiki-light:#986801;--shiki-dark:#D19A66">  -H</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "Content-Type: application/json"</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> \</span></span>
+<span class="line"><span style="--shiki-light:#986801;--shiki-dark:#D19A66">  -d</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> '{"username":"xxx","password":"xxx"}'</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> \</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">  $_SERVER</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">/token-auth/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> | </span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">jq</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -r</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ".token"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">curl</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -X</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> GET</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> \</span></span>
+<span class="line"><span style="--shiki-light:#986801;--shiki-dark:#D19A66">  -H</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "Authorization: Token </span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">$_TOKEN</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> \</span></span>
+<span class="line"><span style="--shiki-light:#986801;--shiki-dark:#D19A66">  -H</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "Content-Type: application/json"</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> \</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">  $_SERVER</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">/api/v1/token/packages/orphan/</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> \</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  | </span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">jq</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -c</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> '.[] | select(.name | contains("azl-"))?'</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>El principal propósito y uso de cURL es automatizar transferencias de archivos o secuencias de operaciones no supervisadas. Es por ejemplo, una herramienta válida para simular las acciones de usuarios en un navegador web.</p>
+<h3>CORE API</h3>
+<p>Core API es un modelo de objetos de documento independiente del formato para representar APIs.</p>
+<p>Existe una herramienta de línea de comandos que puede utilizar para interactuar con las APIs, así como una biblioteca cliente de Python.</p>
+<p>Aquí, un ejemplo de uso contra la API de migasfree:</p>
+<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">pip</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> install</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> coreapi-cli</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">coreapi</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> get</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> http://localhost/api-docs/</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">coreapi</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> action</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> api</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> v1</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> public</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> server</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> info</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> create</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Ejemplo de uso de Core API con la librería de Python:</p>
+<div class="language-py line-numbers-mode" data-highlighter="shiki" data-ext="py" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">import</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> coreapi</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># Initialize a client &amp; load the schema document</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">client </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> coreapi.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">Client</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">()</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">schema </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> client.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">get</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"http://localhost/api-docs/"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># Interact with the API endpoint</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">action </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> [</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"api"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"v1"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"public"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"server"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"info"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"create"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">]</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">result </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> client.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">action</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(schema, action)</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3>Python requests</h3>
+<p>Requests es una biblioteca HTTP para el lenguaje de programación Python. El objetivo del  proyecto es hacer que las solicitudes HTTP sean más simples y amigables para los humanos.</p>
+<p>Requests es una de las bibliotecas de Python más populares que no se incluye con Python (todavía).</p>
+<div class="language-py line-numbers-mode" data-highlighter="shiki" data-ext="py" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">import</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> requests</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">import</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> json</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">server </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> 'http://localhost'</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">data </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> {</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'username'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'xxx'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'password'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'xxx'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">url </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> '</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">{}</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">/token-auth/'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">format</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(server)</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">response </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> requests.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">post</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(url, data)</span></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(response.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">json</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">())</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">token </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> response.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">json</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">()[</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'token'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">headers </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> {</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'Authorization'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'Token </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">{}</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">format</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(token)}</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">url </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> '</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">{}</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">/api/v1/token/projects/'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">format</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(server)</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">response </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> requests.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">get</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(url, </span><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#E06C75;--shiki-dark-font-style:italic">headers</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">headers)</span></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(response.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">json</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">())</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3>Migasfree SDK</h3>
+<p>Ejemplo de uso de la explotación de la API de migasfree con el proyecto migasfree SDK.</p>
+<div class="language-py line-numbers-mode" data-highlighter="shiki" data-ext="py" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">import</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> datetime</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">from</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> migasfree_client.utils </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">import</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> get_mfc_project, get_hardware_uuid</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">from</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> migasfree_sdk.api </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">import</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> ApiToken</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">server </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> 'http://localhost'</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">api </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF"> ApiToken</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#E06C75;--shiki-dark-font-style:italic">server</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">server, </span><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#E06C75;--shiki-dark-font-style:italic">user</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">user)</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">project_name </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF"> get_mfc_project</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">()</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">project_id </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> api.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">id</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"projects"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, {</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"name"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: project_name})</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">all_systems_id </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> api.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">id</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"attributes"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, {</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"prefix"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"SET"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"value"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"ALL SYSTEMS"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">})</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">cid </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> api.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">id</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"computers"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, {</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"uuid"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">get_hardware_uuid</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">()})</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">attribute_cid </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> api.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">id</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"attributes"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, {</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"prefix"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"CID"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"value"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: cid})</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">data </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> {</span></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">    "name"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"bluefish_geany"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"start_date"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: datetime.datetime.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">now</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">().</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">strftime</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'%Y-%m-</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">%d</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">),</span></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">    "project"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: project_id, </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"packages_to_install"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: [</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"bluefish"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"geany"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">], </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"included_attributes"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: [all_systems_id, attribute_cid]</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">deployment_id </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> api.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">add</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"deployments/internal-sources"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, data)</span></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(deployment_id)</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Este proyecto nace con la idea de facilitar y simplificar la utilización de la API del servidor migasfree.</p>
+<h3>Postman</h3>
+<p>Otra herramienta que se puede usar para interactuar con APIs es Postman.</p>
+<h3>Axios</h3>
+<p>Si quieres atacar la API de migasfree desde JavaScript, una buena alternativa es la librería <a href="https://flaviocopes.com/axios/" target="_blank" rel="noopener noreferrer">Axios</a>.</p>
+<p>Este es un ejemplo de uso:</p>
+<div class="language-js line-numbers-mode" data-highlighter="shiki" data-ext="js" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">let</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> server</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> 'http://localhost'</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">let</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> data</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> {</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'username'</span><span style="--shiki-light:#0184BC;--shiki-dark:#ABB2BF">:</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> 'xxx'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'password'</span><span style="--shiki-light:#0184BC;--shiki-dark:#ABB2BF">:</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> 'xxx'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">const</span><span style="--shiki-light:#986801;--shiki-dark:#E5C07B"> response</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD"> await</span><span style="--shiki-light:#383A42;--shiki-dark:#E5C07B"> axios</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">post</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">`</span><span style="--shiki-light:#CA1243;--shiki-dark:#C678DD">${</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">server</span><span style="--shiki-light:#CA1243;--shiki-dark:#C678DD">}</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">/token-auth/`</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, </span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">data</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">let</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> token</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#E5C07B"> response</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#E45649;--shiki-dark:#E5C07B">data</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">token</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">response</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD"> await</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> axios</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">      .</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">get</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">`</span><span style="--shiki-light:#CA1243;--shiki-dark:#C678DD">${</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">server</span><span style="--shiki-light:#CA1243;--shiki-dark:#C678DD">}</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">/api/v1/token/computers/`</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, {</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">        headers</span><span style="--shiki-light:#0184BC;--shiki-dark:#ABB2BF">:</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> {</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">          Authorization</span><span style="--shiki-light:#0184BC;--shiki-dark:#ABB2BF">:</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> `Token </span><span style="--shiki-light:#CA1243;--shiki-dark:#C678DD">${</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">token</span><span style="--shiki-light:#CA1243;--shiki-dark:#C678DD">}</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">`</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        }</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">      })</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">      .</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">catch</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">((</span><span style="--shiki-light:#383A42;--shiki-light-font-style:inherit;--shiki-dark:#E06C75;--shiki-dark-font-style:italic">error</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">) </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">=&gt;</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> { </span><span style="--shiki-light:#383A42;--shiki-dark:#E5C07B">console</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">log</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">error</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">) })</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E5C07B">console</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">log</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#383A42;--shiki-dark:#E5C07B">response</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#E45649;--shiki-dark:#E5C07B">data</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">results</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3>GraphQL</h3>
+<p>Estos son dos ejemplos de consultas GraphQL que ya están implantadas en la suite 5 de migasfree.</p>
+<div class="language-txt line-numbers-mode" data-highlighter="shiki" data-ext="txt" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>query projects {</span></span>
+<span class="line"><span>  allProjects {</span></span>
+<span class="line"><span>    id</span></span>
+<span class="line"><span>    name</span></span>
+<span class="line"><span>  }</span></span>
+<span class="line"><span>}</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>query platforms {</span></span>
+<span class="line"><span>  allPlatforms {</span></span>
+<span class="line"><span>    id</span></span>
+<span class="line"><span>    name</span></span>
+<span class="line"><span>    projectSet {</span></span>
+<span class="line"><span>      id</span></span>
+<span class="line"><span>      name</span></span>
+<span class="line"><span>      slug</span></span>
+<span class="line"><span>      pms</span></span>
+<span class="line"><span>      architecture</span></span>
+<span class="line"><span>    }</span></span>
+<span class="line"><span>  }</span></span>
+<span class="line"><span>}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-txt line-numbers-mode" data-highlighter="shiki" data-ext="txt" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>query computers {</span></span>
+<span class="line"><span>  allComputers {</span></span>
+<span class="line"><span>    id</span></span>
+<span class="line"><span>    name</span></span>
+<span class="line"><span>    ipAddress</span></span>
+<span class="line"><span>    syncStartDate</span></span>
+<span class="line"><span>    syncEndDate</span></span>
+<span class="line"><span>    errorSet {</span></span>
+<span class="line"><span>      description</span></span>
+<span class="line"><span>    }</span></span>
+<span class="line"><span>  }</span></span>
+<span class="line"><span>}</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>query errors {</span></span>
+<span class="line"><span>  allErrors {</span></span>
+<span class="line"><span>    id</span></span>
+<span class="line"><span>    description</span></span>
+<span class="line"><span>    computer {</span></span>
+<span class="line"><span>      id</span></span>
+<span class="line"><span>    }</span></span>
+<span class="line"><span>  }</span></span>
+<span class="line"><span>}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Están disponibles en la ruta <code>/graphql/</code> del servidor.</p>
+<h3>Aplicaciones derivadas de la API</h3>
+<p>A lo largo de todos estos años, hemos ido explotando la API del servidor a través de diversas aplicaciones.</p>
+<p>Empezando con el cliente, después le ha seguido <code>migasfree-play</code>.</p>
+<p>Con posterioridad creamos PUA para uso interno en el Ayuntamiento de Zaragoza. Esta aplicación nos sirve para estudiar a qué sistema operativo se puede migrar un cierto ordenador, basándonos en el software que tiene actualmente y en una serie de restricciones que son diferentes en cada sistema operativo.</p>
+<p>También tenemos un <em>script</em> para obtener estadísticas de equipos mensualmente. Este <em>script</em> realiza llamadas a la API.</p>
+<p>Incluso es posible automatizar migraciones del servidor usando la misma API que este proporciona.</p>
+<h2>Conclusiones</h2>
+<p>El buen uso del concepto de API REST nos ha servido estos últimos años para:</p>
+<ul>
+<li>Mejorar la seguridad del proyecto (sobre todo la comunicación entre clientes y servidor).</li>
+<li>Estandarizar y documentar el uso de las llamadas (DRF, Swagger).</li>
+<li>Ampliar el ecosistema de aplicaciones (<code>migasfree-play</code>, <code>migasfree-sdk</code>, <code>migasfree-frontend</code>).</li>
+<li>Facilitar la integración con terceros (a través de múltiples herramientas, como cURL, python requests, Core API, Axios, ...).</li>
+</ul>
+]]></content>
+    <author>
+      <name>jact</name>
+    </author>
+    <contributor>
+      <name>jact</name>
+    </contributor>
+    <published>2020-04-01T10:00:00.000Z</published>
+    <rights>Copyright by jact</rights>
+  </entry>
+  <entry>
+    <title type="text">Migasfree Client</title>
+    <id>http://migasfree.org/presentaciones/migasfree-client.html</id>
+    <link href="http://migasfree.org/presentaciones/migasfree-client.html"/>
+    <updated>2025-07-03T12:04:05.000Z</updated>
+    <summary type="html"><![CDATA[<h2>Introducción</h2>
+<p>Presentación realizada para la <a href="/migascon-2022.html" target="_blank">migascon 2022</a>, en la que se muestran los cambios más importantes de la aplicación migasfree client en su versión 5.</p>
+<h2>Protocolo de comunicación v4</h2>
+<p>El gran cambio respecto al cliente actual (versión 4), es el protocolo de comunicación usado con el servidor (<code>migasfree-backend</code>).</p>]]></summary>
+    <content type="html"><![CDATA[<h2>Introducción</h2>
+<p>Presentación realizada para la <a href="/migascon-2022.html" target="_blank">migascon 2022</a>, en la que se muestran los cambios más importantes de la aplicación migasfree client en su versión 5.</p>
+<h2>Protocolo de comunicación v4</h2>
+<p>El gran cambio respecto al cliente actual (versión 4), es el protocolo de comunicación usado con el servidor (<code>migasfree-backend</code>).</p>
+<p>En la versión 4, los mensajes entre cliente y servidor sólo están firmados mediante un CRC. Como puede apreciarse, si alguien intercepta la comunicación, se puede ver claramente qué se intercambia entre las aplicaciones.</p>
+<div class="language-txt line-numbers-mode" data-highlighter="shiki" data-ext="txt" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>{"upload_computer_message": "Conectando al servidor migasfree..."}3�_�!A�l&lt;��i�hT�J������	��8\Olw6vfy"�1؎#m@K�e��~�l���i����/Q������h4(�~�I�ٸBy�y	��us�ACK</span></span>
+<span class="line"><span>                                                                               O���]X��L&gt;�ݗ���dg����E���A�=%�h����ҽ�ˈ���&amp;�q�}ˠ</span></span>
+<span class="line"><span>��)3W�E��`30�K�ݝv���p��m�</span></span>
+<span class="line"><span>                         �7+\J�?X�Az��}�"��@������T=d����O�f���	�s���N</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2>Protocolo de comunicación v5</h2>
+<p>El nuevo protocolo está basado en <a href="https://jwt.io/" target="_blank" rel="noopener noreferrer">JWT</a> (JSON Web Token) y es autenticado y cifrado a la vez. Esto significa que, aunque se use el protocolo HTTP sin cifrado, las comunicaciones entre el cliente y servidor son seguras.</p>
+<div class="language-txt line-numbers-mode" data-highlighter="shiki" data-ext="txt" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWUsImlhdCI6MTUxNjIzOTAyMn0.NHVaYe26MbtOYhSKkoKYdFVomg4i8ZJd8_-RU8VNbftc4TSMb4bXP3l3YlNWACwyXPGffz5aXHc6lty1Y2t4SWRqGteragsVdZufDn5BlnJl9pdR_kdVFUsra2rWKEofkZeIC4yWytE58sMIihvo9H1ScmmVwBcQP6XETqYd0aSHp1gOa9RdUPDvoXQ5oqygTqVtxaDr6wUFKrKItgBMzWIdNZ6y7O9E0DhEPTbE9rfBo6KTFsHAZnMg4k68CDp2woYIaXbmYTWcvbzIuHO7_37GT79XdIwkm95QJ7hYC9RiwrV7mesbY4PAahERJawntho0my942XheVLmGwLMBkQ</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><h2>Sistema de plugins</h2>
+<p>Otro área de mejora que incorpora el nuevo cliente es el sistema de <em>plugins</em> para PMS (sistemas de paquetería) y manejo de dispositivos (impresoras).</p>
+<p>Está ideado para que el cliente se pueda extender en sistemas operativos que usan otros PMS distintos a los que lleva por defecto el cliente (<code>apt</code>, <code>yum</code>, <code>zypper</code>, <code>pacman</code> y <code>winget</code>) o que se quiera usar otro mecanismo para la gestión de las impresoras.</p>
+<h2>Unificación de comandos</h2>
+<p>También ha cambiado la forma de invocar los comandos a través de la terminal (CLI). Todo se ha unificado bajo un mismo comando (<code>migasfree</code>) y algunos de los parámetros han sufrido cambios.</p>
+<p>Tened esto muy en cuenta si tenéis <em>scripts</em> que hacen uso del cliente.</p>
+<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">$</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> migasfree</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -h</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">usage:</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> migasfree</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> [-h] [-d] [-q]</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">                 {</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">register,search,sync,install,purge,traits,label,version,tags,upload,info,remove-keys}</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ...</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">Sistema</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> de</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> gestión</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> de</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> sistemas</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> (lado </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">cliente</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">positional</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> arguments:</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  {</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">register,search,sync,install,purge,traits,label,version,tags,upload,info,remove-keys}</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">    register</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">            Registrar</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ordenador</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> en</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> el</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> servidor</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">    search</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">              Buscar</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> un</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> paquete</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> en</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> los</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> repositorios</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">    sync</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">                Sincronizar</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ordenador</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> con</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> el</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> servidor</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">    install</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">             Instalar</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> paquete</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">    purge</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">               Desinstalar</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> paquete</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> completamente</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">    traits</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">              Obtener</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> características</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> del</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ordenador</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> en</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> el</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> servidor</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">    label</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">               Indentificación</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> del</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ordenador</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">    version</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">             Mostrar</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> información</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> de</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> la</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> versión</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">    tags</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">                Etiquetas</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> del</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ordenador</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">    upload</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">              Subir</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ficheros</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> al</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> servidor</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">    info</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">                Obtener</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> información</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> del</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ordenador</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> en</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> el</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> servidor</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">    remove-keys</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">         Borrar</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> las</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> claves</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> del</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> cliente</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">options:</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">  -h,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> --help</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">            show</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> this</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> help</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> message</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> and</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> exit</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">  -d,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> --debug</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">           Habilitar</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> el</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> modo</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> de</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> depuración</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">  -q,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> --quiet</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">           Habilitar</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> modo</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> silencioso</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> (no </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">verboso</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2>Atomización de operaciones</h2>
+<p>Además, la API que consume el cliente se ha atomizado. Es decir, que se han separado acciones, para hacer más sencilla y extensible la operativa entre cliente y servidor. Esto hace posible que se puedan desarrollar otros clientes a futuro, tal vez especializándose en algunas de las operaciones disponibles.</p>
+<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">$</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> migasfree</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> sync</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -h</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">usage:</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> migasfree</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> sync</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> [-h] [-f] [-dev | -hard | -soft | -att | -fau]</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">options:</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">  -h,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> --help</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">           show</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> this</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> help</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> message</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> and</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> exit</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">  -f,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> --force-upgrade</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">  Fuerza</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> la</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> actualización</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> de</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> software</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">  -dev,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> --devices</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">      Sincronizar</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> dispositivos</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> del</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ordenador</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> con</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> el</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> servidor</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">  -hard,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> --hardware</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">    Sincronizar</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> hardware</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> del</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ordenador</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> con</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> el</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> servidor</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">  -soft,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> --software</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">    Subir</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> información</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> del</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> software</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> del</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ordenador</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> al</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> servidor</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">  -att,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> --attributes</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">   Subir</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> información</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> de</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> los</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> atributos</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> al</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> servidor</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">  -fau,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> --faults</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">       Subir</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> información</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> de</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> las</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> fallas</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> al</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> servidor</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2>Python 3</h2>
+<p>Este nuevo cliente sólo se puede usar si en el sistema está Python 3. Ya no hay soporte oficial para la versión 2.</p>
+<p>Gracias a esta modernización, se usa la librería <a href="https://rich.readthedocs.io/" target="_blank" rel="noopener noreferrer">Python Rich</a> para mostrar la salida de los comandos.</p>
+<h2>Ejemplos</h2>
+<p>Ejemplo de uso del argumento <code>tags</code> en el comando unificado <code>migasfree</code>.</p>
+<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">$</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> sudo</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> migasfree</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> tags</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> --get</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">Versión</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> de</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> migasfree:</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 5.0</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">Opciones</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> de</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> configuración:</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> /etc/migasfree.conf</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">        Proyecto:</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ubuntu-20-04</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">        Servidor:</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> localhost:2345</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">        Protocolo:</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> http</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">        Actualizar</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> paquetes</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> automáticamente:</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> True</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">        Gestión</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> de</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> dispositivos:</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> True</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">        Proxy:</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> None</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">        Proxy</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> caché</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> de</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> paquetes:</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> None</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">        Depuración:</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> False</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">        Nombre</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> del</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ordenador:</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> pc26934</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">{</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">"assigned"</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">:</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> [</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"DMN-PLAZA-PILAR"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">], </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"available"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: {</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">"DOMAIN"</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">:</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> [</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"DMN-PLAZA-PILAR"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">]}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Nueva funcionalidad que da información acerca de la identificación del equipo en el sistema migasfree.</p>
+<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">$</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> sudo</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> migasfree</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> info</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">Versión</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> de</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> migasfree:</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 5.0</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">Opciones</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> de</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> configuración:</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> /etc/migasfree.conf</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">        Proyecto:</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ubuntu-20-04</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">        Servidor:</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> localhost:2345</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">        Protocolo:</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> http</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">        Actualizar</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> paquetes</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> automáticamente:</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> True</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">        Gestión</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> de</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> dispositivos:</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> False</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">        Subir</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> hardware:</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> True</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">        Proxy:</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> None</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">        Proxy</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> caché</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> de</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> paquetes:</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> None</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">        Depuración:</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> False</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">        Nombre</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> del</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ordenador:</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> PC22071</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">Opciones</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> de</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ejecución:</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">        Versión</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> de</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> MigasFree</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> Server:</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 5.0</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">        Certificado</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> SSL:</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> False</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">        PMS:</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> apt</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">        Arquitectura:</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> amd64</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">┏━━━━━┳━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">┃</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ID</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">  ┃</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> NAME</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">    ┃</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> SEARCH</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">            ┃</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> UUID</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">                                 ┃</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">┡━━━━━╇━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">│</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 292</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> │</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> PC22071</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> │</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> PC22071</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> (CID-292) │ 691CBD33-8CED-11E6-9C43-BC0000380000 │</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">└─────┴─────────┴───────────────────┴──────────────────────────────────────┘</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2>Mundo Windows</h2>
+<p>Necesitamos tener 3 programas en Windows para tener las mismas características que en Linux:</p>
+<ol>
+<li>
+<p>El cliente en sí, que proporciona la comunicación con el servidor.</p>
+</li>
+<li>
+<p>Un detector de las características hardware del equipo que siga la misma estructura que el comando <code>lshw</code> de linux.</p>
+</li>
+<li>
+<p>Un sistema de paquetería que permita auditar el software y realizar acciones de instalación.</p>
+</li>
+</ol>
+<p>Hasta ahora, tan sólo podíamos acometer los 2 primeros puntos, por lo que no habíamos invertido tiempo en el proyecto para tener el cliente en plataforma Windows. Sin embargo, en mayo de 2021, Microsoft liberó la versión 1.0 de <a href="https://github.com/microsoft/winget-cli" target="_blank" rel="noopener noreferrer">Windows Package Manager Client</a> (winget), el sistema de paquetería "oficial" para Windows. Este es el hecho que nos ha decidido a preparar el cliente de migasfree para Windows. Además, hemos creado el proyecto <a href="https://github.com/migasfree/lshw-windows-emulator" target="_blank" rel="noopener noreferrer">LsHw Windows Emulator</a>, que es una simplificación de lshw, basado en llamadas a Windows Management Instrumentation (WMI).</p>
+<p>Por el momento, el soporte del cliente en Windows es experimental, debido al sistema de paquetería <em>winget</em> y a las novedades introducidas en el cliente.</p>
+<h2>Despedida</h2>
+<p>Hasta aquí, hemos mostrado las novedades más importantes del cliente migasfree en su versión 5.</p>
+<p>El cambio más radical es la atomización de la API que consume el cliente. Es decir, que se han separado acciones, para hacer más sencilla y extensible la operativa entre cliente y servidor.</p>
+<p>Esto hace posible que se puedan desarrollar otros clientes a futuro, tal vez especializándose en algunas de las operaciones disponibles.</p>
+<p>Quedamos a la espera de vuestros comentarios. Gracias.</p>
+]]></content>
+    <author>
+      <name>jact</name>
+    </author>
+    <contributor>
+      <name>jact</name>
+    </contributor>
+    <published>2022-05-19T16:30:00.000Z</published>
+    <rights>Copyright by jact</rights>
+  </entry>
+  <entry>
+    <title type="text">migasfree eXPeriences</title>
+    <id>http://migasfree.org/presentaciones/migasfree-experiences.html</id>
+    <link href="http://migasfree.org/presentaciones/migasfree-experiences.html"/>
+    <updated>2025-07-03T12:04:05.000Z</updated>
+    <summary type="html"><![CDATA[<h2>Introducción</h2>
+<p>Esta presentación relata las experiencias que el universo migasfree protagoniza, en nuestro día a día, en el Ayuntamiento de Zaragoza.</p>
+<h2>La constancia del cambio</h2>
+<p>Las siguientes experiencias describen cambios en:</p>
+<ul>
+<li>
+<p>La organización.</p>
+</li>
+<li>
+<p>En los procedimientos.</p>
+</li>
+<li>
+<p>En la forma de pensar y de afrontar los retos diarios.</p>
+</li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[<h2>Introducción</h2>
+<p>Esta presentación relata las experiencias que el universo migasfree protagoniza, en nuestro día a día, en el Ayuntamiento de Zaragoza.</p>
+<h2>La constancia del cambio</h2>
+<p>Las siguientes experiencias describen cambios en:</p>
+<ul>
+<li>
+<p>La organización.</p>
+</li>
+<li>
+<p>En los procedimientos.</p>
+</li>
+<li>
+<p>En la forma de pensar y de afrontar los retos diarios.</p>
+</li>
+</ul>
+<h2>Los inicios</h2>
+<p>Migasfree es la herramienta de administración que nace del proyecto de migración a Software Libre del Ayuntamiento de Zaragoza.</p>
+<p>El proyecto de migración nace de un acuerdo de Gobierno en el año 2005.</p>
+<p>Nace en un momento de cambio, un buen momento para aprender.</p>
+<h2>Cómo éramos en el 2008</h2>
+<p>Estado del departamento de microinformática del Ayuntamiento en el año 2008:</p>
+<ul>
+<li>
+<p><em>Call Center</em> para asistir a los empleados municipales.</p>
+</li>
+<li>
+<p>Correcciones manuales (repetitivas y personales) sobre los ordenadores.</p>
+</li>
+<li>
+<p>Inventario manual del hardware de los equipos.</p>
+</li>
+<li>
+<p>Inventario software inexistente.</p>
+</li>
+<li>
+<p>Windows XP en el escritorio.</p>
+</li>
+</ul>
+<h2>Y llegó migasfree (proceso GCS)</h2>
+<p>Migasfree se centra en desplegar cambios de configuración en forma de paquetes, tal y como hace Linux. Distribuimos estos cambios de manera progresiva para afrontar mejor los problemas que se puedan originar.</p>
+<p>Haciendo algunos arreglos, esto también se puede hacer en equipos con Microsoft Windows.</p>
+<p>Migasfree también sirve para inventariar el hardware y el software de manera automática.</p>
+<h2>Peregrinaje</h2>
+<p>Seis cambios de sistema operativo base en 10 años. Tres de ellos conviven actualmente.</p>
+<p>Se han usado diferentes distribuciones (SuSE, openSuSE, Ubuntu), con diferente gestión de la paquetería, pero todo ello se ha podido controlar con una única herramienta: migasfree.</p>
+<p>Una media de 78 paquetes creados para la organización por proyecto. A esto hay que sumar las diferentes versiones de cada uno de ellos. Así, ha sido posible adaptar las plataformas de trabajo a las necesidades concretas de nuestra organización.</p>
+<h2>Evolución del cambio</h2>
+<p>El proyecto de migración a Linux dentro del Ayuntamiento siempre ha ido sumando equipos, aunque ha habido épocas donde el crecimiento ha sido muy leve.</p>
+<p>Sin embargo, eso nos ha dado tiempo para ir mejorando la plataforma base e ir cambiando de distribución.</p>
+<p>Sin migasfree no habría sido posible tener tantos proyectos diferentes.</p>
+<h2>Cambio de paradigma</h2>
+<p>Hemos logrado normalizar los cambios dentro de nuestra organización.</p>
+<p>Somos ágiles frente a los problemas y anticipamos soluciones.</p>
+<p>Con el mismo personal, reorganizado, damos soporte a más combinaciones de sistemas operativos y software.</p>
+<p>Seguimos atendiendo llamadas de usuarios, pero cambia el método de resolución:</p>
+<ul>
+<li>
+<p>Petición: incidencia.</p>
+</li>
+<li>
+<p>Cambio: paquete.</p>
+</li>
+<li>
+<p>Liberación: migasfree.</p>
+</li>
+</ul>
+<h2>Vitalinux Edu DGA</h2>
+<p>El modelo que hemos ido construyendo en el Ayuntamiento es extrapolable a otras organizaciones.</p>
+<p>Ejemplo de ello es el proyecto del departamento de Educación del Gobierno de Aragón para llevar el software libre a las aulas: Vitalinux EDU DGA.</p>
+<p>Este proyecto bebe de otro, al que llamamos Vitalinux, que nació de la colaboración entre personas del Ayuntamiento, de la Universidad de Zaragoza y educadores de primaria y secundaria.</p>
+<p>Actualmente, 2 personas gestionan las aulas informáticas de más de 70 centros en Aragón. Unos 7000 equipos informáticos.</p>
+<h2>Aulas de mayores</h2>
+<p>Las aulas de mayores de los Centros Cívicos de Zaragoza están en una red propia y aparte de nuestra infraestructura municipal.</p>
+<p>Los equipos están basados en el proyecto <a href="https://github.com/vitalinux-kiosk" target="_blank" rel="noopener noreferrer">Vitalinux Kiosk</a>. Cada vez que se inicia sesión, se empieza con un entorno limpio de trabajo, ideal para el trabajo en aulas.</p>
+<p>Hay un servidor migasfree dedicado en esta red, que nos posibilita adaptar fácilmente estos espacios de aprendizaje.</p>
+<h2>Auditorías</h2>
+<p>Todos los años necesitamos repasar las licencias por puesto con nuestro proveedor de servicios MicroFocus. Con migasfree, sabemos <em>ipso facto</em> y con fiabilidad, qué cantidad de clientes existe en nuestro parque de equipos.</p>
+<p>También Microsoft ha querido saber si las licencias que poseemos de sus productos son en realidad las que a la empresa le consta. Con el inventariado de software que migasfree tiene de los ordenadores, ha sido muy fácil presentar el informe a los de Redmond, sin necesidad de instalar sus herramientas en nuestra red.</p>
+<h2>Gestión de impresoras</h2>
+<p>Además de la distribución de software que hace migasfree, es posible administrar la instalación y desinstalación de impresoras con esta misma herramienta.</p>
+<p>Estos procesos son independientes del sistema operativo, ya que se hacen a través del cliente de migasfree.</p>
+<p>Simplifica especialmente la gestión de impresoras por <em>leasing</em>. El reemplazo es facilísimo y no es necesaria ninguna intervención manual en los ordenadores.</p>
+<h2>MDB Collector</h2>
+<p>Desde que alguien inventara el gestor de base de datos Access, este se ha extendido como una plaga en muchas organizaciones.</p>
+<p>Para empezar con el tratamiento corrector, es imprescindible saber antes cuán profunda es la infección y a quiénes afecta.</p>
+<p>Con un pequeño <em>script</em>, distribuido mediante un paquete a los equipos, y gracias a la versatilidad de migasfree, tenemos localizadas todas las bases de datos y quién accede a ellas.</p>
+<h2>QLP</h2>
+<p>Dentro del Ayuntamiento estamos llegando a un momento de colapso tecnológico. No podemos instalar sistemas operativos antiguos en equipos nuevos y no podemos instalar sistemas operativos nuevos porque hay que dar soporte a software antediluviano.</p>
+<p>Para ayudar en esta tarea, hemos creado la aplicación QLP (Qué Le Pongo). Obtiene el inventario de software de un equipo del servidor migasfree y, en base a unas reglas que hemos establecido, nos dice qué nuevo sistema operativo poner y sobre qué hardware puede funcionar.</p>
+<h2>Conclusión</h2>
+<div class="language-txt line-numbers-mode" data-highlighter="shiki" data-ext="txt" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>Integridad + automatización = mejor mantenimiento</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>La integridad la pone el sistema de paquetería de nuestro sistema operativo.</p>
+<p>La automatización la proporciona migasfree al facilitar y controlar la distribución de los cambios.</p>
+<p>Así obtenemos una mejora sustancial en las tareas de mantenimiento en los equipos de nuestra organización.</p>
+<h2>Resumen</h2>
+<p>Para conseguir que un cambio funcione, es necesario:</p>
+<ul>
+<li>
+<p>Generar expectativas correctas.</p>
+</li>
+<li>
+<p>Focalizar en soluciones, no en problemas.</p>
+</li>
+<li>
+<p>Acentuar lo positivo.</p>
+</li>
+<li>
+<p>Anticipar los problemas, para así normalizar el cambio.</p>
+</li>
+</ul>
+<p>En nuestro caso, migasfree es el motor que hace posible los cambios en la organización.</p>
+]]></content>
+    <author>
+      <name>jact</name>
+    </author>
+    <contributor>
+      <name>jact</name>
+    </contributor>
+    <published>2018-03-30T10:00:00.000Z</published>
+    <rights>Copyright by jact</rights>
+  </entry>
+  <entry>
+    <title type="text">Migasfree Frontend</title>
+    <id>http://migasfree.org/presentaciones/migasfree-frontend.html</id>
+    <link href="http://migasfree.org/presentaciones/migasfree-frontend.html"/>
+    <updated>2025-07-03T12:04:05.000Z</updated>
+    <summary type="html"><![CDATA[<h2>Introducción</h2>
+<p>Presentación realizada para la <a href="/migascon-2022.html" target="_blank">migascon 2022</a>, en la que se muestra la aplicación migasfree frontend como sustituta del anterior interfaz de administración de la versión 4.</p>
+<h2>Separación</h2>
+<p>Separación entre servicios e interfaz de usuario. Esa era la idea central de la versión 5 de la suite migasfree. Permitiría desarrollar por separado ambos proyectos, utilizando en cada caso las mejores tecnologías para cada parte.</p>]]></summary>
+    <content type="html"><![CDATA[<h2>Introducción</h2>
+<p>Presentación realizada para la <a href="/migascon-2022.html" target="_blank">migascon 2022</a>, en la que se muestra la aplicación migasfree frontend como sustituta del anterior interfaz de administración de la versión 4.</p>
+<h2>Separación</h2>
+<p>Separación entre servicios e interfaz de usuario. Esa era la idea central de la versión 5 de la suite migasfree. Permitiría desarrollar por separado ambos proyectos, utilizando en cada caso las mejores tecnologías para cada parte.</p>
+<p>Para empezar con esta tarea, primero había que ampliar la API REST en <code>migasfree-backend</code>. Una vez realizada esa parte, llegó el momento de iniciar el proyecto de <code>migasfree-frontend</code>.</p>
+<h2>Single Page Application</h2>
+<p>Hubo un primer intento de realizarlo con <a href="https://nuxt.com/" target="_blank" rel="noopener noreferrer">Nuxt</a> (framework de desarrollo de Vue), pero poco después descrubimos <a href="https:/quasar.dev/" target="_blank" rel="noopener noreferrer">Quasar</a> (otro framework para Vue) y la cantidad de trabajo que nos iba a ahorrar en la creación de componentes iba a ser tanta, que reconducimos el proyecto con este nuevo framework.</p>
+<p>Esta ha sido la primera incursión en el <em>frontend web development</em> actual, con tecnologías de última generación para el desarrollo de una <a href="https://es.wikipedia.org/wiki/Single-page_application" target="_blank" rel="noopener noreferrer">SPA</a>.</p>
+<h2>Gráficos</h2>
+<p>Seguro que cuando liberemos aparecerán errores, pero el salto cualitativo es enorme respecto a la versión actual, y el abanico de posibilidades que se nos abre es colosal. Como, por ejemplo, la geolocalización de etiquetas y atributos en la ficha de ordenador, gracias a <a href="https://www.openstreetmap.org/" target="_blank" rel="noopener noreferrer">OpenStreetMap</a> y <a href="https://leafletjs.com/" target="_blank" rel="noopener noreferrer">Leaflet</a>.</p>
+<p>El rediseño de la interfaz es palpable y se han modernizado componentes. Se ha aprovechado también para cambiar la librería que visualiza las gráficas a <a href="https://echarts.apache.org/" target="_blank" rel="noopener noreferrer">eCharts</a> (proyecto <em>open source</em>, con <a href="https://apache.org/licenses/" target="_blank" rel="noopener noreferrer">licencia Apache</a>).</p>
+<h2>Dark mode</h2>
+<p>Ahora pasemos a contemplar algunas de las novedades más relevantes.</p>
+<p>Empezaremos por una que atañe al aspecto de la aplicación: el <em>dark mode</em>. Es una mejora en la usabilidad con determinadas condiciones lumínicas. Además, está muy de moda entre los consumidores de productos tecnológicos.</p>
+<p>Dos formas de consumir la aplicación al alcance de un solo <em>clic</em>.</p>
+<h2>Datos de las gráficas</h2>
+<p>Pensando en mejorar la accesibilidad a los datos presentados en las gráficas, hemos añadido la opción de ver en crudo la información de las mismas.</p>
+<p>En ocasiones el dato es tan ínfimo que no es posible seleccionarlo con el ratón en la gráfica.</p>
+<p>Aparte, se ha añadido también la opción de guardar la representación de la gráfica.</p>
+<h2>Copy paste de atributos</h2>
+<p>Otra característica que apreciarán los usuarios de la aplicación es la posibilidad de copiar/pegar los atributos en los campos donde aparezcan los botones de edición.</p>
+<p>En el editor de textos se puede apreciar cómo se almacena la información cuando se copia uno de estos campos (un simple JSON con los identificadores de los atributos).</p>
+<h2>Añadir paquete</h2>
+<p>Por fin es posible agregar un paquete desde el navegador web. Tranquilos, que no se ha perdido la opción de hacerlo desde el cliente en consola.</p>
+<p>Es muy fácil de hacer ya que sólo hay que seleccionar el almacén donde alojarlo (como veis, no hay que aprenderse nada de memoria) y, además, informa del tamaño del paquete a subir al servidor.</p>
+<h2>Conjunto de paquetes</h2>
+<p>En esta nueva versión de la <em>suite</em> migasfree cambia el concepto de conjunto de paquetes. Ahora sí que se trata como tal y es posible añadir/eliminar los paquetes del conjunto fácilmente.</p>
+<h2>Histórico de paquetes</h2>
+<p>En el servidor, el concepto de paquete tiene entidad propia y se puede obtener mucha más información (y más fiable) sobre cuándo se ha instalado o desinstalado tal o cual paquete en un equipo.</p>
+<h2>Filtros de ordenadores</h2>
+<p>Otro de los cambios sustanciales con respecto a la versión 4, es que desaparecen las consultas programables.</p>
+<p>Para que no las echéis en falta, se han incorporado numerosos filtros en los datos que se pueden ver en la aplicación.</p>
+<p>Como muestra, sirvan los que hay en el listado de ordenadores. Hay filtros globales (los de la parte superior) y otros que van campo en la zona del listado.</p>
+<h2>Software y comparación</h2>
+<p>Otro gran cambio (relacionado con el concepto de paquete), es este que se puede observar en el apartado software de la ficha de ordenador.</p>
+<p>Desde el inventario se puede consultar qué otros ordenadores tienen un determinado paquete, por ejemplo.</p>
+<p>Desde el histórico se puede consultar más eficazmente qué cambios hubo en el equipo en una fecha en concreto.</p>
+<p>También es posible comparar el software de dos equipos sin tener que recurrir a herramientas externas.</p>
+<h2>Sucesos</h2>
+<p>Otra parte que ha sufrido un rediseño para ganar en usabilidad, ha sido la página de sucesos de un ordenador.</p>
+<p>Los años están separados y se pueden consultar a través de la leyenda inferior. Incluso es posible filtrar los resultados desde la propia gráfica.</p>
+<h2>Alertas</h2>
+<p>Las alertas se comunican vía <em>push</em> al navegador web, utilizando <em>websockets</em>. De esta manera, cuando ocurra algo en el servidor, los distintos usuarios que tengan <strong>migasfree frontend</strong> abierto, recibirán al instante información sobre el evento que haya acontecido.</p>
+<p>Anteriormente el usuario debía "refrescar" las alertas abriendo el desplegable. Mientras ese desplegable continuara visible, la información se actualizaba cada pocos segundos.</p>
+<p>La ventaja en el cambio de la comunicación de las alertas es evidente y mucho más eficiente.</p>
+<h2>Geolocalización</h2>
+<p>Y para terminar, no podemos olvidarnos de la geolocalización de atributos y etiquetas. Esta geolocalización también se puede ver en la ficha de ordenador.</p>
+<p>Para ello usamos los mapas proporcionados por OpenStreetMap.</p>
+<h2>Despedida</h2>
+<p>Quedan más detalles por explorar dentro de la aplicación. Aquí sólo hemos mostrado los cambios más relevantes.</p>
+<p>La metamorfosis ha sido grande y ambiciosa, y busca mejorar la experiencia de uso. Deseamos haberlo conseguido.</p>
+<p>Como siempre, quedamos atentos a vuestros comentarios y seguro que nuevas funcionalidades serán añadidas a futuro.</p>
+<p>Migasfree es lo que es gracias a vosotros: nuestra comunidad.</p>
+]]></content>
+    <author>
+      <name>jact</name>
+    </author>
+    <contributor>
+      <name>jact</name>
+    </contributor>
+    <published>2022-05-19T16:00:00.000Z</published>
+    <rights>Copyright by jact</rights>
+  </entry>
+  <entry>
+    <title type="text">migasfree en la Gestión de la Configuración</title>
+    <id>http://migasfree.org/presentaciones/migasfree-gcs.html</id>
+    <link href="http://migasfree.org/presentaciones/migasfree-gcs.html"/>
+    <updated>2025-07-03T12:04:05.000Z</updated>
+    <summary type="html"><![CDATA[<h2>Presentación</h2>
+<p>Charla preparada para la Conferencia Internacional de Software Libre, celebrada en enero de 2012 en Granada.</p>
+<p>Soy Jose Antonio Chavarría y trabajo en el Servicio de Redes y Sistemas del Ayuntamiento de Zaragoza, desarrollando y manteniendo <code>AZLinux</code>, el escritorio libre que usamos, a día de hoy, unos 600 trabajadores municipales.</p>]]></summary>
+    <content type="html"><![CDATA[<h2>Presentación</h2>
+<p>Charla preparada para la Conferencia Internacional de Software Libre, celebrada en enero de 2012 en Granada.</p>
+<p>Soy Jose Antonio Chavarría y trabajo en el Servicio de Redes y Sistemas del Ayuntamiento de Zaragoza, desarrollando y manteniendo <code>AZLinux</code>, el escritorio libre que usamos, a día de hoy, unos 600 trabajadores municipales.</p>
+<p>Vamos a ver el método que empleamos en <code>AZLinux</code> para personalizar nuestros escritorios.</p>
+<h2>Introducción</h2>
+<p>En primer lugar, vamos a repasar algunos conceptos básicos sobre la Gestión de la Configuración Software (en adelante GCS).</p>
+<p>Esto permitirá establecer la base desde la que poder tratar las dificultades que vas a encontrarte a la hora de personalizar los escritorios GNU/Linux de tu organización, y de cómo puedes superarlas.</p>
+<p>Finalmente veremos <code>migasfree</code>, la herramienta que ha sido clave en la evolución de <code>AZLinux</code>.</p>
+<h2>La permanencia del cambio</h2>
+<p>Un hombre no puede bañarse dos veces en el mismo río, porque el segundo día el río ya no es el mismo, y ni siquiera ese hombre es el mismo.</p>
+<h2>El cambio es deseable e inevitable</h2>
+<p>Dejando aparte la filosofía y centrándonos sólo en el mundo del software podemos decir que <strong>el cambio es inevitable y además es deseable</strong>.</p>
+<p>Inevitable porque los desarrolladores no podemos evitar cometer errores y es mediante la modificación, o cambio en el software, que estos errores son corregidos. Son los llamados <strong>cambios correctivos</strong>.</p>
+<p>Por otro lado el cambio es deseable ya que a menudo queremos incorporar nuevas funcionalidades al software o mejorar aquellas que ya existían. Mediante los <strong>cambios evolutivos</strong> es como mejoramos el software.</p>
+<p>Estos cambios se producen desde que concebimos, construimos y también mientras mantenemos un proyecto software, es decir, durante todo su ciclo de vida.</p>
+<h2>La importancia del control</h2>
+<p>El gran reto de los proyectos software reside precisamente en gestionar, de forma controlada, dichos cambios usando alguna estrategia que favorezca y facilite el cambio.</p>
+<p>De esto trata precisamente la <strong>GCS</strong>, un proceso de la Ingeniería del Software que identifica, hace seguimiento y controla cada uno de los cambios que se producen en los sistemas.</p>
+<h2>Conservación de la integridad</h2>
+<p>El objetivo de la Gestión de la Configuración es conservar la <strong>integridad</strong> de los sistemas frente a los cambios.</p>
+<p>Un sistema será íntegro frente al cambio si:</p>
+<ul>
+<li>mantiene correctamente las <strong>relaciones</strong> entre los distintos cambios a medida que se van produciendo (el típico problema de dependencias entre elementos),</li>
+<li>y además permite la <strong>auditoría</strong> de cambios (conocimiento del estado de un sistema al que se le han ido aplicando cambios sucesivamente).</li>
+</ul>
+<h2>Proceso Gestión de Configuración Software</h2>
+<p>El proceso de la GCS es un conjunto de actividades que nos permitirá garantizar dicha integridad, y que podemos resumir en: <strong>petición</strong> de cambio, <strong>cambio</strong> y <strong>liberación</strong>.</p>
+<p><strong>Petición de cambio</strong>: Cuando se nos reporta un error o una petición de mejora, lo primero que hacemos es identificar el elemento de configuración software (ECS) al que se refiere.</p>
+<p>Un ECS es cualquier objeto software sometido a la GCS. Puede ser un manual de usuario, una especificación, un conjunto de datos para realizar pruebas, una aplicación, una librería, incluso las herramientas que se usan para realizar los cambios, etc.</p>
+<p>Una vez identificado el ECS se registra la petición de cambio. Las herramientas típicas para registrar y hacer el seguimiento del cambio son los llamados gestores de proyectos (Redmine, Bugzilla, Tracker, etc.).</p>
+<p>Cada <strong>petición de cambio</strong> es analizada más tarde pudiendo ser aceptada o rechazada. Si es rechazada se avisa al informador y se cierra la petición; si es aceptada se asigna la petición a alguien para que realice dicho cambio.</p>
+<p>El <strong>cambio</strong> es la actividad que modifica el ECS, generando una nueva versión del ECS. En esta actividad se utilizan un conjunto muy diverso de herramientas, desde procesadores y editores de texto, sistemas de control de versiones, entornos de desarrollo integrados (IDE), depuradores, compiladores...</p>
+<p>La <strong>liberación</strong> es la actividad de situar la nueva versión del ECS generada, en un repositorio o almacén para que posteriormente los clientes del ECS puedan acceder a él e instalarlo.</p>
+<h2>GCS en proyectos de software libre</h2>
+<p>Si observamos como en el mundo del software libre los distintos proyectos (Gnome, KDE, LibreOffice, Mozilla Firefox, Gimp, migasfree, etc.) realizan la <strong>GCS</strong>, vemos que realizan las actividades mencionadas liberando finalmente el código fuente del proyecto en internet, pero podemos observar cómo trabajan con distintos tipos de <strong>ECS</strong> (.png, .txt, .py, .c, .bin, etc.) usando los Sistemas de Control de Versiones que les proporcionan las denominadas forjas de proyectos (plataformas de desarrollo colaborativo como <a href="http://sourceforge.net" target="_blank" rel="noopener noreferrer">sourceforge.net</a>, <a href="http://github.com" target="_blank" rel="noopener noreferrer">github.com</a>, etc.).</p>
+<p>Este código fuente será posteriormente compilado por los mantenedores de las Distribuciones GNU/Linux (Fedora, Red Hat, Debian, Ubuntu, etc.) realizando su propia GCS, pero a diferencia de los primeros, las Distribuciones GNU/Linux sólo trabajan sobre un único tipo de ECS: <strong>el paquete</strong>, donde introducirán el programa ya compilado.</p>
+<p>Este simple hecho permite garantizar la integridad frente a los cambios de forma eficaz y sencilla como veremos a continuación.</p>
+<h2>El paquete como contenedor</h2>
+<p>Un <strong>paquete</strong> es un contenedor que encapsula un <strong>ECS</strong> liberado por un determinado proyecto, más su metainformación.</p>
+<p>Contendrá, por tanto, el programa compilado para una determinada Distribución y arquitectura, más un conjunto amplio de información como puede ser: el autor del programa, la dirección del repositorio del proyecto, la versión del ECS, arquitectura, nombre del empaquetador, fecha de empaquetado, nombre del equipo en que se produjo el empaquetado, una descripción corta del contenido del paquete, una descripción larga, ...</p>
+<p>Pero, además, suelen incluir:</p>
+<ol>
+<li>
+<p><strong>Código</strong> a ejecutar antes y después de instalar, actualizar o eliminar el paquete.</p>
+</li>
+<li>
+<p><strong>Dependencias</strong> con otros paquetes.</p>
+</li>
+</ol>
+<p>Una vez que la Distribución GNU/Linux ha compilado y creado el paquete, lo <strong>libera</strong> poniéndolo en un <strong>repositorio</strong> público o almacén, a disposición de los clientes.</p>
+<h2>Actualización de software en Linux</h2>
+<p>¿Y cómo se actualizan los paquetes en los distintos escritorios GNU/Linux?</p>
+<p>Los encargados de aplicar los cambios son los llamados <strong>gestores de paquetes</strong>. Un gestor de paquetes es un programa que compara los paquetes instalados con los paquetes de los repositorios configurados, detectando los que han sido modificados (han aumentado su versión), resolviendo sus dependencias y finalmente, si no hay conflictos, obtienen desde los repositorios sólo los paquetes necesarios. Ejemplos de gestores de paquetes son <code>yum</code>, <code>zypper</code> o <code>apt</code>.</p>
+<p>Una vez han descargado los paquetes, dan órdenes a los <em>backends</em> (<code>rpm</code>, <code>dpkg</code>, etc.) para que se produzca la actualización. Los <em>backends</em> abren el paquete, y grosso modo:</p>
+<ol>
+<li>
+<p>Extraen los ficheros del programa copiándolos en el sistema, y ejecutando además el código programado para antes y después de la actualización.</p>
+</li>
+<li>
+<p>La metainformación es extraída del paquete y se almacena en la base de datos del backend.</p>
+</li>
+</ol>
+<p>Decía Ian Murdock, fundador de Debian, que el gran aporte del software libre a la industria ha sido precisamente la invención del sistema de paquetería (paquete, repositorio, gestor de paquetes). Y no es para menos, ya que este sistema nos proporciona los dos requisitos necesarios que veíamos anteriormente y que garantizarán la integridad frente a los cambios, es decir:</p>
+<ol>
+<li>
+<p>El control de <strong>dependencias</strong>, mediante el gestor de paquetes.</p>
+</li>
+<li>
+<p>La <strong>auditoría</strong>, mediante las consultas a la base de datos a través del <em>backend</em>.</p>
+</li>
+</ol>
+<p>Si estás acostumbrado a instalar programas mediante el típico <code>./configure</code>, <code>make</code>, <code>install</code>, tienes que hacerte consciente que estás rompiendo la integridad frente a los cambios cuando lo haces, ya que la base de datos del backend no es actualizada con este procedimiento (en la auditoría no saldrá reflejada este programa y además es posible que una actualización posterior del sistema podría hacer que tu programa dejase de funcionar). Tenlo en cuenta.</p>
+<p>Recuerda esto: <strong>Todo lo que no sea instalar programas mediante el gestor de paquetes o el <em>backend</em>, rompe la integridad frente a los cambios de tu sistema</strong>.</p>
+<h2>Administrando equipos</h2>
+<p>Hasta ahora, hemos hablado de la <strong>GCS</strong> en general, y de cómo las Distribuciones GNU/linux en particular utilizan el sistema de paquetería para <strong>garantizar la integridad</strong> frente al cambio.</p>
+<p>Esto está muy bien si tienes un equipo doméstico, ya que con el simple hecho de dar la orden al gestor de paquetes para que actualice tu sistema, todos los cambios producidos por los distintos proyectos que forman parte de tu Distribución GNU/Linux serán actualizados correctamente.</p>
+<p>Pero en una organización, la primera dificultad importante a la que se va a enfrentar un administrador, va a ser la de la <strong>personalización</strong>.</p>
+<h2>Personalización inicial y evolutiva</h2>
+<p>Imagina que tienes que migrar 1000 equipos a GNU/Linux. Imagina también que tienes en tu red un servicio NTP y se requiere que todos tus escritorios estén sincronizados con este servicio. Vas a tener que personalizar el cliente NTP en todos tus escritorios. Una solución sería partir de una instalación desde el DVD de la Distribución que hayas elegido, editar el fichero de configuración del cliente NTP y configurar la IP del servidor donde se encuentra el servicio NTP. Después puedes crear una imagen del disco duro con Clonezilla y migrar uno a uno los 1000 equipos usando dicha imagen. Una personalización inicial usando este método es sencilla de realizar y puede ser muy útil. Pero sigamos imaginando. Un día, a mitad de migración, recibes una petición como esta:</p>
+<blockquote>
+<p>A partir del día 10, NTP va a dejar de dar servicio y en su lugar vamos a poner un nuevo servicio llamado "QueHoraEs" que es mucho mejor porque...</p>
+</blockquote>
+<p>En este momento piensas en los 400 equipos que tienes ya migrados y te echas las manos a la cabeza, pensando qué vas a hacer para actualizarlos.</p>
+<p>Recuerda esto: <strong>La personalización inicial es muy sencilla de realizar pero la personalización puede darse en cualquier momento, y tienes que estar preparado para poder realizarla.</strong></p>
+<p>Afortunadamente, existen unas herramientas denominadas <strong>Gestores de Sistemas</strong> (Systems Management Systems) que pueden sacarnos del apuro. Algunos de estos Gestores de Sistemas se centran en la adquisición del inventario hardware (como OCSInventory), otros sobre la adquisición del estado de los equipos (como Nagios), y otros permiten automatizar tareas mediante la ejecución de código en los equipos de manera centralizada (Zenworks for linux, Landscape, chef, puppet, cfengine, etc.).</p>
+<h2>Gestores de sistemas</h2>
+<p>Veamos un ejemplo de funcionamiento típico de un <strong>Gestor de Sistemas</strong>. Mediante un lenguaje propio de tipo declarativo se escribe un código que especifica a qué estado se quiere llevar a los equipos, no cómo llegar a ese estado, en nuestro caso sería algo parecido a esto:</p>
+<ul>
+<li>
+<p>asegúrate que el paquete <code>ntp-client</code> está desinstalado</p>
+</li>
+<li>
+<p>asegúrate que el paquete <code>quehoraes-client</code> está instalado</p>
+</li>
+<li>
+<p>asegúrate que el fichero de configuración de <code>quehoraes-client</code> es el mismo que el que está en el servidor.</p>
+</li>
+</ul>
+<p>Periódicamente, los clientes se conectarán al servidor para obtener este código que será ejecutado mediante el <strong>intérprete propio</strong> del Gestor de Sistemas instalado en el cliente.</p>
+<p>Este sistema permite automatizar aquellas tareas que realizan a menudo los administradores de sistemas, y aunque algunos Gestores de Sistemas se las ingenian para llevar un control de versiones y de dependencias, mantienen una base de datos independiente de la de los <em>backends</em> de los gestores. ¿Tengo alguna manera de saber qué cambios (de aplicaciones y de personalizaciones) se han producido en el sistema? Realizan muy bien su tarea, es cierto, pero también es cierto que la integridad frente a los cambios queda en entredicho.</p>
+<h2>Empaquetar la personalización</h2>
+<p>En AZLinux usamos otro método: <strong>Empaquetamos siempre la personalización.</strong></p>
+<p>Para el caso del cliente "QueHoraEs", escribiríamos en nuestro lenguaje favorito (<code>bash</code>, <code>python</code>, <code>perl</code>, <code>ruby</code>...) un código similar a este:</p>
+<div class="language-txt line-numbers-mode" data-highlighter="shiki" data-ext="txt" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span># Código a ejecutar después de la instalación:</span></span>
+<span class="line"><span>En el fichero de configuración del cliente QueHoraes, modificar el valor de la entrada “server=” por la IP del servidor QueHoraEs</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><p>y crearíamos un paquete con la siguiente metainformación:</p>
+<ul>
+<li>Dependencias: <code>quehoraes-client</code></li>
+<li>Obsoletos: <code>ntp-client</code></li>
+</ul>
+<p>¡Listo! Con esto queda garantizada la integridad frente al cambio ya que hacemos uso del sistema de paquetería de nuestra Distribución.</p>
+<p>Date cuenta que no es necesario ningún Gestor de Sistemas para instalar dicha personalización. Sólo necesitas el <strong>Gestor de Paquetes</strong>, y éste siempre lo tienes disponible.</p>
+<h2>Liberaciones en una organización</h2>
+<p>El segundo problema con el que vas a tener que lidiar es el de la <strong>liberación</strong>.</p>
+<p>Por un lado, debes <strong>independizarte</strong> de los repositorios públicos de tu Distribución GNU/Linux, por el simple motivo que no puedes permitir que el control de los cambios que se instalarán en tus máquinas lo tenga tu Distribución GNU/Linux en vez de tu organización. ¿Imaginas que habría pasado en AZLinux cuando OpenSuSE sustituyó OpenOffice por LibreOffice? Cuando los usuarios hubieran encendido las máquinas a las 8:00 de la mañana, se iniciaría la actualización a LibreOffice automáticamente, pudiéndose producir muchas incidencias, ¿funcionaría todo? ¿No es mejor probar LibreOffice antes de liberarlo a los usuarios?</p>
+<p>Tienes que poder decidir por ti mismo el software que deben tener tus usuarios y por tanto debes tener los gestores de paquetes configurados a tus propios repositorios de paquetes y gestionarlos de alguna manera.</p>
+<p>Además, es necesario tener la posibilidad de poder <strong>planificar</strong> a quién y cuándo liberar los cambios. Imagina nuevamente el ejemplo de la sustitución de OpenOffice por LibreOffice, estaríamos hablando de una actualización de cerca de 500 MB por equipo que multiplicado por 600 equipos a la vez... es evidente que es mucho tráfico de red.</p>
+<p>Además, otra ventaja de planificar la liberación es que permite distribuir poco a poco los cambios, de tal manera, que si hay errores afectará inicialmente a muy pocos equipos permitiendo actuar de manera más relajada para corregir cualquier incidencia.</p>
+<h2>Repositorio migasfree</h2>
+<p>Por todo esto, y como los repositorios estándar de las Distribuciones no tienen ningún mecanismo de planificación de la liberación, es por lo que decidimos desarrollar <strong>migasfree</strong>, extendiendo el concepto de repositorio de paquetes al concepto de <strong>repositorio de paquetes planificable</strong>.</p>
+<p>Un repositorio de migasfree es simplemente un repositorio estándar más la capacidad de poder especificar cuándo y quién puede acceder a ese repositorio.</p>
+<h2>Funcionamiento de migasfree</h2>
+<p>Veamos el funcionamiento de migasfree:</p>
+<ol>
+<li>
+<p><strong>Los cambios son empaquetados y subidos al servidor migasfree.</strong></p>
+</li>
+<li>
+<p>Se crea un <strong>Repositorio Lógico</strong> con los paquetes subidos y se establece a quién (atributos de usuario+equipo), y en qué momento se deben aplicar dichos cambios. Esto no es más que un registro en la tabla de Repositorios de la base de datos de migasfree.</p>
+</li>
+<li>
+<p>El servidor migasfree crea un <strong>Repositorio Físico</strong> (idéntico al de cualquier Distribución GNU/Linux) con dichos paquetes, utilizando las herramientas estándar de creación de repositorios (<code>createrepo</code> para paquetería RPM o <code>dpkg-scanpackages</code> para paquetería Debian).</p>
+</li>
+<li>
+<p>Cuando un cliente se conecta al servidor le pasa sus atributos.</p>
+</li>
+<li>
+<p>El servidor <strong>consulta los Registros Lógicos</strong> para determinar, en función de los atributos pasados, la lista de los <strong>Repositorios Físicos</strong> que tiene el cliente a su disposición y se los pasa al cliente.</p>
+</li>
+<li>
+<p>El cliente <strong>configura, en el Gestor de Paquetes</strong>, los Repositorios Físicos.</p>
+</li>
+<li>
+<p>El cliente da <strong>instrucciones al Gestor de Paquetes</strong> para que se produzca la instalación,<br>
+actualización y eliminación de los paquetes desde los Repositorios Físicos.</p>
+</li>
+</ol>
+<h2>GCS en una organización</h2>
+<p>Hemos hablado anteriormente del proceso de la <strong>GCS</strong> en los distintos proyectos de software libre y también del de las Distribuciones GNU/Linux. Pues bien, en una organización también debe realizarse el proceso de la GCS.</p>
+<p>En AZLinux realizamos nuestra propia GCS y vemos cómo se repiten nuevamente las mismas actividades: petición de cambio, cambio y liberación.</p>
+<p>Usamos dos tipos de peticiones de cambio:</p>
+<ol>
+<li>
+<p><strong>Actualización de aplicaciones</strong>. Si recibimos una petición para actualizar, por ejemplo, Mozilla Firefox, descargamos desde los repositorios de la Distribución la versión deseada, la probamos en laboratorio, registrando cualquier información relevante en la petición de cambio. Finalmente, cuando todo está correcto, se liberan los paquetes a través de un repositorio migasfree, planificando su distribución.</p>
+</li>
+<li>
+<p><strong>Personalización de aplicaciones</strong>. Se produce cuando llega, por ejemplo, una petición de cambio para añadir un motor de búsqueda de sinónimos a Mozilla Firefox. Introducimos entonces, en un paquete propio de AZLinux (<code>azl-firefox</code>), el código que instala dicho motor de búsqueda y liberamos el paquete también en un repositorio de migasfree planificando la distribución del cambio.</p>
+</li>
+</ol>
+<p>Las herramientas que usamos en cada actividad son:</p>
+<ul>
+<li><strong>Petición</strong> de cambio: <strong>Redmine</strong>.</li>
+<li><strong>Cambio</strong>: Únicamente un editor de textos, como <strong>Geany</strong>.</li>
+<li><strong>Liberación</strong>: <strong>Migasfree</strong>.</li>
+</ul>
+<h2>Beneficios de la GCS</h2>
+<p>Y llegados a este punto, puedes estar pensando: Entiendo que el objetivo de la GCS es <strong>garantizar la integridad</strong> frente a los cambios y su importancia, y como el sistema de paquetería me facilita enormemente alcanzar dicho objetivo pero, ¿qué beneficios concretos me aporta aplicar todo esto en mi empresa?</p>
+<p>Los beneficios que obtendrás son los que proporciona la propia GCS y, por tanto, tu empresa:</p>
+<ol>
+<li>Reducirá el coste de los servicios de desarrollo y mantenimiento.</li>
+<li>Optimizará el uso de los recursos.</li>
+</ol>
+<p>Y para ti, como administrador:</p>
+<ol>
+<li>Tendrás equipos más estables.</li>
+<li>Vas a pasar de ser un administrador que se echa las manos a la cabeza ante cualquier cambio a ser un <strong>administrador favorecedor del cambio</strong>, ya que tienes las herramientas apropiadas para hacer el seguimiento y control de los cambios.</li>
+<li>Y, en última instancia, vas a mejorar sustancialmente la resolución de incidencias.</li>
+</ol>
+<h2>Contacto</h2>
+<p>Si estás interesado en hacer una GCS simple y eficaz, accede a la dirección del proyecto de <a href="https://migasfree.org" target="_blank" rel="noopener noreferrer">migasfree</a>.</p>
+<p>Puedes también contactar con nosotros a través de Twitter.</p>
+]]></content>
+    <author>
+      <name>jact, alberto</name>
+    </author>
+    <contributor>
+      <name>jact, alberto</name>
+    </contributor>
+    <published>2012-01-12T10:00:00.000Z</published>
+    <rights>Copyright by jact, alberto</rights>
+  </entry>
+  <entry>
+    <title type="text">Migasfree Play 5</title>
+    <id>http://migasfree.org/presentaciones/migasfree-play-5.html</id>
+    <link href="http://migasfree.org/presentaciones/migasfree-play-5.html"/>
+    <updated>2025-07-03T12:04:05.000Z</updated>
+    <summary type="html"><![CDATA[<h2>Introducción</h2>
+<p>Presentación realizada para la <a href="/migascon-2022.html" target="_blank">migascon 2022</a>, en la que se muestra el rediseño de la aplicación migasfree play en su versión 5.</p>
+<h2>Evolución</h2>
+<p>Migasfree Play nace en 2018 como heredero de <a href="https://github.com/migasfree/migasfree-launcher" target="_blank" rel="noopener noreferrer"><code>migasfree-launcher</code></a>. Este primer proyecto era la interfaz gráfica del cliente y el que se encargaba de lanzar la sincronización con el servidor cada vez que se iniciaba sesión gráfica o cada vez que pasaba un cierto intervalo de tiempo (por defecto, 24 horas). El problema que tenía esta aplicación es que sólo estaba preparada para ejecutarse en entornos con Gtk (como Gnome).</p>]]></summary>
+    <content type="html"><![CDATA[<h2>Introducción</h2>
+<p>Presentación realizada para la <a href="/migascon-2022.html" target="_blank">migascon 2022</a>, en la que se muestra el rediseño de la aplicación migasfree play en su versión 5.</p>
+<h2>Evolución</h2>
+<p>Migasfree Play nace en 2018 como heredero de <a href="https://github.com/migasfree/migasfree-launcher" target="_blank" rel="noopener noreferrer"><code>migasfree-launcher</code></a>. Este primer proyecto era la interfaz gráfica del cliente y el que se encargaba de lanzar la sincronización con el servidor cada vez que se iniciaba sesión gráfica o cada vez que pasaba un cierto intervalo de tiempo (por defecto, 24 horas). El problema que tenía esta aplicación es que sólo estaba preparada para ejecutarse en entornos con Gtk (como Gnome).</p>
+<p>Migasfree Play, en cambio, está pensado para ejecutarse en cualquier escritorio gráfico (Gnome, KDE, incluso Windows), pues está basado en Node Webkit, que es básicamente un entorno en el que puedes programar una aplicación web (HTML, CSS, JavaScript) para que se ejecute en el escritorio del sistema operativo dentro de un navegador web (basado en Chrome). La variación del nombre del proyecto (de <em>launcher</em> a <em>Play</em>) viene dada por la novedad de mostrar un catálogo de aplicaciones seleccionadas por la organización para que los usuarios puedan instalarlas en los equipos (al estilo de otras tiendas de aplicaciones).</p>
+<h2>Arquitectura</h2>
+<p>La versión que hay publicada actualmente, está basada en JavaScript plano (<em>vanilla</em> JavaScript) y la organización del código era muy mejorable. Además, durante este tiempo, han aparecido alternativas a Node Webkit, como <a href="https://www.electronjs.org/" target="_blank" rel="noopener noreferrer">electron</a>, por lo que tocaba modernizar el proyecto para agregar nuevas características y mantener las que ya existen más cómodamente.</p>
+<p>El código de la próxima versión, que se liberará dentro de la suite 5 de migasfree, está desarrollado en Vue 3. A su vez, está escrito en el framework de desarrollo para Vue llamado <a href="https://quasar.dev/" target="_blank" rel="noopener noreferrer">Quasar</a>. Esto nos permite establecer una estructura muy clara en los ficheros de código y aprovechar muchos componentes que trae Quasar de serie. Desde Quasar, a través de axios, podemos lanzar peticiones a la API Rest del servidor (<code>migasfree-backend</code>). Para interactuar con el cliente (<code>migasfree-client</code>), hacemos uso de un servidor <a href="https://expressjs.com/" target="_blank" rel="noopener noreferrer">express</a>. Todo ello "encapsulado" dentro de electron, que es el componente que nos permite ser independientes del escritorio.</p>
+<h2>Cargando datos</h2>
+<p>Lo primero que vamos a ver cuando arranquemos la aplicación es la carga de datos que tiene que hacer.</p>
+<p>Datos sobre el ordenador, sobre las aplicaciones y dispositivos disponibles en el servidor para el equipo, información sobre las etiquetas y las preferencias propias de la aplicación.</p>
+<p>Este precarga sirve para que el funcionamiento de la aplicación sea más fluido que antes.</p>
+<h2>Aplicaciones</h2>
+<p>El aspecto de la aplicación es más coherente que en la versión anterior (v1). Cada página tiene su título y el usuario sabe en todo momento en qué parte está.</p>
+<p>La búsqueda por texto es inmediata: en cuanto empecemos a escribir algo, al momento se filtrarán los elementos que concuerden con dicho texto, tanto en el nombre como en la descripción.</p>
+<p>Si una aplicación no tiene un icono definido, se mostrará uno por defecto (el de migasfree play).</p>
+<h2>Dispositivos</h2>
+<p>En la página de dispositivos se puede buscar por texto para encontrar un determinado modelo o fabricante.</p>
+<p>También se puede filtrar entre dispositivos disponibles y los asignados para ese equipo.</p>
+<h2>Etiquetas</h2>
+<p>Esta sección es nueva respecto a la versión anterior de migasfree play.</p>
+<p>Aquí se pueden asignar las etiquetas al ordenador y hay 2 acciones disponibles:</p>
+<ul>
+<li>Comunicar las etiquetas al servidor.</li>
+<li>Establecer las etiquetas en el servidor.</li>
+</ul>
+<p>Recordemos que las etiquetas están relacionadas con los campos de los despliegues: paquetes pre-incluidos, incluidos y excluidos por defecto.</p>
+<p>En el caso de comunicar las etiquetas, no se producirá ningún cambio de software en el equipo.</p>
+<h2>Detalles</h2>
+<p>En la página de Detalles se pueden repasar los resultados de las últimas operaciones contra el<br>
+servidor de migasfree.</p>
+<h2>Información</h2>
+<p>En la página de Información se muestran los datos del ordenador (hardware e información del equipo en el servidor migasfree), datos sobre la última sincronización (usuario y fecha), datos de red y una etiqueta informativa que se puede imprimir para pegarla en el equipo y tenerlo así mejor identificado.</p>
+<h2>Preferencias</h2>
+<p>En las preferencias se puede escoger el idioma de la aplicación (por el momento sólo español e inglés) y si se desea mostrar la página de detalles durante la sincronización con el servidor.</p>
+<h2>Ayuda integrada</h2>
+<p>A diferencia de la anterior versión, la ayuda no se abre en una pestaña del navegador web del sistema, sino que viene integrada dentro del entorno electron de la aplicación.</p>
+<h2>Despedida</h2>
+<p>Con todos estos cambios en la arquitectura, hemos puesto al día el proyecto y seremos capaces de añadir nuevas características más rápidamente.</p>
+<p>Sobre todo, se ha mejorado la organización del código para hacerlo más extensible sin perder legibilidad. Si tenéis más interés, podéis consultar el <a href="https://github.com/jact/migasfree-play" target="_blank" rel="noopener noreferrer">proyecto en GitHub</a>.</p>
+<p>Cuando esté en producción esta nueva versión, el proyecto se pasará a <a href="http://github.com/migasfree" target="_blank" rel="noopener noreferrer">github.com/migasfree</a>.</p>
+<p>Gracias por vuestra atención.</p>
+]]></content>
+    <author>
+      <name>jact</name>
+    </author>
+    <contributor>
+      <name>jact</name>
+    </contributor>
+    <published>2022-05-19T17:00:00.000Z</published>
+    <rights>Copyright by jact</rights>
+  </entry>
   <entry>
     <title type="text">Vitalinux y su magia</title>
     <id>http://migasfree.org/blog/2025/vitalinux.html</id>
@@ -114,6 +1191,197 @@
       <name>jact</name>
     </contributor>
     <published>2023-07-14T09:04:00.000Z</published>
+    <rights>Copyright by jact</rights>
+  </entry>
+  <entry>
+    <title type="text">Nuevas mejoras implantadas en migasfree</title>
+    <id>http://migasfree.org/blog/2011/2011-02-27-nuevas-mejoras-implantadas.html</id>
+    <link href="http://migasfree.org/blog/2011/2011-02-27-nuevas-mejoras-implantadas.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<p>Gráficas incluidas:</p>
+<ul>
+<li>Equipos actualizados por hora/día/mes</li>
+<li>Equipos previsto por demora de calendario</li>
+<li>Equipos por versión (de distribución)</li>
+<li>Se han añadido menús para las consultas y las gráficas.</li>
+</ul>
+<p>Si te has bajado el <a href="http://migasfree.org/pub/" target="_blank" rel="noopener noreferrer">appliance de VirtualBox</a> podrás actualizarte estos cambios ejecutando desde el servidor (ojo, se regenera la base de datos):</p>]]></summary>
+    <content type="html"><![CDATA[<p>Gráficas incluidas:</p>
+<ul>
+<li>Equipos actualizados por hora/día/mes</li>
+<li>Equipos previsto por demora de calendario</li>
+<li>Equipos por versión (de distribución)</li>
+<li>Se han añadido menús para las consultas y las gráficas.</li>
+</ul>
+<p>Si te has bajado el <a href="http://migasfree.org/pub/" target="_blank" rel="noopener noreferrer">appliance de VirtualBox</a> podrás actualizarte estos cambios ejecutando desde el servidor (ojo, se regenera la base de datos):</p>
+<div class="language-sh line-numbers-mode" data-highlighter="shiki" data-ext="sh" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># clone-migasfree</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div>]]></content>
+    <author>
+      <name>agacias</name>
+    </author>
+    <category term="Desarrollo"/>
+    <contributor>
+      <name>agacias</name>
+    </contributor>
+    <published>2011-02-27T20:34:00.000Z</published>
+    <rights>Copyright by agacias</rights>
+  </entry>
+  <entry>
+    <title type="text">Inventario hardware de los clientes de migasfree</title>
+    <id>http://migasfree.org/blog/2011/2011-03-17-inventario-hardware-clientes.html</id>
+    <link href="http://migasfree.org/blog/2011/2011-03-17-inventario-hardware-clientes.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<p>Implementada la funcionalidad de inventario de hardware.</p>
+<p>Gracias a la nueva versión de <a href="http://ezix.org/project/wiki/HardwareLiSter" target="_blank" rel="noopener noreferrer">lshw</a> (la B.02.15), que permite la salida de la información hardware en formato <a href="http://es.wikipedia.org/wiki/JSON" target="_blank" rel="noopener noreferrer">JSON</a>, migasfree ahora es capaz de almacenar el hardware de los equipos en su base de datos. Hemos creado para ello las siguientes tablas:</p>]]></summary>
+    <content type="html"><![CDATA[<p>Implementada la funcionalidad de inventario de hardware.</p>
+<p>Gracias a la nueva versión de <a href="http://ezix.org/project/wiki/HardwareLiSter" target="_blank" rel="noopener noreferrer">lshw</a> (la B.02.15), que permite la salida de la información hardware en formato <a href="http://es.wikipedia.org/wiki/JSON" target="_blank" rel="noopener noreferrer">JSON</a>, migasfree ahora es capaz de almacenar el hardware de los equipos en su base de datos. Hemos creado para ello las siguientes tablas:</p>
+<ul>
+<li>HW_Node</li>
+<li>HW_Capability</li>
+<li>HW_Configuration</li>
+<li>HW_LogicalName</li>
+</ul>
+<p>Así que ahora podremos crearnos consultas de hardware que nos permitirían saber, por ejemplo:</p>
+<ul>
+<li>Los equipos que tienen menos de 512 MB de RAM</li>
+<li>La cantidad de equipos por CPU</li>
+<li>Los equipos que tienen una determinada tarjeta de sonido</li>
+<li>…</li>
+</ul>
+<p>También se han creado unas vistas que nos muestran gráficamente el hardware de un determinado equipo (sería el equivalante a la utilidad lshw-gui).</p>
+<p>Si te bajaste el <a href="http://migasfree.org/pub/" target="_blank" rel="noopener noreferrer">appliance de VirtualBox</a>, puedes probarlo ejecutando:</p>
+<div class="language-sh line-numbers-mode" data-highlighter="shiki" data-ext="sh" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">clone-migasfree</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div>]]></content>
+    <author>
+      <name>agacias</name>
+    </author>
+    <category term="Desarrollo"/>
+    <contributor>
+      <name>agacias</name>
+    </contributor>
+    <published>2011-03-17T19:18:00.000Z</published>
+    <rights>Copyright by agacias</rights>
+  </entry>
+  <entry>
+    <title type="text">Charla sobre Administración de Sistemas GNU/Linux con migasfree</title>
+    <id>http://migasfree.org/blog/2011/2011-06-13-charla-administracion-sistemas.html</id>
+    <link href="http://migasfree.org/blog/2011/2011-06-13-charla-administracion-sistemas.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<p>El miércoles, 15 de junio 2011, a las 19 h., en Zaragoza y gracias al colectivo <a href="http://softwareybarralibre.org/" target="_blank" rel="noopener noreferrer">Software &amp; Barra Libre</a>, hablaremos sobre administración de sistemas GNU/Linux con migasfree.</p>
+<p>Enlaces del evento:</p>
+<ul>
+<li><a href="http://www.softwareybarralibre.org/?q=node/52" target="_blank" rel="noopener noreferrer">Charla de migasfree en el Digital Water Pavilion</a></li>
+<li><a href="http://www.facebook.com/event.php?eid=136136616464810" target="_blank" rel="noopener noreferrer">Evento en Facebook: Software y Barra Libre: GNU/Linux con migasfree</a></li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[<p>El miércoles, 15 de junio 2011, a las 19 h., en Zaragoza y gracias al colectivo <a href="http://softwareybarralibre.org/" target="_blank" rel="noopener noreferrer">Software &amp; Barra Libre</a>, hablaremos sobre administración de sistemas GNU/Linux con migasfree.</p>
+<p>Enlaces del evento:</p>
+<ul>
+<li><a href="http://www.softwareybarralibre.org/?q=node/52" target="_blank" rel="noopener noreferrer">Charla de migasfree en el Digital Water Pavilion</a></li>
+<li><a href="http://www.facebook.com/event.php?eid=136136616464810" target="_blank" rel="noopener noreferrer">Evento en Facebook: Software y Barra Libre: GNU/Linux con migasfree</a></li>
+</ul>
+<h2>Actualización: 2011-06-18</h2>
+<p><a href="http://zaragozaciudad.net/azlinux/2011/061701-charla-de-migasfree-en-software-y-barra-libre.php" target="_blank" rel="noopener noreferrer">Crónica de la charla</a>.</p>
+]]></content>
+    <author>
+      <name>agacias</name>
+    </author>
+    <category term="Evento"/>
+    <contributor>
+      <name>agacias</name>
+    </contributor>
+    <published>2011-06-13T19:20:00.000Z</published>
+    <rights>Copyright by agacias</rights>
+  </entry>
+  <entry>
+    <title type="text">¿En qué estamos trabajando?</title>
+    <id>http://migasfree.org/blog/2011/2011-09-07-en-que-estamos-trabajando.html</id>
+    <link href="http://migasfree.org/blog/2011/2011-09-07-en-que-estamos-trabajando.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<p>Os avanzamos lo que tenemos previsto tener desarrollado este mes de septiembre:</p>
+<ul>
+<li>Implementar seguridad asimétrica.</li>
+<li>Nueva API (json).</li>
+<li>Nuevo cliente en python (por <a href="https://twitter.com/#!/jact_abcweb" target="_blank" rel="noopener noreferrer">@jact_abcweb</a>).</li>
+<li>Posibilidad de programar en bash/python/perl fallas y propiedades.</li>
+<li>Ejecución de fallas en función de los atributos de los equipos clientes.</li>
+<li>Mejoras en instalación de impresoras.</li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[<p>Os avanzamos lo que tenemos previsto tener desarrollado este mes de septiembre:</p>
+<ul>
+<li>Implementar seguridad asimétrica.</li>
+<li>Nueva API (json).</li>
+<li>Nuevo cliente en python (por <a href="https://twitter.com/#!/jact_abcweb" target="_blank" rel="noopener noreferrer">@jact_abcweb</a>).</li>
+<li>Posibilidad de programar en bash/python/perl fallas y propiedades.</li>
+<li>Ejecución de fallas en función de los atributos de los equipos clientes.</li>
+<li>Mejoras en instalación de impresoras.</li>
+</ul>
+]]></content>
+    <author>
+      <name>agacias</name>
+    </author>
+    <category term="Desarrollo"/>
+    <contributor>
+      <name>agacias</name>
+    </contributor>
+    <published>2011-09-07T21:37:00.000Z</published>
+    <rights>Copyright by agacias</rights>
+  </entry>
+  <entry>
+    <title type="text">Migasfree en la LSWC 2011</title>
+    <id>http://migasfree.org/blog/2011/2011-10-14-migasfree-en-la-lwsc-2011.html</id>
+    <link href="http://migasfree.org/blog/2011/2011-10-14-migasfree-en-la-lwsc-2011.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<p>Jose Antonio Chavarría y Alberto Gacías, desarrolladores de migasfree, hablarán de migasfree en la <a href="https://www.20minutos.es/noticia/1214638/0/" target="_blank" rel="noopener noreferrer">Libre Software World Conference 2011</a> que este año se celebra en Zaragoza los días 9 y 10 de noviembre:</p>]]></summary>
+    <content type="html"><![CDATA[<p>Jose Antonio Chavarría y Alberto Gacías, desarrolladores de migasfree, hablarán de migasfree en la <a href="https://www.20minutos.es/noticia/1214638/0/" target="_blank" rel="noopener noreferrer">Libre Software World Conference 2011</a> que este año se celebra en Zaragoza los días 9 y 10 de noviembre:</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=x5o1Z00GIQM" target="_blank" rel="noopener noreferrer">Migasfree en la Gestión de la Configuración</a></li>
+<li><a href="https://speakerdeck.com/jact/demostracion-de-empaquetado-en-rpm-y-distribucion-de-software-con-migasfree" target="_blank" rel="noopener noreferrer">Demostración de paquetización en RPM y distribución de software con migasfree</a></li>
+</ul>
+]]></content>
+    <author>
+      <name>agacias</name>
+    </author>
+    <category term="Evento"/>
+    <contributor>
+      <name>agacias</name>
+    </contributor>
+    <published>2011-10-14T18:56:00.000Z</published>
+    <rights>Copyright by agacias</rights>
+  </entry>
+  <entry>
+    <title type="text">Charlas de la Libre Software World Conference 2011</title>
+    <id>http://migasfree.org/blog/2011/2011-11-20-charlas-lswc-2011.html</id>
+    <link href="http://migasfree.org/blog/2011/2011-11-20-charlas-lswc-2011.html"/>
+    <updated>2023-07-12T06:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<p>Como os comentamos, hace pocas fechas estuvimos en la Libre Software World Conference hablando de migasfree.</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>Como os comentamos, hace pocas fechas estuvimos en la Libre Software World Conference hablando de migasfree.</p>
+<!-- more -->
+<p>Fue un placer compartir con los asistentes nuestra experiencia relativa a la administración de escritorios GNU/Linux.</p>
+<p>Además, tuvimos la suerte de conocer, o de reencontrar, personas con las que compartimos un interés común: <strong>el conocimiento libre</strong>.</p>
+<p>Os dejamos las charlas que dimos:</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=x5o1Z00GIQM" target="_blank" rel="noopener noreferrer">Migasfree en la Gestión de la Configuración</a>, por <a href="https://twitter.com/#!/albertogacias" target="_blank" rel="noopener noreferrer">Alberto Gacías</a>.
+<ul>
+<li><a href="http://www.zaragoza.es/contenidos/azlinux/GCS_migasfree.pdf" target="_blank" rel="noopener noreferrer">Charla en formato PDF</a>.</li>
+<li><a href="http://www.zaragoza.es/contenidos/azlinux/GCS_migasfree.odp" target="_blank" rel="noopener noreferrer">Diapositivas de la presentación</a>.</li>
+</ul>
+</li>
+<li><a href="https://speakerdeck.com/jact/demostracion-de-empaquetado-en-rpm-y-distribucion-de-software-con-migasfree" target="_blank" rel="noopener noreferrer">Demostración de paquetización en RPM y distribución de software con migasfree</a>, por <a href="https://twitter.com/#!/jact_abcweb" target="_blank" rel="noopener noreferrer">Jose Antonio Chavarría</a>.
+<ul>
+<li><a href="http://www.zaragoza.es/contenidos/azlinux/rpm_migasfree_lswc_public.tar.gz" target="_blank" rel="noopener noreferrer">Diapositivas y comentarios de la charla</a>.</li>
+</ul>
+</li>
+</ul>
+]]></content>
+    <author>
+      <name>jact</name>
+    </author>
+    <category term="Evento"/>
+    <contributor>
+      <name>jact</name>
+    </contributor>
+    <published>2011-11-20T12:32:00.000Z</published>
     <rights>Copyright by jact</rights>
   </entry>
   <entry>
@@ -457,197 +1725,6 @@
     </contributor>
     <published>2013-06-09T09:56:00.000Z</published>
     <rights>Copyright by agacias</rights>
-  </entry>
-  <entry>
-    <title type="text">Nuevas mejoras implantadas en migasfree</title>
-    <id>http://migasfree.org/blog/2011/2011-02-27-nuevas-mejoras-implantadas.html</id>
-    <link href="http://migasfree.org/blog/2011/2011-02-27-nuevas-mejoras-implantadas.html"/>
-    <updated>2023-07-12T06:33:11.000Z</updated>
-    <summary type="html"><![CDATA[<p>Gráficas incluidas:</p>
-<ul>
-<li>Equipos actualizados por hora/día/mes</li>
-<li>Equipos previsto por demora de calendario</li>
-<li>Equipos por versión (de distribución)</li>
-<li>Se han añadido menús para las consultas y las gráficas.</li>
-</ul>
-<p>Si te has bajado el <a href="http://migasfree.org/pub/" target="_blank" rel="noopener noreferrer">appliance de VirtualBox</a> podrás actualizarte estos cambios ejecutando desde el servidor (ojo, se regenera la base de datos):</p>]]></summary>
-    <content type="html"><![CDATA[<p>Gráficas incluidas:</p>
-<ul>
-<li>Equipos actualizados por hora/día/mes</li>
-<li>Equipos previsto por demora de calendario</li>
-<li>Equipos por versión (de distribución)</li>
-<li>Se han añadido menús para las consultas y las gráficas.</li>
-</ul>
-<p>Si te has bajado el <a href="http://migasfree.org/pub/" target="_blank" rel="noopener noreferrer">appliance de VirtualBox</a> podrás actualizarte estos cambios ejecutando desde el servidor (ojo, se regenera la base de datos):</p>
-<div class="language-sh line-numbers-mode" data-highlighter="shiki" data-ext="sh" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># clone-migasfree</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div>]]></content>
-    <author>
-      <name>agacias</name>
-    </author>
-    <category term="Desarrollo"/>
-    <contributor>
-      <name>agacias</name>
-    </contributor>
-    <published>2011-02-27T20:34:00.000Z</published>
-    <rights>Copyright by agacias</rights>
-  </entry>
-  <entry>
-    <title type="text">Inventario hardware de los clientes de migasfree</title>
-    <id>http://migasfree.org/blog/2011/2011-03-17-inventario-hardware-clientes.html</id>
-    <link href="http://migasfree.org/blog/2011/2011-03-17-inventario-hardware-clientes.html"/>
-    <updated>2023-07-12T06:33:11.000Z</updated>
-    <summary type="html"><![CDATA[<p>Implementada la funcionalidad de inventario de hardware.</p>
-<p>Gracias a la nueva versión de <a href="http://ezix.org/project/wiki/HardwareLiSter" target="_blank" rel="noopener noreferrer">lshw</a> (la B.02.15), que permite la salida de la información hardware en formato <a href="http://es.wikipedia.org/wiki/JSON" target="_blank" rel="noopener noreferrer">JSON</a>, migasfree ahora es capaz de almacenar el hardware de los equipos en su base de datos. Hemos creado para ello las siguientes tablas:</p>]]></summary>
-    <content type="html"><![CDATA[<p>Implementada la funcionalidad de inventario de hardware.</p>
-<p>Gracias a la nueva versión de <a href="http://ezix.org/project/wiki/HardwareLiSter" target="_blank" rel="noopener noreferrer">lshw</a> (la B.02.15), que permite la salida de la información hardware en formato <a href="http://es.wikipedia.org/wiki/JSON" target="_blank" rel="noopener noreferrer">JSON</a>, migasfree ahora es capaz de almacenar el hardware de los equipos en su base de datos. Hemos creado para ello las siguientes tablas:</p>
-<ul>
-<li>HW_Node</li>
-<li>HW_Capability</li>
-<li>HW_Configuration</li>
-<li>HW_LogicalName</li>
-</ul>
-<p>Así que ahora podremos crearnos consultas de hardware que nos permitirían saber, por ejemplo:</p>
-<ul>
-<li>Los equipos que tienen menos de 512 MB de RAM</li>
-<li>La cantidad de equipos por CPU</li>
-<li>Los equipos que tienen una determinada tarjeta de sonido</li>
-<li>…</li>
-</ul>
-<p>También se han creado unas vistas que nos muestran gráficamente el hardware de un determinado equipo (sería el equivalante a la utilidad lshw-gui).</p>
-<p>Si te bajaste el <a href="http://migasfree.org/pub/" target="_blank" rel="noopener noreferrer">appliance de VirtualBox</a>, puedes probarlo ejecutando:</p>
-<div class="language-sh line-numbers-mode" data-highlighter="shiki" data-ext="sh" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">clone-migasfree</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div>]]></content>
-    <author>
-      <name>agacias</name>
-    </author>
-    <category term="Desarrollo"/>
-    <contributor>
-      <name>agacias</name>
-    </contributor>
-    <published>2011-03-17T19:18:00.000Z</published>
-    <rights>Copyright by agacias</rights>
-  </entry>
-  <entry>
-    <title type="text">Charla sobre Administración de Sistemas GNU/Linux con migasfree</title>
-    <id>http://migasfree.org/blog/2011/2011-06-13-charla-administracion-sistemas.html</id>
-    <link href="http://migasfree.org/blog/2011/2011-06-13-charla-administracion-sistemas.html"/>
-    <updated>2023-07-12T06:33:11.000Z</updated>
-    <summary type="html"><![CDATA[<p>El miércoles, 15 de junio 2011, a las 19 h., en Zaragoza y gracias al colectivo <a href="http://softwareybarralibre.org/" target="_blank" rel="noopener noreferrer">Software &amp; Barra Libre</a>, hablaremos sobre administración de sistemas GNU/Linux con migasfree.</p>
-<p>Enlaces del evento:</p>
-<ul>
-<li><a href="http://www.softwareybarralibre.org/?q=node/52" target="_blank" rel="noopener noreferrer">Charla de migasfree en el Digital Water Pavilion</a></li>
-<li><a href="http://www.facebook.com/event.php?eid=136136616464810" target="_blank" rel="noopener noreferrer">Evento en Facebook: Software y Barra Libre: GNU/Linux con migasfree</a></li>
-</ul>]]></summary>
-    <content type="html"><![CDATA[<p>El miércoles, 15 de junio 2011, a las 19 h., en Zaragoza y gracias al colectivo <a href="http://softwareybarralibre.org/" target="_blank" rel="noopener noreferrer">Software &amp; Barra Libre</a>, hablaremos sobre administración de sistemas GNU/Linux con migasfree.</p>
-<p>Enlaces del evento:</p>
-<ul>
-<li><a href="http://www.softwareybarralibre.org/?q=node/52" target="_blank" rel="noopener noreferrer">Charla de migasfree en el Digital Water Pavilion</a></li>
-<li><a href="http://www.facebook.com/event.php?eid=136136616464810" target="_blank" rel="noopener noreferrer">Evento en Facebook: Software y Barra Libre: GNU/Linux con migasfree</a></li>
-</ul>
-<h2>Actualización: 2011-06-18</h2>
-<p><a href="http://zaragozaciudad.net/azlinux/2011/061701-charla-de-migasfree-en-software-y-barra-libre.php" target="_blank" rel="noopener noreferrer">Crónica de la charla</a>.</p>
-]]></content>
-    <author>
-      <name>agacias</name>
-    </author>
-    <category term="Evento"/>
-    <contributor>
-      <name>agacias</name>
-    </contributor>
-    <published>2011-06-13T19:20:00.000Z</published>
-    <rights>Copyright by agacias</rights>
-  </entry>
-  <entry>
-    <title type="text">¿En qué estamos trabajando?</title>
-    <id>http://migasfree.org/blog/2011/2011-09-07-en-que-estamos-trabajando.html</id>
-    <link href="http://migasfree.org/blog/2011/2011-09-07-en-que-estamos-trabajando.html"/>
-    <updated>2023-07-12T06:33:11.000Z</updated>
-    <summary type="html"><![CDATA[<p>Os avanzamos lo que tenemos previsto tener desarrollado este mes de septiembre:</p>
-<ul>
-<li>Implementar seguridad asimétrica.</li>
-<li>Nueva API (json).</li>
-<li>Nuevo cliente en python (por <a href="https://twitter.com/#!/jact_abcweb" target="_blank" rel="noopener noreferrer">@jact_abcweb</a>).</li>
-<li>Posibilidad de programar en bash/python/perl fallas y propiedades.</li>
-<li>Ejecución de fallas en función de los atributos de los equipos clientes.</li>
-<li>Mejoras en instalación de impresoras.</li>
-</ul>]]></summary>
-    <content type="html"><![CDATA[<p>Os avanzamos lo que tenemos previsto tener desarrollado este mes de septiembre:</p>
-<ul>
-<li>Implementar seguridad asimétrica.</li>
-<li>Nueva API (json).</li>
-<li>Nuevo cliente en python (por <a href="https://twitter.com/#!/jact_abcweb" target="_blank" rel="noopener noreferrer">@jact_abcweb</a>).</li>
-<li>Posibilidad de programar en bash/python/perl fallas y propiedades.</li>
-<li>Ejecución de fallas en función de los atributos de los equipos clientes.</li>
-<li>Mejoras en instalación de impresoras.</li>
-</ul>
-]]></content>
-    <author>
-      <name>agacias</name>
-    </author>
-    <category term="Desarrollo"/>
-    <contributor>
-      <name>agacias</name>
-    </contributor>
-    <published>2011-09-07T21:37:00.000Z</published>
-    <rights>Copyright by agacias</rights>
-  </entry>
-  <entry>
-    <title type="text">Migasfree en la LSWC 2011</title>
-    <id>http://migasfree.org/blog/2011/2011-10-14-migasfree-en-la-lwsc-2011.html</id>
-    <link href="http://migasfree.org/blog/2011/2011-10-14-migasfree-en-la-lwsc-2011.html"/>
-    <updated>2023-07-12T06:33:11.000Z</updated>
-    <summary type="html"><![CDATA[<p>Jose Antonio Chavarría y Alberto Gacías, desarrolladores de migasfree, hablarán de migasfree en la <a href="https://www.20minutos.es/noticia/1214638/0/" target="_blank" rel="noopener noreferrer">Libre Software World Conference 2011</a> que este año se celebra en Zaragoza los días 9 y 10 de noviembre:</p>]]></summary>
-    <content type="html"><![CDATA[<p>Jose Antonio Chavarría y Alberto Gacías, desarrolladores de migasfree, hablarán de migasfree en la <a href="https://www.20minutos.es/noticia/1214638/0/" target="_blank" rel="noopener noreferrer">Libre Software World Conference 2011</a> que este año se celebra en Zaragoza los días 9 y 10 de noviembre:</p>
-<ul>
-<li><a href="https://www.youtube.com/watch?v=x5o1Z00GIQM" target="_blank" rel="noopener noreferrer">Migasfree en la Gestión de la Configuración</a></li>
-<li><a href="https://speakerdeck.com/jact/demostracion-de-empaquetado-en-rpm-y-distribucion-de-software-con-migasfree" target="_blank" rel="noopener noreferrer">Demostración de paquetización en RPM y distribución de software con migasfree</a></li>
-</ul>
-]]></content>
-    <author>
-      <name>agacias</name>
-    </author>
-    <category term="Evento"/>
-    <contributor>
-      <name>agacias</name>
-    </contributor>
-    <published>2011-10-14T18:56:00.000Z</published>
-    <rights>Copyright by agacias</rights>
-  </entry>
-  <entry>
-    <title type="text">Charlas de la Libre Software World Conference 2011</title>
-    <id>http://migasfree.org/blog/2011/2011-11-20-charlas-lswc-2011.html</id>
-    <link href="http://migasfree.org/blog/2011/2011-11-20-charlas-lswc-2011.html"/>
-    <updated>2023-07-12T06:33:11.000Z</updated>
-    <summary type="html"><![CDATA[<p>Como os comentamos, hace pocas fechas estuvimos en la Libre Software World Conference hablando de migasfree.</p>
-]]></summary>
-    <content type="html"><![CDATA[<p>Como os comentamos, hace pocas fechas estuvimos en la Libre Software World Conference hablando de migasfree.</p>
-<!-- more -->
-<p>Fue un placer compartir con los asistentes nuestra experiencia relativa a la administración de escritorios GNU/Linux.</p>
-<p>Además, tuvimos la suerte de conocer, o de reencontrar, personas con las que compartimos un interés común: <strong>el conocimiento libre</strong>.</p>
-<p>Os dejamos las charlas que dimos:</p>
-<ul>
-<li><a href="https://www.youtube.com/watch?v=x5o1Z00GIQM" target="_blank" rel="noopener noreferrer">Migasfree en la Gestión de la Configuración</a>, por <a href="https://twitter.com/#!/albertogacias" target="_blank" rel="noopener noreferrer">Alberto Gacías</a>.
-<ul>
-<li><a href="http://www.zaragoza.es/contenidos/azlinux/GCS_migasfree.pdf" target="_blank" rel="noopener noreferrer">Charla en formato PDF</a>.</li>
-<li><a href="http://www.zaragoza.es/contenidos/azlinux/GCS_migasfree.odp" target="_blank" rel="noopener noreferrer">Diapositivas de la presentación</a>.</li>
-</ul>
-</li>
-<li><a href="https://speakerdeck.com/jact/demostracion-de-empaquetado-en-rpm-y-distribucion-de-software-con-migasfree" target="_blank" rel="noopener noreferrer">Demostración de paquetización en RPM y distribución de software con migasfree</a>, por <a href="https://twitter.com/#!/jact_abcweb" target="_blank" rel="noopener noreferrer">Jose Antonio Chavarría</a>.
-<ul>
-<li><a href="http://www.zaragoza.es/contenidos/azlinux/rpm_migasfree_lswc_public.tar.gz" target="_blank" rel="noopener noreferrer">Diapositivas y comentarios de la charla</a>.</li>
-</ul>
-</li>
-</ul>
-]]></content>
-    <author>
-      <name>jact</name>
-    </author>
-    <category term="Evento"/>
-    <contributor>
-      <name>jact</name>
-    </contributor>
-    <published>2011-11-20T12:32:00.000Z</published>
-    <rights>Copyright by jact</rights>
   </entry>
   <entry>
     <title type="text">¿Las migas con uva pasan mejor?</title>
