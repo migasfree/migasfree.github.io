@@ -3,9 +3,9 @@ import { navbar } from 'vuepress-theme-hope'
 export default navbar([
   {
     text: 'Presentaciones',
-    link: '/presentaciones',
+    link: '/presentaciones/',
     icon: 'fab fa-slideshare',
-    activeMatch: '^/presentaciones$',
+    activeMatch: '^/presentaciones/$',
   },
   {
     text: 'Blog',
