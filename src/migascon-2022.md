@@ -7,7 +7,7 @@ feed: false
 ## Zaragoza, 19 de Mayo de 2022
 
 ::: center
-![migascon](/img/migascon.svg =232x200)
+![migascon](/img/migascon.svg)
 :::
 
 Con motivo de nuestro 12º aniversario, estamos preparando: ¡el primer encuentro de la comunidad migasfree de la historia!
