@@ -44,7 +44,7 @@ Cuidado con exponer información sensible a través de una API sin tener en cuen
 
 ### La edad de la inocencia
 
-En los principios del proyecto, nos inventamos una especie de API para la comunicación del  cliente (aplicación de escritorio) con el servidor. Todas las llamadas iban a parar a una misma URL. El formato de los argumentos tenía un formato inusual y para darle algo de seguridad se hacía un CRC con una clave que enviaba el servidor. Sin embargo, los datos estaban en texto claro.
+En los principios del proyecto, nos inventamos una especie de API para la comunicación del cliente (aplicación de escritorio) con el servidor. Todas las llamadas iban a parar a una misma URL. El formato de los argumentos tenía un formato inusual y para darle algo de seguridad se hacía un CRC con una clave que enviaba el servidor. Sin embargo, los datos estaban en texto claro.
 
 También había una API pública con algunos puntos de entrada, pero que no seguían ningún estándar de API Rest.
 
@@ -68,10 +68,10 @@ En la versión 5 de la suite migasfree, estamos empezando a jugar con GraphQL (e
 
 Relación entre las operaciones de un CRUD y sus equivalencias con los verbos de una API REST.
 
-* Create -> POST
-* Retrieve -> GET
-* Update -> PUT, PATCH
-* Delete -> DELETE
+- Create -> POST
+- Retrieve -> GET
+- Update -> PUT, PATCH
+- Delete -> DELETE
 
 ### Swagger
 
@@ -135,7 +135,7 @@ result = client.action(schema, action)
 
 ### Python requests
 
-Requests es una biblioteca HTTP para el lenguaje de programación Python. El objetivo del  proyecto es hacer que las solicitudes HTTP sean más simples y amigables para los humanos.
+Requests es una biblioteca HTTP para el lenguaje de programación Python. El objetivo del proyecto es hacer que las solicitudes HTTP sean más simples y amigables para los humanos.
 
 Requests es una de las bibliotecas de Python más populares que no se incluye con Python (todavía).
 
@@ -195,17 +195,19 @@ Este es un ejemplo de uso:
 
 ```js
 let server = 'http://localhost'
-let data = {'username': 'xxx', 'password': 'xxx'}
+let data = { username: 'xxx', password: 'xxx' }
 const response = await axios.post(`${server}/token-auth/`, data)
 let token = response.data.token
 
 response = await axios
-      .get(`${server}/api/v1/token/computers/`, {
-        headers: {
-          Authorization: `Token ${token}`
-        }
-      })
-      .catch((error) => { console.log(error) })
+  .get(`${server}/api/v1/token/computers/`, {
+    headers: {
+      Authorization: `Token ${token}`,
+    },
+  })
+  .catch((error) => {
+    console.log(error)
+  })
 console.log(response.data.results)
 ```
 
@@ -279,7 +281,7 @@ Incluso es posible automatizar migraciones del servidor usando la misma API que 
 
 El buen uso del concepto de API REST nos ha servido estos últimos años para:
 
-* Mejorar la seguridad del proyecto (sobre todo la comunicación entre clientes y servidor).
-* Estandarizar y documentar el uso de las llamadas (DRF, Swagger).
-* Ampliar el ecosistema de aplicaciones (`migasfree-play`, `migasfree-sdk`, `migasfree-frontend`).
-* Facilitar la integración con terceros (a través de múltiples herramientas, como cURL, python requests, Core API, Axios, ...).
+- Mejorar la seguridad del proyecto (sobre todo la comunicación entre clientes y servidor).
+- Estandarizar y documentar el uso de las llamadas (DRF, Swagger).
+- Ampliar el ecosistema de aplicaciones (`migasfree-play`, `migasfree-sdk`, `migasfree-frontend`).
+- Facilitar la integración con terceros (a través de múltiples herramientas, como cURL, python requests, Core API, Axios, ...).

@@ -14,11 +14,11 @@ Esta presentación relata las experiencias que el universo migasfree protagoniza
 
 Las siguientes experiencias describen cambios en:
 
-* La organización.
+- La organización.
 
-* En los procedimientos.
+- En los procedimientos.
 
-* En la forma de pensar y de afrontar los retos diarios.
+- En la forma de pensar y de afrontar los retos diarios.
 
 ## Los inicios
 
@@ -32,15 +32,15 @@ Nace en un momento de cambio, un buen momento para aprender.
 
 Estado del departamento de microinformática del Ayuntamiento en el año 2008:
 
-* _Call Center_ para asistir a los empleados municipales.
+- _Call Center_ para asistir a los empleados municipales.
 
-* Correcciones manuales (repetitivas y personales) sobre los ordenadores.
+- Correcciones manuales (repetitivas y personales) sobre los ordenadores.
 
-* Inventario manual del hardware de los equipos.
+- Inventario manual del hardware de los equipos.
 
-* Inventario software inexistente.
+- Inventario software inexistente.
 
-* Windows XP en el escritorio.
+- Windows XP en el escritorio.
 
 ## Y llegó migasfree (proceso GCS)
 
@@ -76,11 +76,11 @@ Con el mismo personal, reorganizado, damos soporte a más combinaciones de siste
 
 Seguimos atendiendo llamadas de usuarios, pero cambia el método de resolución:
 
-* Petición: incidencia.
+- Petición: incidencia.
 
-* Cambio: paquete.
+- Cambio: paquete.
 
-* Liberación: migasfree.
+- Liberación: migasfree.
 
 ## Vitalinux Edu DGA
 
@@ -144,12 +144,12 @@ Así obtenemos una mejora sustancial en las tareas de mantenimiento en los equip
 
 Para conseguir que un cambio funcione, es necesario:
 
-* Generar expectativas correctas.
+- Generar expectativas correctas.
 
-* Focalizar en soluciones, no en problemas.
+- Focalizar en soluciones, no en problemas.
 
-* Acentuar lo positivo.
+- Acentuar lo positivo.
 
-* Anticipar los problemas, para así normalizar el cambio.
+- Anticipar los problemas, para así normalizar el cambio.
 
 En nuestro caso, migasfree es el motor que hace posible los cambios en la organización.

@@ -24,11 +24,11 @@ Necesidades diferentes, pero que se repiten en muchas ocasiones..., ¿cómo agru
 
 Ejemplo: una persona reporta que el departamento de marketing no puede entrar en Facebook porque el navegador es demasiado antiguo (y sólo es de hace 2 meses...), pero con una nueva versión, la aplicación web de contabilidad (cuya empresa de origen ya no existe) no se vería muy bien. Para solventar la situación, se nos plantean varias alternativas:
 
-* ¿Tenemos que ir por cada ordenador de marketing instalando una versión diferente del navegador?
+- ¿Tenemos que ir por cada ordenador de marketing instalando una versión diferente del navegador?
 
-* Si hiciéramos una distribución masiva, ¿cómo excluimos a los de contabilidad?
+- Si hiciéramos una distribución masiva, ¿cómo excluimos a los de contabilidad?
 
-* O, si queremos que todos tengan la misma versión, ¿cómo aplicamos una CSS de usuario que arregle los problemas de visualización al departamento de contabilidad?
+- O, si queremos que todos tengan la misma versión, ¿cómo aplicamos una CSS de usuario que arregle los problemas de visualización al departamento de contabilidad?
 
 ## ¿Qué es migasfree?
 
@@ -44,23 +44,23 @@ Los calendarios (basados en atributos) sirven para no saturar la red de la organ
 
 El cliente instalado en la máquina a administrar se conecta al servidor y le transmite su lista de atributos. Estos están relacionados con la persona que está conectada y con el ordenador:
 
-* Qué usuario está conectado en ese momento.
-* A qué grupos de la organización pertenece ese usuario.
-* Qué modelo de tarjeta gráfica tiene el equipo.
-* Qué dirección IP tiene asignada.
-* Y cualquier otra cosa que nos pueda ser útil, ya que pueden ser programables.
+- Qué usuario está conectado en ese momento.
+- A qué grupos de la organización pertenece ese usuario.
+- Qué modelo de tarjeta gráfica tiene el equipo.
+- Qué dirección IP tiene asignada.
+- Y cualquier otra cosa que nos pueda ser útil, ya que pueden ser programables.
 
 El servidor, basándose en esos parámetros, le manda al cliente una lista de repositorios disponibles para actualizar el software y, adicionalmente, una lista de software a instalar o desinstalar del equipo.
 
 ### Lo importante es el concepto
 
-Migasfree se fundamenta sobre un concepto sencillo: __mantener y asegurar la integridad__ de un sistema informático.
+Migasfree se fundamenta sobre un concepto sencillo: **mantener y asegurar la integridad** de un sistema informático.
 
 Un sistema se considera íntegro si:
 
-* Es capaz de mantener las relaciones entre los distintos cambios que se le realizan (por ejemplo, control de dependencias).
+- Es capaz de mantener las relaciones entre los distintos cambios que se le realizan (por ejemplo, control de dependencias).
 
-* Permite la auditoría de cambios (estado del sistema).
+- Permite la auditoría de cambios (estado del sistema).
 
 En los sistemas Linux, esta integridad del sistema se mantiene con los sistemas de paquetería. Por eso, migasfree, sólo se limita a distribuir paquetes. La paquetería se encarga del resto. En ella reside la verdadera magia.
 
@@ -90,7 +90,7 @@ Además, a estos repositorios se les han añadido algunas mejoras que ayudan al 
 
 Hemos visto que migasfree se apoya en los sistemas de paquetería para mantener la integridad de los sistemas.
 
-Eso significa que cada __elemento de configuración software__ (ECS) debe empaquetarse para que se distribuya y asegurar así la integridad.
+Eso significa que cada **elemento de configuración software** (ECS) debe empaquetarse para que se distribuya y asegurar así la integridad.
 
 Migasfree también se encarga de verificar si los cambios se han realizado y avisa de los errores producidos durante el proceso.
 
@@ -100,9 +100,9 @@ Migasfree también se encarga de verificar si los cambios se han realizado y avi
 
 En migasfree existen 2 formas de crear estos grupos:
 
-* Automáticamente: programando propiedades.
+- Automáticamente: programando propiedades.
 
-* Manualmente: definiendo etiquetas.
+- Manualmente: definiendo etiquetas.
 
 Una vez creados estos grupos, podemos asignarles repositorios dinámicos y realizar los cambios en la configuración software.
 
@@ -126,7 +126,7 @@ Pero si tenemos varias redes internas separadas, puede ser buena idea tener vari
 
 ### Congelamiento de repositorios
 
-Para una organización es crucial controlar el software que hay en los equipos. Una buena forma de hacerlo es __congelando__ los repositorios.
+Para una organización es crucial controlar el software que hay en los equipos. Una buena forma de hacerlo es **congelando** los repositorios.
 
 Se pueden bajar las versiones concretas de programas y tenerlas disponibles en el servidor migasfree privado.
 
@@ -152,9 +152,9 @@ El servidor migasfree permite programar propiedades para recolectar atributos au
 
 Sin embargo, hay ciertos atributos que sólo se pueden matizar a través de las etiquetas. Estas sirven para determinar:
 
-* que un determinado equipo lo va a usar una persona con una funcionalidad muy específica
-* que un grupo de ordenadores forman un aula o están en una planta de un edificio
-* que un ordenador va a tener una funcionalidad determinada (juegos, diseño gráfico, desarrollo, ...)
+- que un determinado equipo lo va a usar una persona con una funcionalidad muy específica
+- que un grupo de ordenadores forman un aula o están en una planta de un edificio
+- que un ordenador va a tener una funcionalidad determinada (juegos, diseño gráfico, desarrollo, ...)
 
 ### Usos y desusos de las fallas en migasfree
 
@@ -168,9 +168,9 @@ Aunque en las fallas de migasfree también se puede acometer esa tarea, siempre 
 
 Cuando te hayas habituado al sistema migasfree, llega el momento de adentrarse en la confección de paquetes a medida para solventar necesidades específicas de la organización:
 
-* Configuración personalizada de aplicaciones y servicios (mi NTP, mi LDAP, ...).
-* Distribución de aplicaciones propias.
-* Resolución de incidencias.
+- Configuración personalizada de aplicaciones y servicios (mi NTP, mi LDAP, ...).
+- Distribución de aplicaciones propias.
+- Resolución de incidencias.
 
 ## Epílogo
 
@@ -190,9 +190,9 @@ Migasfree nace con ese objetivo. Facilitarnos tareas de gestión para que podamo
 
 ### Enlaces de interés
 
-* [migasfree.org](https://migasfree.org)
-* [github.com/migasfree](https://github.com/migasfree/)
-* @migasfree, #migasfree
-* fun.with@migasfree.org
+- [migasfree.org](https://migasfree.org)
+- [github.com/migasfree](https://github.com/migasfree/)
+- @migasfree, #migasfree
+- fun.with@migasfree.org
 
 ¡Muchas gracias por vuestra atención!

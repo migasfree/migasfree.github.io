@@ -22,10 +22,10 @@ La siguiente presentación muestra en qué consiste la herramienta migasfree, pa
 
 Los clientes son todos aquellos sistemas que tengan un PMS (Sistema de Gestión de Paquetes) que asegure la integridad del sistema:
 
-* PCs de escritorio
-* servidores
-* smartphones
-* tablets
+- PCs de escritorio
+- servidores
+- smartphones
+- tablets
 
 ## Por qué usar migasfree
 
@@ -39,15 +39,15 @@ Además, migasfree proporciona una distribución controlada y personalizada para
 
 Distro actualizable (generalista):
 
-* Administrada por el usuario.
-* Configurada manualmente y por paquetes.
-* Actualizada mediante repositorios públicos (oficiales y particulares).
+- Administrada por el usuario.
+- Configurada manualmente y por paquetes.
+- Actualizada mediante repositorios públicos (oficiales y particulares).
 
 Distro administrada (organización):
 
-* Administrada remotamente por personal cualificado.
-* Configurada por paquetes (permiten el seguimiento y el control de los cambios).
-* Actualizada mediante un gestor de sistemas (como migasfree) con repositorios privados y controlados.
+- Administrada remotamente por personal cualificado.
+- Configurada por paquetes (permiten el seguimiento y el control de los cambios).
+- Actualizada mediante un gestor de sistemas (como migasfree) con repositorios privados y controlados.
 
 ## Proceso Gestión de Configuración Software con migasfree
 
@@ -55,7 +55,7 @@ El ciclo petición/cambio/liberación: proceso GCS (Gestión de Configuración S
 
 Como todo ciclo, nunca tiene fin... pero tiene como regla que cualquier cambio de configuración se empaqueta para su distribución (al igual que hacen las distros de Linux con los programas).
 
-Alguien informa de una __petición__ (error/mejora/característica), otra persona elabora el __cambio__ empaquetado y, finalmente, migasfree __libera__ (distribuye) el paquete a los equipos que lo necesiten.
+Alguien informa de una **petición** (error/mejora/característica), otra persona elabora el **cambio** empaquetado y, finalmente, migasfree **libera** (distribuye) el paquete a los equipos que lo necesiten.
 
 ## Ámbitos de aplicación
 
@@ -97,9 +97,9 @@ Para facilitar la comunicación y posibilitar el crecimiento de aplicaciones aux
 
 Y si todo esto tiene tan buena pinta... ¿por qué no hay millones de personas usando ya migasfree?
 
-* ¿Porque no tenemos ni idea de hacer marketing?
-* ¿Porque no estamos interesados en ganar dinero con esto (no nos da de comer)?
-* ¿Porque hace falta leerse el manual para hacerlo funcionar?
+- ¿Porque no tenemos ni idea de hacer marketing?
+- ¿Porque no estamos interesados en ganar dinero con esto (no nos da de comer)?
+- ¿Porque hace falta leerse el manual para hacerlo funcionar?
 
 En realidad es porque (creemos) lo de hacer paquetes... se ve mucho más complicado de lo que es (se cree que sólo es cosa de gurús y gente rara que vive en sótanos oscuros que se alimenta de coca-cola y pizza).
 
@@ -115,7 +115,7 @@ Migasfree es software libre con licencia GPL, pero... ¿qué diría Richard Stal
 
 Que somos demasiado controladores coartando la libertad y privacidad de las personas de la organización.
 
-Pero... a veces... en un entorno que tiene que estar controlado... es mejor tener una  herramienta que facilite esta tarea ;)
+Pero... a veces... en un entorno que tiene que estar controlado... es mejor tener una herramienta que facilite esta tarea ;)
 
 ## Conclusión
 

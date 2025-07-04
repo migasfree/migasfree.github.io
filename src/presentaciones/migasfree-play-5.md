@@ -50,8 +50,8 @@ Esta sección es nueva respecto a la versión anterior de migasfree play.
 
 Aquí se pueden asignar las etiquetas al ordenador y hay 2 acciones disponibles:
 
-* Comunicar las etiquetas al servidor.
-* Establecer las etiquetas en el servidor.
+- Comunicar las etiquetas al servidor.
+- Establecer las etiquetas en el servidor.
 
 Recordemos que las etiquetas están relacionadas con los campos de los despliegues: paquetes pre-incluidos, incluidos y excluidos por defecto.
 

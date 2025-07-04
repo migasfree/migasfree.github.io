@@ -90,7 +90,7 @@ Los años están separados y se pueden consultar a través de la leyenda inferio
 
 ## Alertas
 
-Las alertas se comunican vía _push_ al navegador web, utilizando _websockets_. De esta manera, cuando ocurra algo en el servidor, los distintos usuarios que tengan __migasfree frontend__ abierto, recibirán al instante información sobre el evento que haya acontecido.
+Las alertas se comunican vía _push_ al navegador web, utilizando _websockets_. De esta manera, cuando ocurra algo en el servidor, los distintos usuarios que tengan **migasfree frontend** abierto, recibirán al instante información sobre el evento que haya acontecido.
 
 Anteriormente el usuario debía "refrescar" las alertas abriendo el desplegable. Mientras ese desplegable continuara visible, la información se actualizaba cada pocos segundos.
 
