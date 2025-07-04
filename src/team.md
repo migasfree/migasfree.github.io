@@ -32,7 +32,7 @@ const members = [
 ]
 </script>
 
-En migasfree nos gusta compartir y ayudarnos mútuamente. Es por esto que, si estás usando migasfree, puedes integrarte en nuestra comunidad de usuarios en Slack. Solicítanos una invitación por email.
+En migasfree nos gusta compartir y ayudarnos mútuamente. Es por esto que, si estás usando migasfree, puedes integrarte en nuestra comunidad de usuarios en Telegram. Solicítanos una invitación por email.
 
 <div class="card" v-for="item in members">
   <div class="card-heading">
