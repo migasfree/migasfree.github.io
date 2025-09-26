@@ -6,16 +6,60 @@
     <link>http://migasfree.org/</link>
     <description>Sistema de gestión de sistemas</description>
     <language>es-ES</language>
-    <pubDate>Fri, 04 Jul 2025 05:38:47 GMT</pubDate>
-    <lastBuildDate>Fri, 04 Jul 2025 05:38:47 GMT</lastBuildDate>
+    <pubDate>Fri, 26 Sep 2025 07:32:40 GMT</pubDate>
+    <lastBuildDate>Fri, 26 Sep 2025 07:32:40 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <category>Noticia</category>
     <category>Desarrollo</category>
+    <category>Noticia</category>
+    <category>Evento</category>
     <category>Tutorial</category>
     <category>Teoría</category>
-    <category>Evento</category>
     <category>Caso de éxito</category>
+    <item>
+      <title>La anomalía de la masa de tortitas</title>
+      <link>http://migasfree.org/blog/2025/2025-09-26-la-anomalia-masa-tortitas.html</link>
+      <guid>http://migasfree.org/blog/2025/2025-09-26-la-anomalia-masa-tortitas.html</guid>
+      <source url="http://migasfree.org/rss.xml">La anomalía de la masa de tortitas</source>
+      <description>Hemos liberado actualizaciones de la suite Migasfree en su versión 4: Servidor 4.22. Cliente 4.26.</description>
+      <category>Desarrollo</category>
+      <category>Noticia</category>
+      <pubDate>Sat, 27 Sep 2025 09:30:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>Hemos liberado actualizaciones de la suite Migasfree en su versión 4:</p>
+<ul>
+<li>Servidor <code>4.22</code>.</li>
+<li>Cliente <code>4.26</code>.</li>
+</ul>
+<!-- more -->
+<p>Aunque continuamos inmersos en el desarrollo y puesta a punto de la <a href="/migascon-2022">"inminente" versión 5</a>, nos hemos visto obligados, por las circunstancias del siempre cambiante panorama en el mundo Linux, a liberar versiones de "mantenimiento" del servidor y el cliente de la versión 4.</p>
+<p>Los cambios que presenta el servidor <code>4.22</code> son:</p>
+<ul>
+<li>
+<p>Se ha añadido información sobre la dirección IP del solicitante en las notificaciones sobre repositorios externos.</p>
+</li>
+<li>
+<p>Se ha cambiado el formato de los enlaces del protocolo <code>mea</code> (<a href="https://fun-with-migasfree.readthedocs.io/es/master/chapter16.html#migasfree-external-actions" target="_blank" rel="noopener noreferrer">Migasfree External Actions</a>) para que se adecúe al <a href="https://www.rfc-editor.org/rfc/rfc3986" target="_blank" rel="noopener noreferrer">RFC 3986</a> y funcione correctamente en las últimas versiones de los navegadores web. Esto implica que, si los estáis usando, deberéis modificar el <em>script</em> que interpreta este protocolo. Para ello, podéis echar un vistazo al <a href="https://github.com/migasfree/fun-with-migasfree-examples/blob/master/acme-migasfree-external-actions/usr/bin/acme-migasfree-external-actions" target="_blank" rel="noopener noreferrer">ejemplo que proponemos en nuestro libro</a>.</p>
+</li>
+<li>
+<p>Para sistemas cliente que usen <code>apt</code> con versión 3 o superior, es necesario mejorar el cifrado de las claves de los repositorios. Esto se ha hecho en el servidor, pero el cambio no será efectivo hasta que se borren las claves de los repositorios existentes en el servidor para que las regenere, y se vuelvan a construir los metadatos de los repositorios que se sirvan a esos sistemas operativos (como Debian Trixie y derivados).</p>
+</li>
+</ul>
+<p>Al hacer este cambio de las claves de los repositorios para nuevos sistemas basados en <code>apt</code>, también ha sido necesario modificar el cliente. El mayor cambio en el cliente es que pide la clave de los repositorios cada vez que va a obtener la información de los repositorios. Es por ello que la nueva versión <code>4.26</code> del cliente va de la mano con el servidor <code>4.22</code>. El mejor procedimiento a seguir con la actualización de la suite en la versión 4 es el siguiente:</p>
+<ol>
+<li>
+<p>Actualizar los clientes del parque a la versión <code>4.26</code>.</p>
+</li>
+<li>
+<p>Actualizar el servidor <code>4.22</code>.</p>
+</li>
+<li>
+<p>Si tenéis sistemas cliente con <code>apt</code> 3 o superior, hay que borrar las claves actuales de los repositorios, regenerarlas (esto se consigue lanzando un cliente para que pida información sobre los repositorios), y volver a generar los metadatos de los repositorios basados en <code>apt</code>.</p>
+</li>
+</ol>
+<p>Esperamos que estan sean las últimas actualizaciones sobre la versión 4... aunque nunca se sabe... antes de liberar (por fin) la tan ansiada versión 5.</p>
+<p>Seguiremos informando.</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Administrando tu parque de ordenadores con migasfree</title>
       <link>http://migasfree.org/presentaciones/administrando-parque.html</link>
@@ -1080,6 +1124,133 @@ servidor de migasfree.</p>
       <enclosure url="http://migasfree.org/migasfree.svg &apos;Nuevo logotipo de migasfree&apos;" type="image/"/>
     </item>
     <item>
+      <title>Nuevas mejoras implantadas en migasfree</title>
+      <link>http://migasfree.org/blog/2011/2011-02-27-nuevas-mejoras-implantadas.html</link>
+      <guid>http://migasfree.org/blog/2011/2011-02-27-nuevas-mejoras-implantadas.html</guid>
+      <source url="http://migasfree.org/rss.xml">Nuevas mejoras implantadas en migasfree</source>
+      <description>Gráficas incluidas: Equipos actualizados por hora/día/mes Equipos previsto por demora de calendario Equipos por versión (de distribución) Se han añadido menús para las consultas...</description>
+      <category>Desarrollo</category>
+      <pubDate>Sun, 27 Feb 2011 20:34:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>Gráficas incluidas:</p>
+<ul>
+<li>Equipos actualizados por hora/día/mes</li>
+<li>Equipos previsto por demora de calendario</li>
+<li>Equipos por versión (de distribución)</li>
+<li>Se han añadido menús para las consultas y las gráficas.</li>
+</ul>
+<p>Si te has bajado el <a href="http://migasfree.org/pub/" target="_blank" rel="noopener noreferrer">appliance de VirtualBox</a> podrás actualizarte estos cambios ejecutando desde el servidor (ojo, se regenera la base de datos):</p>
+<div class="language-sh line-numbers-mode" data-highlighter="shiki" data-ext="sh" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-sh"><span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># clone-migasfree</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div>]]></content:encoded>
+    </item>
+    <item>
+      <title>Inventario hardware de los clientes de migasfree</title>
+      <link>http://migasfree.org/blog/2011/2011-03-17-inventario-hardware-clientes.html</link>
+      <guid>http://migasfree.org/blog/2011/2011-03-17-inventario-hardware-clientes.html</guid>
+      <source url="http://migasfree.org/rss.xml">Inventario hardware de los clientes de migasfree</source>
+      <description>Implementada la funcionalidad de inventario de hardware. Gracias a la nueva versión de lshw (la B.02.15), que permite la salida de la información hardware en formato JSON, migas...</description>
+      <category>Desarrollo</category>
+      <pubDate>Thu, 17 Mar 2011 19:18:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>Implementada la funcionalidad de inventario de hardware.</p>
+<p>Gracias a la nueva versión de <a href="http://ezix.org/project/wiki/HardwareLiSter" target="_blank" rel="noopener noreferrer">lshw</a> (la B.02.15), que permite la salida de la información hardware en formato <a href="http://es.wikipedia.org/wiki/JSON" target="_blank" rel="noopener noreferrer">JSON</a>, migasfree ahora es capaz de almacenar el hardware de los equipos en su base de datos. Hemos creado para ello las siguientes tablas:</p>
+<ul>
+<li>HW_Node</li>
+<li>HW_Capability</li>
+<li>HW_Configuration</li>
+<li>HW_LogicalName</li>
+</ul>
+<p>Así que ahora podremos crearnos consultas de hardware que nos permitirían saber, por ejemplo:</p>
+<ul>
+<li>Los equipos que tienen menos de 512 MB de RAM</li>
+<li>La cantidad de equipos por CPU</li>
+<li>Los equipos que tienen una determinada tarjeta de sonido</li>
+<li>…</li>
+</ul>
+<p>También se han creado unas vistas que nos muestran gráficamente el hardware de un determinado equipo (sería el equivalante a la utilidad lshw-gui).</p>
+<p>Si te bajaste el <a href="http://migasfree.org/pub/" target="_blank" rel="noopener noreferrer">appliance de VirtualBox</a>, puedes probarlo ejecutando:</p>
+<div class="language-sh line-numbers-mode" data-highlighter="shiki" data-ext="sh" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-sh"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">clone-migasfree</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div>]]></content:encoded>
+    </item>
+    <item>
+      <title>Charla sobre Administración de Sistemas GNU/Linux con migasfree</title>
+      <link>http://migasfree.org/blog/2011/2011-06-13-charla-administracion-sistemas.html</link>
+      <guid>http://migasfree.org/blog/2011/2011-06-13-charla-administracion-sistemas.html</guid>
+      <source url="http://migasfree.org/rss.xml">Charla sobre Administración de Sistemas GNU/Linux con migasfree</source>
+      <description>El miércoles, 15 de junio 2011, a las 19 h., en Zaragoza y gracias al colectivo Software &amp; Barra Libre, hablaremos sobre administración de sistemas GNU/Linux con migasfree. Enla...</description>
+      <category>Evento</category>
+      <pubDate>Mon, 13 Jun 2011 19:20:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>El miércoles, 15 de junio 2011, a las 19 h., en Zaragoza y gracias al colectivo <a href="http://softwareybarralibre.org/" target="_blank" rel="noopener noreferrer">Software &amp; Barra Libre</a>, hablaremos sobre administración de sistemas GNU/Linux con migasfree.</p>
+<p>Enlaces del evento:</p>
+<ul>
+<li><a href="http://www.softwareybarralibre.org/?q=node/52" target="_blank" rel="noopener noreferrer">Charla de migasfree en el Digital Water Pavilion</a></li>
+<li><a href="http://www.facebook.com/event.php?eid=136136616464810" target="_blank" rel="noopener noreferrer">Evento en Facebook: Software y Barra Libre: GNU/Linux con migasfree</a></li>
+</ul>
+<h2>Actualización: 2011-06-18</h2>
+<p><a href="http://zaragozaciudad.net/azlinux/2011/061701-charla-de-migasfree-en-software-y-barra-libre.php" target="_blank" rel="noopener noreferrer">Crónica de la charla</a>.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>¿En qué estamos trabajando?</title>
+      <link>http://migasfree.org/blog/2011/2011-09-07-en-que-estamos-trabajando.html</link>
+      <guid>http://migasfree.org/blog/2011/2011-09-07-en-que-estamos-trabajando.html</guid>
+      <source url="http://migasfree.org/rss.xml">¿En qué estamos trabajando?</source>
+      <description>Os avanzamos lo que tenemos previsto tener desarrollado este mes de septiembre: Implementar seguridad asimétrica. Nueva API (json). Nuevo cliente en python (por @jact_abcweb). P...</description>
+      <category>Desarrollo</category>
+      <pubDate>Wed, 07 Sep 2011 21:37:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>Os avanzamos lo que tenemos previsto tener desarrollado este mes de septiembre:</p>
+<ul>
+<li>Implementar seguridad asimétrica.</li>
+<li>Nueva API (json).</li>
+<li>Nuevo cliente en python (por <a href="https://twitter.com/#!/jact_abcweb" target="_blank" rel="noopener noreferrer">@jact_abcweb</a>).</li>
+<li>Posibilidad de programar en bash/python/perl fallas y propiedades.</li>
+<li>Ejecución de fallas en función de los atributos de los equipos clientes.</li>
+<li>Mejoras en instalación de impresoras.</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Migasfree en la LSWC 2011</title>
+      <link>http://migasfree.org/blog/2011/2011-10-14-migasfree-en-la-lwsc-2011.html</link>
+      <guid>http://migasfree.org/blog/2011/2011-10-14-migasfree-en-la-lwsc-2011.html</guid>
+      <source url="http://migasfree.org/rss.xml">Migasfree en la LSWC 2011</source>
+      <description>Jose Antonio Chavarría y Alberto Gacías, desarrolladores de migasfree, hablarán de migasfree en la Libre Software World Conference 2011 que este año se celebra en Zaragoza los d...</description>
+      <category>Evento</category>
+      <pubDate>Fri, 14 Oct 2011 18:56:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>Jose Antonio Chavarría y Alberto Gacías, desarrolladores de migasfree, hablarán de migasfree en la <a href="https://www.20minutos.es/noticia/1214638/0/" target="_blank" rel="noopener noreferrer">Libre Software World Conference 2011</a> que este año se celebra en Zaragoza los días 9 y 10 de noviembre:</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=x5o1Z00GIQM" target="_blank" rel="noopener noreferrer">Migasfree en la Gestión de la Configuración</a></li>
+<li><a href="https://speakerdeck.com/jact/demostracion-de-empaquetado-en-rpm-y-distribucion-de-software-con-migasfree" target="_blank" rel="noopener noreferrer">Demostración de paquetización en RPM y distribución de software con migasfree</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Charlas de la Libre Software World Conference 2011</title>
+      <link>http://migasfree.org/blog/2011/2011-11-20-charlas-lswc-2011.html</link>
+      <guid>http://migasfree.org/blog/2011/2011-11-20-charlas-lswc-2011.html</guid>
+      <source url="http://migasfree.org/rss.xml">Charlas de la Libre Software World Conference 2011</source>
+      <description>Como os comentamos, hace pocas fechas estuvimos en la Libre Software World Conference hablando de migasfree.</description>
+      <category>Evento</category>
+      <pubDate>Sun, 20 Nov 2011 12:32:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>Como os comentamos, hace pocas fechas estuvimos en la Libre Software World Conference hablando de migasfree.</p>
+<!-- more -->
+<p>Fue un placer compartir con los asistentes nuestra experiencia relativa a la administración de escritorios GNU/Linux.</p>
+<p>Además, tuvimos la suerte de conocer, o de reencontrar, personas con las que compartimos un interés común: <strong>el conocimiento libre</strong>.</p>
+<p>Os dejamos las charlas que dimos:</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=x5o1Z00GIQM" target="_blank" rel="noopener noreferrer">Migasfree en la Gestión de la Configuración</a>, por <a href="https://twitter.com/#!/albertogacias" target="_blank" rel="noopener noreferrer">Alberto Gacías</a>.
+<ul>
+<li><a href="http://www.zaragoza.es/contenidos/azlinux/GCS_migasfree.pdf" target="_blank" rel="noopener noreferrer">Charla en formato PDF</a>.</li>
+<li><a href="http://www.zaragoza.es/contenidos/azlinux/GCS_migasfree.odp" target="_blank" rel="noopener noreferrer">Diapositivas de la presentación</a>.</li>
+</ul>
+</li>
+<li><a href="https://speakerdeck.com/jact/demostracion-de-empaquetado-en-rpm-y-distribucion-de-software-con-migasfree" target="_blank" rel="noopener noreferrer">Demostración de paquetización en RPM y distribución de software con migasfree</a>, por <a href="https://twitter.com/#!/jact_abcweb" target="_blank" rel="noopener noreferrer">Jose Antonio Chavarría</a>.
+<ul>
+<li><a href="http://www.zaragoza.es/contenidos/azlinux/rpm_migasfree_lswc_public.tar.gz" target="_blank" rel="noopener noreferrer">Diapositivas y comentarios de la charla</a>.</li>
+</ul>
+</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
       <title>Appliance disponible desde migasfree.org</title>
       <link>http://migasfree.org/blog/2010/2010-08-18-appliance-disponible.html</link>
       <guid>http://migasfree.org/blog/2010/2010-08-18-appliance-disponible.html</guid>
@@ -1242,133 +1413,6 @@ servidor de migasfree.</p>
       <content:encoded><![CDATA[<p>Para hacer el estreno en Málaga, he preparado una presentación menos técnica para explicar los <a href="http://www.youtube.com/v/ZKvO-xRebxQ" target="_blank" rel="noopener noreferrer">fundamentos de migasfree</a>.</p>
 <div style="text-align:center">
 </div>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Nuevas mejoras implantadas en migasfree</title>
-      <link>http://migasfree.org/blog/2011/2011-02-27-nuevas-mejoras-implantadas.html</link>
-      <guid>http://migasfree.org/blog/2011/2011-02-27-nuevas-mejoras-implantadas.html</guid>
-      <source url="http://migasfree.org/rss.xml">Nuevas mejoras implantadas en migasfree</source>
-      <description>Gráficas incluidas: Equipos actualizados por hora/día/mes Equipos previsto por demora de calendario Equipos por versión (de distribución) Se han añadido menús para las consultas...</description>
-      <category>Desarrollo</category>
-      <pubDate>Sun, 27 Feb 2011 20:34:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>Gráficas incluidas:</p>
-<ul>
-<li>Equipos actualizados por hora/día/mes</li>
-<li>Equipos previsto por demora de calendario</li>
-<li>Equipos por versión (de distribución)</li>
-<li>Se han añadido menús para las consultas y las gráficas.</li>
-</ul>
-<p>Si te has bajado el <a href="http://migasfree.org/pub/" target="_blank" rel="noopener noreferrer">appliance de VirtualBox</a> podrás actualizarte estos cambios ejecutando desde el servidor (ojo, se regenera la base de datos):</p>
-<div class="language-sh line-numbers-mode" data-highlighter="shiki" data-ext="sh" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-sh"><span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># clone-migasfree</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div>]]></content:encoded>
-    </item>
-    <item>
-      <title>Inventario hardware de los clientes de migasfree</title>
-      <link>http://migasfree.org/blog/2011/2011-03-17-inventario-hardware-clientes.html</link>
-      <guid>http://migasfree.org/blog/2011/2011-03-17-inventario-hardware-clientes.html</guid>
-      <source url="http://migasfree.org/rss.xml">Inventario hardware de los clientes de migasfree</source>
-      <description>Implementada la funcionalidad de inventario de hardware. Gracias a la nueva versión de lshw (la B.02.15), que permite la salida de la información hardware en formato JSON, migas...</description>
-      <category>Desarrollo</category>
-      <pubDate>Thu, 17 Mar 2011 19:18:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>Implementada la funcionalidad de inventario de hardware.</p>
-<p>Gracias a la nueva versión de <a href="http://ezix.org/project/wiki/HardwareLiSter" target="_blank" rel="noopener noreferrer">lshw</a> (la B.02.15), que permite la salida de la información hardware en formato <a href="http://es.wikipedia.org/wiki/JSON" target="_blank" rel="noopener noreferrer">JSON</a>, migasfree ahora es capaz de almacenar el hardware de los equipos en su base de datos. Hemos creado para ello las siguientes tablas:</p>
-<ul>
-<li>HW_Node</li>
-<li>HW_Capability</li>
-<li>HW_Configuration</li>
-<li>HW_LogicalName</li>
-</ul>
-<p>Así que ahora podremos crearnos consultas de hardware que nos permitirían saber, por ejemplo:</p>
-<ul>
-<li>Los equipos que tienen menos de 512 MB de RAM</li>
-<li>La cantidad de equipos por CPU</li>
-<li>Los equipos que tienen una determinada tarjeta de sonido</li>
-<li>…</li>
-</ul>
-<p>También se han creado unas vistas que nos muestran gráficamente el hardware de un determinado equipo (sería el equivalante a la utilidad lshw-gui).</p>
-<p>Si te bajaste el <a href="http://migasfree.org/pub/" target="_blank" rel="noopener noreferrer">appliance de VirtualBox</a>, puedes probarlo ejecutando:</p>
-<div class="language-sh line-numbers-mode" data-highlighter="shiki" data-ext="sh" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-sh"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">clone-migasfree</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div>]]></content:encoded>
-    </item>
-    <item>
-      <title>Charla sobre Administración de Sistemas GNU/Linux con migasfree</title>
-      <link>http://migasfree.org/blog/2011/2011-06-13-charla-administracion-sistemas.html</link>
-      <guid>http://migasfree.org/blog/2011/2011-06-13-charla-administracion-sistemas.html</guid>
-      <source url="http://migasfree.org/rss.xml">Charla sobre Administración de Sistemas GNU/Linux con migasfree</source>
-      <description>El miércoles, 15 de junio 2011, a las 19 h., en Zaragoza y gracias al colectivo Software &amp; Barra Libre, hablaremos sobre administración de sistemas GNU/Linux con migasfree. Enla...</description>
-      <category>Evento</category>
-      <pubDate>Mon, 13 Jun 2011 19:20:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>El miércoles, 15 de junio 2011, a las 19 h., en Zaragoza y gracias al colectivo <a href="http://softwareybarralibre.org/" target="_blank" rel="noopener noreferrer">Software &amp; Barra Libre</a>, hablaremos sobre administración de sistemas GNU/Linux con migasfree.</p>
-<p>Enlaces del evento:</p>
-<ul>
-<li><a href="http://www.softwareybarralibre.org/?q=node/52" target="_blank" rel="noopener noreferrer">Charla de migasfree en el Digital Water Pavilion</a></li>
-<li><a href="http://www.facebook.com/event.php?eid=136136616464810" target="_blank" rel="noopener noreferrer">Evento en Facebook: Software y Barra Libre: GNU/Linux con migasfree</a></li>
-</ul>
-<h2>Actualización: 2011-06-18</h2>
-<p><a href="http://zaragozaciudad.net/azlinux/2011/061701-charla-de-migasfree-en-software-y-barra-libre.php" target="_blank" rel="noopener noreferrer">Crónica de la charla</a>.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>¿En qué estamos trabajando?</title>
-      <link>http://migasfree.org/blog/2011/2011-09-07-en-que-estamos-trabajando.html</link>
-      <guid>http://migasfree.org/blog/2011/2011-09-07-en-que-estamos-trabajando.html</guid>
-      <source url="http://migasfree.org/rss.xml">¿En qué estamos trabajando?</source>
-      <description>Os avanzamos lo que tenemos previsto tener desarrollado este mes de septiembre: Implementar seguridad asimétrica. Nueva API (json). Nuevo cliente en python (por @jact_abcweb). P...</description>
-      <category>Desarrollo</category>
-      <pubDate>Wed, 07 Sep 2011 21:37:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>Os avanzamos lo que tenemos previsto tener desarrollado este mes de septiembre:</p>
-<ul>
-<li>Implementar seguridad asimétrica.</li>
-<li>Nueva API (json).</li>
-<li>Nuevo cliente en python (por <a href="https://twitter.com/#!/jact_abcweb" target="_blank" rel="noopener noreferrer">@jact_abcweb</a>).</li>
-<li>Posibilidad de programar en bash/python/perl fallas y propiedades.</li>
-<li>Ejecución de fallas en función de los atributos de los equipos clientes.</li>
-<li>Mejoras en instalación de impresoras.</li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Migasfree en la LSWC 2011</title>
-      <link>http://migasfree.org/blog/2011/2011-10-14-migasfree-en-la-lwsc-2011.html</link>
-      <guid>http://migasfree.org/blog/2011/2011-10-14-migasfree-en-la-lwsc-2011.html</guid>
-      <source url="http://migasfree.org/rss.xml">Migasfree en la LSWC 2011</source>
-      <description>Jose Antonio Chavarría y Alberto Gacías, desarrolladores de migasfree, hablarán de migasfree en la Libre Software World Conference 2011 que este año se celebra en Zaragoza los d...</description>
-      <category>Evento</category>
-      <pubDate>Fri, 14 Oct 2011 18:56:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>Jose Antonio Chavarría y Alberto Gacías, desarrolladores de migasfree, hablarán de migasfree en la <a href="https://www.20minutos.es/noticia/1214638/0/" target="_blank" rel="noopener noreferrer">Libre Software World Conference 2011</a> que este año se celebra en Zaragoza los días 9 y 10 de noviembre:</p>
-<ul>
-<li><a href="https://www.youtube.com/watch?v=x5o1Z00GIQM" target="_blank" rel="noopener noreferrer">Migasfree en la Gestión de la Configuración</a></li>
-<li><a href="https://speakerdeck.com/jact/demostracion-de-empaquetado-en-rpm-y-distribucion-de-software-con-migasfree" target="_blank" rel="noopener noreferrer">Demostración de paquetización en RPM y distribución de software con migasfree</a></li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Charlas de la Libre Software World Conference 2011</title>
-      <link>http://migasfree.org/blog/2011/2011-11-20-charlas-lswc-2011.html</link>
-      <guid>http://migasfree.org/blog/2011/2011-11-20-charlas-lswc-2011.html</guid>
-      <source url="http://migasfree.org/rss.xml">Charlas de la Libre Software World Conference 2011</source>
-      <description>Como os comentamos, hace pocas fechas estuvimos en la Libre Software World Conference hablando de migasfree.</description>
-      <category>Evento</category>
-      <pubDate>Sun, 20 Nov 2011 12:32:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>Como os comentamos, hace pocas fechas estuvimos en la Libre Software World Conference hablando de migasfree.</p>
-<!-- more -->
-<p>Fue un placer compartir con los asistentes nuestra experiencia relativa a la administración de escritorios GNU/Linux.</p>
-<p>Además, tuvimos la suerte de conocer, o de reencontrar, personas con las que compartimos un interés común: <strong>el conocimiento libre</strong>.</p>
-<p>Os dejamos las charlas que dimos:</p>
-<ul>
-<li><a href="https://www.youtube.com/watch?v=x5o1Z00GIQM" target="_blank" rel="noopener noreferrer">Migasfree en la Gestión de la Configuración</a>, por <a href="https://twitter.com/#!/albertogacias" target="_blank" rel="noopener noreferrer">Alberto Gacías</a>.
-<ul>
-<li><a href="http://www.zaragoza.es/contenidos/azlinux/GCS_migasfree.pdf" target="_blank" rel="noopener noreferrer">Charla en formato PDF</a>.</li>
-<li><a href="http://www.zaragoza.es/contenidos/azlinux/GCS_migasfree.odp" target="_blank" rel="noopener noreferrer">Diapositivas de la presentación</a>.</li>
-</ul>
-</li>
-<li><a href="https://speakerdeck.com/jact/demostracion-de-empaquetado-en-rpm-y-distribucion-de-software-con-migasfree" target="_blank" rel="noopener noreferrer">Demostración de paquetización en RPM y distribución de software con migasfree</a>, por <a href="https://twitter.com/#!/jact_abcweb" target="_blank" rel="noopener noreferrer">Jose Antonio Chavarría</a>.
-<ul>
-<li><a href="http://www.zaragoza.es/contenidos/azlinux/rpm_migasfree_lswc_public.tar.gz" target="_blank" rel="noopener noreferrer">Diapositivas y comentarios de la charla</a>.</li>
-</ul>
-</li>
-</ul>
 ]]></content:encoded>
     </item>
     <item>
