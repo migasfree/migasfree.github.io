@@ -1,1 +1,72 @@
-// place your custom styles here
+:root {
+  --brand-primary: #431407;
+  --brand-tertiary: #feda00;
+  --vp-c-accent-light: var(--brand-primary);
+  --vp-c-accent-dark: var(--brand-tertiary);
+}
+
+// 1. Estilos Glassmorphism para VPCard
+.vp-card {
+  background: rgba(255, 255, 255, 0.7) !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 0, 0, 0.05) !important;
+  border-radius: 20px !important;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02) !important;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(67, 20, 7, 0.1) !important;
+    border-color: var(--brand-primary) !important;
+  }
+}
+
+// 2. Botones Premium
+.vp-button {
+  border-radius: 50px !important;
+  transition: all 0.25s ease !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.02em !important;
+
+  &.primary {
+    background: linear-gradient(135deg, var(--brand-primary) 0%, #6b2d1c 100%) !important;
+    border: none !important;
+    box-shadow: 0 4px 15px rgba(67, 20, 7, 0.2);
+
+    &:hover {
+      box-shadow: 0 8px 25px rgba(67, 20, 7, 0.3);
+      filter: brightness(1.1);
+    }
+  }
+}
+
+// 3. Tipografía y Encabezados
+h1, h2, h3 {
+  letter-spacing: -0.02em;
+}
+
+.vp-hero-title {
+  background: linear-gradient(to right, var(--brand-primary), #8d7772);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900 !important;
+}
+
+// 4. Modo Oscuro
+[data-theme="dark"] {
+  .vp-card {
+    background: rgba(255, 255, 255, 0.05) !important;
+    border-color: rgba(255, 255, 255, 0.1) !important;
+    
+    &:hover {
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4) !important;
+    }
+  }
+
+  .vp-hero-title {
+    background: linear-gradient(to right, var(--brand-tertiary), #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}

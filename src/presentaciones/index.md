@@ -64,6 +64,14 @@ feed: false
             abstract: 'Resume los principales cambios introducidos en la versión 5 del cliente de migasfree, específicamente su protocolo de comunicación mejorado, sistema de complementos y compatibilidad con Windows.',
         },
         {
+            id: '',
+            text: 'Arquitectura Migasfree v5 (Slides Pro)',
+            date: '2026-04-14',
+            link: '/presentaciones/migasfree-client-v5.html',
+            internalLink: 'migasfree-client-v5-marp.html',
+            abstract: 'Presentación técnica de alto impacto sobre la arquitectura de la versión 5. Utiliza el framework Marp para una visualización moderna y ágil de los conceptos de integridad y seguridad del nuevo cliente.',
+        },
+        {
             id: '44pyNWvjlEw',
             text: 'Migasfree Play 5',
             date: '2022-05-19',
@@ -75,10 +83,17 @@ feed: false
 </script>
 
 <div class="card center" v-for="item in videos">
-  <LiteYoutubeEmbed :id="item.id" :title="item.text" />
-  <p class="card-caption"><a :href="item.internalLink">{{item.text}} ({{item.date}})</a></p>
-  <p class="card-body">{{item.abstract}}</p>
-  <p class="card-action"><a :href="item.link">Descargar</a></p>
+  <LiteYoutubeEmbed v-if="item.id" :id="item.id" :title="item.text" />
+  <div v-else class="presentation-placeholder">
+    <VPCard :title="item.text" icon="person-chalkboard" :desc="item.abstract" :link="item.internalLink" />
+  </div>
+  <p class="card-caption" v-if="item.id"><a :href="item.internalLink">{{item.text}} ({{item.date}})</a></p>
+  <p class="card-body" v-if="item.id">{{item.abstract}}</p>
+  <p class="card-action">
+    <a :href="item.link" :target="item.link.startsWith('http') || item.link.endsWith('.html') ? '_blank' : '_self'">
+      {{ item.id ? 'Descargar' : 'Ver Presentación Full-Screen' }}
+    </a>
+  </p>
 </div>
 
 <style scoped>
