@@ -89,11 +89,14 @@ feed: false
   </div>
   <p class="card-caption" v-if="item.id"><a :href="item.internalLink">{{item.text}} ({{item.date}})</a></p>
   <p class="card-body" v-if="item.id">{{item.abstract}}</p>
-  <p class="card-action">
-    <a :href="item.link" :target="item.link.startsWith('http') || item.link.endsWith('.html') ? '_blank' : '_self'">
-      {{ item.id ? 'Descargar' : 'Ver Presentación Full-Screen' }}
+  <div class="card-action">
+    <a :href="item.link" 
+       :class="['vp-button', item.id ? '' : 'primary']"
+       :target="item.link.startsWith('http') || item.link.endsWith('.html') ? '_blank' : '_self'">
+      <span v-if="item.id">Descargar en SpeakerDeck</span>
+      <span v-else>🚀 Ver Presentación Full-Screen</span>
     </a>
-  </p>
+  </div>
 </div>
 
 <style scoped>
@@ -114,6 +117,7 @@ feed: false
 }
 
 .card-action {
-    margin-top: 0;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
 }
 </style>
