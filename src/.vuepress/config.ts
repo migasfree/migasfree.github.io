@@ -38,6 +38,13 @@ export default defineUserConfig({
     [
       'link',
       {
+        href: 'https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700;900&display=swap',
+        rel: 'stylesheet',
+      },
+    ],
+    [
+      'link',
+      {
         href: 'https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap',
         rel: 'stylesheet',
       },
