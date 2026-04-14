@@ -22,6 +22,34 @@ export default sidebar({
       icon: 'home',
     },
     {
+      text: 'Casos de éxito',
+      icon: 'star',
+      prefix: 'casos-de-exito/',
+      children: 'structure',
+    },
+    {
+      text: 'Comparativas',
+      icon: 'code-compare',
+      prefix: 'comparativas/',
+      children: 'structure',
+    },
+    {
+      text: 'Herramientas',
+      icon: 'wrench',
+      prefix: 'herramientas/',
+      children: 'structure',
+    },
+    {
+      link: '/calculadora-roi.md',
+      text: 'Calculadora ROI',
+      icon: 'calculator',
+    },
+    {
+      link: '/glosario.md',
+      text: 'Glosario technical',
+      icon: 'spell-check',
+    },
+    {
       link: '/presentaciones/',
       text: 'Presentaciones',
       icon: 'fab fa-slideshare',
@@ -37,6 +65,34 @@ export default sidebar({
       icon: 'people-group',
     },
     blogRoll,
+  ],
+
+  '/casos-de-exito/': [
+    {
+      text: 'Casos de éxito',
+      icon: 'star',
+      prefix: '/casos-de-exito/',
+      children: 'structure',
+    },
+    blogRoll,
+  ],
+
+  '/comparativas/': [
+    {
+      text: 'Comparativas',
+      icon: 'code-compare',
+      prefix: '/comparativas/',
+      children: 'structure',
+    },
+  ],
+
+  '/herramientas/': [
+    {
+      text: 'Herramientas',
+      icon: 'wrench',
+      prefix: '/herramientas/',
+      children: 'structure',
+    },
   ],
 
   '/blog/': [

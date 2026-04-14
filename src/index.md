@@ -4,65 +4,53 @@ home: true
 title: 'Inicio'
 icon: home
 heroText: 'Migasfree'
-tagline: 'Es un software libre que gestiona despliegues de software, manteniendo y asegurando la integridad de los sistemas informáticos.'
+tagline: 'Gestiona 10.000 ordenadores con solo 2 técnicos. La plataforma de integridad y gestión de flotas para el mundo real.'
 comment: false
 feed: false
 ---
 
-<LiteYoutubeEmbed id="dp6CQ6TV8Q0" title="Claves de Migasfree" />
+<LiteYoutubeEmbed id="kuCle7s2IGw" title="La magia de Migasfree" />
 
-# ¿Qué es migasfree?
+# ¿Es posible gestionar 10.000 equipos con solo 2 personas?
 
-Migasfree es una herramienta de gestión de sistemas de código abierto que se destaca en la gestión de repositorios de software dinámicos basados ​​en atributos y calendarios. Estos atributos, que pueden ir desde grupos de usuarios hasta especificaciones de hardware, permiten una orientación precisa de los despliegues de software. Los calendarios, estrechamente vinculados con los atributos, ayudan a prevenir la saturación de la red y ofrecen un margen de tiempo para reaccionar ante problemas de distribución imprevistos. Básicamente, migasfree garantiza que el software correcto llegue a los equipos correctos en el momento correcto.
+En el sector educativo de Aragón, es la realidad diaria. **Migasfree** permite que un equipo técnico mínimo controle flotas masivas de ordenadores de forma determinista, segura y automatizada.
 
-## [Descubre qué puede hacer migasfree por tu organización](migasfree-en-tu-organizacion.md)
+## [Descubre la "Magia de Vitalinux": Un caso de éxito real](/casos-de-exito/vitalinux.md)
 
 <div class="vp-card-container">
   <VPCard
-    title="Inventariar tus sistemas (hardware y software)"
+    title="Integridad de Sistemas"
+    details="Mantén tus equipos siempre en el estado deseado. Si algo cambia, Migasfree lo restaura automáticamente."
     logo="/img/inventario.png"
-    link="migasfree-en-tu-organizacion.md#inventariar-tus-sistemas-hardware-y-software"
+    link="/migasfree-en-tu-organizacion.md#inventariar-tus-sistemas-hardware-y-software"
   />
 
 <VPCard
-    title="Automatizar el despliegue de software en el momento indicado y a los ordenadores necesarios"
+    title="Automatización Extrema"
+    details="Despliega software y configuraciones únicas para aulas o departamentos en segundos."
     logo="/img/automation.png"
-    link="migasfree-en-tu-organizacion.md#automatizar-el-despliegue-de-software-en-el-momento-indicado-y-a-los-ordenadores-necesarios"
+    link="/migasfree-en-tu-organizacion.md#automatizar-el-despliegue-de-software-en-el-momento-indicado-y-a-los-ordenadores-necesarios"
   />
 
 <VPCard
-    title="Detección de fallas y errores centralizados"
-    logo="/img/error.png"
-    link="migasfree-en-tu-organizacion.md#deteccion-de-fallas-y-errores-centralizados"
-  />
-
-<VPCard
-    title="Configuración 0"
+    title="Multiplataforma (Linux/Windows)"
+    details="Control unificado de todo tu parque informático desde una única consola centralizada."
     logo="/img/config.png"
-    link="migasfree-en-tu-organizacion.md#configuracion-0"
+    link="/migasfree-en-tu-organizacion.md#configuracion-0"
   />
 
 </div>
 
-## ¿Cómo gestiona migasfree la personalización de software dentro de una organización?
+## ¿Cómo gestiona migasfree la personalización a gran escala?
 
-Migasfree defiende el concepto de "empaquetar la configuración". En lugar de depender únicamente de imágenes preconfiguradas o ajustes manuales, todas las personalizaciones se empaquetan. Esto garantiza que, incluso si un servicio, como un servidor NTP, cambia, la actualización se puede implementar sin problemas a través de la infraestructura de gestión de paquetes existente, manteniendo la integridad del sistema.
+Migasfree defiende el concepto de **"empaquetar la configuración"**. En lugar de depender de imágenes pesadas o ajustes manuales, todas las personalizaciones se empaquetan y distribuyen dinámicamente según atributos (quién es el equipo) y calendarios (cuándo es mejor actualizar).
 
-## ¿Por dónde empezar?
+## ¿Cuáles son los beneficios reales?
 
-- [Migasfree en la Gestión de la Configuración](https://speakerdeck.com/jact/migasfree-en-la-gestion-de-la-configuracion)
-- [Administrando tu parque de ordenadores con Migasfree](https://speakerdeck.com/jact/administrando-tu-parque-de-ordenadores-linux-con-migasfree)
-- [¿Es migasfree para mí?](https://speakerdeck.com/jact/es-migasfree-para-mi)
-- [migasfree eXPeriences](https://speakerdeck.com/jact/migasfree-experiences-1)
-
-## ¿Cuáles son algunos de los beneficios reales de usar migasfree?
-
-El enfoque de Migasfree para la administración de sistemas ha producido beneficios tangibles en implementaciones del mundo real, como:
-
-- Mayor estabilidad del sistema: al aprovechar la administración de paquetes y los despliegues controlados, migasfree minimiza el riesgo de conflictos y errores, lo que da como resultado sistemas más estables.
-- Mejor resolución de incidentes: el enfoque centralizado basado en paquetes simplifica la resolución y la solución de problemas al proporcionar un registro de auditoría claro de los cambios y las dependencias.
-- Mayor agilidad y escalabilidad: migasfree permite a los administradores responder rápidamente a las cambiantes necesidades organizacionales y escalar los despliegues sin esfuerzo y sin comprometer la estabilidad.
+- **Mayor estabilidad:** Minimiza el error humano mediante despliegues controlados.
+- **Eficiencia Extrema:** Reduce drásticamente el tiempo dedicado a tickets de soporte repetitivos.
+- **Soberanía Tecnológica:** Software 100% libre para organizaciones que buscan control total.
 
 ::: tip ¿Por qué migasfree?
-Integridad + automatización = mejor mantenimiento
+Porque tu equipo técnico pequeño merece herramientas que multipliquen su impacto.
 :::

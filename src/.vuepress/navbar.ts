@@ -19,6 +19,46 @@ export default navbar([
     icon: 'book',
   },
   {
+    text: 'Casos de éxito',
+    icon: 'star',
+    activeMatch: '^/casos-de-exito/',
+    children: [
+      { text: 'Vitalinux (Educación)', link: '/casos-de-exito/vitalinux.md' },
+      {
+        text: 'Ayto. Zaragoza (Adm. Pública)',
+        link: '/casos-de-exito/zaragoza.md',
+      },
+      { text: 'Ayto. Pasaia (Adm. Local)', link: '/casos-de-exito/pasaia.md' },
+    ],
+  },
+  {
+    text: 'Comparativas',
+    icon: 'code-compare',
+    activeMatch: '^/comparativas/',
+    children: [
+      { text: 'Vs Ansible', link: '/comparativas/ansible' },
+      { text: 'Vs Microsoft', link: '/comparativas/microsoft' },
+      { text: 'Vs Landscape', link: '/comparativas/landscape' },
+    ],
+  },
+  {
+    text: 'Herramientas',
+    icon: 'wrench',
+    children: [
+      { text: 'Gestión Windows (WPT)', link: '/herramientas/windows.md' },
+    ],
+  },
+  {
+    text: 'ROI',
+    link: '/calculadora-roi.md',
+    icon: 'calculator',
+  },
+  {
+    text: 'Glosario',
+    link: '/glosario.md',
+    icon: 'spell-check',
+  },
+  {
     text: 'Quiénes somos',
     link: '/team',
     icon: 'people-group',
