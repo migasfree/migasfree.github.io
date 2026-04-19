@@ -7,17 +7,32 @@
 
 // 0. Global Animations & Overlays
 @keyframes revealUp {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-.vp-hero-title, .vp-hero-description, .vp-hero-actions, .vp-card {
+.vp-hero-title,
+.vp-hero-description,
+.vp-hero-actions,
+.vp-card {
   animation: revealUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 
-.vp-hero-title { animation-delay: 0.1s; }
-.vp-hero-description { animation-delay: 0.2s; }
-.vp-hero-actions { animation-delay: 0.3s; }
+.vp-hero-title {
+  animation-delay: 0.1s;
+}
+.vp-hero-description {
+  animation-delay: 0.2s;
+}
+.vp-hero-actions {
+  animation-delay: 0.3s;
+}
 
 // 1. Estilos Glassmorphism con Textura y Profundidad
 .vp-card {
@@ -32,7 +47,7 @@
 
   // Ruido sutil
   &::before {
-    content: "";
+    content: '';
     position: absolute;
     inset: 0;
     z-index: -1;
@@ -52,6 +67,8 @@
 .vp-hero-wrapper {
   background: radial-gradient(circle at top right, rgba(254, 218, 0, 0.05), transparent 40%),
               radial-gradient(circle at bottom left, rgba(67, 20, 7, 0.05), transparent 40%);
+  padding-top: 2rem !important;
+  padding-bottom: 0 !important;
 }
 
 .vp-hero-title {
@@ -85,13 +102,17 @@
 
   // Botón Primario
   &.primary {
-    background: linear-gradient(135deg, var(--brand-primary) 0%, #6b2d1c 100%) !important;
+    background: linear-gradient(
+      135deg,
+      var(--brand-primary) 0%,
+      #6b2d1c 100%
+    ) !important;
     color: #fff !important;
     border: none !important;
     box-shadow: 0 8px 16px rgba(67, 20, 7, 0.15);
 
     &::after {
-      content: "";
+      content: '';
       position: absolute;
       top: -50%;
       left: -50%;
@@ -131,12 +152,14 @@
 }
 
 // 4. Modo Oscuro Custom
-[data-theme="dark"] {
+[data-theme='dark'] {
   .vp-card {
     background: rgba(16, 12, 10, 0.6) !important;
     border-color: rgba(255, 255, 255, 0.05) !important;
-    
-    &::before { opacity: 0.03; }
+
+    &::before {
+      opacity: 0.03;
+    }
   }
 
   .vp-hero-title {
@@ -168,6 +191,7 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
   gap: 2rem !important;
   margin-top: 3rem !important;
+  margin-bottom: 5.5rem !important;
 }
 
 // 7. Stat Highlights
@@ -201,6 +225,194 @@
       letter-spacing: 0.2em;
       font-weight: 700;
       opacity: 0.7;
+    }
+  }
+}
+
+// Estilos de Diseño Premium para la Home
+.hero-impact-container {
+  margin: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.main-value-proposition {
+  padding: 3rem !important;
+  max-width: 900px;
+  text-align: center;
+  border-radius: 32px !important;
+  background: rgba(255, 255, 255, 0.6) !important;
+  box-shadow: 0 30px 60px rgba(67, 20, 7, 0.1) !important;
+
+  h1 {
+    font-family: 'Outfit', sans-serif;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 850;
+    color: var(--brand-primary);
+    margin-bottom: 1.5rem;
+    line-height: 1.1;
+
+    b,
+    strong {
+      color: #a38c86;
+      font-weight: 900;
+    }
+  }
+
+  p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto 2rem;
+  }
+}
+
+.feature-bullets {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+
+  .bullet-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    background: white;
+    padding: 0.75rem 1.25rem;
+    border-radius: 14px;
+    font-size: 0.95rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+
+    i,
+    .vp-icon {
+      color: var(--brand-primary);
+      font-size: 1.2rem;
+    }
+
+    span b {
+      color: var(--brand-primary);
+    }
+  }
+}
+
+.stat-minimal-bar {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .stat-pill {
+    background: rgba(67, 20, 7, 0.05);
+    padding: 0.6rem 1.5rem;
+    border-radius: 100px;
+    font-size: 0.85rem;
+    color: var(--brand-primary);
+    font-weight: 600;
+    border: 1px solid rgba(67, 20, 7, 0.1);
+
+    b {
+      font-weight: 900;
+      margin-right: 0.5rem;
+    }
+  }
+}
+
+.button-group.center {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+[data-theme='dark'] {
+  .main-value-proposition {
+    background: rgba(16, 12, 10, 0.7) !important;
+    h1 {
+      color: #fff !important;
+      b,
+      strong {
+        color: var(--brand-tertiary) !important;
+      }
+    }
+    p {
+      color: #ccc;
+    }
+  }
+  .bullet-item {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.1);
+    color: #eee;
+    span b {
+      color: var(--brand-tertiary);
+    }
+  }
+  .stat-pill {
+    background: rgba(254, 218, 0, 0.1);
+    border-color: rgba(254, 218, 0, 0.2);
+    color: var(--brand-tertiary);
+  }
+}
+
+// 8. Premium Custom Containers (Admonitions)
+.hint-container {
+  border-radius: 20px !important;
+  border: 1px solid rgba(0, 0, 0, 0.05) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 1.5rem 2rem !important;
+  margin: 2rem 0 !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);
+  transition: all 0.3s ease;
+
+  .hint-container-title {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 800 !important;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 0.9rem !important;
+    margin-bottom: 0.75rem !important;
+  }
+
+  &.tip {
+    background: rgba(67, 20, 7, 0.03) !important;
+    border-left: 6px solid var(--brand-primary) !important;
+    color: #444;
+    .hint-container-title { color: var(--brand-primary); }
+  }
+
+  &.info {
+    background: rgba(0, 102, 204, 0.03) !important;
+    border-left: 6px solid #0066cc !important;
+    .hint-container-title { color: #0066cc; }
+  }
+
+  &.warning {
+    background: rgba(254, 218, 0, 0.05) !important;
+    border-left: 6px solid var(--brand-tertiary) !important;
+    .hint-container-title { color: #856404; }
+  }
+
+  &:hover {
+    transform: translateX(5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+  }
+}
+
+[data-theme="dark"] {
+  .hint-container {
+    background: rgba(255, 255, 255, 0.03) !important;
+    border-color: rgba(255, 255, 255, 0.1) !important;
+    color: #ccc;
+
+    &.tip {
+      background: rgba(254, 218, 0, 0.05) !important;
+      border-left-color: var(--brand-tertiary) !important;
+      .hint-container-title { color: var(--brand-tertiary); }
     }
   }
 }

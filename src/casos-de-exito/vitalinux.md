@@ -9,8 +9,16 @@ feed: false
 
 ¿Es posible que un equipo de solo dos personas mantenga, actualice y personalice miles de ordenadores distribuidos en 145 centros educativos? En el Gobierno de Aragón, no solo es posible, sino que es la realidad diaria gracias a **Vitalinux** y **Migasfree**.
 
+<div class="stat-minimal-bar">
+  <div class="stat-pill"><b>1:5000</b> Ratio de Eficiencia</div>
+  <div class="stat-pill"><b>10k+</b> Equipos Gestionados</div>
+  <div class="stat-pill"><b>145</b> Centros Conectados</div>
+</div>
+
 ::: center
+
 ## Un modelo de eficiencia para el sector público
+
 :::
 
 ## El Desafío: La "Selva" Educativa
