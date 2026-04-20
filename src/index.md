@@ -24,10 +24,12 @@ breadcrumb: false
 <p class="zen-tagline">Configura tus sistemas asegurando <strong>trazabilidad y control</strong></p>
 
 <div class="zen-nav-grid">
-<a href="https://fun-with-migasfree.readthedocs.org/" class="zen-nav-item" target="_blank">¿Cómo?</a>
-<a href="/comparativas/ansible.html" class="zen-nav-item">¿Por qué?</a>
-<a href="/casos-de-exito/vitalinux.html" class="zen-nav-item">¿Dónde?</a>
-<a href="/calculadora-roi.html" class="zen-nav-item highlight">Ver más</a>
+
+[¿Cómo?](https://fun-with-migasfree.readthedocs.io/){.zen-nav-item}
+[¿Por qué?](/comparativas/ansible.md){.zen-nav-item}
+[¿Dónde?](/casos-de-exito/vitalinux.md){.zen-nav-item}
+[Ahorro](/calculadora-roi.md){.zen-nav-item .highlight}
+
 </div>
 
 </div>
