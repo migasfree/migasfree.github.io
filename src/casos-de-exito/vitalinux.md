@@ -38,18 +38,19 @@ Vitalinux utiliza Migasfree como el "sistema nervioso central" de su infraestruc
 ### ¿Cómo lo consiguen?
 
 <div class="vp-card-container">
-  <VPCard
-    title="Configuraciones Quirúrgicas"
-    details="Capacidad de aplicar cambios (software, fondos, scripts) a nivel de aula, centro o etiqueta, de forma totalmente automatizada."
-  />
-  <VPCard
-    title="Integridad Garantizada"
-    details="Si un usuario desconfigura algo localmente, Migasfree lo detecta y lo devuelve a su estado correcto en la siguiente sincronización."
-  />
-  <VPCard
-    title="Despliegue en Segundos"
-    details="Integración total con flujos DevOps. Un cambio solicitado por un profesor puede estar desplegado en toda la red en menos de un minuto."
-  />
+
+::: tip Configuraciones Quirúrgicas
+Capacidad de aplicar cambios (software, fondos, scripts) a nivel de aula, centro o etiqueta, de forma totalmente automatizada.
+:::
+
+::: tip Integridad Garantizada
+Si un usuario desconfigura algo localmente, Migasfree lo detecta y lo devuelve a su estado correcto en la siguiente sincronización.
+:::
+
+::: tip Despliegue en Segundos
+Integración total con flujos DevOps. Un cambio solicitado por un profesor puede estar desplegado en toda la red en menos de un minuto.
+:::
+
 </div>
 
 ## Un Caso Real: El "Efecto Mermelada"
@@ -78,10 +79,12 @@ El proceso completo de Integración Continua (CI/CD) de Vitalinux, desde que se 
 
 Si gestionas más de 100 equipos y sientes que el mantenimiento te desborda, Migasfree puede ser tu mejor aliado.
 
-::: center
-[Descubre cómo empezar](/migasfree-en-tu-organizacion.md){.vp-button.primary}
+<div class="button-group center">
+
+[Descubre cómo empezar](/conceptos/migasfree-en-tu-organizacion.md){.vp-button .primary}
 [Ver en GitHub](https://github.com/migasfree/migasfree-swarm){.vp-button}
-:::
+
+</div>
 
 ---
 

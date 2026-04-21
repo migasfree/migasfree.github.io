@@ -1,19 +1,18 @@
 ---
-title: Ayuntamiento de Pasaia
+title: 'Ayuntamiento de Pasaia: El valor de la determinación'
 description: Cómo el Ayuntamiento de Pasaia migró el 81% de su flota a Linux con solo 3 técnicos gracias a Migasfree.
 comment: false
 feed: false
 ---
 
-# Ayuntamiento de Pasaia: El valor de la determinación
-
 Pasaia, un municipio de Guipúzcoa con 16.000 habitantes, es un ejemplo de cómo una voluntad política clara unida a las herramientas adecuadas puede transformar la infraestructura de una administración local en tiempo récord.
 
 ::: center
 
-## "Sin Migasfree no nos hubiéramos atrevido a dar el salto definitivo a Linux"
+> **"Sin Migasfree no nos hubiéramos atrevido a dar el salto definitivo a Linux."**
+>
+> — Gorka González, Técnico Informático de Pasaia
 
-— Gorka González, Técnico Informático de Pasaia
 :::
 
 ## El Punto de Partida
@@ -51,10 +50,12 @@ La apuesta de Pasaia por Migasfree es tan profunda que la herramienta **forma pa
 
 ---
 
-::: center
-[Ver el caso de éxito de Zaragoza](/casos-de-exito/zaragoza.md){.vp-button.primary}
+<div class="button-group center">
+
+[Ver el caso de éxito de Zaragoza](/casos-de-exito/zaragoza.md){.vp-button .primary}
 [Descubre la "Magia de Vitalinux"](/casos-de-exito/vitalinux.md){.vp-button}
-:::
+
+</div>
 
 ---
 

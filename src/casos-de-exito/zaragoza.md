@@ -1,18 +1,14 @@
 ---
-title: Ayuntamiento de Zaragoza (AZLinux)
+title: 'Ayuntamiento de Zaragoza (AZLinux): 20 años de Soberanía Tecnológica'
 description: Casi 20 años de soberanía tecnológica en la cuarta ciudad de España gracias a AZLinux y Migasfree.
 comment: false
 feed: false
 ---
 
-# Ayuntamiento de Zaragoza: 20 años de Soberanía Tecnológica
-
 Zaragoza, la cuarta ciudad de España, es un referente mundial en la adopción del software libre en la administración pública. A través del proyecto **AZLinux**, el ayuntamiento ha logrado gestionar un entorno complejo y crítico con una independencia tecnológica envidiable.
 
-::: center
-
-## El 80% de los equipos municipales ya funcionan con Linux
-
+::: info
+**El 80% de los equipos municipales ya funcionan con Linux**.
 :::
 
 ## El Escenario: Una ciudad en movimiento
@@ -56,10 +52,12 @@ Mediante el uso de **GitLab**, el equipo de AZLinux ha convertido la creación d
 
 ---
 
-::: center
-[Explorar la "Magia de Vitalinux"](/casos-de-exito/vitalinux.md){.vp-button.primary}
+<div class="button-group center">
+
+[Explorar la "Magia de Vitalinux"](/casos-de-exito/vitalinux.md){.vp-button .primary}
 [Ver comparativa con Microsoft](/comparativas/microsoft.md){.vp-button}
-:::
+
+</div>
 
 ---
 

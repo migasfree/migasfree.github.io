@@ -23,7 +23,7 @@ Aunque Microsoft ofrece _Winget_, tiene limitaciones críticas para el entorno c
 - **Atómico y Fiable**: Si una instalación falla, WPT asegura una limpieza y reversión robusta.
 
 ::: center
-[Explorar WPT en GitHub](https://github.com/migasfree/windows-package-tool){.vp-button.primary}
+[Explorar WPT en GitHub](https://github.com/migasfree/windows-package-tool){.vp-button .primary}
 :::
 
 ---
