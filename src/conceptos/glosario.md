@@ -5,8 +5,6 @@ comment: false
 feed: false
 ---
 
-# Glosario: Conceptos Clave de Gestión de Flotas
-
 Para entender por qué **Migasfree** es diferente a un gestor de paquetes tradicional, es necesario dominar algunos conceptos que definen la administración de sistemas moderna.
 
 ## 1. Integridad de Sistemas (System Integrity)
@@ -39,7 +37,9 @@ Método criptográfico para asegurar que un paquete de software no ha sido alter
 
 ---
 
-::: center
-[Comparar con Ansible](/comparativas/ansible.md){.vp-button.primary}
+<div class="button-group center">
+
+[Comparar con Ansible](/comparativas/ansible.md){.vp-button .primary}
 [Ver casos de éxito](/casos-de-exito/vitalinux.md){.vp-button}
-:::
+
+</div>
