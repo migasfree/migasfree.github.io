@@ -15,9 +15,7 @@ breadcrumb: false
 
 <div class="zen-minimal-container">
 
-<div class="zen-image-wrapper">
-<img src="/img/migasfree_calm.webp" alt="Migasfree Calm" class="zen-image" />
-</div>
+[![Migasfree Calm](/img/migasfree_calm.webp){.zen-image}](conceptos/evolucion-organica.md)
 
 <div class="zen-content">
 <h1 class="zen-title">Migasfree</h1>
@@ -28,7 +26,7 @@ breadcrumb: false
 [¿Cómo?](https://fun-with-migasfree.readthedocs.io/){.zen-nav-item}
 [¿Por qué?](/comparativas/ansible.md){.zen-nav-item}
 [¿Dónde?](/casos-de-exito/vitalinux.md){.zen-nav-item}
-[Ahorro](/calculadora-roi.md){.zen-nav-item .highlight}
+[Ahorro](/herramientas/calculadora-roi.md){.zen-nav-item .highlight}
 
 </div>
 

@@ -22,6 +22,16 @@ export default sidebar({
       icon: 'home',
     },
     {
+      text: 'Conceptos',
+      icon: 'lightbulb',
+      prefix: 'conceptos/',
+      children: [
+        { text: 'Evolución Orgánica', link: 'evolucion-organica.md', icon: 'dna' },
+        { text: 'En tu organización', link: 'migasfree-en-tu-organizacion.md', icon: 'building' },
+        { text: 'Glosario', link: 'glosario.md', icon: 'spell-check' },
+      ],
+    },
+    {
       text: 'Casos de éxito',
       icon: 'star',
       prefix: 'casos-de-exito/',
@@ -39,16 +49,8 @@ export default sidebar({
       prefix: 'herramientas/',
       children: 'structure',
     },
-    {
-      link: '/calculadora-roi.md',
-      text: 'Calculadora ROI',
-      icon: 'calculator',
-    },
-    {
-      link: '/glosario.md',
-      text: 'Glosario technical',
-      icon: 'spell-check',
-    },
+
+
     {
       link: '/presentaciones/',
       text: 'Presentaciones',
