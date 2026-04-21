@@ -110,42 +110,42 @@
   color: var(--brand-primary) !important;
   overflow: hidden;
 
-  // Botón Primario
+  // Botón Primario (Luxury Glass Dark)
   &.primary {
-    background: linear-gradient(
-      135deg,
-      var(--brand-primary) 0%,
-      #6b2d1c 100%
-    ) !important;
+    background: rgba(67, 20, 7, 0.95) !important;
+    backdrop-filter: blur(12px);
     color: #fff !important;
-    border: none !important;
-    box-shadow: 0 8px 16px rgba(67, 20, 7, 0.15);
-
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    box-shadow: 
+      0 12px 24px rgba(67, 20, 7, 0.2),
+      inset 0 1px 1px rgba(255, 255, 255, 0.1);
+    
     &::after {
       content: '';
       position: absolute;
-      top: -50%;
-      left: -50%;
-      width: 200%;
-      height: 200%;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
       background: linear-gradient(
+        90deg,
         transparent,
-        rgba(255, 255, 255, 0.1),
+        rgba(255, 255, 255, 0.05),
         transparent
       );
-      transform: rotate(45deg);
-      transition: all 0.6s ease;
-      opacity: 0;
+      transition: all 0.8s ease;
     }
 
     &:hover {
       transform: translateY(-4px) scale(1.02);
-      box-shadow: 0 15px 30px rgba(67, 20, 7, 0.3);
-      filter: brightness(1.1);
+      background: var(--brand-primary) !important;
+      box-shadow: 
+        0 18px 36px rgba(67, 20, 7, 0.3),
+        inset 0 1px 2px rgba(255, 255, 255, 0.2);
+      border-color: rgba(255, 255, 255, 0.3) !important;
 
       &::after {
         left: 100%;
-        opacity: 1;
       }
     }
   }
@@ -338,6 +338,10 @@
   justify-content: center;
   gap: 1.5rem;
   margin-top: 2rem;
+
+  p {
+    display: contents;
+  }
 }
 
 [data-theme='dark'] {
@@ -436,6 +440,68 @@
   }
 }
 
+// 8. Info Cards (Premium Glassmorphism inside Grid)
+.vp-card-container .hint-container {
+  background: rgba(255, 255, 255, 0.7) !important;
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 0, 0, 0.05) !important;
+  border-left: 6px solid var(--brand-primary) !important;
+  border-radius: 24px !important;
+  padding: 2.2rem !important;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03) !important;
+  margin: 0 !important;
+
+  .hint-container-title {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.35rem;
+    font-weight: 850;
+    color: var(--brand-primary);
+    margin-bottom: 1rem;
+    text-transform: none;
+    letter-spacing: -0.02em;
+    display: flex;
+    align-items: center;
+
+    &::before {
+      content: '●';
+      font-size: 0.6rem;
+      margin-right: 0.8rem;
+      opacity: 0.5;
+    }
+  }
+
+  p {
+    margin: 0;
+    line-height: 1.7;
+    color: #444;
+    font-size: 1.05rem;
+  }
+
+  &:hover {
+    transform: translateY(-12px) scale(1.02);
+    box-shadow: 0 30px 60px rgba(67, 20, 7, 0.15) !important;
+    background: #fff !important;
+    border-left-width: 12px !important;
+  }
+}
+
+[data-theme='dark'] {
+  .vp-card-container .hint-container {
+    background: rgba(255, 255, 255, 0.05) !important;
+    border-color: rgba(255, 255, 255, 0.1) !important;
+    
+    p {
+      color: #aaa;
+    }
+    
+    &:hover {
+      background: rgba(255, 255, 255, 0.08) !important;
+      box-shadow: 0 30px 60px rgba(0, 0, 0, 0.4) !important;
+    }
+  }
+}
+
 // 9. Zen Minimalist Design
 .zen-minimal-container {
   max-width: 1000px;
@@ -446,22 +512,26 @@
   gap: 2.5rem;
   animation: revealUp 1s ease-out;
 
-  .zen-image-wrapper {
+  a:has(.zen-image) {
+    display: block;
     width: 100%;
     border-radius: 32px;
     overflow: hidden;
+    text-decoration: none;
+  }
+
+  .zen-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 32px;
     box-shadow: 0 40px 80px rgba(0, 0, 0, 0.15);
     border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: transform 1.5s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 0.5s ease;
 
-    .zen-image {
-      width: 100%;
-      height: auto;
-      display: block;
-      transition: transform 1.5s ease;
-    }
-
-    &:hover .zen-image {
-      transform: scale(1.03);
+    &:hover {
+      transform: scale(1.015);
+      box-shadow: 0 60px 120px rgba(0, 0, 0, 0.2);
     }
   }
 
