@@ -552,13 +552,24 @@
       font-family: 'Outfit', sans-serif;
       font-size: 1.4rem;
       color: #666;
-      margin: 0 0 3rem;
+      margin: 0 0 1rem;
 
       b,
       strong {
         color: var(--brand-primary);
         font-weight: 800;
       }
+    }
+
+    .zen-slogan {
+      font-family: 'Outfit', sans-serif;
+      font-size: 0.8rem;
+      color: #999;
+      margin: 0 0 3rem;
+      text-transform: uppercase;
+      letter-spacing: 0.4em;
+      font-weight: 600;
+      opacity: 0.6;
     }
 
     .zen-nav-grid {

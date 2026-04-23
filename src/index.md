@@ -20,6 +20,7 @@ breadcrumb: false
 <div class="zen-content">
 <h1 class="zen-title">Migasfree</h1>
 <p class="zen-tagline">Configura tus sistemas asegurando <strong>trazabilidad y control</strong></p>
+<p class="zen-slogan">we ❤️ change</p>
 
 <div class="zen-nav-grid">
 
