@@ -1,6 +1,36 @@
 :root {
+  /* Brand Colors */
   --brand-primary: #431407;
+  --brand-primary-rgb: 67, 20, 7;
+  --brand-on-primary: #ffffff;
+  --brand-secondary: #705a56;
   --brand-tertiary: #feda00;
+  --brand-tertiary-rgb: 254, 218, 0;
+
+  /* Neutrals */
+  --neutral-50: #fcfaf9;
+  --neutral-100: #f7f2f0;
+  --neutral-200: #eee4e1;
+  --neutral-300: #d6c1ba;
+
+  /* Typography */
+  --font-ui: 'Dosis', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Rounded */
+  --radius-default: 12px;
+  --radius-glass: 20px;
+  --radius-chip: 12px;
+  --radius-input: 8px;
+
+  /* Spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+
+  /* Framework Mappings */
   --vp-c-accent-light: var(--brand-primary);
   --vp-c-accent-dark: var(--brand-tertiary);
 }
@@ -41,7 +71,7 @@
   backdrop-filter: blur(20px) saturate(180%);
   -webkit-backdrop-filter: blur(20px) saturate(180%);
   border: 1px solid rgba(0, 0, 0, 0.08) !important;
-  border-radius: 24px !important;
+  border-radius: var(--radius-glass) !important;
   transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1) !important;
   overflow: hidden;
 
@@ -58,7 +88,7 @@
 
   &:hover {
     transform: translateY(-8px) scale(1.01);
-    box-shadow: 0 20px 40px rgba(67, 20, 7, 0.15) !important;
+    box-shadow: 0 20px 40px rgba(var(--brand-primary-rgb), 0.15) !important;
     border-color: var(--brand-primary) !important;
   }
 }
@@ -73,7 +103,7 @@
     ),
     radial-gradient(
       circle at bottom left,
-      rgba(67, 20, 7, 0.05),
+      rgba(var(--brand-primary-rgb), 0.05),
       transparent 40%
     );
   padding-top: 2rem !important;
@@ -98,7 +128,7 @@
   align-items: center;
   justify-content: center;
   padding: 0.9rem 2.4rem !important;
-  border-radius: 14px !important;
+  border-radius: var(--radius-default) !important;
   text-transform: uppercase;
   font-size: 0.8rem !important;
   font-weight: 800 !important;
@@ -112,12 +142,12 @@
 
   // Botón Primario (Luxury Glass Dark)
   &.primary {
-    background: rgba(67, 20, 7, 0.95) !important;
+    background: rgba(var(--brand-primary-rgb), 0.95) !important;
     backdrop-filter: blur(12px);
     color: #fff !important;
     border: 1px solid rgba(255, 255, 255, 0.1) !important;
     box-shadow: 
-      0 12px 24px rgba(67, 20, 7, 0.2),
+      0 12px 24px rgba(var(--brand-primary-rgb), 0.2),
       inset 0 1px 1px rgba(255, 255, 255, 0.1);
     
     &::after {
@@ -140,7 +170,7 @@
       transform: translateY(-4px) scale(1.02);
       background: var(--brand-primary) !important;
       box-shadow: 
-        0 18px 36px rgba(67, 20, 7, 0.3),
+        0 18px 36px rgba(var(--brand-primary-rgb), 0.3),
         inset 0 1px 2px rgba(255, 255, 255, 0.2);
       border-color: rgba(255, 255, 255, 0.3) !important;
 
@@ -213,7 +243,7 @@
   gap: 2rem;
   margin: 5rem 0;
   padding: 3rem;
-  background: rgba(67, 20, 7, 0.03);
+  background: rgba(var(--brand-primary-rgb), 0.03);
   border-radius: 40px;
   text-align: center;
 
@@ -223,7 +253,7 @@
 
     .stat-number {
       display: block;
-      font-family: 'Outfit', sans-serif;
+      font-family: 'Dosis', sans-serif;
       font-size: 4rem;
       font-weight: 900;
       color: var(--brand-primary);
@@ -255,10 +285,10 @@
   text-align: center;
   border-radius: 32px !important;
   background: rgba(255, 255, 255, 0.6) !important;
-  box-shadow: 0 30px 60px rgba(67, 20, 7, 0.1) !important;
+  box-shadow: 0 30px 60px rgba(var(--brand-primary-rgb), 0.1) !important;
 
   h1 {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Dosis', sans-serif;
     font-size: clamp(2rem, 5vw, 3.5rem);
     font-weight: 850;
     color: var(--brand-primary);
@@ -318,13 +348,13 @@
   justify-content: center;
 
   .stat-pill {
-    background: rgba(67, 20, 7, 0.05);
+    background: rgba(var(--brand-primary-rgb), 0.05);
     padding: 0.6rem 1.5rem;
     border-radius: 100px;
     font-size: 0.85rem;
     color: var(--brand-primary);
     font-weight: 600;
-    border: 1px solid rgba(67, 20, 7, 0.1);
+    border: 1px solid rgba(var(--brand-primary-rgb), 0.1);
 
     b {
       font-weight: 900;
@@ -385,7 +415,7 @@
   transition: all 0.3s ease;
 
   .hint-container-title {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Dosis', sans-serif;
     font-weight: 800 !important;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -394,7 +424,7 @@
   }
 
   &.tip {
-    background: rgba(67, 20, 7, 0.03) !important;
+    background: rgba(var(--brand-primary-rgb), 0.03) !important;
     border-left: 6px solid var(--brand-primary) !important;
     color: #444;
     .hint-container-title {
@@ -446,14 +476,14 @@
   backdrop-filter: blur(12px);
   border: 1px solid rgba(0, 0, 0, 0.05) !important;
   border-left: 6px solid var(--brand-primary) !important;
-  border-radius: 24px !important;
+  border-radius: var(--radius-glass) !important;
   padding: 2.2rem !important;
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03) !important;
   margin: 0 !important;
 
   .hint-container-title {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Dosis', sans-serif;
     font-size: 1.35rem;
     font-weight: 850;
     color: var(--brand-primary);
@@ -480,7 +510,7 @@
 
   &:hover {
     transform: translateY(-12px) scale(1.02);
-    box-shadow: 0 30px 60px rgba(67, 20, 7, 0.15) !important;
+    box-shadow: 0 30px 60px rgba(var(--brand-primary-rgb), 0.15) !important;
     background: #fff !important;
     border-left-width: 12px !important;
   }
@@ -540,7 +570,7 @@
     width: 100%;
 
     .zen-title {
-      font-family: 'Outfit', sans-serif;
+      font-family: 'Dosis', sans-serif;
       font-size: 3.5rem;
       font-weight: 850;
       color: var(--brand-primary);
@@ -549,7 +579,7 @@
     }
 
     .zen-tagline {
-      font-family: 'Outfit', sans-serif;
+      font-family: 'Dosis', sans-serif;
       font-size: 1.4rem;
       color: #666;
       margin: 0 0 1rem;
@@ -562,7 +592,7 @@
     }
 
     .zen-slogan {
-      font-family: 'Outfit', sans-serif;
+      font-family: 'Dosis', sans-serif;
       font-size: 0.8rem;
       color: #999;
       margin: 0 0 3rem;
@@ -595,7 +625,7 @@
         padding: 1rem;
         text-decoration: none;
         color: #444;
-        font-family: 'Outfit', sans-serif;
+        font-family: 'Dosis', sans-serif;
         font-weight: 700;
         font-size: 0.95rem;
         text-transform: uppercase;
@@ -616,7 +646,7 @@
           background: white;
           color: var(--brand-primary);
           transform: translateY(-5px);
-          box-shadow: 0 15px 30px rgba(67, 20, 7, 0.1);
+          box-shadow: 0 15px 30px rgba(var(--brand-primary-rgb), 0.1);
           border-color: var(--brand-primary);
 
           i {

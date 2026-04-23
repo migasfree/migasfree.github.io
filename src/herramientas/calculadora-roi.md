@@ -5,8 +5,6 @@ comment: false
 feed: false
 ---
 
-# Calcula tu Retorno de Inversión (ROI)
-
 La automatización no es solo "hacer las cosas más rápido", es liberar a tu equipo técnico de tareas repetitivas para que puedan centrarse en lo que realmente aporta valor.
 
 Utiliza nuestra calculadora para estimar cuánto tiempo recuperará tu departamento de IT al implementar **Migasfree**.
@@ -27,7 +25,9 @@ En el **Gobierno de Aragón (Vitalinux)**, esta eficiencia permite que solo **2 
 
 ---
 
-::: center
-[Descubre el caso de Vitalinux](/casos-de-exito/vitalinux.md){.vp-button.primary}
+<div class="button-group center">
+
+[Descubre el caso de Vitalinux](/casos-de-exito/vitalinux.md){.vp-button .primary}
 [Ver comparativa con SCCM/Intune](/comparativas/microsoft.md){.vp-button}
-:::
+
+</div>
