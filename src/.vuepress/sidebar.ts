@@ -26,8 +26,21 @@ export default sidebar({
       icon: 'lightbulb',
       prefix: 'conceptos/',
       children: [
-        { text: 'Evolución Orgánica', link: 'evolucion-organica.md', icon: 'dna' },
-        { text: 'En tu organización', link: 'migasfree-en-tu-organizacion.md', icon: 'building' },
+        {
+          text: 'Evolución Orgánica',
+          link: 'evolucion-organica.md',
+          icon: 'dna',
+        },
+        {
+          text: 'En tu organización',
+          link: 'migasfree-en-tu-organizacion.md',
+          icon: 'building',
+        },
+        {
+          text: 'Soporte Remoto Seguro',
+          link: 'soporte-remoto-seguro.md',
+          icon: 'shield-halved',
+        },
         { text: 'Glosario', link: 'glosario.md', icon: 'spell-check' },
       ],
     },
@@ -49,7 +62,6 @@ export default sidebar({
       prefix: 'herramientas/',
       children: 'structure',
     },
-
 
     {
       link: '/presentaciones/',
