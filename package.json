@@ -25,11 +25,12 @@
   "devDependencies": {
     "@mdit/plugin-abbr": "0.22.1",
     "@vue/repl": "4.7.0",
+    "@vuepress/bundler-vite": "2.0.0-rc.24",
     "@vuepress/plugin-feed": "2.0.0-rc.112",
     "@vuepress/plugin-icon": "2.0.0-rc.112",
     "@vuepress/plugin-revealjs": "2.0.0-rc.112",
     "@vuepress/plugin-search": "2.0.0-rc.112",
-    "@vuepress/bundler-vite": "2.0.0-rc.24",
+    "mermaid": "11.15.0",
     "prettier": "3.6.2",
     "sass-embedded": "1.93.2",
     "vidstack": "1.12.13",
