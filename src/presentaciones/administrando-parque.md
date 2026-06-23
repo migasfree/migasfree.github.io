@@ -10,6 +10,9 @@ description: Destaca los desafíos de administrar una red informática con diver
 
 Charla realizada durante la LibreCon del año 2014, celebrada en Bilbao.
 
+**Escuchar narración de la presentación:**
+<audio controls src="/presentaciones/administrando-parque.mp3" style="width: 100%; margin-top: 10px;"></audio>
+
 ## El día a día del administrador de sistemas
 
 En ocasiones, la administración de ordenadores puede llegar a ser un tanto... caótica.
@@ -193,6 +196,6 @@ Migasfree nace con ese objetivo. Facilitarnos tareas de gestión para que podamo
 - [migasfree.org](https://migasfree.org)
 - [github.com/migasfree](https://github.com/migasfree/)
 - @migasfree, #migasfree
-- fun.with@migasfree.org
+- <fun.with@migasfree.org>
 
 ¡Muchas gracias por vuestra atención!
