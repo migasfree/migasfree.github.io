@@ -22,6 +22,11 @@ export default navbar([
         link: 'conceptos/migasfree-en-tu-organizacion.md',
         icon: 'building',
       },
+      {
+        text: 'Soporte Remoto Seguro',
+        link: 'conceptos/soporte-remoto-seguro.md',
+        icon: 'shield-halved',
+      },
       { text: 'Glosario', link: 'conceptos/glosario.md', icon: 'spell-check' },
     ],
   },

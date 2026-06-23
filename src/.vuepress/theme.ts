@@ -71,7 +71,7 @@ export default hopeTheme({
     imgSize: true,
     include: true,
     mark: true,
-    // mermaid: true,
+    mermaid: true,
     playground: {
       presets: ['ts', 'vue'],
     },
