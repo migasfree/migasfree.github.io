@@ -6,8 +6,8 @@
     <link>http://migasfree.org/</link>
     <description>Sistema de gestión de sistemas</description>
     <language>es-ES</language>
-    <pubDate>Thu, 23 Apr 2026 17:38:10 GMT</pubDate>
-    <lastBuildDate>Thu, 23 Apr 2026 17:38:10 GMT</lastBuildDate>
+    <pubDate>Thu, 02 Jul 2026 15:56:22 GMT</pubDate>
+    <lastBuildDate>Thu, 02 Jul 2026 15:56:22 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Desarrollo</category>
@@ -16,6 +16,18 @@
     <category>Teoría</category>
     <category>Evento</category>
     <category>Caso de éxito</category>
+    <item>
+      <title>Guión de Audio - Administrando tu parque de ordenadores con migasfree</title>
+      <link>http://migasfree.org/presentaciones/administrando-parque-audio.html</link>
+      <guid>http://migasfree.org/presentaciones/administrando-parque-audio.html</guid>
+      <source url="http://migasfree.org/rss.xml">Guión de Audio - Administrando tu parque de ordenadores con migasfree</source>
+      <description>Guión adaptado para locución profesional (acento España) destinado a Google AI Studio. Basado en la charla original de 2014.</description>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p><strong>Escuchar audio generado a partir de este guión:</strong><br>
+<audio controls="" src="/presentaciones/administrando-parque.mp3" style="width: 100%; margin-top: 10px; margin-bottom: 15px;"></audio></p>
+<p><em>(Instrucciones para el motor de voz: Tono profesional, pausado, con matices de cercanía y autoridad técnica. Acento: Español de España).</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>migasfree-client</title>
       <link>http://migasfree.org/presentaciones/migasfree-client-v5-marp.html</link>
@@ -86,6 +98,8 @@ Nota: Dar la bienvenida. Migasfree-client es el componente fundamental que se in
       <pubDate>Wed, 12 Nov 2014 10:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h2>Presentación</h2>
 <p>Charla realizada durante la LibreCon del año 2014, celebrada en Bilbao.</p>
+<p><strong>Escuchar narración de la presentación:</strong><br>
+<audio controls="" src="/presentaciones/administrando-parque.mp3" style="width: 100%; margin-top: 10px;"></audio></p>
 <h2>El día a día del administrador de sistemas</h2>
 <p>En ocasiones, la administración de ordenadores puede llegar a ser un tanto... caótica.</p>
 <h2>Trabajo de un administrador de sistemas</h2>

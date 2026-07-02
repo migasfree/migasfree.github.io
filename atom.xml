@@ -3,7 +3,7 @@
   <id>http://migasfree.org/</id>
   <title>Migasfree</title>
   <subtitle>Sistema de gestión de sistemas</subtitle>
-  <updated>2026-04-23T17:38:10.172Z</updated>
+  <updated>2026-07-02T15:56:22.083Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="http://migasfree.org/atom.xml"/>
   <link rel="alternate" href="http://migasfree.org/"/>
@@ -14,6 +14,9 @@
   <category term="Evento"/>
   <category term="Caso de éxito"/>
   <contributor>
+    <name>Antigravity</name>
+  </contributor>
+  <contributor>
     <name>jact</name>
   </contributor>
   <contributor>
@@ -22,6 +25,27 @@
   <contributor>
     <name>agacias</name>
   </contributor>
+  <entry>
+    <title type="text">Guión de Audio - Administrando tu parque de ordenadores con migasfree</title>
+    <id>http://migasfree.org/presentaciones/administrando-parque-audio.html</id>
+    <link href="http://migasfree.org/presentaciones/administrando-parque-audio.html"/>
+    <updated>2026-06-23T16:32:31.000Z</updated>
+    <summary type="html"><![CDATA[<p><strong>Escuchar audio generado a partir de este guión:</strong><br>
+<audio controls="" src="/presentaciones/administrando-parque.mp3" style="width: 100%; margin-top: 10px; margin-bottom: 15px;"></audio></p>
+<p><em>(Instrucciones para el motor de voz: Tono profesional, pausado, con matices de cercanía y autoridad técnica. Acento: Español de España).</em></p>]]></summary>
+    <content type="html"><![CDATA[<p><strong>Escuchar audio generado a partir de este guión:</strong><br>
+<audio controls="" src="/presentaciones/administrando-parque.mp3" style="width: 100%; margin-top: 10px; margin-bottom: 15px;"></audio></p>
+<p><em>(Instrucciones para el motor de voz: Tono profesional, pausado, con matices de cercanía y autoridad técnica. Acento: Español de España).</em></p>
+]]></content>
+    <author>
+      <name>Antigravity</name>
+    </author>
+    <contributor>
+      <name>Antigravity</name>
+    </contributor>
+    <published>2026-04-20T00:00:00.000Z</published>
+    <rights>Copyright by Antigravity</rights>
+  </entry>
   <entry>
     <title type="text">migasfree-client</title>
     <id>http://migasfree.org/presentaciones/migasfree-client-v5-marp.html</id>
@@ -104,15 +128,16 @@ Nota: Dar la bienvenida. Migasfree-client es el componente fundamental que se in
     <title type="text">Administrando tu parque de ordenadores con migasfree</title>
     <id>http://migasfree.org/presentaciones/administrando-parque.html</id>
     <link href="http://migasfree.org/presentaciones/administrando-parque.html"/>
-    <updated>2025-07-04T05:37:25.000Z</updated>
+    <updated>2026-06-23T16:32:31.000Z</updated>
     <summary type="html"><![CDATA[<h2>Presentación</h2>
 <p>Charla realizada durante la LibreCon del año 2014, celebrada en Bilbao.</p>
-<h2>El día a día del administrador de sistemas</h2>
-<p>En ocasiones, la administración de ordenadores puede llegar a ser un tanto... caótica.</p>
-<h2>Trabajo de un administrador de sistemas</h2>
-<p>Este es el caos al que cada día se enfrenta un administrador de sistemas.</p>]]></summary>
+<p><strong>Escuchar narración de la presentación:</strong><br>
+<audio controls="" src="/presentaciones/administrando-parque.mp3" style="width: 100%; margin-top: 10px;"></audio></p>
+<h2>El día a día del administrador de sistemas</h2>]]></summary>
     <content type="html"><![CDATA[<h2>Presentación</h2>
 <p>Charla realizada durante la LibreCon del año 2014, celebrada en Bilbao.</p>
+<p><strong>Escuchar narración de la presentación:</strong><br>
+<audio controls="" src="/presentaciones/administrando-parque.mp3" style="width: 100%; margin-top: 10px;"></audio></p>
 <h2>El día a día del administrador de sistemas</h2>
 <p>En ocasiones, la administración de ordenadores puede llegar a ser un tanto... caótica.</p>
 <h2>Trabajo de un administrador de sistemas</h2>
