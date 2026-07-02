@@ -30,7 +30,7 @@ importers:
         specifier: 2.0.0-rc.112
         version: 2.0.0-rc.112(vuepress@2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@22.13.9)(sass-embedded@1.93.2)(sass@1.93.2))(vue@3.5.22))
       mermaid:
-        specifier: ^11.15.0
+        specifier: 11.15.0
         version: 11.15.0
       prettier:
         specifier: 3.6.2
